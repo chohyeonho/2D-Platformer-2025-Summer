@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 7f7493dfdf018204fa2efa0cdbca66fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1096718654550253993
+    second: silme_complete_sheet_0
+  - first:
+      213: 9088820298722538749
+    second: silme_complete_sheet_1
+  - first:
+      213: -1469455722491969422
+    second: silme_complete_sheet_2
+  - first:
+      213: 3568840347268414562
+    second: silme_complete_sheet_3
+  - first:
+      213: -1895728232060105009
+    second: silme_complete_sheet_4
+  - first:
+      213: 7330979877330294418
+    second: silme_complete_sheet_5
+  - first:
+      213: -8950897589206852089
+    second: silme_complete_sheet_6
+  - first:
+      213: -3049732891108735227
+    second: silme_complete_sheet_7
+  - first:
+      213: 7031361327559215151
+    second: silme_complete_sheet_8
+  - first:
+      213: -8201637327984118991
+    second: silme_complete_sheet_9
+  - first:
+      213: 1074017343665052410
+    second: silme_complete_sheet_10
+  - first:
+      213: 6654741274914768612
+    second: silme_complete_sheet_11
+  - first:
+      213: 5474723877011288971
+    second: silme_complete_sheet_12
+  - first:
+      213: -5489864530388586187
+    second: silme_complete_sheet_13
+  - first:
+      213: -4370092066513774055
+    second: silme_complete_sheet_14
+  - first:
+      213: 8155918238161938363
+    second: silme_complete_sheet_15
+  - first:
+      213: 2452890840957195945
+    second: silme_complete_sheet_16
+  - first:
+      213: -409655053652738627
+    second: silme_complete_sheet_17
+  - first:
+      213: -8767165288231182922
+    second: silme_complete_sheet_18
+  - first:
+      213: -4351584739839515117
+    second: silme_complete_sheet_19
+  - first:
+      213: -3589270562109329436
+    second: silme_complete_sheet_20
+  - first:
+      213: 4605720965942947425
+    second: silme_complete_sheet_21
+  - first:
+      213: -4417517655425961396
+    second: silme_complete_sheet_22
+  - first:
+      213: 7118588104267335103
+    second: silme_complete_sheet_23
+  - first:
+      213: -8464664184998031135
+    second: silme_complete_sheet_24
+  - first:
+      213: 7186312415870034834
+    second: silme_complete_sheet_25
+  - first:
+      213: 4079083933609488708
+    second: silme_complete_sheet_26
+  - first:
+      213: -3141773545287703965
+    second: silme_complete_sheet_27
+  - first:
+      213: -8591522199102642113
+    second: silme_complete_sheet_28
+  - first:
+      213: -5672760522880994155
+    second: silme_complete_sheet_29
+  - first:
+      213: 8055491686368161629
+    second: silme_complete_sheet_30
+  - first:
+      213: -2901872826549250340
+    second: silme_complete_sheet_31
+  - first:
+      213: -2655705796254113753
+    second: silme_complete_sheet_32
+  - first:
+      213: 6325872563738861969
+    second: silme_complete_sheet_33
+  - first:
+      213: 8646890696631282489
+    second: silme_complete_sheet_34
+  - first:
+      213: -3984187112800333049
+    second: silme_complete_sheet_35
+  - first:
+      213: 2991963677043828434
+    second: silme_complete_sheet_36
+  - first:
+      213: -6366706402178031146
+    second: silme_complete_sheet_37
+  - first:
+      213: -4640444676649201489
+    second: silme_complete_sheet_38
+  - first:
+      213: 5700146505626918775
+    second: silme_complete_sheet_39
+  - first:
+      213: -833831959304344054
+    second: silme_complete_sheet_40
+  - first:
+      213: -24586123331353044
+    second: silme_complete_sheet_41
+  - first:
+      213: -7101258322514015391
+    second: silme_complete_sheet_42
+  - first:
+      213: -2241954864984752865
+    second: silme_complete_sheet_43
+  - first:
+      213: -6538884716368377526
+    second: silme_complete_sheet_44
+  - first:
+      213: 5651265294299722910
+    second: silme_complete_sheet_45
+  - first:
+      213: -8239918102722206710
+    second: silme_complete_sheet_46
+  - first:
+      213: 7310493468584370812
+    second: silme_complete_sheet_47
+  - first:
+      213: 8575552503287978321
+    second: silme_complete_sheet_48
+  - first:
+      213: 2018857344460426861
+    second: silme_complete_sheet_49
+  - first:
+      213: -78804474023069773
+    second: silme_complete_sheet_50
+  - first:
+      213: 4865194360431350318
+    second: silme_complete_sheet_51
+  - first:
+      213: 1065609299781990927
+    second: silme_complete_sheet_52
+  - first:
+      213: -1813593518022924465
+    second: silme_complete_sheet_53
+  - first:
+      213: 2022088725441521051
+    second: silme_complete_sheet_54
+  - first:
+      213: 8539273176160610509
+    second: silme_complete_sheet_55
+  - first:
+      213: 6929331905999877652
+    second: silme_complete_sheet_56
+  - first:
+      213: 578137966484158753
+    second: silme_complete_sheet_57
+  - first:
+      213: -1150343502675834515
+    second: silme_complete_sheet_58
+  - first:
+      213: -6020934032071870881
+    second: silme_complete_sheet_59
+  - first:
+      213: -2237654332066306739
+    second: silme_complete_sheet_60
+  - first:
+      213: -7502226928523362447
+    second: silme_complete_sheet_61
+  - first:
+      213: 8222230799733200263
+    second: silme_complete_sheet_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: silme_complete_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 171
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75edcf0c13ca7c0f0800000000000000
+      internalID: -1096718654550253993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 171
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df477b438e9f12e70800000000000000
+      internalID: 9088820298722538749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 171
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27083bf4ec17b9be0800000000000000
+      internalID: -1469455722491969422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 171
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cf3072361178130800000000000000
+      internalID: 3568840347268414562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 171
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcec069873501b5e0800000000000000
+      internalID: -1895728232060105009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 171
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2961fc37b5fdcb560800000000000000
+      internalID: 7330979877330294418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 171
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70edc66011608c380800000000000000
+      internalID: -8950897589206852089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 171
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50783adf71c2da5d0800000000000000
+      internalID: -3049732891108735227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 128
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f280698afd9649160800000000000000
+      internalID: 7031361327559215151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 128
+        width: 107
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333ce8ed4eed2e80800000000000000
+      internalID: -8201637327984118991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 156
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa93cb651da7ee00800000000000000
+      internalID: 1074017343665052410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 157
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6cc636ee36a5c50800000000000000
+      internalID: 6654741274914768612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 160
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b837b9c1c502afb40800000000000000
+      internalID: 5474723877011288971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531fb21db4510d3b0800000000000000
+      internalID: -5489864530388586187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 158
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a91b35b605a53c0800000000000000
+      internalID: -4370092066513774055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7a5cafc64af2170800000000000000
+      internalID: 8155918238161938363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a61010593b6a0220800000000000000
+      internalID: 2452890840957195945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdb59e26ec905af0800000000000000
+      internalID: -409655053652738627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd58dbee95c45680800000000000000
+      internalID: -8767165288231182922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 153
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316eadb1cb01c93c0800000000000000
+      internalID: -4351584739839515117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 135
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe4b6c079503ec0800000000000000
+      internalID: -3589270562109329436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 129
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e299df0decaef30800000000000000
+      internalID: 4605720965942947425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 129
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42b15fe813d1b2c0800000000000000
+      internalID: -4417517655425961396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 128
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb50d293a2e4ac260800000000000000
+      internalID: 7118588104267335103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 142
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0983e75c8778a80800000000000000
+      internalID: -8464664184998031135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293a9e84119eab360800000000000000
+      internalID: 7186312415870034834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441fbc7c931db9830800000000000000
+      internalID: 4079083933609488708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 128
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362286c3b9d2664d0800000000000000
+      internalID: -3141773545287703965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 143
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38aa9a6418c4c880800000000000000
+      internalID: -8591522199102642113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594b1d92c5e4641b0800000000000000
+      internalID: -5672760522880994155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 128
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f2619420bdacf60800000000000000
+      internalID: 8055491686368161629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd65c2ef90a7ab7d0800000000000000
+      internalID: -2901872826549250340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 128
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720e35a16a9052bd0800000000000000
+      internalID: -2655705796254113753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1916b00b4930ac750800000000000000
+      internalID: 6325872563738861969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 128
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b6650864deff770800000000000000
+      internalID: 8646890696631282489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703d8d61ee255b8c0800000000000000
+      internalID: -3984187112800333049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 133
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6a117bc17958920800000000000000
+      internalID: 2991963677043828434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d129fc624ae4a7a0800000000000000
+      internalID: -6366706402178031146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 128
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0d8781724d99fb0800000000000000
+      internalID: -4640444676649201489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 85
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f9393db0dfa1f40800000000000000
+      internalID: 5700146505626918775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eeb473042ad64f0800000000000000
+      internalID: -833831959304344054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 86
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c264e641d07a8aff0800000000000000
+      internalID: -24586123331353044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 85
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b04440e23437d90800000000000000
+      internalID: -7101258322514015391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 85
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dff1ebde9f2e0e0800000000000000
+      internalID: -2241954864984752865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 85
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c1a5bef63145a0800000000000000
+      internalID: -6538884716368377526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 85
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e947a3ee7d35d6e40800000000000000
+      internalID: 5651265294299722910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 42
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04aeec742ee5ad80800000000000000
+      internalID: -8239918102722206710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 42
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72e8c7b317147560800000000000000
+      internalID: 7310493468584370812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 42
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1591137019b720770800000000000000
+      internalID: 8575552503287978321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e80c4fe0c640c10800000000000000
+      internalID: 2018857344460426861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b4279fb708eef0800000000000000
+      internalID: -78804474023069773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e229eb07e74a48340800000000000000
+      internalID: 4865194360431350318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0abbd6230ec9ce00800000000000000
+      internalID: 1065609299781990927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47ea4fdd42d4d6e0800000000000000
+      internalID: -1813593518022924465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95a3487bf6ef0c10800000000000000
+      internalID: 2022088725441521051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc82311f5b7918670800000000000000
+      internalID: 8539273176160610509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41637e3c7aee92060800000000000000
+      internalID: 6929331905999877652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 42
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129747bda65f50800800000000000000
+      internalID: 578137966484158753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d690459dda82900f0800000000000000
+      internalID: -1150343502675834515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56bb4ae568517ca0800000000000000
+      internalID: -6020934032071870881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45e2179d3142f0e0800000000000000
+      internalID: -2237654332066306739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fbef46b5cb2e790800000000000000
+      internalID: -7502226928523362447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silme_complete_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7859f5f595b3b1270800000000000000
+      internalID: 8222230799733200263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      silme_complete_sheet_0: -1096718654550253993
+      silme_complete_sheet_1: 9088820298722538749
+      silme_complete_sheet_10: 1074017343665052410
+      silme_complete_sheet_11: 6654741274914768612
+      silme_complete_sheet_12: 5474723877011288971
+      silme_complete_sheet_13: -5489864530388586187
+      silme_complete_sheet_14: -4370092066513774055
+      silme_complete_sheet_15: 8155918238161938363
+      silme_complete_sheet_16: 2452890840957195945
+      silme_complete_sheet_17: -409655053652738627
+      silme_complete_sheet_18: -8767165288231182922
+      silme_complete_sheet_19: -4351584739839515117
+      silme_complete_sheet_2: -1469455722491969422
+      silme_complete_sheet_20: -3589270562109329436
+      silme_complete_sheet_21: 4605720965942947425
+      silme_complete_sheet_22: -4417517655425961396
+      silme_complete_sheet_23: 7118588104267335103
+      silme_complete_sheet_24: -8464664184998031135
+      silme_complete_sheet_25: 7186312415870034834
+      silme_complete_sheet_26: 4079083933609488708
+      silme_complete_sheet_27: -3141773545287703965
+      silme_complete_sheet_28: -8591522199102642113
+      silme_complete_sheet_29: -5672760522880994155
+      silme_complete_sheet_3: 3568840347268414562
+      silme_complete_sheet_30: 8055491686368161629
+      silme_complete_sheet_31: -2901872826549250340
+      silme_complete_sheet_32: -2655705796254113753
+      silme_complete_sheet_33: 6325872563738861969
+      silme_complete_sheet_34: 8646890696631282489
+      silme_complete_sheet_35: -3984187112800333049
+      silme_complete_sheet_36: 2991963677043828434
+      silme_complete_sheet_37: -6366706402178031146
+      silme_complete_sheet_38: -4640444676649201489
+      silme_complete_sheet_39: 5700146505626918775
+      silme_complete_sheet_4: -1895728232060105009
+      silme_complete_sheet_40: -833831959304344054
+      silme_complete_sheet_41: -24586123331353044
+      silme_complete_sheet_42: -7101258322514015391
+      silme_complete_sheet_43: -2241954864984752865
+      silme_complete_sheet_44: -6538884716368377526
+      silme_complete_sheet_45: 5651265294299722910
+      silme_complete_sheet_46: -8239918102722206710
+      silme_complete_sheet_47: 7310493468584370812
+      silme_complete_sheet_48: 8575552503287978321
+      silme_complete_sheet_49: 2018857344460426861
+      silme_complete_sheet_5: 7330979877330294418
+      silme_complete_sheet_50: -78804474023069773
+      silme_complete_sheet_51: 4865194360431350318
+      silme_complete_sheet_52: 1065609299781990927
+      silme_complete_sheet_53: -1813593518022924465
+      silme_complete_sheet_54: 2022088725441521051
+      silme_complete_sheet_55: 8539273176160610509
+      silme_complete_sheet_56: 6929331905999877652
+      silme_complete_sheet_57: 578137966484158753
+      silme_complete_sheet_58: -1150343502675834515
+      silme_complete_sheet_59: -6020934032071870881
+      silme_complete_sheet_6: -8950897589206852089
+      silme_complete_sheet_60: -2237654332066306739
+      silme_complete_sheet_61: -7502226928523362447
+      silme_complete_sheet_62: 8222230799733200263
+      silme_complete_sheet_7: -3049732891108735227
+      silme_complete_sheet_8: 7031361327559215151
+      silme_complete_sheet_9: -8201637327984118991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

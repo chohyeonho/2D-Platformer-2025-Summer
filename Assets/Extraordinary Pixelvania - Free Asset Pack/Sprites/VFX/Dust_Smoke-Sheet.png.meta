@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: 12abf9b1a63f1ee4bac486df29a29c1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9176660531176669227
+    second: Dust_Smoke-Sheet_0
+  - first:
+      213: -5863884359056806186
+    second: Dust_Smoke-Sheet_1
+  - first:
+      213: 270209177763424408
+    second: Dust_Smoke-Sheet_2
+  - first:
+      213: -6195309748869071978
+    second: Dust_Smoke-Sheet_3
+  - first:
+      213: 6553892121408196879
+    second: Dust_Smoke-Sheet_4
+  - first:
+      213: 736193891155592616
+    second: Dust_Smoke-Sheet_5
+  - first:
+      213: 7242161655438408424
+    second: Dust_Smoke-Sheet_6
+  - first:
+      213: 7305093905664430353
+    second: Dust_Smoke-Sheet_7
+  - first:
+      213: 7649472757399052517
+    second: Dust_Smoke-Sheet_8
+  - first:
+      213: -7079621013872872504
+    second: Dust_Smoke-Sheet_9
+  - first:
+      213: 373573258617648178
+    second: Dust_Smoke-Sheet_10
+  - first:
+      213: -8585038603698094933
+    second: Dust_Smoke-Sheet_11
+  - first:
+      213: 8108865712408046780
+    second: Dust_Smoke-Sheet_12
+  - first:
+      213: -8009530909476808517
+    second: Dust_Smoke-Sheet_13
+  - first:
+      213: -2867568828024620888
+    second: Dust_Smoke-Sheet_14
+  - first:
+      213: 4741008481123678082
+    second: Dust_Smoke-Sheet_15
+  - first:
+      213: 5848071372898927488
+    second: Dust_Smoke-Sheet_16
+  - first:
+      213: -7337140712045162073
+    second: Dust_Smoke-Sheet_17
+  - first:
+      213: 5504735271333313107
+    second: Dust_Smoke-Sheet_18
+  - first:
+      213: -6963737002381866842
+    second: Dust_Smoke-Sheet_19
+  - first:
+      213: -6346554077617905307
+    second: Dust_Smoke-Sheet_20
+  - first:
+      213: -6988789859333197177
+    second: Dust_Smoke-Sheet_21
+  - first:
+      213: 2337693847229213119
+    second: Dust_Smoke-Sheet_22
+  - first:
+      213: 7200050782412132962
+    second: Dust_Smoke-Sheet_23
+  - first:
+      213: -7012715506785565409
+    second: Dust_Smoke-Sheet_24
+  - first:
+      213: -4879617866509753266
+    second: Dust_Smoke-Sheet_25
+  - first:
+      213: -85575951574136080
+    second: Dust_Smoke-Sheet_26
+  - first:
+      213: 8118260467970022224
+    second: Dust_Smoke-Sheet_27
+  - first:
+      213: -7038167610043677946
+    second: Dust_Smoke-Sheet_28
+  - first:
+      213: 1695362345348689656
+    second: Dust_Smoke-Sheet_29
+  - first:
+      213: -8760400399559169720
+    second: Dust_Smoke-Sheet_30
+  - first:
+      213: -574919195987699590
+    second: Dust_Smoke-Sheet_31
+  - first:
+      213: -7334485489347165298
+    second: Dust_Smoke-Sheet_32
+  - first:
+      213: -5855323904330077151
+    second: Dust_Smoke-Sheet_33
+  - first:
+      213: 4561015956050597527
+    second: Dust_Smoke-Sheet_34
+  - first:
+      213: 4173832739405320375
+    second: Dust_Smoke-Sheet_35
+  - first:
+      213: 964192121576591632
+    second: Dust_Smoke-Sheet_36
+  - first:
+      213: -6828474025836469062
+    second: Dust_Smoke-Sheet_37
+  - first:
+      213: 5158349657794390808
+    second: Dust_Smoke-Sheet_38
+  - first:
+      213: -5208770449346011892
+    second: Dust_Smoke-Sheet_39
+  - first:
+      213: 7348453602193794547
+    second: Dust_Smoke-Sheet_40
+  - first:
+      213: 793410341425970135
+    second: Dust_Smoke-Sheet_41
+  - first:
+      213: -5588144376887008436
+    second: Dust_Smoke-Sheet_42
+  - first:
+      213: 3123150606807634876
+    second: Dust_Smoke-Sheet_43
+  - first:
+      213: 8893083613541228943
+    second: Dust_Smoke-Sheet_44
+  - first:
+      213: 4281327350850995507
+    second: Dust_Smoke-Sheet_45
+  - first:
+      213: 5145514505086238713
+    second: Dust_Smoke-Sheet_46
+  - first:
+      213: 7216815231515816809
+    second: Dust_Smoke-Sheet_47
+  - first:
+      213: -6168830736120441206
+    second: Dust_Smoke-Sheet_48
+  - first:
+      213: 2008259117481063680
+    second: Dust_Smoke-Sheet_49
+  - first:
+      213: -1741832602475235055
+    second: Dust_Smoke-Sheet_50
+  - first:
+      213: -1425175532871615601
+    second: Dust_Smoke-Sheet_51
+  - first:
+      213: 9067277339032422619
+    second: Dust_Smoke-Sheet_52
+  - first:
+      213: 7861679164145977891
+    second: Dust_Smoke-Sheet_53
+  - first:
+      213: 6744518071486527169
+    second: Dust_Smoke-Sheet_54
+  - first:
+      213: 3161512956457612027
+    second: Dust_Smoke-Sheet_55
+  - first:
+      213: 1043792585091454176
+    second: Dust_Smoke-Sheet_56
+  - first:
+      213: 3407036681405544109
+    second: Dust_Smoke-Sheet_57
+  - first:
+      213: -3533825087065741754
+    second: Dust_Smoke-Sheet_58
+  - first:
+      213: 3464765266006409760
+    second: Dust_Smoke-Sheet_59
+  - first:
+      213: -6666936855675828451
+    second: Dust_Smoke-Sheet_60
+  - first:
+      213: -4880194773313048676
+    second: Dust_Smoke-Sheet_61
+  - first:
+      213: 5651606330802257717
+    second: Dust_Smoke-Sheet_62
+  - first:
+      213: 8538972977659942016
+    second: Dust_Smoke-Sheet_63
+  - first:
+      213: 3897959821271230104
+    second: Dust_Smoke-Sheet_64
+  - first:
+      213: 2959586053632112271
+    second: Dust_Smoke-Sheet_65
+  - first:
+      213: 1722921163176124318
+    second: Dust_Smoke-Sheet_66
+  - first:
+      213: -855785015361801951
+    second: Dust_Smoke-Sheet_67
+  - first:
+      213: -1924998310117159324
+    second: Dust_Smoke-Sheet_68
+  - first:
+      213: -5728093502436916182
+    second: Dust_Smoke-Sheet_69
+  - first:
+      213: -8156343861592339596
+    second: Dust_Smoke-Sheet_70
+  - first:
+      213: 5210079425656124778
+    second: Dust_Smoke-Sheet_71
+  - first:
+      213: -3682269704237415356
+    second: Dust_Smoke-Sheet_72
+  - first:
+      213: 3655949554860774843
+    second: Dust_Smoke-Sheet_73
+  - first:
+      213: -4503284934837292285
+    second: Dust_Smoke-Sheet_74
+  - first:
+      213: -6047328071892007747
+    second: Dust_Smoke-Sheet_75
+  - first:
+      213: 8561353222002715347
+    second: Dust_Smoke-Sheet_76
+  - first:
+      213: 4755758273745154253
+    second: Dust_Smoke-Sheet_77
+  - first:
+      213: 4090893564477904158
+    second: Dust_Smoke-Sheet_78
+  - first:
+      213: -1839011725386598041
+    second: Dust_Smoke-Sheet_79
+  - first:
+      213: -6716850151338895125
+    second: Dust_Smoke-Sheet_80
+  - first:
+      213: 1540328016224994000
+    second: Dust_Smoke-Sheet_81
+  - first:
+      213: -4292644237759958390
+    second: Dust_Smoke-Sheet_82
+  - first:
+      213: 2055419409015535296
+    second: Dust_Smoke-Sheet_83
+  - first:
+      213: 6832383775187386140
+    second: Dust_Smoke-Sheet_84
+  - first:
+      213: -5172879701986051685
+    second: Dust_Smoke-Sheet_85
+  - first:
+      213: 4231741472995210586
+    second: Dust_Smoke-Sheet_86
+  - first:
+      213: 655869328051502466
+    second: Dust_Smoke-Sheet_87
+  - first:
+      213: -905873721470192446
+    second: Dust_Smoke-Sheet_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b200221122c0a5f70800000000000000
+      internalID: 9176660531176669227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 35
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de237e5e3c4f9ea0800000000000000
+      internalID: -5863884359056806186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 41
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898a3a7c0d9ffb300800000000000000
+      internalID: 270209177763424408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bf4298b96d50aa0800000000000000
+      internalID: -6195309748869071978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 41
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0154c0192a14fa50800000000000000
+      internalID: 6553892121408196879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 43
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a54428817c773a00800000000000000
+      internalID: 736193891155592616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea7c5ea7a3518460800000000000000
+      internalID: 7242161655438408424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111dff10438e06560800000000000000
+      internalID: 7305093905664430353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 45
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e06cc7b1f2682a60800000000000000
+      internalID: 7649472757399052517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 47
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c377b3823220cd90800000000000000
+      internalID: -7079621013872872504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2347d7146e23f2500800000000000000
+      internalID: 373573258617648178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac3f8b10e0dbd880800000000000000
+      internalID: -8585038603698094933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 49
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc2d6f176a788070800000000000000
+      internalID: 8108865712408046780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb89f1bf21e68d090800000000000000
+      internalID: -8009530909476808517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 49
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8fb9c08595438d0800000000000000
+      internalID: -2867568828024620888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 51
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287bd7a38127bc140800000000000000
+      internalID: 4741008481123678082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 44
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08385c2ede5882150800000000000000
+      internalID: 5848071372898927488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 22
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1dd7f656d3d2a90800000000000000
+      internalID: -7337140712045162073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 52
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ab26e509fb46c40800000000000000
+      internalID: 5504735271333313107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 12
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a809cf7716db5f90800000000000000
+      internalID: -6963737002381866842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 18
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56127cf11b28ce7a0800000000000000
+      internalID: -6346554077617905307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 36
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782b790b6a4d20f90800000000000000
+      internalID: -6988789859333197177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 33
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9a6bd1b28217020800000000000000
+      internalID: 2337693847229213119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262d2720a08bbe360800000000000000
+      internalID: 7200050782412132962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 42
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f154c2bc664ddae90800000000000000
+      internalID: -7012715506785565409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44690b576d184cb0800000000000000
+      internalID: -4879617866509753266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa8b1d1029ffcef0800000000000000
+      internalID: -85575951574136080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 35
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b137b12ead9a070800000000000000
+      internalID: 8118260467970022224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603cfa539d7635e90800000000000000
+      internalID: -7038167610043677946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fee4181213278710800000000000000
+      internalID: 1695362345348689656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 39
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849e51e404ecc6680800000000000000
+      internalID: -8760400399559169720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 37
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78999c890a7508f0800000000000000
+      internalID: -574919195987699590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 43
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e838435ae4ca63a90800000000000000
+      internalID: -7334485489347165298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c6d8d8ee5bdbea0800000000000000
+      internalID: -5855323904330077151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 40
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796d843c8dbfb4f30800000000000000
+      internalID: 4561015956050597527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0562833ce6ce930800000000000000
+      internalID: 4173832739405320375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0119dc540af716d00800000000000000
+      internalID: 964192121576591632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 20
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab429046d036c31a0800000000000000
+      internalID: -6828474025836469062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 20
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ba7140fa3269740800000000000000
+      internalID: 5158349657794390808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 33
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ddd22afdab6b7b0800000000000000
+      internalID: -5208770449346011892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 27
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5633f0e93faf560800000000000000
+      internalID: 7348453602193794547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 27
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbf0d97082c20b00800000000000000
+      internalID: 793410341425970135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43ad06eb4ce272b0800000000000000
+      internalID: -5588144376887008436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 29
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb390d20ee8a75b20800000000000000
+      internalID: 3123150606807634876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 35
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81e8fecd649a6b70800000000000000
+      internalID: 8893083613541228943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 28
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33543aaca845a6b30800000000000000
+      internalID: 4281327350850995507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff8462e2a886740800000000000000
+      internalID: 5145514505086238713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963f02c7737472460800000000000000
+      internalID: 7216815231515816809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86970e1129e36aa0800000000000000
+      internalID: -6168830736120441206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 30
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005f562f605cedb10800000000000000
+      internalID: 2008259117481063680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 30
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119f4470a74c3d7e0800000000000000
+      internalID: -1741832602475235055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bfb9c5762c83ce0800000000000000
+      internalID: -1425175532871615601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd80af803b075dd70800000000000000
+      internalID: 9067277339032422619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 30
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ac20dfb8b4a1d60800000000000000
+      internalID: 7861679164145977891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c63828b377599d50800000000000000
+      internalID: 6744518071486527169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 31
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf273729843ffdb20800000000000000
+      internalID: 3161512956457612027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 31
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4109d63db4c7e00800000000000000
+      internalID: 1043792585091454176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 22
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da637eb7fc9384f20800000000000000
+      internalID: 3407036681405544109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 32
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646251b6ec455fec0800000000000000
+      internalID: -3533825087065741754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 12
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0228c6ef6a1551030800000000000000
+      internalID: 3464765266006409760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 16
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d178b71b0484a73a0800000000000000
+      internalID: -6666936855675828451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 20
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f25f5c5b0164cb0800000000000000
+      internalID: -4880194773313048676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 12
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f31dda30a8e6e40800000000000000
+      internalID: 5651606330802257717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 21
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08494188ea6808670800000000000000
+      internalID: 8538972977659942016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896ed9f1ec5581630800000000000000
+      internalID: 3897959821271230104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 18
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8631f0d5df821920800000000000000
+      internalID: 2959586053632112271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f9d136bab09e710800000000000000
+      internalID: 1722921163176124318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 22
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121f14b0014af14f0800000000000000
+      internalID: -855785015361801951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e4d3c6c380945e0800000000000000
+      internalID: -1924998310117159324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24460bee49b180b0800000000000000
+      internalID: -5728093502436916182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 18
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bc9d7d878dece80800000000000000
+      internalID: -8156343861592339596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65fdc922abed4840800000000000000
+      internalID: 5210079425656124778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4440fb7a633f5ecc0800000000000000
+      internalID: -3682269704237415356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5593600ca8cb230800000000000000
+      internalID: 3655949554860774843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 17
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303b7a0163e1181c0800000000000000
+      internalID: -4503284934837292285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db401a2a823931ca0800000000000000
+      internalID: -6047328071892007747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 23
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da2e1a356900d670800000000000000
+      internalID: 8561353222002715347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 17
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc07430f3f8dff140800000000000000
+      internalID: 4755758273745154253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 13
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1513acb506c5c830800000000000000
+      internalID: 4090893564477904158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769bd8a44948a76e0800000000000000
+      internalID: -1839011725386598041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be89aefef54f8c2a0800000000000000
+      internalID: -6716850151338895125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d24ca47b28506510800000000000000
+      internalID: 1540328016224994000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82b0352fc67d64c0800000000000000
+      internalID: -4292644237759958390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 12
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c670daff01568c10800000000000000
+      internalID: 2055419409015535296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fbf2118d081de50800000000000000
+      internalID: 6832383775187386140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 11
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99fa41715d3638b0800000000000000
+      internalID: -5172879701986051685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55fa2fe27a2aba30800000000000000
+      internalID: 4231741472995210586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 10
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d759dcdad1a1900800000000000000
+      internalID: 655869328051502466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_Smoke-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 10
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4786c56a0bd63f0800000000000000
+      internalID: -905873721470192446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dust_Smoke-Sheet_0: 9176660531176669227
+      Dust_Smoke-Sheet_1: -5863884359056806186
+      Dust_Smoke-Sheet_10: 373573258617648178
+      Dust_Smoke-Sheet_11: -8585038603698094933
+      Dust_Smoke-Sheet_12: 8108865712408046780
+      Dust_Smoke-Sheet_13: -8009530909476808517
+      Dust_Smoke-Sheet_14: -2867568828024620888
+      Dust_Smoke-Sheet_15: 4741008481123678082
+      Dust_Smoke-Sheet_16: 5848071372898927488
+      Dust_Smoke-Sheet_17: -7337140712045162073
+      Dust_Smoke-Sheet_18: 5504735271333313107
+      Dust_Smoke-Sheet_19: -6963737002381866842
+      Dust_Smoke-Sheet_2: 270209177763424408
+      Dust_Smoke-Sheet_20: -6346554077617905307
+      Dust_Smoke-Sheet_21: -6988789859333197177
+      Dust_Smoke-Sheet_22: 2337693847229213119
+      Dust_Smoke-Sheet_23: 7200050782412132962
+      Dust_Smoke-Sheet_24: -7012715506785565409
+      Dust_Smoke-Sheet_25: -4879617866509753266
+      Dust_Smoke-Sheet_26: -85575951574136080
+      Dust_Smoke-Sheet_27: 8118260467970022224
+      Dust_Smoke-Sheet_28: -7038167610043677946
+      Dust_Smoke-Sheet_29: 1695362345348689656
+      Dust_Smoke-Sheet_3: -6195309748869071978
+      Dust_Smoke-Sheet_30: -8760400399559169720
+      Dust_Smoke-Sheet_31: -574919195987699590
+      Dust_Smoke-Sheet_32: -7334485489347165298
+      Dust_Smoke-Sheet_33: -5855323904330077151
+      Dust_Smoke-Sheet_34: 4561015956050597527
+      Dust_Smoke-Sheet_35: 4173832739405320375
+      Dust_Smoke-Sheet_36: 964192121576591632
+      Dust_Smoke-Sheet_37: -6828474025836469062
+      Dust_Smoke-Sheet_38: 5158349657794390808
+      Dust_Smoke-Sheet_39: -5208770449346011892
+      Dust_Smoke-Sheet_4: 6553892121408196879
+      Dust_Smoke-Sheet_40: 7348453602193794547
+      Dust_Smoke-Sheet_41: 793410341425970135
+      Dust_Smoke-Sheet_42: -5588144376887008436
+      Dust_Smoke-Sheet_43: 3123150606807634876
+      Dust_Smoke-Sheet_44: 8893083613541228943
+      Dust_Smoke-Sheet_45: 4281327350850995507
+      Dust_Smoke-Sheet_46: 5145514505086238713
+      Dust_Smoke-Sheet_47: 7216815231515816809
+      Dust_Smoke-Sheet_48: -6168830736120441206
+      Dust_Smoke-Sheet_49: 2008259117481063680
+      Dust_Smoke-Sheet_5: 736193891155592616
+      Dust_Smoke-Sheet_50: -1741832602475235055
+      Dust_Smoke-Sheet_51: -1425175532871615601
+      Dust_Smoke-Sheet_52: 9067277339032422619
+      Dust_Smoke-Sheet_53: 7861679164145977891
+      Dust_Smoke-Sheet_54: 6744518071486527169
+      Dust_Smoke-Sheet_55: 3161512956457612027
+      Dust_Smoke-Sheet_56: 1043792585091454176
+      Dust_Smoke-Sheet_57: 3407036681405544109
+      Dust_Smoke-Sheet_58: -3533825087065741754
+      Dust_Smoke-Sheet_59: 3464765266006409760
+      Dust_Smoke-Sheet_6: 7242161655438408424
+      Dust_Smoke-Sheet_60: -6666936855675828451
+      Dust_Smoke-Sheet_61: -4880194773313048676
+      Dust_Smoke-Sheet_62: 5651606330802257717
+      Dust_Smoke-Sheet_63: 8538972977659942016
+      Dust_Smoke-Sheet_64: 3897959821271230104
+      Dust_Smoke-Sheet_65: 2959586053632112271
+      Dust_Smoke-Sheet_66: 1722921163176124318
+      Dust_Smoke-Sheet_67: -855785015361801951
+      Dust_Smoke-Sheet_68: -1924998310117159324
+      Dust_Smoke-Sheet_69: -5728093502436916182
+      Dust_Smoke-Sheet_7: 7305093905664430353
+      Dust_Smoke-Sheet_70: -8156343861592339596
+      Dust_Smoke-Sheet_71: 5210079425656124778
+      Dust_Smoke-Sheet_72: -3682269704237415356
+      Dust_Smoke-Sheet_73: 3655949554860774843
+      Dust_Smoke-Sheet_74: -4503284934837292285
+      Dust_Smoke-Sheet_75: -6047328071892007747
+      Dust_Smoke-Sheet_76: 8561353222002715347
+      Dust_Smoke-Sheet_77: 4755758273745154253
+      Dust_Smoke-Sheet_78: 4090893564477904158
+      Dust_Smoke-Sheet_79: -1839011725386598041
+      Dust_Smoke-Sheet_8: 7649472757399052517
+      Dust_Smoke-Sheet_80: -6716850151338895125
+      Dust_Smoke-Sheet_81: 1540328016224994000
+      Dust_Smoke-Sheet_82: -4292644237759958390
+      Dust_Smoke-Sheet_83: 2055419409015535296
+      Dust_Smoke-Sheet_84: 6832383775187386140
+      Dust_Smoke-Sheet_85: -5172879701986051685
+      Dust_Smoke-Sheet_86: 4231741472995210586
+      Dust_Smoke-Sheet_87: 655869328051502466
+      Dust_Smoke-Sheet_88: -905873721470192446
+      Dust_Smoke-Sheet_9: -7079621013872872504
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

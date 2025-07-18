@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 0aaadde98c90c194aa257b150a98aacb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7435425443287584309
+    second: bipedo_full_sheet_0
+  - first:
+      213: 6844425130602351487
+    second: bipedo_full_sheet_1
+  - first:
+      213: 836151280271388890
+    second: bipedo_full_sheet_2
+  - first:
+      213: 4451071046576177115
+    second: bipedo_full_sheet_3
+  - first:
+      213: 7900087944861080399
+    second: bipedo_full_sheet_4
+  - first:
+      213: -4050136365641699217
+    second: bipedo_full_sheet_5
+  - first:
+      213: 8947449841431396655
+    second: bipedo_full_sheet_6
+  - first:
+      213: 3170172076964356328
+    second: bipedo_full_sheet_7
+  - first:
+      213: -631291867605200269
+    second: bipedo_full_sheet_8
+  - first:
+      213: -5162355966790377525
+    second: bipedo_full_sheet_9
+  - first:
+      213: -48654516843261700
+    second: bipedo_full_sheet_10
+  - first:
+      213: -6238230901477403859
+    second: bipedo_full_sheet_11
+  - first:
+      213: 8856800547104983031
+    second: bipedo_full_sheet_12
+  - first:
+      213: -1465284642899281932
+    second: bipedo_full_sheet_13
+  - first:
+      213: -8709171869170743180
+    second: bipedo_full_sheet_14
+  - first:
+      213: 7153860692377443727
+    second: bipedo_full_sheet_15
+  - first:
+      213: -5321527595022798414
+    second: bipedo_full_sheet_16
+  - first:
+      213: 5013942736041482259
+    second: bipedo_full_sheet_17
+  - first:
+      213: -7374982470450309920
+    second: bipedo_full_sheet_18
+  - first:
+      213: 4092252073870161554
+    second: bipedo_full_sheet_19
+  - first:
+      213: -1414444703553359336
+    second: bipedo_full_sheet_20
+  - first:
+      213: 6024000432632025907
+    second: bipedo_full_sheet_21
+  - first:
+      213: 4443195448338926558
+    second: bipedo_full_sheet_22
+  - first:
+      213: -8195183702998340424
+    second: bipedo_full_sheet_23
+  - first:
+      213: -8461413140753231733
+    second: bipedo_full_sheet_24
+  - first:
+      213: -1028833643185587208
+    second: bipedo_full_sheet_25
+  - first:
+      213: -39907991877612537
+    second: bipedo_full_sheet_26
+  - first:
+      213: -461640522466679713
+    second: bipedo_full_sheet_27
+  - first:
+      213: 9019662651676408425
+    second: bipedo_full_sheet_28
+  - first:
+      213: -2375120468144584363
+    second: bipedo_full_sheet_29
+  - first:
+      213: 5383412654375449335
+    second: bipedo_full_sheet_30
+  - first:
+      213: 9062711842731136283
+    second: bipedo_full_sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bipedo_full_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 257
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ece0dcb00ff2760800000000000000
+      internalID: 7435425443287584309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 257
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b4f4994684cfe50800000000000000
+      internalID: 6844425130602351487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 257
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad07017c82b9a9b00800000000000000
+      internalID: 836151280271388890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 257
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdff239b88165cd30800000000000000
+      internalID: 4451071046576177115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 257
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b5acf1120c2ad60800000000000000
+      internalID: 7900087944861080399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 257
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60f80a1f660bc7c0800000000000000
+      internalID: -4050136365641699217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 215
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21c424a93abb2c70800000000000000
+      internalID: 8947449841431396655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 215
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0a25c25b6befb20800000000000000
+      internalID: 3170172076964356328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 214
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3729cc124633d37f0800000000000000
+      internalID: -631291867605200269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 214
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf575b7990ab58b0800000000000000
+      internalID: -5162355966790377525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 214
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0d6d689f4235ff0800000000000000
+      internalID: -48654516843261700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 171
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d231392fb0a5d69a0800000000000000
+      internalID: -6238230901477403859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f78da81c2da9ea70800000000000000
+      internalID: 8856800547104983031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 129
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7372571634aabe0800000000000000
+      internalID: -1465284642899281932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 128
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478c042045ec22780800000000000000
+      internalID: -8709171869170743180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 128
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d99cd956e974360800000000000000
+      internalID: 7153860692377443727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 85
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b13a34d8d22626b0800000000000000
+      internalID: -5321527595022798414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 85
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31817e97a5a159540800000000000000
+      internalID: 5013942736041482259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 85
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e49318748cc6a990800000000000000
+      internalID: -7374982470450309920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 85
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296f26a54999ac830800000000000000
+      internalID: 4092252073870161554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 85
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812f4424902ee5ce0800000000000000
+      internalID: -1414444703553359336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 85
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333d4d91a7c899350800000000000000
+      internalID: 6024000432632025907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 85
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbcfdd18b669ad30800000000000000
+      internalID: 4443195448338926558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 42
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bca6b197dbd44e80800000000000000
+      internalID: -8195183702998340424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80d4973495039a80800000000000000
+      internalID: -8461413140753231733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbb3f4a049d8b1f0800000000000000
+      internalID: -1028833643185587208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c8f6094e7327ff0800000000000000
+      internalID: -39907991877612537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54a274046ce799f0800000000000000
+      internalID: -461640522466679713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ab70bb4674c2d70800000000000000
+      internalID: 9019662651676408425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5598b75a480e90fd0800000000000000
+      internalID: -2375120468144584363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2346f5949b5ba40800000000000000
+      internalID: 5383412654375449335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bipedo_full_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1517b7976835cd70800000000000000
+      internalID: 9062711842731136283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bipedo_full_sheet_0: 7435425443287584309
+      bipedo_full_sheet_1: 6844425130602351487
+      bipedo_full_sheet_10: -48654516843261700
+      bipedo_full_sheet_11: -6238230901477403859
+      bipedo_full_sheet_12: 8856800547104983031
+      bipedo_full_sheet_13: -1465284642899281932
+      bipedo_full_sheet_14: -8709171869170743180
+      bipedo_full_sheet_15: 7153860692377443727
+      bipedo_full_sheet_16: -5321527595022798414
+      bipedo_full_sheet_17: 5013942736041482259
+      bipedo_full_sheet_18: -7374982470450309920
+      bipedo_full_sheet_19: 4092252073870161554
+      bipedo_full_sheet_2: 836151280271388890
+      bipedo_full_sheet_20: -1414444703553359336
+      bipedo_full_sheet_21: 6024000432632025907
+      bipedo_full_sheet_22: 4443195448338926558
+      bipedo_full_sheet_23: -8195183702998340424
+      bipedo_full_sheet_24: -8461413140753231733
+      bipedo_full_sheet_25: -1028833643185587208
+      bipedo_full_sheet_26: -39907991877612537
+      bipedo_full_sheet_27: -461640522466679713
+      bipedo_full_sheet_28: 9019662651676408425
+      bipedo_full_sheet_29: -2375120468144584363
+      bipedo_full_sheet_3: 4451071046576177115
+      bipedo_full_sheet_30: 5383412654375449335
+      bipedo_full_sheet_31: 9062711842731136283
+      bipedo_full_sheet_4: 7900087944861080399
+      bipedo_full_sheet_5: -4050136365641699217
+      bipedo_full_sheet_6: 8947449841431396655
+      bipedo_full_sheet_7: 3170172076964356328
+      bipedo_full_sheet_8: -631291867605200269
+      bipedo_full_sheet_9: -5162355966790377525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 1682568a4db0b46429953f408f4bf130
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -478270054852563821
+    second: Impact_Blue_Projectile-Sheet_0
+  - first:
+      213: -8842714337622870843
+    second: Impact_Blue_Projectile-Sheet_1
+  - first:
+      213: 6760653718028391970
+    second: Impact_Blue_Projectile-Sheet_2
+  - first:
+      213: 7815662729844043299
+    second: Impact_Blue_Projectile-Sheet_3
+  - first:
+      213: 589051981053504116
+    second: Impact_Blue_Projectile-Sheet_4
+  - first:
+      213: -5002346159652048832
+    second: Impact_Blue_Projectile-Sheet_5
+  - first:
+      213: 3623539313984622768
+    second: Impact_Blue_Projectile-Sheet_6
+  - first:
+      213: -1219707798054316960
+    second: Impact_Blue_Projectile-Sheet_7
+  - first:
+      213: -3024783372150701548
+    second: Impact_Blue_Projectile-Sheet_8
+  - first:
+      213: -6803386601106277861
+    second: Impact_Blue_Projectile-Sheet_9
+  - first:
+      213: 6526766463471267924
+    second: Impact_Blue_Projectile-Sheet_10
+  - first:
+      213: 5653542637911382570
+    second: Impact_Blue_Projectile-Sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c6ec94be7dc59f0800000000000000
+      internalID: -478270054852563821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c43cbf192e584580800000000000000
+      internalID: -8842714337622870843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 42
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2269180bcbaa2dd50800000000000000
+      internalID: 6760653718028391970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 36
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e2d98f7dfc67c60800000000000000
+      internalID: 7815662729844043299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 37
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a2fe4e7abbc2800800000000000000
+      internalID: 589051981053504116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 10
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040766edba8149ab0800000000000000
+      internalID: -5002346159652048832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 19
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b057b7cec5694230800000000000000
+      internalID: 3623539313984622768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 14
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064d23f483ab21fe0800000000000000
+      internalID: -1219707798054316960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 16
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412037c8c8fc506d0800000000000000
+      internalID: -3024783372150701548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 20
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a7863aee38591a0800000000000000
+      internalID: -6803386601106277861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450332ba48bb39a50800000000000000
+      internalID: 6526766463471267924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_Blue_Projectile-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a9b3f431b657e40800000000000000
+      internalID: 5653542637911382570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Impact_Blue_Projectile-Sheet_0: -478270054852563821
+      Impact_Blue_Projectile-Sheet_1: -8842714337622870843
+      Impact_Blue_Projectile-Sheet_10: 6526766463471267924
+      Impact_Blue_Projectile-Sheet_11: 5653542637911382570
+      Impact_Blue_Projectile-Sheet_2: 6760653718028391970
+      Impact_Blue_Projectile-Sheet_3: 7815662729844043299
+      Impact_Blue_Projectile-Sheet_4: 589051981053504116
+      Impact_Blue_Projectile-Sheet_5: -5002346159652048832
+      Impact_Blue_Projectile-Sheet_6: 3623539313984622768
+      Impact_Blue_Projectile-Sheet_7: -1219707798054316960
+      Impact_Blue_Projectile-Sheet_8: -3024783372150701548
+      Impact_Blue_Projectile-Sheet_9: -6803386601106277861
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

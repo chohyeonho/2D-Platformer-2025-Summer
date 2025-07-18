@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: b018bd22f2174044eade47178e8eca01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1332453815193146916
+    second: flying_creature_complete_sheet_0
+  - first:
+      213: -1374002444554637798
+    second: flying_creature_complete_sheet_1
+  - first:
+      213: -1662736390628322970
+    second: flying_creature_complete_sheet_2
+  - first:
+      213: 538011286467477148
+    second: flying_creature_complete_sheet_3
+  - first:
+      213: -5269590713782579488
+    second: flying_creature_complete_sheet_4
+  - first:
+      213: 3536437605159678021
+    second: flying_creature_complete_sheet_5
+  - first:
+      213: 3502572023698027221
+    second: flying_creature_complete_sheet_6
+  - first:
+      213: 5488473414259987894
+    second: flying_creature_complete_sheet_7
+  - first:
+      213: -3190601945331400996
+    second: flying_creature_complete_sheet_8
+  - first:
+      213: 8186498348161040475
+    second: flying_creature_complete_sheet_9
+  - first:
+      213: -6884879519132584947
+    second: flying_creature_complete_sheet_10
+  - first:
+      213: 7422769192343315886
+    second: flying_creature_complete_sheet_11
+  - first:
+      213: -852454847498753886
+    second: flying_creature_complete_sheet_12
+  - first:
+      213: 1271050368228447306
+    second: flying_creature_complete_sheet_13
+  - first:
+      213: 8427629660304257254
+    second: flying_creature_complete_sheet_14
+  - first:
+      213: 984528780292053820
+    second: flying_creature_complete_sheet_15
+  - first:
+      213: -6774616193907012584
+    second: flying_creature_complete_sheet_16
+  - first:
+      213: 6036047634053296539
+    second: flying_creature_complete_sheet_17
+  - first:
+      213: 1352921344178090075
+    second: flying_creature_complete_sheet_18
+  - first:
+      213: -1786681528303239962
+    second: flying_creature_complete_sheet_19
+  - first:
+      213: -4533627227754998530
+    second: flying_creature_complete_sheet_20
+  - first:
+      213: 8156780837600710243
+    second: flying_creature_complete_sheet_21
+  - first:
+      213: -7438017496045821716
+    second: flying_creature_complete_sheet_22
+  - first:
+      213: -245841342104072652
+    second: flying_creature_complete_sheet_23
+  - first:
+      213: 8105097200321472916
+    second: flying_creature_complete_sheet_24
+  - first:
+      213: -7967398716307102968
+    second: flying_creature_complete_sheet_25
+  - first:
+      213: 7851714524617374978
+    second: flying_creature_complete_sheet_26
+  - first:
+      213: -3512041623731980932
+    second: flying_creature_complete_sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 133
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd96cc1905c228de0800000000000000
+      internalID: -1332453815193146916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 134
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e6dc37e009eece0800000000000000
+      internalID: -1374002444554637798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 135
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661db71ff06cce8e0800000000000000
+      internalID: -1662736390628322970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 133
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e7b0f1a66677700800000000000000
+      internalID: 538011286467477148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 132
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eeca415a27aed6b0800000000000000
+      internalID: -5269590713782579488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 133
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54030e9d343f31130800000000000000
+      internalID: 3536437605159678021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 89
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2fdb8b2b2ab9030800000000000000
+      internalID: 3502572023698027221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 89
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b55428bd79fa2c40800000000000000
+      internalID: 5488473414259987894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 91
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdef9dc6f64b8b3d0800000000000000
+      internalID: -3190601945331400996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 86
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50067cafd84c9170800000000000000
+      internalID: 8186498348161040475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 88
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d047db41e8ef370a0800000000000000
+      internalID: -6884879519132584947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 85
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5265fb049f20760800000000000000
+      internalID: 7422769192343315886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 85
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8e6cb25d87b24f0800000000000000
+      internalID: -852454847498753886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 85
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44d2e9539da3a110800000000000000
+      internalID: 1271050368228447306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 47
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e03bf84684f4f470800000000000000
+      internalID: 8427629660304257254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bd47c95bfb9ad00800000000000000
+      internalID: 984528780292053820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 47
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c4090177abbf1a0800000000000000
+      internalID: -6774616193907012584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 47
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b917513c75954c350800000000000000
+      internalID: 6036047634053296539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 48
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5077c06bca86c210800000000000000
+      internalID: 1352921344178090075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 48
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecbbb2cd9e6437e0800000000000000
+      internalID: -1786681528303239962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 48
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4df997e025511c0800000000000000
+      internalID: -4533627227754998530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 48
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e47ef84f4b23170800000000000000
+      internalID: 8156780837600710243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 47
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce06c03ee7ad6c890800000000000000
+      internalID: -7438017496045821716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e08c41a98969cf0800000000000000
+      internalID: -245841342104072652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499ac2706f61b7070800000000000000
+      internalID: 8105097200321472916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803ac92a41d1e6190800000000000000
+      internalID: -7967398716307102968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 4
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20df79d82c4e6fc60800000000000000
+      internalID: 7851714524617374978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_creature_complete_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 4
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75b11530c8b24fc0800000000000000
+      internalID: -3512041623731980932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flying_creature_complete_sheet_0: -1332453815193146916
+      flying_creature_complete_sheet_1: -1374002444554637798
+      flying_creature_complete_sheet_10: -6884879519132584947
+      flying_creature_complete_sheet_11: 7422769192343315886
+      flying_creature_complete_sheet_12: -852454847498753886
+      flying_creature_complete_sheet_13: 1271050368228447306
+      flying_creature_complete_sheet_14: 8427629660304257254
+      flying_creature_complete_sheet_15: 984528780292053820
+      flying_creature_complete_sheet_16: -6774616193907012584
+      flying_creature_complete_sheet_17: 6036047634053296539
+      flying_creature_complete_sheet_18: 1352921344178090075
+      flying_creature_complete_sheet_19: -1786681528303239962
+      flying_creature_complete_sheet_2: -1662736390628322970
+      flying_creature_complete_sheet_20: -4533627227754998530
+      flying_creature_complete_sheet_21: 8156780837600710243
+      flying_creature_complete_sheet_22: -7438017496045821716
+      flying_creature_complete_sheet_23: -245841342104072652
+      flying_creature_complete_sheet_24: 8105097200321472916
+      flying_creature_complete_sheet_25: -7967398716307102968
+      flying_creature_complete_sheet_26: 7851714524617374978
+      flying_creature_complete_sheet_27: -3512041623731980932
+      flying_creature_complete_sheet_3: 538011286467477148
+      flying_creature_complete_sheet_4: -5269590713782579488
+      flying_creature_complete_sheet_5: 3536437605159678021
+      flying_creature_complete_sheet_6: 3502572023698027221
+      flying_creature_complete_sheet_7: 5488473414259987894
+      flying_creature_complete_sheet_8: -3190601945331400996
+      flying_creature_complete_sheet_9: 8186498348161040475
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

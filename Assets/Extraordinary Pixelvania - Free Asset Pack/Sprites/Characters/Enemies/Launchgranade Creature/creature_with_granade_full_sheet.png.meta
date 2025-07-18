@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: e30887ce47b4bdc4b96b8752cac9a756
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7781156535758520418
+    second: creature_with_granade_full_sheet_0
+  - first:
+      213: 5344544140552281277
+    second: creature_with_granade_full_sheet_1
+  - first:
+      213: -7713826919338399002
+    second: creature_with_granade_full_sheet_2
+  - first:
+      213: -6048047277666574787
+    second: creature_with_granade_full_sheet_3
+  - first:
+      213: 4264280890896722008
+    second: creature_with_granade_full_sheet_4
+  - first:
+      213: -5596953637289736616
+    second: creature_with_granade_full_sheet_5
+  - first:
+      213: -8673737386445984660
+    second: creature_with_granade_full_sheet_6
+  - first:
+      213: 5049425938235945067
+    second: creature_with_granade_full_sheet_7
+  - first:
+      213: -5444976810070100457
+    second: creature_with_granade_full_sheet_8
+  - first:
+      213: -2945924137920049799
+    second: creature_with_granade_full_sheet_9
+  - first:
+      213: -8308152927615988884
+    second: creature_with_granade_full_sheet_10
+  - first:
+      213: -1932957306654752572
+    second: creature_with_granade_full_sheet_11
+  - first:
+      213: 3896663627954756282
+    second: creature_with_granade_full_sheet_12
+  - first:
+      213: 1337499951574370916
+    second: creature_with_granade_full_sheet_13
+  - first:
+      213: -8170605919501076450
+    second: creature_with_granade_full_sheet_14
+  - first:
+      213: 3555575834699207445
+    second: creature_with_granade_full_sheet_15
+  - first:
+      213: 1290103289712475340
+    second: creature_with_granade_full_sheet_16
+  - first:
+      213: -2861571254080306520
+    second: creature_with_granade_full_sheet_17
+  - first:
+      213: -5830774988389687803
+    second: creature_with_granade_full_sheet_18
+  - first:
+      213: 460348210531356749
+    second: creature_with_granade_full_sheet_19
+  - first:
+      213: 4817116244147904997
+    second: creature_with_granade_full_sheet_20
+  - first:
+      213: 763130325500724844
+    second: creature_with_granade_full_sheet_21
+  - first:
+      213: 6929492075614889730
+    second: creature_with_granade_full_sheet_22
+  - first:
+      213: -643941009168853210
+    second: creature_with_granade_full_sheet_23
+  - first:
+      213: -1843703071968381328
+    second: creature_with_granade_full_sheet_24
+  - first:
+      213: 4107244821947374487
+    second: creature_with_granade_full_sheet_25
+  - first:
+      213: -2328039167742276720
+    second: creature_with_granade_full_sheet_26
+  - first:
+      213: -3894654584520492513
+    second: creature_with_granade_full_sheet_27
+  - first:
+      213: -8118503896770537852
+    second: creature_with_granade_full_sheet_28
+  - first:
+      213: -5180240813953866301
+    second: creature_with_granade_full_sheet_29
+  - first:
+      213: 786563095011881347
+    second: creature_with_granade_full_sheet_30
+  - first:
+      213: 2071835389520113407
+    second: creature_with_granade_full_sheet_31
+  - first:
+      213: 2969186375525905183
+    second: creature_with_granade_full_sheet_32
+  - first:
+      213: 6091251151237362241
+    second: creature_with_granade_full_sheet_33
+  - first:
+      213: -5986845919636127531
+    second: creature_with_granade_full_sheet_34
+  - first:
+      213: -5310998498165792387
+    second: creature_with_granade_full_sheet_35
+  - first:
+      213: 2547474732080004576
+    second: creature_with_granade_full_sheet_36
+  - first:
+      213: 2409764282680644620
+    second: creature_with_granade_full_sheet_37
+  - first:
+      213: 1599634942143588410
+    second: creature_with_granade_full_sheet_38
+  - first:
+      213: 5716104257677446060
+    second: creature_with_granade_full_sheet_39
+  - first:
+      213: 4227260028900375239
+    second: creature_with_granade_full_sheet_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 171
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f77686b57c30490800000000000000
+      internalID: -7781156535758520418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 171
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc93084492ab2a40800000000000000
+      internalID: 5344544140552281277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 171
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea2df5594bf2f490800000000000000
+      internalID: -7713826919338399002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 171
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e5aed7b05011ca0800000000000000
+      internalID: -6048047277666574787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 182
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858a26c80e4cd2b30800000000000000
+      internalID: 4264280890896722008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 171
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856c3012250a352b0800000000000000
+      internalID: -5596953637289736616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 171
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cacdd6dc1b0a780800000000000000
+      internalID: -8673737386445984660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 129
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b607238432a231640800000000000000
+      internalID: 5049425938235945067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 144
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7163881a07e8f64b0800000000000000
+      internalID: -5444976810070100457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 129
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dc600da99fd17d0800000000000000
+      internalID: -2945924137920049799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 144
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bc3d94ee283bc80800000000000000
+      internalID: -8308152927615988884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c009d22291cc25e0800000000000000
+      internalID: -1932957306654752572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 128
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba9d699ceab31630800000000000000
+      internalID: 3896663627954756282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a41bc9e11cf8210800000000000000
+      internalID: 1337499951574370916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 128
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e183f68b43d2c9e80800000000000000
+      internalID: -8170605919501076450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 86
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51395372261f75130800000000000000
+      internalID: 3555575834699207445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 101
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccffd25b1e57e110800000000000000
+      internalID: 1290103289712475340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2031d0b18a948d0800000000000000
+      internalID: -2861571254080306520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 101
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50edcc37a0de41fa0800000000000000
+      internalID: -5830774988389687803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 96
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4055b9224c736600800000000000000
+      internalID: 460348210531356749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 85
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1233ea3b5d9d240800000000000000
+      internalID: 4817116244147904997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 85
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c668cc0ecfe279a00800000000000000
+      internalID: 763130325500724844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 85
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207e8e824508a2060800000000000000
+      internalID: 6929492075614889730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 85
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6271f2c50134017f0800000000000000
+      internalID: -643941009168853210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 42
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076370c03d9d966e0800000000000000
+      internalID: -1843703071968381328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 42
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b5cb9876ddff830800000000000000
+      internalID: 4107244821947374487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 42
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b868f16b421bfd0800000000000000
+      internalID: -2328039167742276720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 42
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a3fc64a4863f9c0800000000000000
+      internalID: -3894654584520492513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 42
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4861e5538b7455f80800000000000000
+      internalID: -8118503896770537852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 42
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5ac410d661c18b0800000000000000
+      internalID: -5180240813953866301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 42
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3817d9fa7fe6aea00800000000000000
+      internalID: 786563095011881347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeed694f43a0cc10800000000000000
+      internalID: 2071835389520113407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13b621f64ba43920800000000000000
+      internalID: 2969186375525905183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142313336a8788450800000000000000
+      internalID: 6091251151237362241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d087131b537aeca0800000000000000
+      internalID: -5986845919636127531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71e13a310b8b46b0800000000000000
+      internalID: -5310998498165792387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed79ef85c27a5320800000000000000
+      internalID: 2547474732080004576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c049a9df8d3317120800000000000000
+      internalID: 2409764282680644620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3865c0318b033610800000000000000
+      internalID: 1599634942143588410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab46f1898ea35f40800000000000000
+      internalID: 5716104257677446060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_with_granade_full_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca70db699e3aaa30800000000000000
+      internalID: 4227260028900375239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      creature_with_granade_full_sheet_0: -7781156535758520418
+      creature_with_granade_full_sheet_1: 5344544140552281277
+      creature_with_granade_full_sheet_10: -8308152927615988884
+      creature_with_granade_full_sheet_11: -1932957306654752572
+      creature_with_granade_full_sheet_12: 3896663627954756282
+      creature_with_granade_full_sheet_13: 1337499951574370916
+      creature_with_granade_full_sheet_14: -8170605919501076450
+      creature_with_granade_full_sheet_15: 3555575834699207445
+      creature_with_granade_full_sheet_16: 1290103289712475340
+      creature_with_granade_full_sheet_17: -2861571254080306520
+      creature_with_granade_full_sheet_18: -5830774988389687803
+      creature_with_granade_full_sheet_19: 460348210531356749
+      creature_with_granade_full_sheet_2: -7713826919338399002
+      creature_with_granade_full_sheet_20: 4817116244147904997
+      creature_with_granade_full_sheet_21: 763130325500724844
+      creature_with_granade_full_sheet_22: 6929492075614889730
+      creature_with_granade_full_sheet_23: -643941009168853210
+      creature_with_granade_full_sheet_24: -1843703071968381328
+      creature_with_granade_full_sheet_25: 4107244821947374487
+      creature_with_granade_full_sheet_26: -2328039167742276720
+      creature_with_granade_full_sheet_27: -3894654584520492513
+      creature_with_granade_full_sheet_28: -8118503896770537852
+      creature_with_granade_full_sheet_29: -5180240813953866301
+      creature_with_granade_full_sheet_3: -6048047277666574787
+      creature_with_granade_full_sheet_30: 786563095011881347
+      creature_with_granade_full_sheet_31: 2071835389520113407
+      creature_with_granade_full_sheet_32: 2969186375525905183
+      creature_with_granade_full_sheet_33: 6091251151237362241
+      creature_with_granade_full_sheet_34: -5986845919636127531
+      creature_with_granade_full_sheet_35: -5310998498165792387
+      creature_with_granade_full_sheet_36: 2547474732080004576
+      creature_with_granade_full_sheet_37: 2409764282680644620
+      creature_with_granade_full_sheet_38: 1599634942143588410
+      creature_with_granade_full_sheet_39: 5716104257677446060
+      creature_with_granade_full_sheet_4: 4264280890896722008
+      creature_with_granade_full_sheet_40: 4227260028900375239
+      creature_with_granade_full_sheet_5: -5596953637289736616
+      creature_with_granade_full_sheet_6: -8673737386445984660
+      creature_with_granade_full_sheet_7: 5049425938235945067
+      creature_with_granade_full_sheet_8: -5444976810070100457
+      creature_with_granade_full_sheet_9: -2945924137920049799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

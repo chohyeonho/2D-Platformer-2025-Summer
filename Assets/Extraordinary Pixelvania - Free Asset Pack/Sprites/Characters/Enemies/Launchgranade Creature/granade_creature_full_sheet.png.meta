@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: a46c10356ad79714c8729b160021b682
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4309190816964113051
+    second: granade_creature_full_sheet_0
+  - first:
+      213: 6560759758030999680
+    second: granade_creature_full_sheet_1
+  - first:
+      213: 5592119909314297334
+    second: granade_creature_full_sheet_2
+  - first:
+      213: -7904426473219501266
+    second: granade_creature_full_sheet_3
+  - first:
+      213: 1082827799447299015
+    second: granade_creature_full_sheet_4
+  - first:
+      213: -8566011563345645339
+    second: granade_creature_full_sheet_5
+  - first:
+      213: -6714604114975084988
+    second: granade_creature_full_sheet_6
+  - first:
+      213: 6765259195913255865
+    second: granade_creature_full_sheet_7
+  - first:
+      213: -5240636741872007811
+    second: granade_creature_full_sheet_8
+  - first:
+      213: 1566150756460221317
+    second: granade_creature_full_sheet_9
+  - first:
+      213: -7014178380548993035
+    second: granade_creature_full_sheet_10
+  - first:
+      213: 4443380638090138424
+    second: granade_creature_full_sheet_11
+  - first:
+      213: -2999644194263587912
+    second: granade_creature_full_sheet_12
+  - first:
+      213: -4850261958551333355
+    second: granade_creature_full_sheet_13
+  - first:
+      213: -8302842326725691572
+    second: granade_creature_full_sheet_14
+  - first:
+      213: 9131399919489969926
+    second: granade_creature_full_sheet_15
+  - first:
+      213: -3255554727015336107
+    second: granade_creature_full_sheet_16
+  - first:
+      213: 5350572811475444380
+    second: granade_creature_full_sheet_17
+  - first:
+      213: 8848064241977800547
+    second: granade_creature_full_sheet_18
+  - first:
+      213: 2017379878967405228
+    second: granade_creature_full_sheet_19
+  - first:
+      213: -2057712549489663210
+    second: granade_creature_full_sheet_20
+  - first:
+      213: 8738115070863778030
+    second: granade_creature_full_sheet_21
+  - first:
+      213: -7494214578787578806
+    second: granade_creature_full_sheet_22
+  - first:
+      213: 7804130258374274715
+    second: granade_creature_full_sheet_23
+  - first:
+      213: 3036712980479909290
+    second: granade_creature_full_sheet_24
+  - first:
+      213: 1115313555103527327
+    second: granade_creature_full_sheet_25
+  - first:
+      213: 4901456918227512708
+    second: granade_creature_full_sheet_26
+  - first:
+      213: 4597348054386529305
+    second: granade_creature_full_sheet_27
+  - first:
+      213: -1362433723552006613
+    second: granade_creature_full_sheet_28
+  - first:
+      213: 837504741957306476
+    second: granade_creature_full_sheet_29
+  - first:
+      213: 7444835018112678915
+    second: granade_creature_full_sheet_30
+  - first:
+      213: -10036081172606909
+    second: granade_creature_full_sheet_31
+  - first:
+      213: 6383305211389019939
+    second: granade_creature_full_sheet_32
+  - first:
+      213: 1820519259284466745
+    second: granade_creature_full_sheet_33
+  - first:
+      213: -2665544271749255051
+    second: granade_creature_full_sheet_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 171
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d8a7578cda234c0800000000000000
+      internalID: -4309190816964113051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 171
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0809d125d308c0b50800000000000000
+      internalID: 6560759758030999680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 171
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd7110ed633b9d40800000000000000
+      internalID: 5592119909314297334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 171
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23de868006dd4290800000000000000
+      internalID: -7904426473219501266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 171
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c369f2852af60f00800000000000000
+      internalID: 1082827799447299015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 171
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0f4e82ed96f1980800000000000000
+      internalID: -8566011563345645339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 129
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ea887022fe0d2a0800000000000000
+      internalID: -6714604114975084988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 129
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbbad1156703ed50800000000000000
+      internalID: 6765259195913255865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 128
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75cbdb36a48547b0800000000000000
+      internalID: -5240636741872007811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583558fa0d51cb510800000000000000
+      internalID: 1566150756460221317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff0724fce1a8ae90800000000000000
+      internalID: -7014178380548993035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 128
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8331637f52f0aad30800000000000000
+      internalID: 4443380638090138424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 86
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b32b548f7f1f56d0800000000000000
+      internalID: -2999644194263587912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51615fc427860bcb0800000000000000
+      internalID: -4850261958551333355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 85
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47ff69e4e066cc80800000000000000
+      internalID: -8302842326725691572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 85
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fea37b8df39be70800000000000000
+      internalID: 9131399919489969926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 85
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55738657932f1d2d0800000000000000
+      internalID: -3255554727015336107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 85
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c926bdc9f9d014a40800000000000000
+      internalID: 5350572811475444380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 42
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3673cec8c83aaca70800000000000000
+      internalID: 8848064241977800547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 42
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa6fd6bf4c2ffb10800000000000000
+      internalID: 2017379878967405228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 42
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6132ec5a6598173e0800000000000000
+      internalID: -2057712549489663210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 42
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a2554c55044970800000000000000
+      internalID: 8738115070863778030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 42
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c00d0fb833ff790800000000000000
+      internalID: -7494214578787578806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 42
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ea6473f17dd4c60800000000000000
+      internalID: 7804130258374274715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 42
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad9256dd52942a20800000000000000
+      internalID: 3036712980479909290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91bf19e4c36a7f00800000000000000
+      internalID: 1115313555103527327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de4dc1919750440800000000000000
+      internalID: 4901456918227512708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914da8a92bf0dcf30800000000000000
+      internalID: 4597348054386529305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e7ba53fb9a71de0800000000000000
+      internalID: -1362433723552006613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c680212202a6f9b00800000000000000
+      internalID: 837504741957306476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cbef9210e515760800000000000000
+      internalID: 7444835018112678915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34015c2cc385cdff0800000000000000
+      internalID: -10036081172606909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3270eb1054e069850800000000000000
+      internalID: 6383305211389019939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c686cee98c34910800000000000000
+      internalID: 1820519259284466745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: granade_creature_full_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570fe458b95120bd0800000000000000
+      internalID: -2665544271749255051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      granade_creature_full_sheet_0: -4309190816964113051
+      granade_creature_full_sheet_1: 6560759758030999680
+      granade_creature_full_sheet_10: -7014178380548993035
+      granade_creature_full_sheet_11: 4443380638090138424
+      granade_creature_full_sheet_12: -2999644194263587912
+      granade_creature_full_sheet_13: -4850261958551333355
+      granade_creature_full_sheet_14: -8302842326725691572
+      granade_creature_full_sheet_15: 9131399919489969926
+      granade_creature_full_sheet_16: -3255554727015336107
+      granade_creature_full_sheet_17: 5350572811475444380
+      granade_creature_full_sheet_18: 8848064241977800547
+      granade_creature_full_sheet_19: 2017379878967405228
+      granade_creature_full_sheet_2: 5592119909314297334
+      granade_creature_full_sheet_20: -2057712549489663210
+      granade_creature_full_sheet_21: 8738115070863778030
+      granade_creature_full_sheet_22: -7494214578787578806
+      granade_creature_full_sheet_23: 7804130258374274715
+      granade_creature_full_sheet_24: 3036712980479909290
+      granade_creature_full_sheet_25: 1115313555103527327
+      granade_creature_full_sheet_26: 4901456918227512708
+      granade_creature_full_sheet_27: 4597348054386529305
+      granade_creature_full_sheet_28: -1362433723552006613
+      granade_creature_full_sheet_29: 837504741957306476
+      granade_creature_full_sheet_3: -7904426473219501266
+      granade_creature_full_sheet_30: 7444835018112678915
+      granade_creature_full_sheet_31: -10036081172606909
+      granade_creature_full_sheet_32: 6383305211389019939
+      granade_creature_full_sheet_33: 1820519259284466745
+      granade_creature_full_sheet_34: -2665544271749255051
+      granade_creature_full_sheet_4: 1082827799447299015
+      granade_creature_full_sheet_5: -8566011563345645339
+      granade_creature_full_sheet_6: -6714604114975084988
+      granade_creature_full_sheet_7: 6765259195913255865
+      granade_creature_full_sheet_8: -5240636741872007811
+      granade_creature_full_sheet_9: 1566150756460221317
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

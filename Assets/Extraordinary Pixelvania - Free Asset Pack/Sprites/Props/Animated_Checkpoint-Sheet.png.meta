@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: aca4d78bcc5df1b449885c8ce596dff2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5175366749303781353
+    second: Animated_Checkpoint-Sheet_0
+  - first:
+      213: -916547018347369713
+    second: Animated_Checkpoint-Sheet_1
+  - first:
+      213: -8082460187216568094
+    second: Animated_Checkpoint-Sheet_2
+  - first:
+      213: 7630853697323224850
+    second: Animated_Checkpoint-Sheet_3
+  - first:
+      213: 1708312429951927203
+    second: Animated_Checkpoint-Sheet_4
+  - first:
+      213: 4500551223107756316
+    second: Animated_Checkpoint-Sheet_5
+  - first:
+      213: 5934993737982652434
+    second: Animated_Checkpoint-Sheet_6
+  - first:
+      213: 2173881233739806951
+    second: Animated_Checkpoint-Sheet_7
+  - first:
+      213: -7146561817775997629
+    second: Animated_Checkpoint-Sheet_8
+  - first:
+      213: 8466746419162360215
+    second: Animated_Checkpoint-Sheet_9
+  - first:
+      213: 1793483054067802354
+    second: Animated_Checkpoint-Sheet_10
+  - first:
+      213: -4361766937059060018
+    second: Animated_Checkpoint-Sheet_11
+  - first:
+      213: 6559139325312354293
+    second: Animated_Checkpoint-Sheet_12
+  - first:
+      213: -4614199485632656342
+    second: Animated_Checkpoint-Sheet_13
+  - first:
+      213: -860860301733681543
+    second: Animated_Checkpoint-Sheet_14
+  - first:
+      213: -4806258317034977501
+    second: Animated_Checkpoint-Sheet_15
+  - first:
+      213: 8297862278124693645
+    second: Animated_Checkpoint-Sheet_16
+  - first:
+      213: 6704860197205374912
+    second: Animated_Checkpoint-Sheet_17
+  - first:
+      213: 5876120274235918998
+    second: Animated_Checkpoint-Sheet_18
+  - first:
+      213: -4822230382115970827
+    second: Animated_Checkpoint-Sheet_19
+  - first:
+      213: 1020326975545855944
+    second: Animated_Checkpoint-Sheet_20
+  - first:
+      213: 8066306323910994513
+    second: Animated_Checkpoint-Sheet_21
+  - first:
+      213: -4336234870189326129
+    second: Animated_Checkpoint-Sheet_22
+  - first:
+      213: -7663284611740024552
+    second: Animated_Checkpoint-Sheet_23
+  - first:
+      213: -2192812944646174188
+    second: Animated_Checkpoint-Sheet_24
+  - first:
+      213: -6989715578774734784
+    second: Animated_Checkpoint-Sheet_25
+  - first:
+      213: -343543042670437247
+    second: Animated_Checkpoint-Sheet_26
+  - first:
+      213: 933858372438049167
+    second: Animated_Checkpoint-Sheet_27
+  - first:
+      213: -6913058062323021716
+    second: Animated_Checkpoint-Sheet_28
+  - first:
+      213: 2665183109886716412
+    second: Animated_Checkpoint-Sheet_29
+  - first:
+      213: -8119289537935460545
+    second: Animated_Checkpoint-Sheet_30
+  - first:
+      213: 8781048825929635349
+    second: Animated_Checkpoint-Sheet_31
+  - first:
+      213: 9220081157470829371
+    second: Animated_Checkpoint-Sheet_32
+  - first:
+      213: 1815162456084129790
+    second: Animated_Checkpoint-Sheet_33
+  - first:
+      213: 4318906956376411687
+    second: Animated_Checkpoint-Sheet_34
+  - first:
+      213: -5278470768818118855
+    second: Animated_Checkpoint-Sheet_35
+  - first:
+      213: -3767146890824768223
+    second: Animated_Checkpoint-Sheet_36
+  - first:
+      213: -4173343815461884887
+    second: Animated_Checkpoint-Sheet_37
+  - first:
+      213: -2560205697174205514
+    second: Animated_Checkpoint-Sheet_38
+  - first:
+      213: -514151519340938585
+    second: Animated_Checkpoint-Sheet_39
+  - first:
+      213: -8570937493370732111
+    second: Animated_Checkpoint-Sheet_40
+  - first:
+      213: 6801096996050046435
+    second: Animated_Checkpoint-Sheet_41
+  - first:
+      213: -8305441489323392993
+    second: Animated_Checkpoint-Sheet_42
+  - first:
+      213: 7347135050549223565
+    second: Animated_Checkpoint-Sheet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7be9263a892d740800000000000000
+      internalID: 5175366749303781353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 48
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b2677c755c743f0800000000000000
+      internalID: -916547018347369713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 48
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e028bd484555df80800000000000000
+      internalID: -8082460187216568094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 48
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f4de9f10d36e960800000000000000
+      internalID: 7630853697323224850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 48
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a34ba0aa1525b710800000000000000
+      internalID: 1708312429951927203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 48
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11a9c21e7b257e30800000000000000
+      internalID: 4500551223107756316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210bf981c555d5250800000000000000
+      internalID: 5934993737982652434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8f2f0e67d2b2e10800000000000000
+      internalID: 2173881233739806951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d771e04ef42dc90800000000000000
+      internalID: -7146561817775997629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799ab7d620def7570800000000000000
+      internalID: 8466746419162360215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 48
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0e46cd55bb3e810800000000000000
+      internalID: 1793483054067802354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 46
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec61d839414e773c0800000000000000
+      internalID: -4361766937059060018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7c98de67eb60b50800000000000000
+      internalID: 6559139325312354293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 49
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c4310d30217ffb0800000000000000
+      internalID: -4614199485632656342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976ade9dd1c9d04f0800000000000000
+      internalID: -860860301733681543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 48
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3270d5a768dbc4db0800000000000000
+      internalID: -4806258317034977501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 0
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d886cba27cde72370800000000000000
+      internalID: 8297862278124693645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 0
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7f41353d27c0d50800000000000000
+      internalID: 6704860197205374912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 43
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a8d43a14c2c8150800000000000000
+      internalID: 5876120274235918998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 46
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0a1e8440ff31db0800000000000000
+      internalID: -4822230382115970827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 46
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfc8247afde82e00800000000000000
+      internalID: 1020326975545855944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aa33e4dd641ff60800000000000000
+      internalID: 8066306323910994513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc004b32c5992d3c0800000000000000
+      internalID: -4336234870189326129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811c4885f3b86a590800000000000000
+      internalID: -7663284611740024552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a8c7fae309191e0800000000000000
+      internalID: -2192812944646174188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0483e16d6ba8ffe90800000000000000
+      internalID: -6989715578774734784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c52904c6d7b3bf0800000000000000
+      internalID: -343543042670437247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81c1bfed3bb5fc00800000000000000
+      internalID: 933858372438049167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68069bb152ef00a0800000000000000
+      internalID: -6913058062323021716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf92b2eeae1acf420800000000000000
+      internalID: 2665183109886716412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37bfcede2d725f80800000000000000
+      internalID: -8119289537935460545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51695e8126d8cd970800000000000000
+      internalID: 8781048825929635349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 0
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b325f66fe44ff70800000000000000
+      internalID: 9220081157470829371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7258cf2a0c03910800000000000000
+      internalID: 1815162456084129790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e87c88ef6dfeb30800000000000000
+      internalID: 4318906956376411687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f10536dca1fb6b0800000000000000
+      internalID: -5278470768818118855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1252cabacd768bbc0800000000000000
+      internalID: -3767146890824768223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 4
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c22d149ed4516c0800000000000000
+      internalID: -4173343815461884887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb0004ab72587cd0800000000000000
+      internalID: -2560205697174205514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 7
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aab4f0daed5dd8f0800000000000000
+      internalID: -514151519340938585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 72
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b18f83b2c9ed0980800000000000000
+      internalID: -8570937493370732111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed0a842fa9526e50800000000000000
+      internalID: 6801096996050046435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 0
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10861638f42dbc80800000000000000
+      internalID: -8305441489323392993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated_Checkpoint-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 0
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80eec4d66446f560800000000000000
+      internalID: 7347135050549223565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated_Checkpoint-Sheet_0: 5175366749303781353
+      Animated_Checkpoint-Sheet_1: -916547018347369713
+      Animated_Checkpoint-Sheet_10: 1793483054067802354
+      Animated_Checkpoint-Sheet_11: -4361766937059060018
+      Animated_Checkpoint-Sheet_12: 6559139325312354293
+      Animated_Checkpoint-Sheet_13: -4614199485632656342
+      Animated_Checkpoint-Sheet_14: -860860301733681543
+      Animated_Checkpoint-Sheet_15: -4806258317034977501
+      Animated_Checkpoint-Sheet_16: 8297862278124693645
+      Animated_Checkpoint-Sheet_17: 6704860197205374912
+      Animated_Checkpoint-Sheet_18: 5876120274235918998
+      Animated_Checkpoint-Sheet_19: -4822230382115970827
+      Animated_Checkpoint-Sheet_2: -8082460187216568094
+      Animated_Checkpoint-Sheet_20: 1020326975545855944
+      Animated_Checkpoint-Sheet_21: 8066306323910994513
+      Animated_Checkpoint-Sheet_22: -4336234870189326129
+      Animated_Checkpoint-Sheet_23: -7663284611740024552
+      Animated_Checkpoint-Sheet_24: -2192812944646174188
+      Animated_Checkpoint-Sheet_25: -6989715578774734784
+      Animated_Checkpoint-Sheet_26: -343543042670437247
+      Animated_Checkpoint-Sheet_27: 933858372438049167
+      Animated_Checkpoint-Sheet_28: -6913058062323021716
+      Animated_Checkpoint-Sheet_29: 2665183109886716412
+      Animated_Checkpoint-Sheet_3: 7630853697323224850
+      Animated_Checkpoint-Sheet_30: -8119289537935460545
+      Animated_Checkpoint-Sheet_31: 8781048825929635349
+      Animated_Checkpoint-Sheet_32: 9220081157470829371
+      Animated_Checkpoint-Sheet_33: 1815162456084129790
+      Animated_Checkpoint-Sheet_34: 4318906956376411687
+      Animated_Checkpoint-Sheet_35: -5278470768818118855
+      Animated_Checkpoint-Sheet_36: -3767146890824768223
+      Animated_Checkpoint-Sheet_37: -4173343815461884887
+      Animated_Checkpoint-Sheet_38: -2560205697174205514
+      Animated_Checkpoint-Sheet_39: -514151519340938585
+      Animated_Checkpoint-Sheet_4: 1708312429951927203
+      Animated_Checkpoint-Sheet_40: -8570937493370732111
+      Animated_Checkpoint-Sheet_41: 6801096996050046435
+      Animated_Checkpoint-Sheet_42: -8305441489323392993
+      Animated_Checkpoint-Sheet_43: 7347135050549223565
+      Animated_Checkpoint-Sheet_5: 4500551223107756316
+      Animated_Checkpoint-Sheet_6: 5934993737982652434
+      Animated_Checkpoint-Sheet_7: 2173881233739806951
+      Animated_Checkpoint-Sheet_8: -7146561817775997629
+      Animated_Checkpoint-Sheet_9: 8466746419162360215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
