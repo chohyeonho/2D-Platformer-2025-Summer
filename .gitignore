@@ -97,3 +97,600 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+Assets/Extraordinary Pixelvania - Free Asset Pack/Font/Extraordinary Font.ttf
+Assets/Extraordinary Pixelvania - Free Asset Pack/README.txt
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg1.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg2.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg3.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg4.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg5.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg_particle_1.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/BGs/bg_particle_2.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Boss/Attack-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Boss/boss_full_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Boss/Dead-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Boss/Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Boss/Run-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Attack-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/bipedo_full_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Die-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Fall-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Jump-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Bipedo Creature/Run-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Fly Creature/Attack-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Fly Creature/Die-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Fly Creature/Flying-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Fly Creature/flying_creature_complete_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Fly Creature/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Attack-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/creature_with_granade_full_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Die-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Granade/Attack-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Granade/Die-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Granade/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Granade/Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Granade/Reload-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/granade_creature_full_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Launchgranade Creature/Reload-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Slime/Attack-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Slime/Die-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Slime/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Slime/Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Slime/silme_complete_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Enemies/Slime/Walk-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Aim_Side-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Aim_Up-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Die-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Falling-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/hero_complete_sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Jump-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Jump_Aim_Side-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Jump_Aim_Up-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Jump_Shot_Side-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Jump_Shot_Up-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Run-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Run_Shot_Side-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Run_Shoting_Up-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Shot_Side-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Characters/Heros/Main Hero/Shot_Up-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_1_empty.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_1_full.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_2_empty.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_2_full.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_3_empty.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_3_full.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_4_empty.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_4_full.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_5_empty.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Boss Bar/boss_bar_5_full.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Final/Final_Depleting-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Final/Final_Full-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Final/Final_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Final/Final_Left-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Final/Final_Middle_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Final/Final_Wasted-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Health_Bar_HUD.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Middle/Middle_Depleting-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Middle/Middle_Full-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Middle/Middle_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Middle/Middle_Left-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Middle/Middle_Wasted-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Start/Start_Depleting-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Start/Start_Full-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Start/Start_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Start/Start_Left-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Health Bar/Start/Start_Wasted-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Mana Bar/Mana_Bar_Full-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Mana Bar/Mana_Bar_HUD.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Mana Bar/Mana_Bar_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Projectile Icons/blue_projectile_icon.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Projectile Icons/common_projectile_icon.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/HUD/Selector_Projectile_HUD.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Ammo_Upgrade-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Blue_Projectile_Item-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Common_Projectile_Item-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Health_Upgrade-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Orbs/health_orb-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Orbs/mana_orb-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Pickups/Template_Item-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Projectiles/Blue_Projectile-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Projectiles/boss_projectile-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Projectiles/Common_Projectile-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Animated_Checkpoint-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Blue_Block/BB_Particles1.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Blue_Block/BB_Particles2.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Blue_Block/BB_Particles3.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Blue_Block/BB_Particles4.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Blue_Block/Blue_Block.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Blue_Block/Blue_Block_Destroyed.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Common_Block/CB_Particles1.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Common_Block/CB_Particles2.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Common_Block/CB_Particles3.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Common_Block/CB_Particles4.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Common_Block/Common_Block.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Common_Block/Common_Block_Destroyed.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Fungus/Fungus1_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Fungus/Fungus1_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Fungus/Fungus2_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Fungus/Fungus2_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant1_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant1_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant2_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant2_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant3_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant3_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant4_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant4_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant5_Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/Plants/Plant5_Idle-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Props/props.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Tileset/Tileset.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Tittle/tittle_big.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Tittle/tittle_mid.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/Tittle/tittle_og.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Blue_Muzzle_Flash-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Blue_Sparks-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Common_Muzzle_Flash-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Dust_Fall_Impact-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Dust_Jump-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Dust_Run-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Dust_Smoke-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Explosion-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Hit-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Impact_Blue_Projectile-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Impact_Boss_Projectile-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Impact_Common_Projectile-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Item_Feedback-Sheet.png
+Assets/Extraordinary Pixelvania - Free Asset Pack/Sprites/VFX/Rose_Explosion-Sheet.png
+Assets/kenney_pixel-platformer/Construct 3/Pixel Platformer.c3p
+Assets/kenney_pixel-platformer/Construct 3/Readme.txt
+Assets/kenney_pixel-platformer/License.txt
+Assets/kenney_pixel-platformer/Preview.png
+Assets/kenney_pixel-platformer/SampleA.png
+Assets/kenney_pixel-platformer/SampleB.png
+Assets/kenney_pixel-platformer/Tiled/tilemap-example-a.tmx
+Assets/kenney_pixel-platformer/Tiled/tilemap-example-b.tmx
+Assets/kenney_pixel-platformer/Tiled/tileset-characters.tsx
+Assets/kenney_pixel-platformer/Tiled/tileset-tiles.tsx
+Assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png
+Assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds_packed.png
+Assets/kenney_pixel-platformer/Tilemap/tilemap-characters.png
+Assets/kenney_pixel-platformer/Tilemap/tilemap-characters_packed.png
+Assets/kenney_pixel-platformer/Tilemap/tilemap.png
+Assets/kenney_pixel-platformer/Tilemap/tilemap_packed.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0000.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0001.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0002.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0003.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0004.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0005.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0006.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0007.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0008.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0009.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0010.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0011.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0012.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0013.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0014.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0015.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0016.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0017.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0018.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0019.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0020.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0021.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0022.png
+Assets/kenney_pixel-platformer/Tiles/Backgrounds/tile_0023.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0000.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0001.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0002.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0003.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0004.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0005.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0006.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0007.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0008.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0009.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0010.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0011.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0012.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0013.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0014.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0015.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0016.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0017.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0018.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0019.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0020.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0021.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0022.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0023.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0024.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0025.png
+Assets/kenney_pixel-platformer/Tiles/Characters/tile_0026.png
+Assets/kenney_pixel-platformer/Tiles/tile_0000.png
+Assets/kenney_pixel-platformer/Tiles/tile_0001.png
+Assets/kenney_pixel-platformer/Tiles/tile_0002.png
+Assets/kenney_pixel-platformer/Tiles/tile_0003.png
+Assets/kenney_pixel-platformer/Tiles/tile_0004.png
+Assets/kenney_pixel-platformer/Tiles/tile_0005.png
+Assets/kenney_pixel-platformer/Tiles/tile_0006.png
+Assets/kenney_pixel-platformer/Tiles/tile_0007.png
+Assets/kenney_pixel-platformer/Tiles/tile_0008.png
+Assets/kenney_pixel-platformer/Tiles/tile_0009.png
+Assets/kenney_pixel-platformer/Tiles/tile_0010.png
+Assets/kenney_pixel-platformer/Tiles/tile_0011.png
+Assets/kenney_pixel-platformer/Tiles/tile_0012.png
+Assets/kenney_pixel-platformer/Tiles/tile_0013.png
+Assets/kenney_pixel-platformer/Tiles/tile_0014.png
+Assets/kenney_pixel-platformer/Tiles/tile_0015.png
+Assets/kenney_pixel-platformer/Tiles/tile_0016.png
+Assets/kenney_pixel-platformer/Tiles/tile_0017.png
+Assets/kenney_pixel-platformer/Tiles/tile_0018.png
+Assets/kenney_pixel-platformer/Tiles/tile_0019.png
+Assets/kenney_pixel-platformer/Tiles/tile_0020.png
+Assets/kenney_pixel-platformer/Tiles/tile_0021.png
+Assets/kenney_pixel-platformer/Tiles/tile_0022.png
+Assets/kenney_pixel-platformer/Tiles/tile_0023.png
+Assets/kenney_pixel-platformer/Tiles/tile_0024.png
+Assets/kenney_pixel-platformer/Tiles/tile_0025.png
+Assets/kenney_pixel-platformer/Tiles/tile_0026.png
+Assets/kenney_pixel-platformer/Tiles/tile_0027.png
+Assets/kenney_pixel-platformer/Tiles/tile_0028.png
+Assets/kenney_pixel-platformer/Tiles/tile_0029.png
+Assets/kenney_pixel-platformer/Tiles/tile_0030.png
+Assets/kenney_pixel-platformer/Tiles/tile_0031.png
+Assets/kenney_pixel-platformer/Tiles/tile_0032.png
+Assets/kenney_pixel-platformer/Tiles/tile_0033.png
+Assets/kenney_pixel-platformer/Tiles/tile_0034.png
+Assets/kenney_pixel-platformer/Tiles/tile_0035.png
+Assets/kenney_pixel-platformer/Tiles/tile_0036.png
+Assets/kenney_pixel-platformer/Tiles/tile_0037.png
+Assets/kenney_pixel-platformer/Tiles/tile_0038.png
+Assets/kenney_pixel-platformer/Tiles/tile_0039.png
+Assets/kenney_pixel-platformer/Tiles/tile_0040.png
+Assets/kenney_pixel-platformer/Tiles/tile_0041.png
+Assets/kenney_pixel-platformer/Tiles/tile_0042.png
+Assets/kenney_pixel-platformer/Tiles/tile_0043.png
+Assets/kenney_pixel-platformer/Tiles/tile_0044.png
+Assets/kenney_pixel-platformer/Tiles/tile_0045.png
+Assets/kenney_pixel-platformer/Tiles/tile_0046.png
+Assets/kenney_pixel-platformer/Tiles/tile_0047.png
+Assets/kenney_pixel-platformer/Tiles/tile_0048.png
+Assets/kenney_pixel-platformer/Tiles/tile_0049.png
+Assets/kenney_pixel-platformer/Tiles/tile_0050.png
+Assets/kenney_pixel-platformer/Tiles/tile_0051.png
+Assets/kenney_pixel-platformer/Tiles/tile_0052.png
+Assets/kenney_pixel-platformer/Tiles/tile_0053.png
+Assets/kenney_pixel-platformer/Tiles/tile_0054.png
+Assets/kenney_pixel-platformer/Tiles/tile_0055.png
+Assets/kenney_pixel-platformer/Tiles/tile_0056.png
+Assets/kenney_pixel-platformer/Tiles/tile_0057.png
+Assets/kenney_pixel-platformer/Tiles/tile_0058.png
+Assets/kenney_pixel-platformer/Tiles/tile_0059.png
+Assets/kenney_pixel-platformer/Tiles/tile_0060.png
+Assets/kenney_pixel-platformer/Tiles/tile_0061.png
+Assets/kenney_pixel-platformer/Tiles/tile_0062.png
+Assets/kenney_pixel-platformer/Tiles/tile_0063.png
+Assets/kenney_pixel-platformer/Tiles/tile_0064.png
+Assets/kenney_pixel-platformer/Tiles/tile_0065.png
+Assets/kenney_pixel-platformer/Tiles/tile_0066.png
+Assets/kenney_pixel-platformer/Tiles/tile_0067.png
+Assets/kenney_pixel-platformer/Tiles/tile_0068.png
+Assets/kenney_pixel-platformer/Tiles/tile_0069.png
+Assets/kenney_pixel-platformer/Tiles/tile_0070.png
+Assets/kenney_pixel-platformer/Tiles/tile_0071.png
+Assets/kenney_pixel-platformer/Tiles/tile_0072.png
+Assets/kenney_pixel-platformer/Tiles/tile_0073.png
+Assets/kenney_pixel-platformer/Tiles/tile_0074.png
+Assets/kenney_pixel-platformer/Tiles/tile_0075.png
+Assets/kenney_pixel-platformer/Tiles/tile_0076.png
+Assets/kenney_pixel-platformer/Tiles/tile_0077.png
+Assets/kenney_pixel-platformer/Tiles/tile_0078.png
+Assets/kenney_pixel-platformer/Tiles/tile_0079.png
+Assets/kenney_pixel-platformer/Tiles/tile_0080.png
+Assets/kenney_pixel-platformer/Tiles/tile_0081.png
+Assets/kenney_pixel-platformer/Tiles/tile_0082.png
+Assets/kenney_pixel-platformer/Tiles/tile_0083.png
+Assets/kenney_pixel-platformer/Tiles/tile_0084.png
+Assets/kenney_pixel-platformer/Tiles/tile_0085.png
+Assets/kenney_pixel-platformer/Tiles/tile_0086.png
+Assets/kenney_pixel-platformer/Tiles/tile_0087.png
+Assets/kenney_pixel-platformer/Tiles/tile_0088.png
+Assets/kenney_pixel-platformer/Tiles/tile_0089.png
+Assets/kenney_pixel-platformer/Tiles/tile_0090.png
+Assets/kenney_pixel-platformer/Tiles/tile_0091.png
+Assets/kenney_pixel-platformer/Tiles/tile_0092.png
+Assets/kenney_pixel-platformer/Tiles/tile_0093.png
+Assets/kenney_pixel-platformer/Tiles/tile_0094.png
+Assets/kenney_pixel-platformer/Tiles/tile_0095.png
+Assets/kenney_pixel-platformer/Tiles/tile_0096.png
+Assets/kenney_pixel-platformer/Tiles/tile_0097.png
+Assets/kenney_pixel-platformer/Tiles/tile_0098.png
+Assets/kenney_pixel-platformer/Tiles/tile_0099.png
+Assets/kenney_pixel-platformer/Tiles/tile_0100.png
+Assets/kenney_pixel-platformer/Tiles/tile_0101.png
+Assets/kenney_pixel-platformer/Tiles/tile_0102.png
+Assets/kenney_pixel-platformer/Tiles/tile_0103.png
+Assets/kenney_pixel-platformer/Tiles/tile_0104.png
+Assets/kenney_pixel-platformer/Tiles/tile_0105.png
+Assets/kenney_pixel-platformer/Tiles/tile_0106.png
+Assets/kenney_pixel-platformer/Tiles/tile_0107.png
+Assets/kenney_pixel-platformer/Tiles/tile_0108.png
+Assets/kenney_pixel-platformer/Tiles/tile_0109.png
+Assets/kenney_pixel-platformer/Tiles/tile_0110.png
+Assets/kenney_pixel-platformer/Tiles/tile_0111.png
+Assets/kenney_pixel-platformer/Tiles/tile_0112.png
+Assets/kenney_pixel-platformer/Tiles/tile_0113.png
+Assets/kenney_pixel-platformer/Tiles/tile_0114.png
+Assets/kenney_pixel-platformer/Tiles/tile_0115.png
+Assets/kenney_pixel-platformer/Tiles/tile_0116.png
+Assets/kenney_pixel-platformer/Tiles/tile_0117.png
+Assets/kenney_pixel-platformer/Tiles/tile_0118.png
+Assets/kenney_pixel-platformer/Tiles/tile_0119.png
+Assets/kenney_pixel-platformer/Tiles/tile_0120.png
+Assets/kenney_pixel-platformer/Tiles/tile_0121.png
+Assets/kenney_pixel-platformer/Tiles/tile_0122.png
+Assets/kenney_pixel-platformer/Tiles/tile_0123.png
+Assets/kenney_pixel-platformer/Tiles/tile_0124.png
+Assets/kenney_pixel-platformer/Tiles/tile_0125.png
+Assets/kenney_pixel-platformer/Tiles/tile_0126.png
+Assets/kenney_pixel-platformer/Tiles/tile_0127.png
+Assets/kenney_pixel-platformer/Tiles/tile_0128.png
+Assets/kenney_pixel-platformer/Tiles/tile_0129.png
+Assets/kenney_pixel-platformer/Tiles/tile_0130.png
+Assets/kenney_pixel-platformer/Tiles/tile_0131.png
+Assets/kenney_pixel-platformer/Tiles/tile_0132.png
+Assets/kenney_pixel-platformer/Tiles/tile_0133.png
+Assets/kenney_pixel-platformer/Tiles/tile_0134.png
+Assets/kenney_pixel-platformer/Tiles/tile_0135.png
+Assets/kenney_pixel-platformer/Tiles/tile_0136.png
+Assets/kenney_pixel-platformer/Tiles/tile_0137.png
+Assets/kenney_pixel-platformer/Tiles/tile_0138.png
+Assets/kenney_pixel-platformer/Tiles/tile_0139.png
+Assets/kenney_pixel-platformer/Tiles/tile_0140.png
+Assets/kenney_pixel-platformer/Tiles/tile_0141.png
+Assets/kenney_pixel-platformer/Tiles/tile_0142.png
+Assets/kenney_pixel-platformer/Tiles/tile_0143.png
+Assets/kenney_pixel-platformer/Tiles/tile_0144.png
+Assets/kenney_pixel-platformer/Tiles/tile_0145.png
+Assets/kenney_pixel-platformer/Tiles/tile_0146.png
+Assets/kenney_pixel-platformer/Tiles/tile_0147.png
+Assets/kenney_pixel-platformer/Tiles/tile_0148.png
+Assets/kenney_pixel-platformer/Tiles/tile_0149.png
+Assets/kenney_pixel-platformer/Tiles/tile_0150.png
+Assets/kenney_pixel-platformer/Tiles/tile_0151.png
+Assets/kenney_pixel-platformer/Tiles/tile_0152.png
+Assets/kenney_pixel-platformer/Tiles/tile_0153.png
+Assets/kenney_pixel-platformer/Tiles/tile_0154.png
+Assets/kenney_pixel-platformer/Tiles/tile_0155.png
+Assets/kenney_pixel-platformer/Tiles/tile_0156.png
+Assets/kenney_pixel-platformer/Tiles/tile_0157.png
+Assets/kenney_pixel-platformer/Tiles/tile_0158.png
+Assets/kenney_pixel-platformer/Tiles/tile_0159.png
+Assets/kenney_pixel-platformer/Tiles/tile_0160.png
+Assets/kenney_pixel-platformer/Tiles/tile_0161.png
+Assets/kenney_pixel-platformer/Tiles/tile_0162.png
+Assets/kenney_pixel-platformer/Tiles/tile_0163.png
+Assets/kenney_pixel-platformer/Tiles/tile_0164.png
+Assets/kenney_pixel-platformer/Tiles/tile_0165.png
+Assets/kenney_pixel-platformer/Tiles/tile_0166.png
+Assets/kenney_pixel-platformer/Tiles/tile_0167.png
+Assets/kenney_pixel-platformer/Tiles/tile_0168.png
+Assets/kenney_pixel-platformer/Tiles/tile_0169.png
+Assets/kenney_pixel-platformer/Tiles/tile_0170.png
+Assets/kenney_pixel-platformer/Tiles/tile_0171.png
+Assets/kenney_pixel-platformer/Tiles/tile_0172.png
+Assets/kenney_pixel-platformer/Tiles/tile_0173.png
+Assets/kenney_pixel-platformer/Tiles/tile_0174.png
+Assets/kenney_pixel-platformer/Tiles/tile_0175.png
+Assets/kenney_pixel-platformer/Tiles/tile_0176.png
+Assets/kenney_pixel-platformer/Tiles/tile_0177.png
+Assets/kenney_pixel-platformer/Tiles/tile_0178.png
+Assets/kenney_pixel-platformer/Tiles/tile_0179.png
+Assets/kenney_pixel-platformer/Tilesheet (Backgrounds).txt
+Assets/kenney_pixel-platformer/Tilesheet (Characters).txt
+Assets/kenney_pixel-platformer/Tilesheet (Tiles).txt
+Assets/kenney_pixel-platformer/Visit Kenney.url
+Assets/kenney_pixel-platformer/Visit Patreon.url
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_attack_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_attack_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_death_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_idle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/bomber_goblin_idle_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/bomber goblin/goblin_bomber_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_attack_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_attack_anim_srip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_death_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_idle_or_flying_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/blue_fly_idle_or_flying_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/fly_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_atack_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_atack_anim_srip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_death_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_idle_or_flying_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/fly/orange_fly_idle_or_flying_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_attack_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_attack_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_death_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_idle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_idle_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_run_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_run_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/goblin/goblin_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_crushed_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_crushed_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_death_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_walk_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/mushroom/mushroom_walk_anim_strip_8.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_death_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_idle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_idle_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_walk_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/slime/slime_walk_anim_strip_15.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_death_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_walk_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/enemies sprites/worm/worm_walk_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/bird_flying_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/bird_flying_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/bird_idle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/bird_idle_anim_strip_8.png
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/bird_walk_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/bird_walk_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/fauna_spritesheet.png
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/rabit_idle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/rabit_idle_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/rabit_walk_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/fauna sprites/rabit_walk_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_after_jump_dust_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_after_jump_dust_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_attack_anim(new).gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_attack_anim_strip_4(new).png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_before_jump_dust_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_before_jump_dust_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_before_or_after_jump.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_before_or_after_jump_srip_2.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_death_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_death_anim_strip_8.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_hit_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_hit_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_idle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_idle_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_double_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_double_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_down_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_down_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_up_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_up_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_pushing_foward_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_pushing_foward_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_run_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_run_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_spritesheet(new).png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/hit_sparkle_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/hit_sparkle_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/sword_effect(new).gif
+Assets/platformer_metroidvania asset pack v1.01/herochar sprites(new)/sword_effect_strip_4(new).png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/coins_hud.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/fonts.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/health_hud_left.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/health_hud_middle.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/health_hud_right.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/health_menu_hud.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/hearts_hud.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/lifes_icon.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/lost_hearts_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/hud elements/lost_hearts_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/no_hearts_hud.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/orbs_hud.png
+Assets/platformer_metroidvania asset pack v1.01/hud elements/select_icon_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/hud elements/select_icon_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/antidote_potion.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/apple_item.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_left.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/bigflowers_props.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/bomb_on_ground_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/bomb_on_ground_anim_strip_8.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/bomb_thrown_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/bomb_thrown_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/buttom.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/buttom_pressed.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/coin_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/coin_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/coin_pickup_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/coin_pickup_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/door.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/drygrass_props.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/explosion_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/explosion_anim_strip_10.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/flowers_props.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/grass_props.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/health_potion.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/lever_turned_left.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/lever_turned_right.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_opening.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_opening_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_strip_12.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_open.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/meat_item.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/orb.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim_strip_6.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/root_props.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim_strip_9.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/spikes.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect_strip_3.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/stone.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim_strip_10.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim_strip_14.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props_strip_12.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/trap_spikes_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/trap_spikes_anim_strip_7.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/trap_suspended_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/trap_suspended_anim_strip_18.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/vase.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/vase_breaking_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/vase_breaking_anim_strip_5.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_left.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_middle.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_right.png
+Assets/platformer_metroidvania asset pack v1.01/miscellaneous sprites/wooden_plate.png
+Assets/platformer_metroidvania asset pack v1.01/README.txt
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/background.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_0.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_1.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/bg_2.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/fg_0.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/fg_1.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/tileset.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/tileset_32x32(new).png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/tileset_64x64(new).png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/waterfall_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/waterfall_anim_strip_4.png
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/waterfall_bottom_anim.gif
+Assets/platformer_metroidvania asset pack v1.01/tiles and background_foreground (new)/waterfall_bottom_anim_strip_4.png
