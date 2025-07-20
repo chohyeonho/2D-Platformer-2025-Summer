@@ -27,7 +27,7 @@ public class PlayerMove : MonoBehaviour
 		}
 
 		// ▶︎ 방향 반전 처리 (왼쪽 이동 시 flipX true)
-		if (Input.GetButtonDown("Horizontal"))
+		if (Input.GetButton("Horizontal"))
 		{
 			spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
 		}
