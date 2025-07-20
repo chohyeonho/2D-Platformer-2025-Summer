@@ -1,48 +1,55 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-	public float maxSpeed;                  // ÃÖ°í ¼Óµµ
-	Rigidbody2D rigid;                      // Rigidbody2D ÂüÁ¶
-	SpriteRenderer spriteRenderer;          // ½ºÇÁ¶óÀÌÆ® ·»´õ·¯ ÂüÁ¶
+	public float maxSpeed;                      // ìµœê³  ì†ë„
+
+	Rigidbody2D rigid;                          // ë¬¼ë¦¬ ì»´í¬ë„ŒíŠ¸
+	SpriteRenderer spriteRenderer;              // ë°©í–¥ ë°˜ì „ìš©
+	Animator anim;                              // ì• ë‹ˆë©”ì´í„°
 
 	void Awake()
 	{
-		// ÄÄÆ÷³ÍÆ® ¿¬°á
-		rigid = GetComponent<Rigidbody2D>();
-		spriteRenderer = GetComponent<SpriteRenderer>();
+		rigid = GetComponent<Rigidbody2D>();                 // Rigidbody2D ì—°ê²°
+		spriteRenderer = GetComponent<SpriteRenderer>();     // SpriteRenderer ì—°ê²°
+		anim = GetComponent<Animator>();                     // Animator ì—°ê²°
 	}
 
 	void Update()
 	{
-		// Å°¸¦ ´­·¶À» ¶§ ½ºÇÁ¶óÀÌÆ® ¹æÇâ ÀüÈ¯
-		if (Input.GetButtonDown("Horizontal"))
-		{
-			// ¿ŞÂÊ(-1)ÀÌ¸é ÁÂ¿ì ¹İÀü true, ¿À¸¥ÂÊ(1)ÀÌ¸é false
-			spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
-		}
-
-		// Å°¿¡¼­ ¼ÕÀ» ¶ÃÀ» ¶§ °¨¼Ó Ã³¸®
+		// â–¶ï¸ ìˆ˜í‰ ì´ë™ í‚¤ì—ì„œ ì†ì„ ë—ì„ ë•Œ: ì†ë„ ì ˆë°˜ ê°ì†
 		if (Input.GetButtonUp("Horizontal"))
 		{
 			rigid.linearVelocity = new Vector2(rigid.linearVelocity.normalized.x * 0.5f, rigid.linearVelocity.y);
 		}
+
+		// â–¶ï¸ ìˆ˜í‰ ì´ë™ í‚¤ ëˆ„ë¥¼ ë•Œ: ì¢Œìš° ë°©í–¥ ë°˜ì „ (ì™¼ìª½ì´ë©´ true)
+		if (Input.GetButtonDown("Horizontal"))
+		{
+			spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
+		}
+
+		// â–¶ï¸ ì• ë‹ˆë©”ì´ì…˜ ì „í™˜: xì¶• ì†ë„ê°€ ì •í™•íˆ 0ì¼ ë•Œ ë©ˆì¶¤ ìƒíƒœ
+		if (rigid.linearVelocity.normalized.x == 0)
+			anim.SetBool("isWalking", false);
+		else
+			anim.SetBool("isWalking", true);
 	}
 
 	void FixedUpdate()
 	{
-		// ÀÌµ¿ Å° ÀÔ·Â
+		// â–¶ï¸ ìˆ˜í‰ ì…ë ¥ ë°›ê¸° (-1, 0, 1)
 		float h = Input.GetAxisRaw("Horizontal");
 
-		// ¼öÆò Èû °¡ÇÏ±â (¼ø°£Àû Èû)
+		// â–¶ï¸ ìˆ˜í‰ ë°©í–¥ í˜ ê°€í•˜ê¸° (Impulse: ìˆœê°„ í˜)
 		rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
 
-		// ¿À¸¥ÂÊ ÃÖ°í ¼Óµµ Á¦ÇÑ
+		// â–¶ï¸ ì˜¤ë¥¸ìª½ ìµœê³  ì†ë„ ì œí•œ
 		if (rigid.linearVelocity.x > maxSpeed)
 		{
 			rigid.linearVelocity = new Vector2(maxSpeed, rigid.linearVelocity.y);
 		}
-		// ¿ŞÂÊ ÃÖ°í ¼Óµµ Á¦ÇÑ
+		// â–¶ï¸ ì™¼ìª½ ìµœê³  ì†ë„ ì œí•œ
 		else if (rigid.linearVelocity.x < -maxSpeed)
 		{
 			rigid.linearVelocity = new Vector2(-maxSpeed, rigid.linearVelocity.y);
