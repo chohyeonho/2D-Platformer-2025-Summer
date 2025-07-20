@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 		newVelocity.x = moveInput * moveSpeed;
 		rb.linearVelocity = newVelocity;
 
-		// ÁÂ¿ì ¹İÀü (½ºÇÁ¶óÀÌÆ® ±âÁØ)
+		// â–¶ï¸ì¢Œìš° ë°˜ì „ (ìŠ¤í”„ë¼ì´íŠ¸ ê¸°ì¤€)
 		if (moveInput != 0)
 		{
 			transform.localScale = new Vector3(Mathf.Sign(moveInput), 1f, 1f);
