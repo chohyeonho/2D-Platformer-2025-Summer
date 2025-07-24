@@ -19,9 +19,10 @@ public class PlayerMove : MonoBehaviour
 	void Update()
 	{
 		// ▶︎ 점프 입력 (공중 판정 없이 항상 가능)
-		if (Input.GetButtonDown("Jump"))
+		if (Input.GetButtonDown("Jump")&&!anim.GetBool("isJumping"))
 		{
 			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+			anim.SetBool("isJumping", true);
 		}
 
 		// ▶︎ 수평 이동 키에서 손을 뗐을 때 감속
@@ -60,6 +61,21 @@ public class PlayerMove : MonoBehaviour
 		else if (rigid.linearVelocity.x < -maxSpeed)
 		{
 			rigid.linearVelocity = new Vector2(-maxSpeed, rigid.linearVelocity.y);
+		}
+		if (rigid.linearVelocity.y < 0)
+		{
+			Debug.DrawRay(rigid.position, Vector2.down, new Color(0, 1, 0));
+
+			// 바닥 판정용 레이캐스트
+			RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+
+			if (rayHit.collider != null)
+			{
+				if (rayHit.distance < 0.5f)
+				{
+					anim.SetBool("isJumping", false);
+				}
+			}
 		}
 	}
 }
