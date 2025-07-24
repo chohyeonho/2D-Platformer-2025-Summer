@@ -2,11 +2,12 @@
 
 public class PlayerMove : MonoBehaviour
 {
-	public float maxSpeed;                      // 최고 이동 속도
+	public float maxSpeed;                      // 이동 최고 속도
+	public float jumpPower;                     // 점프 힘
 
-	Rigidbody2D rigid;                          // Rigidbody2D 참조
-	SpriteRenderer spriteRenderer;              // 스프라이트 반전용
-	Animator anim;                              // 애니메이션 컨트롤러
+	Rigidbody2D rigid;                          // 물리 엔진
+	SpriteRenderer spriteRenderer;              // 방향 반전용
+	Animator anim;                              // 애니메이터
 
 	void Awake()
 	{
@@ -17,7 +18,13 @@ public class PlayerMove : MonoBehaviour
 
 	void Update()
 	{
-		// ▶︎ 이동 키에서 손 뗐을 때 감속 처리 (속도 절반)
+		// ▶︎ 점프 입력 (공중 판정 없이 항상 가능)
+		if (Input.GetButtonDown("Jump"))
+		{
+			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+		}
+
+		// ▶︎ 수평 이동 키에서 손을 뗐을 때 감속
 		if (Input.GetButtonUp("Horizontal"))
 		{
 			rigid.linearVelocity = new Vector2(
@@ -26,13 +33,13 @@ public class PlayerMove : MonoBehaviour
 			);
 		}
 
-		// ▶︎ 방향 반전 처리 (왼쪽 이동 시 flipX true)
+		// ▶︎ 좌우 반전
 		if (Input.GetButton("Horizontal"))
 		{
 			spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
 		}
 
-		// ▶︎ 애니메이션 상태 전환 (속도가 작으면 정지 상태로 간주)
+		// ▶︎ 애니메이션 전환 (걷기 상태 판단)
 		if (Mathf.Abs(rigid.linearVelocity.x) < 0.3f)
 			anim.SetBool("isWalking", false);
 		else
@@ -41,18 +48,15 @@ public class PlayerMove : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		// ▶︎ 입력값 받아오기 (-1, 0, 1)
+		// ▶︎ 이동 입력
 		float h = Input.GetAxisRaw("Horizontal");
-
-		// ▶︎ 수평 힘 적용 (Impulse 방식으로 순간 가속)
 		rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
 
-		// ▶︎ 오른쪽 이동 속도 제한
+		// ▶︎ 최고 속도 제한
 		if (rigid.linearVelocity.x > maxSpeed)
 		{
 			rigid.linearVelocity = new Vector2(maxSpeed, rigid.linearVelocity.y);
 		}
-		// ▶︎ 왼쪽 이동 속도 제한
 		else if (rigid.linearVelocity.x < -maxSpeed)
 		{
 			rigid.linearVelocity = new Vector2(-maxSpeed, rigid.linearVelocity.y);
