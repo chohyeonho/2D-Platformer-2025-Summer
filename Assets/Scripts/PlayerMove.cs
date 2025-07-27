@@ -19,7 +19,7 @@ public class PlayerMove : MonoBehaviour
 	void Update()
 	{
 		// ▶︎ 점프 입력 (공중 판정 없이 항상 가능)
-		if (Input.GetButtonDown("Jump")&&!anim.GetBool("isJumping"))
+		if (Input.GetButtonDown("Jump") && !anim.GetBool("isJumping"))
 		{
 			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
@@ -42,9 +42,13 @@ public class PlayerMove : MonoBehaviour
 
 		// ▶︎ 애니메이션 전환 (걷기 상태 판단)
 		if (Mathf.Abs(rigid.linearVelocity.x) < 0.3f)
+		{
 			anim.SetBool("isWalking", false);
+		}
 		else
+		{
 			anim.SetBool("isWalking", true);
+		}
 	}
 
 	void FixedUpdate()
@@ -62,11 +66,12 @@ public class PlayerMove : MonoBehaviour
 		{
 			rigid.linearVelocity = new Vector2(-maxSpeed, rigid.linearVelocity.y);
 		}
+
+		// ▶︎ 착지 판정
 		if (rigid.linearVelocity.y < 0)
 		{
 			Debug.DrawRay(rigid.position, Vector2.down, new Color(0, 1, 0));
 
-			// 바닥 판정용 레이캐스트
 			RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector2.down, 1f, LayerMask.GetMask("Platform"));
 
 			if (rayHit.collider != null)
@@ -76,6 +81,15 @@ public class PlayerMove : MonoBehaviour
 					anim.SetBool("isJumping", false);
 				}
 			}
+		}
+	}
+
+	void OnCollisionEnter2D(Collision2D collision)
+	{
+		// ▶︎ 적에게 맞았을 때 로그 출력
+		if (collision.gameObject.tag == "Enemy")
+		{
+			Debug.Log("플레이어가 맞았습니다!");
 		}
 	}
 }
