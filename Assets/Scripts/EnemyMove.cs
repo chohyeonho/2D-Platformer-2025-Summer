@@ -2,24 +2,36 @@
 
 public class EnemyMove : MonoBehaviour
 {
-	Rigidbody2D rigid;             // Rigidbody2D 컴포넌트 참조
-	public int nextMove;           // 이동 방향 (-1, 0, 1)
+	Rigidbody2D rigid;
+	public int nextMove;
 
 	void Awake()
 	{
-		rigid = GetComponent<Rigidbody2D>();  // Rigidbody2D 가져오기
-		Invoke("Think", 5);                   // 5초 후 Think() 호출
+		rigid = GetComponent<Rigidbody2D>();
+		Invoke("Think", 5);
 	}
 
 	void FixedUpdate()
 	{
-		// linearVelocity 사용 (Unity 6 기준)
+		// ▷ 이동 처리 (Unity 6 문법: linearVelocity 사용)
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
+
+		// ▷ 플랫폼 체크 (앞쪽 바닥이 있는지 Ray로 확인)
+		Vector2 frontVec = new Vector2(rigid.position.x + nextMove, rigid.position.y);
+
+		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0)); // 시각적 디버그
+		RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
+
+		if (rayHit.collider == null)
+		{
+			Debug.Log("경고! 이 앞 낭떠러지.");
+			// 필요 시 방향 전환 로직 추가 가능
+		}
 	}
 
 	void Think()
 	{
-		nextMove = Random.Range(-1, 2);       // 이동 방향 결정
-		Invoke("Think", 5);                   // 5초마다 재귀 호출
+		nextMove = Random.Range(-1, 2);
+		Invoke("Think", 5);
 	}
 }
