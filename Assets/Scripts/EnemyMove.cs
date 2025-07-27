@@ -51,7 +51,7 @@ public class EnemyMove : MonoBehaviour
 		// 이동 방향에 따라 좌우 반전
 		if (nextMove != 0)
 		{
-			spriteRenderer.flipX = nextMove == 1;
+			spriteRenderer.flipX = nextMove != 1;
 		}
 
 		// 다음 Think 실행 시간 설정 (2초 ~ 5초)
@@ -66,7 +66,7 @@ public class EnemyMove : MonoBehaviour
 		nextMove *= -1;
 
 		// 반전된 방향에 맞춰 Sprite 좌우 반전
-		spriteRenderer.flipX = nextMove == 1;
+		spriteRenderer.flipX = nextMove != 1;
 
 		// 기존 행동 예약 제거 후 다시 예약
 		CancelInvoke();
