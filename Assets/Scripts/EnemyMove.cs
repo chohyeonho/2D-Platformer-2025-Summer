@@ -1,25 +1,25 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-	Rigidbody2D rigid;            // Rigidbody2D ÄÄÆ÷³ÍÆ®¸¦ ´ãÀ» º¯¼ö
-	public int nextMove;          // ÀÌµ¿ ¹æÇâ (-1: ¿ŞÂÊ, 0: Á¤Áö, 1: ¿À¸¥ÂÊ)
+	Rigidbody2D rigid;            // Rigidbody2D ì»´í¬ë„ŒíŠ¸ë¥¼ ë‹´ì„ ë³€ìˆ˜
+	public int nextMove;          // ì´ë™ ë°©í–¥ (-1: ì™¼ìª½, 0: ì •ì§€, 1: ì˜¤ë¥¸ìª½)
 
 	void Awake()
 	{
-		rigid = GetComponent<Rigidbody2D>();  // Rigidbody2D ÄÄÆ÷³ÍÆ® °¡Á®¿À±â
-		Think();                              // ÃÊ±â ÀÌµ¿ ¹æÇâ ¼³Á¤
+		rigid = GetComponent<Rigidbody2D>();  // Rigidbody2D ì»´í¬ë„ŒíŠ¸ ê°€ì ¸ì˜¤ê¸°
+		Think();                              // ì´ˆê¸° ì´ë™ ë°©í–¥ ì„¤ì •
 	}
 
 	void FixedUpdate()
 	{
-		// ÇöÀç ¹æÇâ´ë·Î ¼öÆò ÀÌµ¿. ¼öÁ÷ ¼Óµµ´Â À¯Áö.
+		// í˜„ì¬ ë°©í–¥ëŒ€ë¡œ ìˆ˜í‰ ì´ë™. ìˆ˜ì§ ì†ë„ëŠ” ìœ ì§€.
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 	}
 
 	void Think()
 	{
-		// -1, 0, 1 Áß ÇÏ³ª¸¦ ·£´ıÀ¸·Î ¼±ÅÃÇØ ÀÌµ¿ ¹æÇâ ¼³Á¤
-		nextMove = Random.Range(-1, 2); // µÎ ¹øÂ° ÀÎÀÚ´Â ¹ÌÆ÷ÇÔÀÌ¹Ç·Î 2±îÁö ¾Æ´Ô
+		// -1, 0, 1 ì¤‘ í•˜ë‚˜ë¥¼ ëœë¤ìœ¼ë¡œ ì„ íƒí•´ ì´ë™ ë°©í–¥ ì„¤ì •
+		nextMove = Random.Range(-1, 2); // ë‘ ë²ˆì§¸ ì¸ìëŠ” ë¯¸í¬í•¨ì´ë¯€ë¡œ 2ê¹Œì§€ ì•„ë‹˜
 	}
 }
