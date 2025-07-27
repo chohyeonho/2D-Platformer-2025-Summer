@@ -3,47 +3,52 @@
 public class EnemyMove : MonoBehaviour
 {
 	Rigidbody2D rigid;
+	Animator anim;
 	public int nextMove;
 
 	void Awake()
 	{
-		// Rigidbody2D 컴포넌트 가져오기
+		// 컴포넌트 연결
 		rigid = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator>();
 
-		// 5초 후 Think() 실행
+		// 초기 지연 후 행동 시작
 		Invoke("Think", 5);
 	}
 
 	void FixedUpdate()
 	{
-		// Unity 6 기준 이동 처리
+		// 이동 처리 (Unity 6 기준)
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
-		// 앞쪽 바닥이 있는지 감지할 위치 계산
+		// 낭떠러지 감지용 Ray 시작 위치 계산
 		Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
 
-		// 시각적 디버깅용 Ray
+		// 시각적 디버깅 Ray
 		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
 
-		// 아래 방향으로 Platform 레이어 탐색
+		// Raycast로 플랫폼 유무 확인
 		RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
 
-		// 바닥이 없으면 방향 반전 및 Think 재시작
+		// 낭떠러지면 방향 반전 + Think 재실행
 		if (rayHit.collider == null)
 		{
 			nextMove *= -1;
 			CancelInvoke();
-			Invoke("Think", 5);
+			Invoke("Think", 2);
 		}
 	}
 
-	// 이동 방향을 재설정하는 함수
+	// 행동 결정 함수
 	void Think()
 	{
-		// -1, 0, 1 중 무작위로 이동 방향 설정
+		// 이동 방향 설정 (-1, 0, 1 중 랜덤)
 		nextMove = Random.Range(-1, 2);
 
-		// 다음 Think까지의 시간도 랜덤 (2~5초)
+		// 애니메이터에 이동 방향 전달
+		anim.SetInteger("WalkSpeed", nextMove);
+
+		// 다음 행동까지 시간 설정 (2~5초 사이)
 		float nextThinkTime = Random.Range(2f, 5f);
 		Invoke("Think", nextThinkTime);
 	}
