@@ -98,10 +98,29 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 충돌 이벤트 처리
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		// ✓ 적과 충돌 시 로그 출력
+		// ✓ 적과 충돌 시 데미지 처리
 		if (collision.gameObject.tag == "Enemy")
 		{
-			Debug.Log("플레이어가 맞았습니다!");
+			OnDamaged();
 		}
 	}
+
+	// ▶︎ 피격 처리
+	void OnDamaged()
+	{
+		// ★ 무적 처리용 레이어 변경
+		gameObject.layer = 11;
+
+		// ※ 제안: 일정 시간 후 원래 레이어로 복귀하는 처리를 하고 싶다면 아래와 같은 방식으로 주석 참고
+		// ※ Invoke("OffDamaged", 1.5f); ← 실제 적용 금지
+	}
+
+	// ※ 제안 함수 예시: 원래 레이어로 복귀
+	// ※ 실제 코드에 포함하지 말고 필요 시 별도 구현
+	/*
+	void OffDamaged()
+	{
+		gameObject.layer = 6; // 원래 레이어로 복귀
+	}
+	*/
 }
