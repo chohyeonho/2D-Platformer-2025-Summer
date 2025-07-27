@@ -910,9 +910,9 @@ GameObject:
   - component: {fileID: 1205812740}
   - component: {fileID: 1205812739}
   - component: {fileID: 1205812741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mushroom
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1100,9 +1100,9 @@ GameObject:
   - component: {fileID: 1621376802}
   - component: {fileID: 1621376804}
   - component: {fileID: 1621376805}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
