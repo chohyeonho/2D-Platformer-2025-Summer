@@ -13,19 +13,20 @@ public class EnemyMove : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		// ▷ 이동 처리 (Unity 6 문법: linearVelocity 사용)
+		// ▷ Unity 6 기준 이동 처리
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
-		// ▷ 플랫폼 체크 (앞쪽 바닥이 있는지 Ray로 확인)
+		// ▷ 낭떠러지 감지
 		Vector2 frontVec = new Vector2(rigid.position.x + nextMove, rigid.position.y);
-
-		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0)); // 시각적 디버그
+		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
 		RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
 
 		if (rayHit.collider == null)
 		{
-			Debug.Log("경고! 이 앞 낭떠러지.");
-			// 필요 시 방향 전환 로직 추가 가능
+			// ▷ 방향 반전 및 Think 리셋
+			nextMove *= -1;
+			CancelInvoke();
+			Invoke("Think", 5);
 		}
 	}
 
