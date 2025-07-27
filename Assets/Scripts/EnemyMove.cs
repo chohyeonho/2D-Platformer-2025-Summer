@@ -7,23 +7,30 @@ public class EnemyMove : MonoBehaviour
 
 	void Awake()
 	{
+		// Rigidbody2D 컴포넌트 가져오기
 		rigid = GetComponent<Rigidbody2D>();
+
+		// 5초 후 Think() 실행
 		Invoke("Think", 5);
 	}
 
 	void FixedUpdate()
 	{
-		// ▷ Unity 6 기준 이동 처리
+		// 이동 처리 (Unity 6 문법: linearVelocity 사용)
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
-		// ▷ 낭떠러지 감지
-		Vector2 frontVec = new Vector2(rigid.position.x + nextMove, rigid.position.y);
+		// 앞쪽 발 아래로 Ray를 쏘기 위한 위치 계산
+		Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
+
+		// 디버그용 Ray 그리기 (녹색 선)
 		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
+
+		// 아래 방향으로 Raycast를 쏴서 Platform 레이어에 충돌이 있는지 확인
 		RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
 
+		// 충돌한 바닥이 없으면 방향 전환 및 Think 타이머 초기화
 		if (rayHit.collider == null)
 		{
-			// ▷ 방향 반전 및 Think 리셋
 			nextMove *= -1;
 			CancelInvoke();
 			Invoke("Think", 5);
@@ -32,7 +39,10 @@ public class EnemyMove : MonoBehaviour
 
 	void Think()
 	{
+		// -1, 0, 1 중 무작위 방향 설정
 		nextMove = Random.Range(-1, 2);
+
+		// 5초 후 다시 Think() 실행
 		Invoke("Think", 5);
 	}
 }
