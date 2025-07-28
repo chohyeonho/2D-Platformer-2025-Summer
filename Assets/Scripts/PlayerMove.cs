@@ -117,5 +117,15 @@ public class PlayerMove : MonoBehaviour
 		// ✓ 반작용 힘 적용
 		int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
 		rigid.AddForce(new Vector2(dirc, 1) * 7, ForceMode2D.Impulse);
+
+		// ★ 무적 해제 예약
+		Invoke("OffDamaged", 3);
+	}
+
+	// ▶︎ 무적 해제 처리
+	void OffDamaged()
+	{
+		gameObject.layer = 10;
+		spriteRenderer.color = new Color(1, 1, 1, 1);
 	}
 }
