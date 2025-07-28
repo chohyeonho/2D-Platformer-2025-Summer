@@ -101,26 +101,21 @@ public class PlayerMove : MonoBehaviour
 		// ✓ 적과 충돌 시 데미지 처리
 		if (collision.gameObject.tag == "Enemy")
 		{
-			OnDamaged();
+			OnDamaged(collision.transform.position);
 		}
 	}
 
 	// ▶︎ 피격 처리
-	void OnDamaged()
+	void OnDamaged(Vector2 targetPos)
 	{
 		// ★ 무적 처리용 레이어 변경
 		gameObject.layer = 11;
 
-		// ※ 제안: 일정 시간 후 원래 레이어로 복귀하는 처리를 하고 싶다면 아래와 같은 방식으로 주석 참고
-		// ※ Invoke("OffDamaged", 1.5f); ← 실제 적용 금지
-	}
+		// ✓ 피격 시 알파값 변경 (시각적 피드백)
+		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
-	// ※ 제안 함수 예시: 원래 레이어로 복귀
-	// ※ 실제 코드에 포함하지 말고 필요 시 별도 구현
-	/*
-	void OffDamaged()
-	{
-		gameObject.layer = 6; // 원래 레이어로 복귀
+		// ✓ 반작용 힘 적용
+		int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
+		rigid.AddForce(new Vector2(dirc, 1) * 7, ForceMode2D.Impulse);
 	}
-	*/
 }
