@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
 	// ★ 플레이어 객체 참조용
 	public PlayerMove player;
 
+	// ★ 스테이지 배열
+	public GameObject[] Stages;
+
 	// ※ 필요 시 다른 클래스에서 GameManager를 쉽게 참조할 수 있도록 싱글톤화 고려
 	// public static GameManager instance;
 
@@ -29,8 +32,33 @@ public class GameManager : MonoBehaviour
 	// ▶︎ 다음 스테이지로 전환 처리
 	public void NextStage()
 	{
-		// ★ 다음 스테이지로 이동
-		stageIndex++;
+		// ★ 스테이지 변경 처리
+		if (stageIndex < Stages.Length - 1)
+		{
+			// 현재 스테이지 비활성화
+			Stages[stageIndex].SetActive(false);
+
+			// 스테이지 인덱스 증가
+			stageIndex++;
+
+			// 다음 스테이지 활성화
+			Stages[stageIndex].SetActive(true);
+
+			// 플레이어 위치 초기화
+			PlayerReposition();
+		}
+		else
+		{
+			// ★ 게임 클리어 처리
+
+			// ● 플레이어 조작 정지
+			Time.timeScale = 0;
+
+			// ● 결과 UI 출력
+			Debug.Log("게임 클리어!");
+
+			// ● 재시작 버튼 UI 출력 예정
+		}
 
 		// ★ 현재 스테이지 점수를 총점에 누적
 		totalPoint += stagePoint;
@@ -74,12 +102,7 @@ public class GameManager : MonoBehaviour
 			// ※ 체력이 2 이상일 경우에만 위치와 속도 초기화
 			if (health > 1)
 			{
-				// ★ 플레이어 속도 초기화
-				// ※ Unity 6 기준: velocity → linearVelocity 사용
-				collision.attachedRigidbody.linearVelocity = Vector2.zero;
-
-				// ★ 플레이어 위치 초기화
-				collision.transform.position = new Vector3(0, 0, -1);
+				PlayerReposition();
 			}
 
 			// ★ 체력 감소
@@ -90,5 +113,15 @@ public class GameManager : MonoBehaviour
 	void Update()
 	{
 
+	}
+
+	// ▶︎ 플레이어 위치 초기화
+	void PlayerReposition()
+	{
+		// ★ 플레이어 위치 초기화
+		player.transform.position = new Vector3(0, 0, -1);
+
+		// ★ 속도 초기화
+		player.VelocityZero();
 	}
 }
