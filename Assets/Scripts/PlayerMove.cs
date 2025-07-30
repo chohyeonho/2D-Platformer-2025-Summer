@@ -148,6 +148,7 @@ public class PlayerMove : MonoBehaviour
 		else if (collision.gameObject.tag == "Finish")
 		{
 			// ✓ 다음 스테이지로 이동 처리
+			gameManager.NextStage();
 		}
 	}
 
