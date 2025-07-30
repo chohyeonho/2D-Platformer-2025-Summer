@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -110,8 +109,10 @@ public class PlayerMove : MonoBehaviour
 			{
 				OnAttack(collision.transform);
 			}
+			// ✓ 그 외의 경우에는 피격 처리
 			else
 			{
+				// ✓ 그 외의 경우에는 피격 처리
 				OnDamaged(collision.transform.position);
 			}
 		}
@@ -121,27 +122,25 @@ public class PlayerMove : MonoBehaviour
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
-		if (collision.gameObject.CompareTag("Item"))
+		if (collision.gameObject.tag == "Item")
 		{
-			// ✓ 점수 획득
+			// ✓ 점수 획득 등 처리
 			gameManager.stagePoint += 100;
+
 			// ✓ 아이템 비활성화
 			collision.gameObject.SetActive(false);
 		}
 		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
-		else if (collision.gameObject.CompareTag("Finish"))
+		else if (collision.gameObject.tag == "Finish")
 		{
 			// ✓ 다음 스테이지로 이동 처리
-			gameManager.totalPoint += gameManager.stagePoint;
-			gameManager.stageIndex += 1;
-			SceneManager.LoadScene(gameManager.stageIndex);
 		}
 	}
 
 	// ▶︎ 적 공격 처리
 	void OnAttack(Transform enemy)
 	{
-		// ✓ 점수 획득
+		// ✓ 점수 증가
 		gameManager.stagePoint += 100;
 
 		// ● 반동 점프 효과
