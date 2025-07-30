@@ -199,4 +199,20 @@ public class PlayerMove : MonoBehaviour
 		gameObject.layer = 10;
 		spriteRenderer.color = new Color(1, 1, 1, 1);
 	}
+
+	// ▶︎ 사망 시 처리
+	void OnDie()
+	{
+		// ★ 알파값 변경으로 사망 표현
+		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+
+		// ★ Y축 뒤집기로 사망 연출
+		spriteRenderer.flipY = true;
+
+		// ★ 충돌 비활성화
+		capsuleCollider.enabled = false;
+
+		// ★ 위로 튀는 연출
+		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+	}
 }
