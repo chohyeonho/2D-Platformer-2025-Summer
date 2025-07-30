@@ -105,6 +105,8 @@ public class PlayerMove : MonoBehaviour
 		if (collision.gameObject.tag == "Enemy")
 		{
 			// ✓ 적보다 높은 위치에서 충돌하면 공격
+			// ※ y 위치 차이가 작을 경우 공격으로 인식되지 않도록 범위 보정 고려 가능함
+			// 예: transform.position.y > collision.transform.position.y + 0.3f 등
 			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y)
 			{
 				OnAttack(collision.transform);
@@ -171,7 +173,6 @@ public class PlayerMove : MonoBehaviour
 	{
 		// ★ 플레이어 체력 감소
 		gameManager.health--;
-
 		// ※ 아래 코드는 안전성을 위해 고려 가능함
 		// if (gameManager != null) gameManager.health--;
 
