@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: 75350153}
   - component: {fileID: 75350152}
   m_Layer: 5
-  m_Name: Health
+  m_Name: Health 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1812,11 +1812,18 @@ MonoBehaviour:
   stagePoint: 0
   stageIndex: 0
   health: 3
-  player: {fileID: 1621376804}
   Stages:
   - {fileID: 1703564129}
   - {fileID: 1260218088}
   - {fileID: 1434320183}
+  player: {fileID: 1621376804}
+  UIhealth:
+  - {fileID: 75350152}
+  - {fileID: 1664245120}
+  - {fileID: 1885709226}
+  UIPoint: {fileID: 830983554}
+  UIStage: {fileID: 1435809351}
+  RestartBtn: {fileID: 753920979}
 --- !u!61 &741380969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1881,7 +1888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &753920980
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1945,7 +1952,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 753920982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 741380968}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &753920982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1996,7 +2015,7 @@ GameObject:
   - component: {fileID: 830983555}
   - component: {fileID: 830983554}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5331,7 +5350,7 @@ GameObject:
   - component: {fileID: 1435809352}
   - component: {fileID: 1435809351}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Stage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5444,7 +5463,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1435809352
@@ -5660,7 +5679,7 @@ GameObject:
   - component: {fileID: 1664245121}
   - component: {fileID: 1664245120}
   m_Layer: 5
-  m_Name: Health (1)
+  m_Name: Health 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6026,7 +6045,7 @@ GameObject:
   - component: {fileID: 1885709227}
   - component: {fileID: 1885709226}
   m_Layer: 5
-  m_Name: Health (2)
+  m_Name: Health 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
