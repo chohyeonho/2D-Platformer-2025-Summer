@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
 	// ★ 플레이어 체력
 	public int health;
 
+	// ★ 플레이어 객체 참조용
+	public PlayerMove player;
+
 	// ※ 필요 시 다른 클래스에서 GameManager를 쉽게 참조할 수 있도록 싱글톤화 고려
 	// public static GameManager instance;
 
@@ -36,6 +39,29 @@ public class GameManager : MonoBehaviour
 		stagePoint = 0;
 	}
 
+	// ▶︎ 체력 감소 처리
+	public void HealthDown()
+	{
+		if (health > 0)
+		{
+			health--;
+		}
+		else
+		{
+			// ★ 플레이어 사망 처리
+			player.OnDie();
+
+			// ※ 제안: player가 null일 경우 NullReferenceException 발생 가능 → 아래 예외처리 고려 가능
+			// if (player != null) player.OnDie();
+
+			// ★ 결과 UI 표시
+			// ※ 구현 필요: 결과창 UI 활성화
+
+			// ★ 재시도 버튼 UI 표시
+			// ※ 구현 필요: 버튼 UI 활성화
+		}
+	}
+
 	// ▶︎ 플레이어 충돌 시 체력 감소 및 위치 초기화 처리
 	void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -44,6 +70,9 @@ public class GameManager : MonoBehaviour
 		{
 			// ★ 체력 감소
 			health--;
+
+			// ※ 제안: 중복 코드 제거 위해 HealthDown() 호출로 대체 가능
+			// HealthDown();
 
 			// ★ 플레이어 속도 초기화
 			// ※ Unity 6 기준: velocity → linearVelocity 사용
