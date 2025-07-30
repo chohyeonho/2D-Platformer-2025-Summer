@@ -150,19 +150,5 @@ public class PlayerMove : MonoBehaviour
 		// ● 적에 데미지를 가함
 		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
 		enemyMove.OnDamaged();
-
-		// ★ 이후 추가 가능 기능 목록
-
-		// ※ 이펙트 생성
-		// Instantiate(attackEffectPrefab, enemy.position, Quaternion.identity);
-
-		// ※ 점수 증가 처리
-		// GameManager.instance.AddScore(100);
-
-		// ※ 사운드 재생
-		// AudioManager.instance.Play("Attack");
-
-		// ※ 카메라 흔들림 효과
-		// CameraShaker.Instance.ShakeOnce(1.5f, 1.5f, 0.05f, 0.2f);
 	}
 }
