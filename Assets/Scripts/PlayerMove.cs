@@ -27,11 +27,8 @@ public class PlayerMove : MonoBehaviour
 	void Awake()
 	{
 		rigid = GetComponent<Rigidbody2D>();
-
 		spriteRenderer = GetComponent<SpriteRenderer>();
-
 		anim = GetComponent<Animator>();
-
 		// ★ 충돌 컴포넌트 연결
 		capsuleCollider = GetComponent<CapsuleCollider2D>();
 	}
@@ -181,7 +178,6 @@ public class PlayerMove : MonoBehaviour
 	{
 		// ★ 플레이어 체력 감소
 		gameManager.HealthDown();
-
 		// ※ 아래 코드는 안전성을 위해 고려 가능함
 		// if (gameManager != null) gameManager.health--;
 
@@ -223,5 +219,11 @@ public class PlayerMove : MonoBehaviour
 
 		// ★ 위로 튀는 연출
 		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+	}
+
+	// ▶︎ 속도 정지 처리
+	public void VelocityZero()
+	{
+		rigid.velocity = Vector2.zero;
 	}
 }
