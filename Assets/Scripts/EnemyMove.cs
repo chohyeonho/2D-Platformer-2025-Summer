@@ -2,9 +2,12 @@
 
 public class EnemyMove : MonoBehaviour
 {
+	// ※ 캡슐 콜라이더 컴포넌트
 	Rigidbody2D rigid;
 	Animator anim;
 	SpriteRenderer spriteRenderer;
+	CapsuleCollider2D collider;
+
 	public int nextMove;
 
 	void Awake()
@@ -13,6 +16,9 @@ public class EnemyMove : MonoBehaviour
 		rigid = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
+
+		// ※ 캡슐 콜라이더 할당
+		collider = GetComponent<CapsuleCollider2D>();
 
 		// 초기 행동 예약
 		Invoke("Think", 5);
@@ -71,5 +77,45 @@ public class EnemyMove : MonoBehaviour
 		// 기존 행동 예약 제거 후 다시 예약
 		CancelInvoke();
 		Invoke("Think", 2);
+	}
+
+	public void OnDamaged()
+	{
+		//Sprite Alpha
+		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+
+		//Sprite Flip Y
+		spriteRenderer.flipY = true;
+
+		//Collider Disable
+		collider.enabled = false;
+
+		//Die Effect Jump
+		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+
+		//Destroy
+		Invoke("DeActive", 5);
+
+		// ★ 향후 개선 제안 (주석으로만 명시)
+
+		// ※ 파티클 이펙트 생성
+		// Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
+
+		// ※ 죽는 애니메이션 트리거
+		// anim.SetTrigger("doDie");
+
+		// ※ 사운드 재생
+		// AudioManager.instance.Play("EnemyDie");
+
+		// ※ 점수 추가
+		// GameManager.instance.AddScore(100);
+
+		// ※ 게임 매니저에 알림
+		// GameManager.instance.OnEnemyKilled(this);
+	}
+
+	void DeActive()
+	{
+		gameObject.SetActive(false);
 	}
 }
