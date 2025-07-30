@@ -180,7 +180,7 @@ public class PlayerMove : MonoBehaviour
 	void OnDamaged(Vector2 targetPos)
 	{
 		// ★ 플레이어 체력 감소
-		gameManager.health--;
+		gameManager.HealthDown();
 
 		// ※ 아래 코드는 안전성을 위해 고려 가능함
 		// if (gameManager != null) gameManager.health--;

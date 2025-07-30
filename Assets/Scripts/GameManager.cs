@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
 		if (collision.gameObject.tag == "Player")
 		{
 			// ★ 체력 감소
-			health--;
+			HealthDown();
 
 			// ※ 제안: 중복 코드 제거 위해 HealthDown() 호출로 대체 가능
 			// HealthDown();
