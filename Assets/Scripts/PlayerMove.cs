@@ -112,7 +112,6 @@ public class PlayerMove : MonoBehaviour
 			// ✓ 그 외의 경우에는 피격 처리
 			else
 			{
-				// ✓ 그 외의 경우에는 피격 처리
 				OnDamaged(collision.transform.position);
 			}
 		}
@@ -125,7 +124,22 @@ public class PlayerMove : MonoBehaviour
 		if (collision.gameObject.tag == "Item")
 		{
 			// ✓ 점수 획득 등 처리
-			gameManager.stagePoint += 100;
+			bool isBronze = collision.gameObject.name.Contains("Bronze");
+			bool isSilver = collision.gameObject.name.Contains("Silver");
+			bool isGold = collision.gameObject.name.Contains("Gold");
+
+			if (isBronze)
+			{
+				gameManager.stagePoint += 50;
+			}
+			else if (isSilver)
+			{
+				gameManager.stagePoint += 100;
+			}
+			else if (isGold)
+			{
+				gameManager.stagePoint += 300;
+			}
 
 			// ✓ 아이템 비활성화
 			collision.gameObject.SetActive(false);
