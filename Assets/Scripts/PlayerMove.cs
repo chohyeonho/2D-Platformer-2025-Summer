@@ -20,12 +20,20 @@ public class PlayerMove : MonoBehaviour
 	// ● 애니메이션 제어용 애니메이터
 	Animator anim;
 
+	// ● 충돌 판정용 캡슐 콜라이더
+	CapsuleCollider2D capsuleCollider;
+
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
 		rigid = GetComponent<Rigidbody2D>();
+
 		spriteRenderer = GetComponent<SpriteRenderer>();
+
 		anim = GetComponent<Animator>();
+
+		// ★ 충돌 컴포넌트 연결
+		capsuleCollider = GetComponent<CapsuleCollider2D>();
 	}
 
 	// ▶︎ 키 입력 처리
@@ -173,6 +181,7 @@ public class PlayerMove : MonoBehaviour
 	{
 		// ★ 플레이어 체력 감소
 		gameManager.health--;
+
 		// ※ 아래 코드는 안전성을 위해 고려 가능함
 		// if (gameManager != null) gameManager.health--;
 
@@ -201,7 +210,7 @@ public class PlayerMove : MonoBehaviour
 	}
 
 	// ▶︎ 사망 시 처리
-	void OnDie()
+	public void OnDie()
 	{
 		// ★ 알파값 변경으로 사망 표현
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
