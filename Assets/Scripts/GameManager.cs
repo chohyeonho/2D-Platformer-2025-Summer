@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
 			// ● 재시작 버튼 텍스트 변경 처리
 			// ※ 내부에 TextMeshProUGUI 컴포넌트가 있어야 정상 작동
 			TextMeshProUGUI btnText = RestartBtn.GetComponentInChildren<TextMeshProUGUI>();
-			btnText.text = "Game Clear!";
+			btnText.text = "Clear!";
 
 			// ● 재시작 버튼 UI 표시
 			RestartBtn.SetActive(true);
@@ -105,11 +105,14 @@ public class GameManager : MonoBehaviour
 			// ★ 체력 감소
 			health--;
 
-			// ★ 해당 체력 하트 이미지 색상 어둡게 처리
+			// ★ 해당 체력 하트 이미지 색상 어둡게 처리 (파란색)
 			UIhealth[health].color = new Color(0, 0, 1, 0.4f);
 		}
 		else
 		{
+			// ★ 모든 하트 UI 제거 처리 (마지막 하트 포함)
+			UIhealth[0].color = new Color(0, 0, 1, 0.4f);
+
 			// ★ 플레이어 사망 처리
 			player.OnDie();
 
@@ -117,6 +120,7 @@ public class GameManager : MonoBehaviour
 			// if (player != null) player.OnDie();
 
 			// ★ 결과 UI 표시
+
 			// ※ 구현 필요: 결과창 UI 활성화
 			Debug.Log("죽었습니다!");
 
@@ -156,6 +160,9 @@ public class GameManager : MonoBehaviour
 	// ▶︎ 씬 재시작 처리
 	public void Restart()
 	{
+		// ★ TimeScale 초기화
+		Time.timeScale = 1;
+
 		// ★ 첫 번째 씬 다시 로드
 		SceneManager.LoadScene(0);
 	}
