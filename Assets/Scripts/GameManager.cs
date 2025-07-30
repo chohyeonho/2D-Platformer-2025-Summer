@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
 	// ★ 현재 스테이지 인덱스 (예: 0, 1, 2…)
 	public int stageIndex;
 
+	// ★ 플레이어 체력
+	public int health;
+
 	// ※ 필요 시 다른 클래스에서 GameManager를 쉽게 참조할 수 있도록 싱글톤화 고려
 	// public static GameManager instance;
 
