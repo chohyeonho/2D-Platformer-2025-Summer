@@ -23,6 +23,9 @@ public class PlayerMove : MonoBehaviour
 	// ● 충돌 판정용 캡슐 콜라이더
 	CapsuleCollider2D capsuleCollider;
 
+	// ● 사운드 출력용 오디오 소스
+	AudioSource audioSource;
+
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
@@ -31,6 +34,8 @@ public class PlayerMove : MonoBehaviour
 		anim = GetComponent<Animator>();
 		// ★ 충돌 컴포넌트 연결
 		capsuleCollider = GetComponent<CapsuleCollider2D>();
+		// ★ 오디오 소스 연결
+		audioSource = GetComponent<AudioSource>();
 	}
 
 	// ▶︎ 키 입력 처리
