@@ -163,5 +163,10 @@ public class PlayerMove : MonoBehaviour
 			// ✓ 아이템 비활성화
 			collision.gameObject.SetActive(false);
 		}
+		else if (collision.gameObject.tag == "Finish")
+		{
+			// ✓ 다음 스테이지로 이동 처리
+			// ※ 태그 비교 역시 CompareTag() 권장
+		}
 	}
 }
