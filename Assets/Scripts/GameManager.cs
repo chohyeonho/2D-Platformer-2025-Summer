@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
 		stagePoint = 0;
 	}
 
-	// ▶︎ 플레이어 충돌 시 체력 감소 처리
+	// ▶︎ 플레이어 충돌 시 체력 감소 및 위치 초기화 처리
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
@@ -44,6 +44,13 @@ public class GameManager : MonoBehaviour
 		{
 			// ★ 체력 감소
 			health--;
+
+			// ★ 플레이어 속도 초기화
+			// ※ Unity 6 기준: velocity → linearVelocity 사용
+			collision.attachedRigidbody.linearVelocity = Vector2.zero;
+
+			// ★ 플레이어 위치 초기화
+			collision.transform.position = new Vector3(0, 0, -1);
 		}
 	}
 
