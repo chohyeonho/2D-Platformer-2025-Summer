@@ -43,6 +43,12 @@ public class GameManager : MonoBehaviour
 		// instance = this;
 	}
 
+	void Update()
+	{
+		// ★ 점수 UI 실시간 갱신
+		UIPoint.text = (totalPoint + stagePoint).ToString();
+	}
+
 	// ▶︎ 다음 스테이지로 전환 처리
 	public void NextStage()
 	{
@@ -60,6 +66,9 @@ public class GameManager : MonoBehaviour
 
 			// 플레이어 위치 초기화
 			PlayerReposition();
+
+			// ★ 스테이지 UI 갱신
+			UIStage.text = "STAGE " + (stageIndex + 1);
 		}
 		else
 		{
@@ -71,7 +80,13 @@ public class GameManager : MonoBehaviour
 			// ● 결과 UI 출력
 			Debug.Log("게임 클리어!");
 
-			// ● 재시작 버튼 UI 출력 예정
+			// ● 재시작 버튼 텍스트 변경 처리
+			// ※ 내부에 TextMeshProUGUI 컴포넌트가 있어야 정상 작동
+			TextMeshProUGUI btnText = RestartBtn.GetComponentInChildren<TextMeshProUGUI>();
+			btnText.text = "Game Clear!";
+
+			// ● 재시작 버튼 UI 표시
+			RestartBtn.SetActive(true);
 		}
 
 		// ★ 현재 스테이지 점수를 총점에 누적
@@ -88,6 +103,9 @@ public class GameManager : MonoBehaviour
 		{
 			// ★ 체력 감소
 			health--;
+
+			// ★ 해당 체력 하트 이미지 색상 어둡게 처리
+			UIhealth[health].color = new Color(1, 0, 0, 0.4f);
 		}
 		else
 		{
@@ -101,8 +119,8 @@ public class GameManager : MonoBehaviour
 			// ※ 구현 필요: 결과창 UI 활성화
 			Debug.Log("죽었습니다!");
 
-			// ★ 재시도 버튼 UI 표시
-			// ※ 구현 필요: 버튼 UI 활성화
+			// ★ 재시작 버튼 UI 표시
+			RestartBtn.SetActive(true);
 		}
 	}
 
@@ -122,11 +140,6 @@ public class GameManager : MonoBehaviour
 			// ★ 체력 감소
 			HealthDown();
 		}
-	}
-
-	void Update()
-	{
-
 	}
 
 	// ▶︎ 플레이어 위치 초기화
