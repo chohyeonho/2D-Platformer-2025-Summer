@@ -64,21 +64,26 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-	// ▶︎ 플레이어 충돌 시 체력 감소 및 위치 초기화 처리
+	// ▶︎ 플레이어 충돌 시 체력 조건에 따른 처리
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
 		if (collision.gameObject.tag == "Player")
 		{
+			// ★ 플레이어 위치 초기화 조건 확인
+			// ※ 체력이 2 이상일 경우에만 위치와 속도 초기화
+			if (health > 1)
+			{
+				// ★ 플레이어 속도 초기화
+				// ※ Unity 6 기준: velocity → linearVelocity 사용
+				collision.attachedRigidbody.linearVelocity = Vector2.zero;
+
+				// ★ 플레이어 위치 초기화
+				collision.transform.position = new Vector3(0, 0, -1);
+			}
+
 			// ★ 체력 감소
 			HealthDown();
-
-			// ★ 플레이어 속도 초기화
-			// ※ Unity 6 기준: velocity → linearVelocity 사용
-			collision.attachedRigidbody.linearVelocity = Vector2.zero;
-
-			// ★ 플레이어 위치 초기화
-			collision.transform.position = new Vector3(0, 0, -1);
 		}
 	}
 
