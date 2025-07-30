@@ -224,6 +224,6 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 속도 정지 처리
 	public void VelocityZero()
 	{
-		rigid.velocity = Vector2.zero;
+		rigid.linearVelocity = Vector2.zero;
 	}
 }
