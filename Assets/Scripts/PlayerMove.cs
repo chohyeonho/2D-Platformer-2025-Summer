@@ -101,12 +101,12 @@ public class PlayerMove : MonoBehaviour
 		// ✓ 적과 충돌 시 공격 혹은 피격 판별
 		if (collision.gameObject.tag == "Enemy")
 		{
-			//Attack
+			// ✓ 적 위에서 떨어졌을 때 공격 처리
 			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y)
 			{
 				OnAttack(collision.transform);
 			}
-			//Damaged
+			// ✓ 그 외 상황에서는 피격 처리
 			else
 			{
 				OnDamaged(collision.transform.position);
@@ -144,24 +144,24 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 공격 처리
 	void OnAttack(Transform enemy)
 	{
-		// ● 포인트 관련 처리 예정
+		// ● 포인트 처리 예정
 
-		// ● 적을 밟았을 때 반작용 점프
+		// ● 반작용 점프
 		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
 
-		// ● 적 제거 처리
+		// ● 적 피격 처리
 		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
 		enemyMove.OnDamaged();
 
-		// ★ 아래는 향후 추가 고려 항목
+		// ★ 향후 추가 고려 사항
 
 		// ※ 공격 이펙트 생성
 		// Instantiate(attackEffectPrefab, enemy.position, Quaternion.identity);
 
-		// ※ 점수 추가
+		// ※ 점수 증가 처리
 		// GameManager.instance.AddScore(100);
 
-		// ※ 사운드 재생
+		// ※ 사운드 효과 재생
 		// AudioManager.instance.Play("Attack");
 
 		// ※ 카메라 흔들림 효과
