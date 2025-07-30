@@ -20,6 +20,19 @@ public class GameManager : MonoBehaviour
 		// instance = this;
 	}
 
+	// ▶︎ 다음 스테이지로 전환 처리
+	public void NextStage()
+	{
+		// ★ 다음 스테이지로 이동
+		stageIndex++;
+
+		// ★ 현재 스테이지 점수를 총점에 누적
+		totalPoint += stagePoint;
+
+		// ★ 현재 스테이지 점수 초기화
+		stagePoint = 0;
+	}
+
 	void Update()
 	{
 
