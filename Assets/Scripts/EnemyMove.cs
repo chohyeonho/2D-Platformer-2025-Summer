@@ -2,118 +2,104 @@
 
 public class EnemyMove : MonoBehaviour
 {
-	// ※ 캡슐 콜라이더 컴포넌트
+	// ● 이동 제어용 리지드바디
 	Rigidbody2D rigid;
-	Animator anim;
-	SpriteRenderer spriteRenderer;
-	CapsuleCollider2D collider;
 
+	// ● 애니메이션 제어용
+	Animator anim;
+
+	// ● 시각적 표현용 렌더러
+	SpriteRenderer spriteRenderer;
+
+	// ● 충돌 판정용 캡슐 콜라이더
+	CapsuleCollider2D capsuleCollider;
+
+	// ● 이동 방향
 	public int nextMove;
 
+	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
-		// 필요한 컴포넌트 연결
 		rigid = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
+		capsuleCollider = GetComponent<CapsuleCollider2D>();
 
-		// ※ 캡슐 콜라이더 할당
-		collider = GetComponent<CapsuleCollider2D>();
-
-		// 초기 행동 예약
+		// ● 초기 AI 판단 예약
 		Invoke("Think", 5);
 	}
 
+	// ▶︎ 이동 처리
 	void FixedUpdate()
 	{
-		// 이동 처리 (Unity 6 문법: linearVelocity)
+		// ✓ 이동 방향 적용
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
-		// 낭떠러지 감지용 Ray 시작 지점 설정
+		// ✓ 전방 낭떠러지 감지용 위치 계산
 		Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
 
-		// 시각적 디버깅 Ray 표시 (녹색)
+		// ● 시각적 디버깅 레이
 		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
 
-		// 아래 방향으로 Raycast 발사, Platform 레이어에 충돌하는지 확인
+		// ✓ 아래 방향 레이캐스트로 플랫폼 감지
 		RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
 
-		// 바닥이 없으면 방향 전환
+		// ✓ 바닥 없으면 방향 전환
 		if (rayHit.collider == null)
 		{
 			Turn();
 		}
 	}
 
-	// 행동 결정 함수
+	// ▶︎ 방향 결정
 	void Think()
 	{
-		// 이동 방향 무작위 선택 (-1, 0, 1)
+		// ✓ -1, 0, 1 중 무작위 선택
 		nextMove = Random.Range(-1, 2);
 
-		// 애니메이터에 이동 값 전달
+		// ✓ 애니메이터에 값 전달
 		anim.SetInteger("WalkSpeed", nextMove);
 
-		// 이동 방향에 따라 좌우 반전
+		// ✓ 방향에 따라 스프라이트 반전
 		if (nextMove != 0)
 		{
 			spriteRenderer.flipX = nextMove != 1;
 		}
 
-		// 다음 Think 실행 시간 설정 (2초 ~ 5초)
+		// ✓ 다음 판단 예약
 		float nextThinkTime = Random.Range(2f, 5f);
 		Invoke("Think", nextThinkTime);
 	}
 
-	// 낭떠러지 또는 벽에 부딪혔을 때 방향을 바꾸는 함수
+	// ▶︎ 방향 전환 처리
 	void Turn()
 	{
-		// 방향 반전
 		nextMove *= -1;
-
-		// 반전된 방향에 맞춰 Sprite 좌우 반전
 		spriteRenderer.flipX = nextMove != 1;
-
-		// 기존 행동 예약 제거 후 다시 예약
 		CancelInvoke();
 		Invoke("Think", 2);
 	}
 
+	// ▶︎ 피격 처리
 	public void OnDamaged()
 	{
-		//Sprite Alpha
+		// ✓ 반투명 효과로 피격 표현
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
-		//Sprite Flip Y
+		// ✓ 스프라이트 상하 반전
 		spriteRenderer.flipY = true;
 
-		//Collider Disable
-		collider.enabled = false;
+		// ✓ 콜라이더 비활성화
+		capsuleCollider.enabled = false;
 
-		//Die Effect Jump
+		// ✓ 위로 튀어오르는 효과
 		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
 
-		//Destroy
+		// ★ 삭제 예약
 		Invoke("DeActive", 5);
-
-		// ★ 향후 개선 제안 (주석으로만 명시)
-
-		// ※ 파티클 이펙트 생성
-		// Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
-
-		// ※ 죽는 애니메이션 트리거
-		// anim.SetTrigger("doDie");
-
-		// ※ 사운드 재생
-		// AudioManager.instance.Play("EnemyDie");
-
-		// ※ 점수 추가
-		// GameManager.instance.AddScore(100);
-
-		// ※ 게임 매니저에 알림
-		// GameManager.instance.OnEnemyKilled(this);
 	}
 
+	// ▶︎ 오브젝트 비활성화
 	void DeActive()
 	{
 		gameObject.SetActive(false);
