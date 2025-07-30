@@ -42,8 +42,9 @@ public class GameManager : MonoBehaviour
 	// ▶︎ 체력 감소 처리
 	public void HealthDown()
 	{
-		if (health > 0)
+		if (health > 1)
 		{
+			// ★ 체력 감소
 			health--;
 		}
 		else
@@ -56,6 +57,7 @@ public class GameManager : MonoBehaviour
 
 			// ★ 결과 UI 표시
 			// ※ 구현 필요: 결과창 UI 활성화
+			Debug.Log("죽었습니다!");
 
 			// ★ 재시도 버튼 UI 표시
 			// ※ 구현 필요: 버튼 UI 활성화
@@ -70,9 +72,6 @@ public class GameManager : MonoBehaviour
 		{
 			// ★ 체력 감소
 			HealthDown();
-
-			// ※ 제안: 중복 코드 제거 위해 HealthDown() 호출로 대체 가능
-			// HealthDown();
 
 			// ★ 플레이어 속도 초기화
 			// ※ Unity 6 기준: velocity → linearVelocity 사용
