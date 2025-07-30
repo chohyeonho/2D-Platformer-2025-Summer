@@ -151,4 +151,17 @@ public class PlayerMove : MonoBehaviour
 		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
 		enemyMove.OnDamaged();
 	}
+
+	// ▶︎ 아이템과 충돌 처리
+	void OnTriggerEnter2D(Collider2D collision)
+	{
+		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
+		if (collision.gameObject.tag == "Item")
+		{
+			// ✓ 점수 획득 등 처리
+
+			// ✓ 아이템 비활성화
+			collision.gameObject.SetActive(false);
+		}
+	}
 }
