@@ -26,10 +26,10 @@ public class GameManager : MonoBehaviour
 	public Image[] UIhealth;
 
 	// ★ 점수 UI
-	public TextMeshPro UIPoint;
+	public TextMeshProUGUI UIPoint;
 
 	// ★ 스테이지 UI
-	public TextMeshPro UIStage;
+	public TextMeshProUGUI UIStage;
 
 	// ※ 필요 시 다른 클래스에서 GameManager를 쉽게 참조할 수 있도록 싱글톤화 고려
 	// public static GameManager instance;
