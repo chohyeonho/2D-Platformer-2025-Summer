@@ -5,6 +5,24 @@ public class PlayerMove : MonoBehaviour
 	// ※ 게임 매니저 참조
 	public GameManager gameManager;
 
+	// ● 점프 사운드
+	public AudioClip audioJump;
+
+	// ● 공격 사운드
+	public AudioClip audioAttack;
+
+	// ● 피격 사운드
+	public AudioClip audioDamaged;
+
+	// ● 아이템 획득 사운드
+	public AudioClip audioItem;
+
+	// ● 사망 사운드
+	public AudioClip audioDie;
+
+	// ● 클리어 사운드
+	public AudioClip audioFinish;
+
 	// ※ 최대 이동 속도
 	public float maxSpeed;
 
@@ -17,11 +35,11 @@ public class PlayerMove : MonoBehaviour
 	// ● 좌우 반전 및 피격 표현용 스프라이트 렌더러
 	SpriteRenderer spriteRenderer;
 
-	// ● 애니메이션 제어용 애니메이터
-	Animator anim;
-
 	// ● 충돌 판정용 캡슐 콜라이더
 	CapsuleCollider2D capsuleCollider;
+
+	// ● 애니메이션 제어용 애니메이터
+	Animator anim;
 
 	// ● 사운드 출력용 오디오 소스
 	AudioSource audioSource;
@@ -31,10 +49,8 @@ public class PlayerMove : MonoBehaviour
 	{
 		rigid = GetComponent<Rigidbody2D>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
-		anim = GetComponent<Animator>();
-		// ★ 충돌 컴포넌트 연결
 		capsuleCollider = GetComponent<CapsuleCollider2D>();
-		// ★ 오디오 소스 연결
+		anim = GetComponent<Animator>();
 		audioSource = GetComponent<AudioSource>();
 	}
 
@@ -46,6 +62,8 @@ public class PlayerMove : MonoBehaviour
 		{
 			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
+			// ★ 점프 사운드 재생
+			PlaySound("JUMP");
 		}
 
 		// ✓ 수평 이동 키에서 손을 뗐을 때 속도 감속
@@ -115,8 +133,6 @@ public class PlayerMove : MonoBehaviour
 		if (collision.gameObject.tag == "Enemy")
 		{
 			// ✓ 적보다 높은 위치에서 충돌하면 공격
-			// ※ y 위치 차이가 작을 경우 공격으로 인식되지 않도록 범위 보정 고려 가능함
-			// 예: transform.position.y > collision.transform.position.y + 0.3f 등
 			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y)
 			{
 				OnAttack(collision.transform);
@@ -132,7 +148,7 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 아이템과 충돌 처리
 	void OnTriggerEnter2D(Collider2D collision)
 	{
-		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
+		// ※ 태그 비교는 CompareTag() 사용 권장
 		if (collision.gameObject.tag == "Item")
 		{
 			// ✓ 점수 획득 등 처리
@@ -155,12 +171,17 @@ public class PlayerMove : MonoBehaviour
 
 			// ✓ 아이템 비활성화
 			collision.gameObject.SetActive(false);
+
+			// ★ 아이템 사운드 재생
+			PlaySound("ITEM");
 		}
-		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
 		else if (collision.gameObject.tag == "Finish")
 		{
 			// ✓ 다음 스테이지로 이동 처리
 			gameManager.NextStage();
+
+			// ★ 클리어 사운드 재생
+			PlaySound("FINISH");
 		}
 	}
 
@@ -176,6 +197,9 @@ public class PlayerMove : MonoBehaviour
 		// ● 적에 데미지를 가함
 		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
 		enemyMove.OnDamaged();
+
+		// ★ 공격 사운드 재생
+		PlaySound("ATTACK");
 	}
 
 	// ▶︎ 피격 시 반응 처리
@@ -183,8 +207,6 @@ public class PlayerMove : MonoBehaviour
 	{
 		// ★ 플레이어 체력 감소
 		gameManager.HealthDown();
-		// ※ 아래 코드는 안전성을 위해 고려 가능함
-		// if (gameManager != null) gameManager.health--;
 
 		// ★ 무적 상태를 위한 레이어 변경
 		gameObject.layer = 11;
@@ -198,6 +220,9 @@ public class PlayerMove : MonoBehaviour
 
 		// ✓ 피격 애니메이션 실행
 		anim.SetTrigger("doDamaged");
+
+		// ★ 피격 사운드 재생
+		PlaySound("DAMAGED");
 
 		// ★ 일정 시간 후 무적 해제 예약
 		Invoke("OffDamaged", 3);
@@ -224,11 +249,42 @@ public class PlayerMove : MonoBehaviour
 
 		// ★ 위로 튀는 연출
 		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+
+		// ★ 사망 사운드 재생
+		PlaySound("DIE");
 	}
 
 	// ▶︎ 속도 정지 처리
 	public void VelocityZero()
 	{
 		rigid.linearVelocity = Vector2.zero;
+	}
+
+	// ▶︎ 사운드 재생 처리
+	void PlaySound(string action)
+	{
+		switch (action)
+		{
+			case "JUMP":
+				audioSource.clip = audioJump;
+				break;
+			case "ATTACK":
+				audioSource.clip = audioAttack;
+				break;
+			case "DAMAGED":
+				audioSource.clip = audioDamaged;
+				break;
+			case "ITEM":
+				audioSource.clip = audioItem;
+				break;
+			case "DIE":
+				audioSource.clip = audioDie;
+				break;
+			case "FINISH":
+				audioSource.clip = audioFinish;
+				break;
+		}
+
+		audioSource.Play();
 	}
 }
