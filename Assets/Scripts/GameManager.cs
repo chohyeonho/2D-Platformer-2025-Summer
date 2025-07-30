@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -150,5 +151,12 @@ public class GameManager : MonoBehaviour
 
 		// ★ 속도 초기화
 		player.VelocityZero();
+	}
+
+	// ▶︎ 씬 재시작 처리
+	public void Restart()
+	{
+		// ★ 첫 번째 씬 다시 로드
+		SceneManager.LoadScene(0);
 	}
 }
