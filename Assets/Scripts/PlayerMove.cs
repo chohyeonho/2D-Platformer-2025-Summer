@@ -98,10 +98,19 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 충돌 이벤트 처리
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		// ✓ 적과 충돌 시 데미지 처리
+		// ✓ 적과 충돌 시
 		if (collision.gameObject.tag == "Enemy")
 		{
-			OnDamaged(collision.transform.position);
+			//Attack
+			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y)
+			{
+				OnAttack(collision.transform);
+			}
+			//Damaged
+			else
+			{
+				OnDamaged(collision.transform.position);
+			}
 		}
 	}
 
@@ -130,5 +139,29 @@ public class PlayerMove : MonoBehaviour
 	{
 		gameObject.layer = 10;
 		spriteRenderer.color = new Color(1, 1, 1, 1);
+	}
+
+	// ▶︎ 공격 처리
+	void OnAttack(Transform enemy)
+	{
+		// Point
+
+		// Enemy Die
+		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
+		enemyMove.OnDamaged();
+
+		// ★ 아래 내용은 향후 필요 시 추가 고려
+
+		// ※ 적 밟았을 때 플레이어 반동 점프 추가
+		// rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower * 0.5f);
+
+		// ※ 공격 이펙트 생성
+		// Instantiate(attackEffectPrefab, enemy.position, Quaternion.identity);
+
+		// ※ 점수 증가 처리
+		// GameManager.instance.AddScore(100);
+
+		// ※ 사운드 효과 재생
+		// AudioManager.instance.Play("Attack");
 	}
 }
