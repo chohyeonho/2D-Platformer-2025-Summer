@@ -36,6 +36,17 @@ public class GameManager : MonoBehaviour
 		stagePoint = 0;
 	}
 
+	// ▶︎ 플레이어 충돌 시 체력 감소 처리
+	void OnTriggerEnter2D(Collider2D collision)
+	{
+		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
+		if (collision.gameObject.tag == "Player")
+		{
+			// ★ 체력 감소
+			health--;
+		}
+	}
+
 	void Update()
 	{
 
