@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
 			health--;
 
 			// ★ 해당 체력 하트 이미지 색상 어둡게 처리
-			UIhealth[health].color = new Color(1, 0, 0, 0.4f);
+			UIhealth[health].color = new Color(0, 0, 1, 0.4f);
 		}
 		else
 		{
