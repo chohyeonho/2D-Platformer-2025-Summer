@@ -31,6 +31,9 @@ public class GameManager : MonoBehaviour
 	// ★ 스테이지 UI
 	public TextMeshProUGUI UIStage;
 
+	// ★ 재시작 버튼 오브젝트
+	public GameObject RestartBtn;
+
 	// ※ 필요 시 다른 클래스에서 GameManager를 쉽게 참조할 수 있도록 싱글톤화 고려
 	// public static GameManager instance;
 
