@@ -169,6 +169,12 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 피격 시 반응 처리
 	void OnDamaged(Vector2 targetPos)
 	{
+		// ★ 플레이어 체력 감소
+		gameManager.health--;
+
+		// ※ 아래 코드는 안전성을 위해 고려 가능함
+		// if (gameManager != null) gameManager.health--;
+
 		// ★ 무적 상태를 위한 레이어 변경
 		gameObject.layer = 11;
 
