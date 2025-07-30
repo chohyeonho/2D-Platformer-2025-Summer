@@ -2,6 +2,9 @@
 
 public class PlayerMove : MonoBehaviour
 {
+	// ※ 게임 매니저 참조
+	public GameManager gameManager;
+
 	// ※ 최대 이동 속도
 	public float maxSpeed;
 
@@ -159,14 +162,18 @@ public class PlayerMove : MonoBehaviour
 		if (collision.gameObject.tag == "Item")
 		{
 			// ✓ 점수 획득 등 처리
+			// ※ gameManager.stagePoint += 10;
 
 			// ✓ 아이템 비활성화
 			collision.gameObject.SetActive(false);
 		}
+		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
 		else if (collision.gameObject.tag == "Finish")
 		{
 			// ✓ 다음 스테이지로 이동 처리
-			// ※ 태그 비교 역시 CompareTag() 권장
+			// ※ gameManager.totalPoint += gameManager.stagePoint;
+			// ※ gameManager.stageIndex += 1;
+			// ※ SceneManager.LoadScene(gameManager.stageIndex);
 		}
 	}
 }
