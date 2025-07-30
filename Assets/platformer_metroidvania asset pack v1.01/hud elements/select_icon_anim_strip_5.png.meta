@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +117,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 11
+        width: 12
         height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -125,10 +125,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b82bed9f99b0a0ca0800000000000000
-      internalID: -6050010393468816757
+      spriteID: 9e1ef3ad9445b534ebb52e92656f9463
+      internalID: 937639420
       vertices: []
       indices: 
       edges: []
@@ -137,9 +137,9 @@ TextureImporter:
       name: select_icon_anim_strip_5_1
       rect:
         serializedVersion: 2
-        x: 11
+        x: 12
         y: 0
-        width: 13
+        width: 12
         height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1458e85f3edde0aa0800000000000000
-      internalID: -6192768466440780479
+      spriteID: 1732b4a7555536549a763b5426068434
+      internalID: -115802225
       vertices: []
       indices: 
       edges: []
@@ -169,10 +169,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5716830dbd0c5df10800000000000000
-      internalID: 2293951635538862453
+      spriteID: 98d7901982e60b243948e4e3ccfe3630
+      internalID: -2102546066
       vertices: []
       indices: 
       edges: []
@@ -181,7 +181,7 @@ TextureImporter:
       name: select_icon_anim_strip_5_3
       rect:
         serializedVersion: 2
-        x: 37
+        x: 36
         y: 0
         width: 12
         height: 12
@@ -191,10 +191,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dff09c07572e588f0800000000000000
-      internalID: -538775586369630211
+      spriteID: d80f61af90daba44c8f4038901a557c6
+      internalID: 1172753580
       vertices: []
       indices: 
       edges: []
@@ -213,10 +213,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a53bde5dd4c6bb410800000000000000
-      internalID: 1493906782960857946
+      spriteID: 1f1ecb7c3b16dfd46b1bc9a7718a3263
+      internalID: -871857897
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 802decca1ba67784f8d0af4c0730cd20
     internalID: 0
     vertices: []
     indices: 
@@ -233,13 +233,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":12.0,"y":12.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      select_icon_anim_strip_5_0: -6050010393468816757
-      select_icon_anim_strip_5_1: -6192768466440780479
-      select_icon_anim_strip_5_2: 2293951635538862453
-      select_icon_anim_strip_5_3: -538775586369630211
-      select_icon_anim_strip_5_4: 1493906782960857946
+      select_icon_anim_strip_5_0: 937639420
+      select_icon_anim_strip_5_1: -115802225
+      select_icon_anim_strip_5_2: -2102546066
+      select_icon_anim_strip_5_3: 1172753580
+      select_icon_anim_strip_5_4: -871857897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
