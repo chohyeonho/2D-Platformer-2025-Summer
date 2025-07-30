@@ -74,9 +74,16 @@ public class EnemyMove : MonoBehaviour
 	// ▶︎ 방향 전환 처리
 	void Turn()
 	{
+		// ✓ 방향 반전
 		nextMove *= -1;
+
+		// ✓ 스프라이트 반전
 		spriteRenderer.flipX = nextMove != 1;
-		CancelInvoke();
+
+		// ✓ 기존 Think 예약만 취소
+		CancelInvoke("Think");
+
+		// ✓ 새로운 Think 예약
 		Invoke("Think", 2);
 	}
 
