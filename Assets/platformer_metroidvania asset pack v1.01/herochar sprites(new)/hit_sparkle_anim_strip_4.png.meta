@@ -106,10 +106,10 @@ TextureImporter:
       name: hit_sparkle_anim_strip_4_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 11
-        height: 11
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,9 +128,9 @@ TextureImporter:
       name: hit_sparkle_anim_strip_4_1
       rect:
         serializedVersion: 2
-        x: 8
+        x: 16
         y: 0
-        width: 56
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -146,11 +146,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: hit_sparkle_anim_strip_4_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f621ba58acc674bb404461af8b7c55
+      internalID: 1678615673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_sparkle_anim_strip_4_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0528fc5c33df545bcb4257874f8baf
+      internalID: -329490436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8346c3d010df53249acb717b47e47caf
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +202,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       hit_sparkle_anim_strip_4_0: 5702766072548976018
       hit_sparkle_anim_strip_4_1: -3712070095467908123
+      hit_sparkle_anim_strip_4_2: 1678615673
+      hit_sparkle_anim_strip_4_3: -329490436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
