@@ -17,10 +17,6 @@ public class EnemyMove : MonoBehaviour
 	// ● 이동 방향
 	public int nextMove;
 
-	// ▷ 체력 관련 변수 추가
-	[SerializeField] private float maxHealth = 3f;
-	private float currentHealth;
-
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
@@ -31,9 +27,6 @@ public class EnemyMove : MonoBehaviour
 
 		// ● 초기 AI 판단 예약
 		Invoke("Think", 5);
-
-		// ▷ 현재 체력 초기화
-		currentHealth = maxHealth;
 	}
 
 	// ▶︎ 이동 처리
