@@ -35,13 +35,16 @@ public class GameManager : MonoBehaviour
 	// ★ 재시작 버튼 오브젝트
 	public GameObject RestartBtn;
 
-	// ※ 필요 시 다른 클래스에서 GameManager를 쉽게 참조할 수 있도록 싱글톤화 고려
-	// public static GameManager instance;
+	// ★ GameManager 싱글톤 인스턴스
+	public static GameManager instance;
+
+	// ※ 스테이지별 플레이어 시작 위치 변수 (추후 구현 예정)
+	public Vector3 spawnPosition;
 
 	void Start()
 	{
-		// ※ 위 싱글톤이 필요할 경우 아래 코드 포함 권장
-		// instance = this;
+		// ★ 싱글톤 인스턴스 설정
+		instance = this;
 	}
 
 	void Update()
@@ -56,16 +59,16 @@ public class GameManager : MonoBehaviour
 		// ★ 스테이지 변경 처리
 		if (stageIndex < Stages.Length - 1)
 		{
-			// 현재 스테이지 비활성화
+			// ★ 현재 스테이지 비활성화
 			Stages[stageIndex].SetActive(false);
 
-			// 스테이지 인덱스 증가
+			// ★ 스테이지 인덱스 증가
 			stageIndex++;
 
-			// 다음 스테이지 활성화
+			// ★ 다음 스테이지 활성화
 			Stages[stageIndex].SetActive(true);
 
-			// 플레이어 위치 초기화
+			// ★ 플레이어 위치 초기화
 			PlayerReposition();
 
 			// ★ 스테이지 UI 갱신
@@ -82,7 +85,6 @@ public class GameManager : MonoBehaviour
 			Debug.Log("게임 클리어!");
 
 			// ● 재시작 버튼 텍스트 변경 처리
-			// ※ 내부에 TextMeshProUGUI 컴포넌트가 있어야 정상 작동
 			TextMeshProUGUI btnText = RestartBtn.GetComponentInChildren<TextMeshProUGUI>();
 			btnText.text = "Clear!";
 
@@ -113,14 +115,13 @@ public class GameManager : MonoBehaviour
 			// ★ 모든 하트 UI 제거 처리 (마지막 하트 포함)
 			UIhealth[0].color = new Color(0, 0, 1, 0.4f);
 
-			// ★ 플레이어 사망 처리
-			player.OnDie();
-
-			// ※ 제안: player가 null일 경우 NullReferenceException 발생 가능 → 아래 예외처리 고려 가능
-			// if (player != null) player.OnDie();
+			// ★ 플레이어 사망 처리 (널 체크 포함)
+			if (player != null)
+			{
+				player.OnDie();
+			}
 
 			// ★ 결과 UI 표시
-
 			// ※ 구현 필요: 결과창 UI 활성화
 			Debug.Log("죽었습니다!");
 
@@ -132,11 +133,10 @@ public class GameManager : MonoBehaviour
 	// ▶︎ 플레이어 충돌 시 체력 조건에 따른 처리
 	void OnTriggerEnter2D(Collider2D collision)
 	{
-		// ※ 태그 비교는 CompareTag() 사용 권장 → 성능 미세 향상 + null 대응 안정성 증가
-		if (collision.gameObject.tag == "Player")
+		// ★ 플레이어 태그 충돌 감지 (CompareTag 사용)
+		if (collision.CompareTag("Player"))
 		{
-			// ★ 플레이어 위치 초기화 조건 확인
-			// ※ 체력이 2 이상일 경우에만 위치와 속도 초기화
+			// ★ 체력이 2 이상일 경우 위치 초기화
 			if (health > 1)
 			{
 				PlayerReposition();
@@ -150,8 +150,9 @@ public class GameManager : MonoBehaviour
 	// ▶︎ 플레이어 위치 초기화
 	void PlayerReposition()
 	{
-		// ★ 플레이어 위치 초기화
-		player.transform.position = new Vector3(0, 0, -1);
+		// ★ 플레이어 위치 초기화 (현재는 임시 하드코딩 위치)
+		// ※ 실제 위치 지정은 추후 구현 필요
+		player.transform.position = spawnPosition; 
 
 		// ★ 속도 초기화
 		player.VelocityZero();
@@ -163,7 +164,7 @@ public class GameManager : MonoBehaviour
 		// ★ TimeScale 초기화
 		Time.timeScale = 1;
 
-		// ★ 첫 번째 씬 다시 로드
-		SceneManager.LoadScene(0);
+		// ★ 현재 씬 다시 로드
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 }
