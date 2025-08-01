@@ -1824,6 +1824,7 @@ MonoBehaviour:
   UIPoint: {fileID: 830983554}
   UIStage: {fileID: 1435809351}
   RestartBtn: {fileID: 753920979}
+  spawnPosition: {x: 0, y: 0, z: 0}
 --- !u!61 &741380969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5652,6 +5653,7 @@ MonoBehaviour:
   audioFinish: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
   maxSpeed: 4.5
   jumpPower: 20
+  invincibleTime: 3
 --- !u!95 &1621376805
 Animator:
   serializedVersion: 7
