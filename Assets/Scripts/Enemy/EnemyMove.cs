@@ -20,6 +20,9 @@ public class EnemyMove : MonoBehaviour
 	// ● 비활성화까지 대기 시간
 	public float deactivateDelay = 5f;
 
+	// ● 방향 전환 중 여부
+	bool isTurning = false;
+
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
@@ -39,23 +42,32 @@ public class EnemyMove : MonoBehaviour
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
 		// ✓ 전방 양발 위치 기준으로 바닥 존재 여부를 확인
-		if (rigid.linearVelocity.y <= 0)
+		// (※ 점프 중이 아니어도 항상 확인)
+
+		// ● 현재 위치 기준 양발 위치 설정
+		Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
+		Vector2 rightFoot = rigid.position + Vector2.right * 0.3f;
+		Debug.DrawRay(leftFoot, Vector2.down * 1f, Color.green);
+		Debug.DrawRay(rightFoot, Vector2.down * 1f, Color.green);
+
+		// ● 양발 기준 바닥 확인용 레이캐스트 실행
+		RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+		RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+
+		// ● 한쪽 발이라도 공중이면 방향 전환 (한 번만)
+		if (!isTurning && (
+			leftRay.collider == null || leftRay.distance > 0.5f ||
+			rightRay.collider == null || rightRay.distance > 0.5f))
 		{
-			// ● 현재 위치 기준 양발 위치 설정
-			Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
-			Vector2 rightFoot = rigid.position + Vector2.right * 0.3f;
-			Debug.DrawRay(leftFoot, Vector2.down * 1f, Color.green);
-			Debug.DrawRay(rightFoot, Vector2.down * 1f, Color.green);
-
-			// ● 양발 기준 바닥 확인용 레이캐스트 실행
-			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
-			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
-
-			// ● 둘 중 하나라도 바닥이 없으면 방향 전환
-			if ((leftRay.collider == null || leftRay.distance > 0.5f) || (rightRay.collider == null || rightRay.distance > 0.5f))
-			{
-				Turn();
-			}
+			Turn();
+			isTurning = true;
+		}
+		// ● 양쪽 발 모두 바닥에 닿으면 방향 전환 가능 상태로 복귀
+		else if (
+			leftRay.collider != null && leftRay.distance < 0.5f &&
+			rightRay.collider != null && rightRay.distance < 0.5f)
+		{
+			isTurning = false;
 		}
 	}
 
@@ -120,8 +132,7 @@ public class EnemyMove : MonoBehaviour
 	// ▶︎ 오브젝트 비활성화
 	void DeActive()
 	{
-		// ✓ 오브젝트 풀링 고려 (현재는 비활성화 처리)
+		// ✓ 오브젝트 비활성화 처리
 		gameObject.SetActive(false);
-		// ObjectPooler.Instance.ReturnToPool(gameObject); // 풀링 시스템 사용 시
 	}
 }
