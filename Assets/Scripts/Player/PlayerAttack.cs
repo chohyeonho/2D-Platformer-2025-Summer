@@ -19,19 +19,26 @@ public class PlayerAttack : MonoBehaviour
 	// ● 공격 판정 결과 저장용 배열
 	private RaycastHit2D[] hits;
 
+	// ● 애니메이션 제어용
+	private Animator anim;
+
+	// ▶︎ 초기화 처리
+	private void Start()
+	{
+		anim = GetComponent<Animator>();
+	}
+
 	// ▶︎ 키 입력 감지
 	private void Update()
 	{
 		// ✓ 공격 키를 눌렀는지 확인
-		if (UserInput.instance.controls.Player.Attack.WasPressedThisFrame())
+		if (UserInput.instance != null && UserInput.instance.controls.Player.Attack.WasPressedThisFrame())
 		{
-			//attack
+			// ✓ 공격 함수 호출
+			Attack();
 
-			// ※ 제안: 공격 함수 호출
-			// Attack();
-
-			// ※ 제안: 공격 애니메이션 재생
-			// anim.SetTrigger("doAttack");
+			// ✓ 공격 애니메이션 재생
+			anim.SetTrigger("attack");
 
 			// ※ 제안: 공격 사운드 재생
 			// audioSource.PlayOneShot(audioAttack);
