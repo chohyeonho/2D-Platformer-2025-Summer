@@ -1463,6 +1463,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &502183734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 502183735}
+  m_Layer: 10
+  m_Name: AttackTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &502183735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502183734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1621376801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741380967}
   - component: {fileID: 741380968}
+  - component: {fileID: 741380970}
   - component: {fileID: 741380969}
   m_Layer: 0
   m_Name: Game Manager
@@ -1871,6 +1903,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 100, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &741380970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741380966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854ba2527a3518d4f92afab590141e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &753920979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,6 +2260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextMove: 0
+  deactivateDelay: 5
 --- !u!95 &910275581
 Animator:
   serializedVersion: 7
@@ -4891,10 +4936,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1205812737}
+  - component: {fileID: 1205812742}
   - component: {fileID: 1205812736}
   - component: {fileID: 1205812738}
   - component: {fileID: 1205812740}
-  - component: {fileID: 1205812739}
   - component: {fileID: 1205812741}
   m_Layer: 9
   m_Name: Mushroom
@@ -5010,19 +5055,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6, y: 0.9}
   m_Direction: 0
---- !u!114 &1205812739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205812734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3211307ba11be5b4cb21fc5e8b505faa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextMove: 0
 --- !u!95 &1205812740
 Animator:
   serializedVersion: 7
@@ -5072,6 +5104,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1205812742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205812734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ac9003beef9114cb12105b2ce42ee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
 --- !u!1 &1233699830
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,6 +5530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621376801}
   - component: {fileID: 1621376804}
+  - component: {fileID: 1621376807}
   - component: {fileID: 1621376800}
   - component: {fileID: 1621376803}
   - component: {fileID: 1621376802}
@@ -5566,6 +5612,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
+  - {fileID: 502183735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1621376802
@@ -5773,6 +5820,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1621376807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621376798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7a987070cfc4e44ae428a8389c2404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackTransform: {fileID: 502183735}
+  attackRange: 0.5
+  attackableLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  damageAmount: 1
 --- !u!1 &1664245118
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,6 +6355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextMove: 0
+  deactivateDelay: 5
 --- !u!95 &1919835977
 Animator:
   serializedVersion: 7
