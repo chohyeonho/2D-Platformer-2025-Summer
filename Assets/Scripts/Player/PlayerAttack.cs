@@ -33,6 +33,8 @@ public class PlayerAttack : MonoBehaviour
 	{
 		// ✓ 애니메이터 컴포넌트 참조
 		anim = GetComponent<Animator>();
+
+		attackTimeCounter = timeBtwAttacks;
 	}
 
 	// ▶︎ 키 입력 감지

@@ -5838,6 +5838,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   damageAmount: 1
+  timeBtwAttacks: 1
 --- !u!1 &1664245118
 GameObject:
   m_ObjectHideFlags: 0
