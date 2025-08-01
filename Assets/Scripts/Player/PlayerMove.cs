@@ -119,23 +119,21 @@ public class PlayerMove : MonoBehaviour
 		if (rigid.linearVelocity.y < 0)
 		{
 			// ● 레이를 그려 디버깅
-			Debug.DrawRay(rigid.position, Vector2.down, new Color(0, 1, 0));
+			Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
+			Vector2 rightFoot = rigid.position + Vector2.right * 0.3f;
+			Debug.DrawRay(leftFoot, Vector2.down, new Color(0, 1, 0));
+			Debug.DrawRay(rightFoot, Vector2.down, new Color(0, 1, 0));
 
 			// ● 바닥 확인용 레이캐스트 실행
-			RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
 
-			// ● 레이캐스트가 바닥에 닿았을 경우 착지 상태로 전환
-			if (rayHit.collider != null)
+			// ● 둘 중 하나라도 바닥에 닿았을 경우 착지 상태로 전환
+			if ((leftRay.collider != null && leftRay.distance < 0.5f) ||
+				(rightRay.collider != null && rightRay.distance < 0.5f))
 			{
-				if (rayHit.distance < 0.5f)
-				{
-					anim.SetBool("isJumping", false);
-					isGrounded = true;
-				}
-				else
-				{
-					isGrounded = false;
-				}
+				anim.SetBool("isJumping", false);
+				isGrounded = true;
 			}
 			else
 			{
