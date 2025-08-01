@@ -38,19 +38,24 @@ public class EnemyMove : MonoBehaviour
 		// ✓ 이동 방향 적용
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
-		// ✓ 전방 낭떠러지 감지용 위치 계산
-		Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
-
-		// ● 시각적 디버깅 레이
-		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
-
-		// ✓ 아래 방향 BoxCast로 플랫폼 감지 (정확도 향상)
-		RaycastHit2D boxHit = Physics2D.BoxCast(capsuleCollider.bounds.center, capsuleCollider.bounds.size, 0f, Vector2.down, 0.1f, LayerMask.GetMask("Platform"));
-
-		// ✓ 바닥 없으면 방향 전환
-		if (!boxHit.collider)
+		// ✓ 전방 양발 위치 기준으로 바닥 존재 여부를 확인
+		if (rigid.linearVelocity.y <= 0)
 		{
-			Turn();
+			// ● 현재 위치 기준 양발 위치 설정
+			Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
+			Vector2 rightFoot = rigid.position + Vector2.right * 0.3f;
+			Debug.DrawRay(leftFoot, Vector2.down * 1f, Color.green);
+			Debug.DrawRay(rightFoot, Vector2.down * 1f, Color.green);
+
+			// ● 양발 기준 바닥 확인용 레이캐스트 실행
+			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+
+			// ● 둘 중 하나라도 바닥이 없으면 방향 전환
+			if ((leftRay.collider == null || leftRay.distance > 0.5f) || (rightRay.collider == null || rightRay.distance > 0.5f))
+			{
+				Turn();
+			}
 		}
 	}
 
