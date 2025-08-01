@@ -41,8 +41,7 @@ public class EnemyMove : MonoBehaviour
 		// ✓ 이동 방향 적용
 		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
 
-		// ✓ 전방 양발 위치 기준으로 바닥 존재 여부를 확인
-		// (※ 점프 중이 아니어도 항상 확인)
+		// ✓ 양발 위치 기준으로 바닥 존재 여부를 확인
 
 		// ● 현재 위치 기준 양발 위치 설정
 		Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
