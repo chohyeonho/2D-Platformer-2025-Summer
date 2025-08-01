@@ -1,38 +1,39 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+// â–¶ï¸ ì ì˜ ì²´ë ¥ì„ ê´€ë¦¬í•˜ëŠ” ìŠ¤í¬ë¦½íŠ¸
+public class EnemyHealth : MonoBehaviour, IDamageable
 {
+	// â˜… ìµœëŒ€ ì²´ë ¥ (ê¸°ë³¸ê°’ 3)
 	[SerializeField] private float maxHealth = 3f;
+
+	// â˜… í˜„ì¬ ì²´ë ¥
 	private float currentHealth;
 
+	// â–¶ï¸ ì‹œì‘ ì‹œ ì´ˆê¸° ì²´ë ¥ ì„¤ì •
 	private void Start()
 	{
 		currentHealth = maxHealth;
 	}
 
-	// ¡Ø Á¦¾È: Ã¼·Â ±ğ´Â µ¥¹ÌÁö Ã³¸®¿ë ÇÔ¼ö
-	// public void Damage(float amount)
-	// {
-	//     currentHealth -= amount;
-	//     if (currentHealth <= 0f)
-	//     {
-	//         Die();
-	//     }
-	// }
+	// â–¶ï¸ ë°ë¯¸ì§€ë¥¼ ë°›ì„ ë•Œ í˜¸ì¶œë˜ëŠ” í•¨ìˆ˜ (ì¸í„°í˜ì´ìŠ¤ êµ¬í˜„)
+	public void Damage(float damageAmount)
+	{
+		currentHealth -= damageAmount;
 
-	// ¡Ø Á¦¾È: Àû »ç¸Á ½Ã È£ÃâÇÒ ÇÔ¼ö
-	// private void Die()
-	// {
-	//     gameObject.SetActive(false);
-	// }
+		// â˜… ì²´ë ¥ì´ 0 ì´í•˜ë¡œ ë–¨ì–´ì¡Œì„ ë•Œ ì‚¬ë§ ì²˜ë¦¬
+		if (currentHealth <= 0f)
+		{
+			Die();
+		}
+	}
 
-	// ¡Ø Á¦¾È: ÀÎÅÍÆäÀÌ½º µµÀÔ ½Ã ¾Æ·¡Ã³·³ ÀÛ¼º
-	// public bool hasTakenDamage { get; set; }
-	// public void Damage(float amount)
-	// {
-	//     if (hasTakenDamage) return;
-	//     hasTakenDamage = true;
-	//     currentHealth -= amount;
-	//     if (currentHealth <= 0f) Die();
-	// }
+	// â–¶ï¸ ì  ì‚¬ë§ ì‹œ ì²˜ë¦¬
+	private void Die()
+	{
+		gameObject.SetActive(false);
+
+		// â€» ì œì•ˆ: ì‚¬ë§ ì´í™íŠ¸ ì¬ìƒ ë˜ëŠ” ì ìˆ˜ ì²˜ë¦¬ ì¶”ê°€ ê°€ëŠ¥
+		// Instantiate(deathEffect, transform.position, Quaternion.identity);
+		// GameManager.instance.stagePoint += 100;
+	}
 }
