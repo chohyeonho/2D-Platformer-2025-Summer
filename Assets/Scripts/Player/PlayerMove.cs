@@ -44,7 +44,7 @@ public class PlayerMove : MonoBehaviour
 	// ● 사운드 출력용 오디오 소스
 	AudioSource audioSource;
 
-	// ● 바닥 체크를 위한 변수
+	// ● 바닥 체크용 플래그
 	bool isGrounded = false;
 
 	// ● 무적 지속 시간
@@ -66,11 +66,12 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 키 입력 처리
 	void Update()
 	{
-		// ✓ 점프 입력 시 위로 힘을 가하고 점프 상태 설정
+		// ✓ 바닥에 닿은 상태에서 점프 입력 시 위로 힘을 가하고 점프 상태 설정
 		if (Input.GetButtonDown("Jump") && isGrounded)
 		{
 			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
+
 			// ★ 점프 사운드 재생
 			PlaySound("JUMP");
 		}
@@ -115,22 +116,21 @@ public class PlayerMove : MonoBehaviour
 			rigid.linearVelocity = new Vector2(-maxSpeed, rigid.linearVelocity.y);
 		}
 
-		// ★ 하강 중일 때만 바닥 존재 여부를 확인
+		// ★ 하강 중일 때 양발 기준으로 바닥 존재 여부를 확인
 		if (rigid.linearVelocity.y < 0)
 		{
-			// ● 레이를 그려 디버깅
+			// ● 양발 위치 기준으로 레이를 그려 디버깅
 			Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
 			Vector2 rightFoot = rigid.position + Vector2.right * 0.3f;
 			Debug.DrawRay(leftFoot, Vector2.down, new Color(0, 1, 0));
 			Debug.DrawRay(rightFoot, Vector2.down, new Color(0, 1, 0));
 
-			// ● 바닥 확인용 레이캐스트 실행
+			// ● 양발 기준 바닥 확인용 레이캐스트 실행
 			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
 			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
 
 			// ● 둘 중 하나라도 바닥에 닿았을 경우 착지 상태로 전환
-			if ((leftRay.collider != null && leftRay.distance < 0.5f) ||
-				(rightRay.collider != null && rightRay.distance < 0.5f))
+			if ((leftRay.collider != null && leftRay.distance < 0.5f) || (rightRay.collider != null && rightRay.distance < 0.5f))
 			{
 				anim.SetBool("isJumping", false);
 				isGrounded = true;
@@ -164,15 +164,18 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 아이템과 충돌 처리
 	void OnTriggerEnter2D(Collider2D collision)
 	{
-		// ※ 태그 비교는 CompareTag() 사용 권장
+		// ✓ 아이템 종류 판별 및 점수 처리 (enum 기반)
 		if (collision.gameObject.CompareTag("Item"))
 		{
-			// ✓ 점수 획득 등 처리
 			ItemType type = ItemType.Bronze;
 			if (collision.gameObject.name.Contains("Gold"))
+			{
 				type = ItemType.Gold;
+			}
 			else if (collision.gameObject.name.Contains("Silver"))
+			{
 				type = ItemType.Silver;
+			}
 
 			switch (type)
 			{
