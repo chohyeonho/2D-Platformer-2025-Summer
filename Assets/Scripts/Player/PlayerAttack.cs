@@ -28,12 +28,16 @@ public class PlayerAttack : MonoBehaviour
 	// ● 공격 시간 누적용 타이머
 	private float attackTimeCounter;
 
+	// ▶︎ 공격 가능한 상태 플래그 (애니메이션 연동용)
+	public bool ShouldBeDamaging { get; private set; } = false;
+
 	// ▶︎ 초기화 처리
 	private void Start()
 	{
 		// ✓ 애니메이터 컴포넌트 참조
 		anim = GetComponent<Animator>();
 
+		// ✓ 게임 시작 직후 바로 공격 가능하도록 타이머 초기화
 		attackTimeCounter = timeBtwAttacks;
 	}
 
@@ -48,43 +52,50 @@ public class PlayerAttack : MonoBehaviour
 			// ★ 타이머 초기화
 			attackTimeCounter = 0f;
 
-			// ✓ 공격 함수 호출
-			Attack();
-
-			// ✓ 공격 애니메이션 재생
+			// ✓ 애니메이션 트리거 실행
 			anim.SetTrigger("attack");
 
 			// ※ 제안: 공격 사운드 재생 추가 고려
 			// 
 			// audioSource.PlayOneShot(audioAttack);
+
+			// ※ 제안: 여기서 코루틴 직접 시작 가능
+			// 
+			// StartCoroutine(DamageWhileSlashIsActive());
 		}
 
 		// ★ 시간 누적
 		attackTimeCounter += Time.deltaTime;
 	}
 
-	// ▶︎ 공격 처리
-	private void Attack()
+	// ▶︎ 슬래시 애니메이션 재생 중 공격 판정을 지속적으로 감지
+	// ● ShouldBeDamaging이 true인 동안 매 프레임 공격 판정 실행
+	// ● 애니메이션 이벤트로 On/Off 타이밍 제어 필요
+	public IEnumerator DamageWhileSlashIsActive()
 	{
-		// ✓ 원형 범위 내 충돌 감지
-		hits = Physics2D.CircleCastAll(
-			attackTransform.position,
-			attackRange,
-			transform.right,
-			0f,
-			attackableLayer
-		);
+		ShouldBeDamaging = true;
 
-		for (int i = 0; i < hits.Length; i++)
+		while (ShouldBeDamaging)
 		{
-			// ✓ IDamageable 인터페이스 구현체 탐색
-			IDamageable iDamageable = hits[i].collider.gameObject.GetComponent<IDamageable>();
+			hits = Physics2D.CircleCastAll(
+				attackTransform.position,
+				attackRange,
+				transform.right,
+				0f,
+				attackableLayer
+			);
 
-			// ✓ 공격 가능 대상일 경우 데미지 적용
-			if (iDamageable != null)
+			for (int i = 0; i < hits.Length; i++)
 			{
-				iDamageable.Damage(damageAmount);
+				IDamageable iDamageable = hits[i].collider.gameObject.GetComponent<IDamageable>();
+
+				if (iDamageable != null)
+				{
+					iDamageable.Damage(damageAmount);
+				}
 			}
+
+			yield return null;
 		}
 	}
 
@@ -94,6 +105,39 @@ public class PlayerAttack : MonoBehaviour
 		// ✓ 에디터에서 공격 범위 시각화
 		Gizmos.DrawWireSphere(attackTransform.position, attackRange);
 	}
+
+	// ▶︎ 애니메이션 이벤트에서 호출하여 데미지 유효 구간 시작
+	public void ShouldBeDamagingToTrue()
+	{
+		ShouldBeDamaging = true;
+	}
+
+	// ▶︎ 애니메이션 이벤트에서 호출하여 데미지 유효 구간 종료
+	public void ShouldBeDamagingToFalse()
+	{
+		ShouldBeDamaging = false;
+	}
+
+	// ※ (비활성화됨) 단발 공격 처리 함수 - 현재 사용되지 않음
+	//private void Attack()
+	//{
+	//	hits = Physics2D.CircleCastAll(
+	//		attackTransform.position,
+	//		attackRange,
+	//		transform.right,
+	//		0f,
+	//		attackableLayer
+	//	);
+
+	//	for (int i = 0; i < hits.Length; i++)
+	//	{
+	//		IDamageable iDamageable = hits[i].collider.gameObject.GetComponent<IDamageable>();
+	//		if (iDamageable != null)
+	//		{
+	//			iDamageable.Damage(damageAmount);
+	//		}
+	//	}
+	//}
 
 	// ※ 제안: 추후 필요 시 공격 쿨타임 변수 도입 고려
 	// 
