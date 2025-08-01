@@ -44,6 +44,15 @@ public class PlayerMove : MonoBehaviour
 	// ● 사운드 출력용 오디오 소스
 	AudioSource audioSource;
 
+	// ● 바닥 체크를 위한 변수
+	bool isGrounded = false;
+
+	// ● 무적 지속 시간
+	public float invincibleTime = 3f;
+
+	// ● 아이템 타입 분류용 enum
+	enum ItemType { Bronze, Silver, Gold }
+
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
@@ -58,7 +67,7 @@ public class PlayerMove : MonoBehaviour
 	void Update()
 	{
 		// ✓ 점프 입력 시 위로 힘을 가하고 점프 상태 설정
-		if (Input.GetButtonDown("Jump") && !anim.GetBool("isJumping"))
+		if (Input.GetButtonDown("Jump") && isGrounded)
 		{
 			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
@@ -121,7 +130,16 @@ public class PlayerMove : MonoBehaviour
 				if (rayHit.distance < 0.5f)
 				{
 					anim.SetBool("isJumping", false);
+					isGrounded = true;
 				}
+				else
+				{
+					isGrounded = false;
+				}
+			}
+			else
+			{
+				isGrounded = false;
 			}
 		}
 	}
@@ -130,10 +148,10 @@ public class PlayerMove : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 		// ✓ 적과 충돌했을 때 공격 또는 피격 판단
-		if (collision.gameObject.tag == "Enemy")
+		if (collision.gameObject.CompareTag("Enemy"))
 		{
 			// ✓ 적보다 높은 위치에서 충돌하면 공격
-			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y+0.3f)
+			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y + 0.3f)
 			{
 				OnAttack(collision.transform);
 			}
@@ -149,24 +167,26 @@ public class PlayerMove : MonoBehaviour
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		// ※ 태그 비교는 CompareTag() 사용 권장
-		if (collision.gameObject.tag == "Item")
+		if (collision.gameObject.CompareTag("Item"))
 		{
 			// ✓ 점수 획득 등 처리
-			bool isBronze = collision.gameObject.name.Contains("Bronze");
-			bool isSilver = collision.gameObject.name.Contains("Silver");
-			bool isGold = collision.gameObject.name.Contains("Gold");
+			ItemType type = ItemType.Bronze;
+			if (collision.gameObject.name.Contains("Gold"))
+				type = ItemType.Gold;
+			else if (collision.gameObject.name.Contains("Silver"))
+				type = ItemType.Silver;
 
-			if (isBronze)
+			switch (type)
 			{
-				gameManager.stagePoint += 50;
-			}
-			else if (isSilver)
-			{
-				gameManager.stagePoint += 100;
-			}
-			else if (isGold)
-			{
-				gameManager.stagePoint += 300;
+				case ItemType.Bronze:
+					gameManager.stagePoint += 50;
+					break;
+				case ItemType.Silver:
+					gameManager.stagePoint += 100;
+					break;
+				case ItemType.Gold:
+					gameManager.stagePoint += 300;
+					break;
 			}
 
 			// ✓ 아이템 비활성화
@@ -175,7 +195,7 @@ public class PlayerMove : MonoBehaviour
 			// ★ 아이템 사운드 재생
 			PlaySound("ITEM");
 		}
-		else if (collision.gameObject.tag == "Finish")
+		else if (collision.gameObject.CompareTag("Finish"))
 		{
 			// ✓ 다음 스테이지로 이동 처리
 			gameManager.NextStage();
@@ -225,7 +245,7 @@ public class PlayerMove : MonoBehaviour
 		PlaySound("DAMAGED");
 
 		// ★ 일정 시간 후 무적 해제 예약
-		Invoke("OffDamaged", 3);
+		Invoke("OffDamaged", invincibleTime);
 	}
 
 	// ▶︎ 무적 해제 처리
