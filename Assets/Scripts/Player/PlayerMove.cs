@@ -133,7 +133,7 @@ public class PlayerMove : MonoBehaviour
 		if (collision.gameObject.tag == "Enemy")
 		{
 			// ✓ 적보다 높은 위치에서 충돌하면 공격
-			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y)
+			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y+0.3f)
 			{
 				OnAttack(collision.transform);
 			}
