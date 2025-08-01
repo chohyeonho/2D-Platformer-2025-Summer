@@ -17,6 +17,9 @@ public class EnemyMove : MonoBehaviour
 	// ● 이동 방향
 	public int nextMove;
 
+	// ● 비활성화까지 대기 시간
+	public float deactivateDelay = 5f;
+
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
@@ -41,11 +44,11 @@ public class EnemyMove : MonoBehaviour
 		// ● 시각적 디버깅 레이
 		Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
 
-		// ✓ 아래 방향 레이캐스트로 플랫폼 감지
-		RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
+		// ✓ 아래 방향 BoxCast로 플랫폼 감지 (정확도 향상)
+		RaycastHit2D boxHit = Physics2D.BoxCast(capsuleCollider.bounds.center, capsuleCollider.bounds.size, 0f, Vector2.down, 0.1f, LayerMask.GetMask("Platform"));
 
 		// ✓ 바닥 없으면 방향 전환
-		if (rayHit.collider == null)
+		if (!boxHit.collider)
 		{
 			Turn();
 		}
@@ -66,9 +69,9 @@ public class EnemyMove : MonoBehaviour
 			spriteRenderer.flipX = nextMove != 1;
 		}
 
-		// ✓ 다음 판단 예약
-		float nextThinkTime = Random.Range(2f, 5f);
-		Invoke("Think", nextThinkTime);
+		// ✓ 다음 판단 예약 (가독성을 위해 변수에 할당)
+		float wait = Random.Range(2f, 5f);
+		Invoke("Think", wait);
 	}
 
 	// ▶︎ 방향 전환 처리
@@ -102,13 +105,18 @@ public class EnemyMove : MonoBehaviour
 		// ✓ 위로 튀어오르는 효과
 		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
 
-		// ★ 삭제 예약
-		Invoke("DeActive", 5);
+		// ✓ 피격 애니메이션 트리거
+		anim.SetTrigger("doHit");
+
+		// ★ 삭제 예약 (변수화된 시간 활용)
+		Invoke("DeActive", deactivateDelay);
 	}
 
 	// ▶︎ 오브젝트 비활성화
 	void DeActive()
 	{
+		// ✓ 오브젝트 풀링 고려 (현재는 비활성화 처리)
 		gameObject.SetActive(false);
+		// ObjectPooler.Instance.ReturnToPool(gameObject); // 풀링 시스템 사용 시
 	}
 }
