@@ -71,7 +71,7 @@ public class PlayerMove : MonoBehaviour
 		{
 			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
-
+			isGrounded = false;
 			// ★ 점프 사운드 재생
 			PlaySound("JUMP");
 		}
