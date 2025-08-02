@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Windows;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	// ※ 게임 매니저 참조
 	public GameManager gameManager;
@@ -53,10 +53,10 @@ public class PlayerMove : MonoBehaviour
 		prevXInput = xInput;
 
 		// ✓ 현재 입력값 갱신
-		xInput = UserInput.instance.controls.Player.Move.ReadValue<Vector2>().x;
+		xInput = UserInput.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
 
 		// ▶︎ 점프 입력 (Input System 기반)
-		if (UserInput.instance.controls.Player.Jump.WasPressedThisFrame() && isGrounded)
+		if (UserInput.instance.gameInputActions.Player.Jump.WasPressedThisFrame() && isGrounded)
 		{
 			rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);

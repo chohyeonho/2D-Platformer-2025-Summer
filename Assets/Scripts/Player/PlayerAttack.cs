@@ -39,7 +39,7 @@ public class PlayerAttack : MonoBehaviour
 	private bool cachedFacingLeft = false;
 
 	// ● 플레이어 이동 스크립트 참조
-	private PlayerMove playerMove;
+	private PlayerController playerController;
 
 
 	// ▶︎ 초기화 처리
@@ -48,7 +48,7 @@ public class PlayerAttack : MonoBehaviour
 		// ✓ 애니메이터 컴포넌트 참조
 		anim = GetComponent<Animator>();
 
-		playerMove = GetComponent<PlayerMove>();
+		playerController = GetComponent<PlayerController>();
 
 		// ✓ 게임 시작 직후 바로 공격 가능하도록 타이머 초기화
 		attackTimeCounter = timeBtwAttacks;
@@ -62,7 +62,7 @@ public class PlayerAttack : MonoBehaviour
 
 		// ✓ 공격 키를 눌렀는지 확인 + 쿨타임 체크
 		if (UserInput.instance != null &&
-			UserInput.instance.controls.Player.Attack.WasPressedThisFrame() &&
+			UserInput.instance.gameInputActions.Player.Attack.WasPressedThisFrame() &&
 			attackTimeCounter >= timeBtwAttacks)
 		{
 			attackTimeCounter = 0f;

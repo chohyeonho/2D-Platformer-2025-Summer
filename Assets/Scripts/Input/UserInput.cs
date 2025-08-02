@@ -10,7 +10,7 @@ public class UserInput : MonoBehaviour
 
 	// ★ Controls 입력 클래스 (Input Actions 기반)
 	[HideInInspector]
-	public Controls controls;
+	public GameInputActions gameInputActions;
 
 	// ▶︎ 초기화 처리
 	private void Awake()
@@ -22,18 +22,18 @@ public class UserInput : MonoBehaviour
 		}
 
 		// ✓ Controls 인스턴스 생성
-		controls = new Controls();
+		gameInputActions = new GameInputActions();
 	}
 
 	// ▶︎ 오브젝트 활성화 시 입력 활성화
 	private void OnEnable()
 	{
-		controls.Enable();
+		gameInputActions.Enable();
 	}
 
 	// ▶︎ 오브젝트 비활성화 시 입력 비활성화
 	private void OnDisable()
 	{
-		controls.Disable();
+		gameInputActions.Disable();
 	}
 }

@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 	public GameObject[] Stages;
 
 	// ★ 플레이어 객체 참조용
-	public PlayerMove player;
+	public PlayerController player;
 
 	// ★ UI 체력 이미지 배열
 	public Image[] UIhealth;
@@ -41,11 +41,18 @@ public class GameManager : MonoBehaviour
 	// ※ 스테이지별 플레이어 시작 위치 변수 (추후 구현 예정)
 	public Vector3 spawnPosition;
 
-	void Start()
+	private void Awake()
 	{
-		// ★ 싱글톤 인스턴스 설정
+		if (instance != null)
+		{
+			Destroy(gameObject);
+			return;
+		}
 		instance = this;
+		DontDestroyOnLoad(gameObject);
 	}
+
+
 
 	void Update()
 	{

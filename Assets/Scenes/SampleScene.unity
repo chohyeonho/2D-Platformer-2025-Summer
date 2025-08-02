@@ -5660,6 +5660,7 @@ GameObject:
   - component: {fileID: 1621376804}
   - component: {fileID: 1621376807}
   - component: {fileID: 1621376808}
+  - component: {fileID: 1621376809}
   - component: {fileID: 1621376800}
   - component: {fileID: 1621376803}
   - component: {fileID: 1621376802}
@@ -5981,6 +5982,18 @@ MonoBehaviour:
   itemClip: {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
   dieClip: {fileID: 8300000, guid: a0010a1a0c474473b81729eb770c485f, type: 3}
   finishClip: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
+--- !u!114 &1621376809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621376798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74e330a0a10e994a9e5bd5861798562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1664245118
 GameObject:
   m_ObjectHideFlags: 0
