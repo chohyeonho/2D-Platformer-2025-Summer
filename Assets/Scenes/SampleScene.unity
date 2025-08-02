@@ -1886,7 +1886,6 @@ MonoBehaviour:
   totalPoint: 0
   stagePoint: 0
   stageIndex: 0
-  health: 3
   Stages:
   - {fileID: 1703564129}
   - {fileID: 1260218088}
@@ -5683,6 +5682,7 @@ GameObject:
   - component: {fileID: 1621376801}
   - component: {fileID: 1621376804}
   - component: {fileID: 1621376807}
+  - component: {fileID: 1621376810}
   - component: {fileID: 1621376808}
   - component: {fileID: 1621376809}
   - component: {fileID: 1621376800}
@@ -6018,6 +6018,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e74e330a0a10e994a9e5bd5861798562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1621376810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621376798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7d034748d7beb46807162ab1c49bd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  invincibleTime: 3
 --- !u!1 &1664245118
 GameObject:
   m_ObjectHideFlags: 0

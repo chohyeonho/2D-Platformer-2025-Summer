@@ -93,6 +93,13 @@ public class GameManager : MonoBehaviour
 	public void Restart()
 	{
 		Time.timeScale = 1;
+
+		// ★ DontDestroyOnLoad 대상도 수동 제거
+		if (player != null)
+		{
+			Destroy(player.gameObject);
+		}
+
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 }
