@@ -105,33 +105,4 @@ public class EnemyMove : MonoBehaviour
 		// ✓ 새로운 Think 예약
 		Invoke("Think", 2);
 	}
-
-	// ▶︎ 피격 처리
-	public void OnDamaged()
-	{
-		// ✓ 반투명 효과로 피격 표현
-		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
-
-		// ✓ 스프라이트 상하 반전
-		spriteRenderer.flipY = true;
-
-		// ✓ 콜라이더 비활성화
-		capsuleCollider.enabled = false;
-
-		// ✓ 위로 튀어오르는 효과
-		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
-
-		// ✓ 피격 애니메이션 트리거
-		anim.SetTrigger("doHit");
-
-		// ★ 삭제 예약 (변수화된 시간 활용)
-		Invoke("DeActive", deactivateDelay);
-	}
-
-	// ▶︎ 오브젝트 비활성화
-	void DeActive()
-	{
-		// ✓ 오브젝트 비활성화 처리
-		gameObject.SetActive(false);
-	}
 }

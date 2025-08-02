@@ -206,7 +206,7 @@ public class PlayerMove : MonoBehaviour
 		}
 	}
 
-	// ▶︎ 적 공격 처리
+	// ● 적 공격 처리
 	void OnAttack(Transform enemy)
 	{
 		// ✓ 점수 증가
@@ -215,13 +215,18 @@ public class PlayerMove : MonoBehaviour
 		// ● 반동 점프 효과
 		rigid.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
 
-		// ● 적에 데미지를 가함
-		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
-		enemyMove.OnDamaged();
+		// ★ 적에게 데미지를 가함
+		IDamageable damageable = enemy.GetComponent<IDamageable>();
+		if (damageable != null)
+		{
+			damageable.Damage(1f);
+		}
 
 		// ★ 공격 사운드 재생
 		PlaySound("ATTACK");
 	}
+
+
 
 	// ▶︎ 피격 시 반응 처리
 	void OnDamaged(Vector2 targetPos)
