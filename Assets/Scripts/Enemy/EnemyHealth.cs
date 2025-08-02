@@ -9,6 +9,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 	// ★ 현재 체력
 	private float currentHealth;
 
+	public bool HasTakenDamage { get; set; }
+
 	// ▶︎ 시작 시 초기 체력 설정
 	private void Start()
 	{
@@ -18,6 +20,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 	// ▶︎ 데미지를 받을 때 호출되는 함수 (인터페이스 구현)
 	public void Damage(float damageAmount)
 	{
+		HasTakenDamage = true;
+
 		currentHealth -= damageAmount;
 
 		// ★ 체력이 0 이하로 떨어졌을 때 사망 처리
