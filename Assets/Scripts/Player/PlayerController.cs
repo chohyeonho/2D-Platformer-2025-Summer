@@ -53,10 +53,10 @@ public class PlayerController : MonoBehaviour
 		prevXInput = xInput;
 
 		// ✓ 현재 입력값 갱신
-		xInput = UserInput.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
+		xInput = InputManager.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
 
 		// ▶︎ 점프 입력 (Input System 기반)
-		if (UserInput.instance.gameInputActions.Player.Jump.WasPressedThisFrame() && isGrounded)
+		if (InputManager.instance.gameInputActions.Player.Jump.WasPressedThisFrame() && isGrounded)
 		{
 			rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);

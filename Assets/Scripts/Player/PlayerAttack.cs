@@ -61,8 +61,8 @@ public class PlayerAttack : MonoBehaviour
 		UpdateAttackTransformDirection();
 
 		// ✓ 공격 키를 눌렀는지 확인 + 쿨타임 체크
-		if (UserInput.instance != null &&
-			UserInput.instance.gameInputActions.Player.Attack.WasPressedThisFrame() &&
+		if (InputManager.instance != null &&
+			InputManager.instance.gameInputActions.Player.Attack.WasPressedThisFrame() &&
 			attackTimeCounter >= timeBtwAttacks)
 		{
 			attackTimeCounter = 0f;

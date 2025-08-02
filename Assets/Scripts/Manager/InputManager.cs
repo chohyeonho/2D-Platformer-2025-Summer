@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEditor.ShaderGraph;
 using UnityEngine;
 
-public class UserInput : MonoBehaviour
+public class InputManager : MonoBehaviour
 {
 	// ★ 싱글톤 인스턴스
-	public static UserInput instance;
+	public static InputManager instance;
 
 	// ★ Controls 입력 클래스 (Input Actions 기반)
 	[HideInInspector]
