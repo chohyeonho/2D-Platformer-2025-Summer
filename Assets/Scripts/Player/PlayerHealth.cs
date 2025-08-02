@@ -8,13 +8,13 @@ public class PlayerHealth : MonoBehaviour
 	// ● 현재 체력
 	private int currentHealth;
 
-	// ● 무적 시간 (초)
+	// ● 무적 시간
 	[SerializeField] private float invincibleTime = 3f;
 
 	// ● 무적 여부
 	private bool isInvincible = false;
 
-	// ● 컴포넌트 참조
+	// ● 컴포넌트 캐싱
 	private SpriteRenderer spriteRenderer;
 	private CapsuleCollider2D capsuleCollider;
 	private Rigidbody2D rigid;
@@ -36,13 +36,12 @@ public class PlayerHealth : MonoBehaviour
 		UIManager.instance.UpdateHealth(currentHealth);
 	}
 
-	// ▶︎ 데미지 입기 요청
+	// ▶︎ 데미지 입기 처리
 	public void TakeDamage(Vector2 attackerPos)
 	{
 		if (isInvincible || currentHealth <= 0) return;
 
 		currentHealth--;
-
 		UIManager.instance.UpdateHealth(currentHealth);
 
 		if (currentHealth <= 0)
@@ -51,13 +50,16 @@ public class PlayerHealth : MonoBehaviour
 			return;
 		}
 
-		// ● 피격 연출
 		isInvincible = true;
 		gameObject.layer = 11;
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
-		int dirc = transform.position.x - attackerPos.x > 0 ? 1 : -1;
-		rigid.AddForce(new Vector2(dirc, 1) * 7f, ForceMode2D.Impulse);
+		// ★ 반동 처리: 공격자 위치와 다를 때만 적용
+		if (attackerPos != (Vector2)transform.position)
+		{
+			int dirc = transform.position.x - attackerPos.x > 0 ? 1 : -1;
+			rigid.AddForce(new Vector2(dirc, 1) * 7f, ForceMode2D.Impulse);
+		}
 
 		anim.SetTrigger("doDamaged");
 		sound?.PlayDamaged();
@@ -74,19 +76,17 @@ public class PlayerHealth : MonoBehaviour
 	}
 
 	// ▶︎ 사망 처리
-	private void Die()
+	public void Die()
 	{
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 		spriteRenderer.flipY = true;
 		capsuleCollider.enabled = false;
 		rigid.AddForceY(5f, ForceMode2D.Impulse);
 		sound?.PlayDie();
-
-		// ● 게임 오버 UI 표시
 		UIManager.instance.ShowRestartButton("Retry");
 	}
 
-	// ▶︎ 체력 강제 초기화 (예: 리스폰 시)
+	// ▶︎ 체력 초기화
 	public void ResetHealth()
 	{
 		currentHealth = maxHealth;
@@ -97,7 +97,7 @@ public class PlayerHealth : MonoBehaviour
 		capsuleCollider.enabled = true;
 	}
 
-	// ▶︎ 현재 체력 외부 접근용
+	// ▶︎ 외부 조회용 체력 접근
 	public int GetCurrentHealth()
 	{
 		return currentHealth;
