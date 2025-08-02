@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Windows;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -32,6 +33,10 @@ public class PlayerMove : MonoBehaviour
 	// ● 아이템 타입 분류용 enum
 	enum ItemType { Bronze, Silver, Gold }
 
+	private float xInput;
+	private float prevXInput;
+
+
 	// ★ 필수 컴포넌트 연결
 	void Awake()
 	{
@@ -44,8 +49,14 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 키 입력 처리
 	void Update()
 	{
-		// ✓ 바닥에 닿은 상태에서 점프 입력 시 위로 힘을 가하고 점프 상태 설정
-		if (Input.GetButtonDown("Jump") && isGrounded)
+		// ✓ 이전 프레임 입력값 저장
+		prevXInput = xInput;
+
+		// ✓ 현재 입력값 갱신
+		xInput = UserInput.instance.controls.Player.Move.ReadValue<Vector2>().x;
+
+		// ▶︎ 점프 입력 (Input System 기반)
+		if (UserInput.instance.controls.Player.Jump.WasPressedThisFrame() && isGrounded)
 		{
 			rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
@@ -53,28 +64,33 @@ public class PlayerMove : MonoBehaviour
 			GetComponent<PlayerSound>()?.PlayJump();
 		}
 
-		// ✓ 수평 이동 키에서 손을 뗐을 때 속도 감속
-		if (Input.GetButtonUp("Horizontal"))
+		// ▶︎ 이동 중 키에서 손 뗐을 때 감속 처리
+		// ▶︎ 입력을 방금 뗐고,
+		// ▶︎ 현재 속도가 일정 이상일 때만 감속
+		if (Mathf.Abs(prevXInput) > 0.01f &&
+			Mathf.Abs(xInput) <= 0.01f &&
+			Mathf.Abs(rigid.linearVelocity.x) > 0.5f)
 		{
 			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * 0.5f;
 		}
 
-		// ✓ 이동 방향에 따라 스프라이트 좌우 반전
-		if (Input.GetButton("Horizontal"))
+		// ▶︎ 좌우 반전 처리
+		if (Mathf.Abs(xInput) > 0.01f)
 		{
-			spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
+			spriteRenderer.flipX = xInput < 0;
 		}
 
-		// ✓ 이동 속도에 따라 걷기 애니메이션 설정
+		// ▶︎ 걷기 애니메이션 처리
 		anim.SetBool("isWalking", Mathf.Abs(rigid.linearVelocity.x) >= 0.3f);
 	}
 
 	// ▶︎ 물리 기반 이동 처리
 	void FixedUpdate()
 	{
-		float h = Input.GetAxisRaw("Horizontal");
-		rigid.AddForceX(h, ForceMode2D.Impulse);
+		// ▶︎ 수평 이동 처리
+		rigid.AddForceX(xInput, ForceMode2D.Impulse);
 
+		// ▶︎ 최고 속도 제한
 		if (rigid.linearVelocity.x > maxSpeed)
 		{
 			rigid.linearVelocityX = maxSpeed;
