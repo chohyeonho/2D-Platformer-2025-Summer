@@ -55,6 +55,9 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		// ✓ 애니메이션 트리거 실행
 		GetComponent<Animator>()?.SetTrigger("doHit");
 
+		// ★ 사망 사운드 재생
+		GetComponent<EnemySound>()?.PlayDieSound();
+
 		// ★ 일정 시간 후 비활성화
 		Invoke("DeActive", 5f);
 	}
