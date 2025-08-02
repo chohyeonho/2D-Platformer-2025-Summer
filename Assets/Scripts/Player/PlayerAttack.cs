@@ -35,6 +35,9 @@ public class PlayerAttack : MonoBehaviour
 	// ▶︎ 공격 가능한 상태 플래그 (애니메이션 연동용)
 	public bool ShouldBeDamaging { get; private set; } = false;
 
+	// ● 공격 중 방향 고정을 위한 변수
+	private bool cachedFacingLeft = false;
+
 	// ▶︎ 초기화 처리
 	private void Start()
 	{
@@ -48,6 +51,9 @@ public class PlayerAttack : MonoBehaviour
 	// ▶︎ 키 입력 감지
 	private void Update()
 	{
+		// ✓ 공격 위치 좌우 반영
+		UpdateAttackTransformDirection();
+
 		// ✓ 공격 키를 눌렀는지 확인 + 쿨타임 체크
 		if (UserInput.instance != null &&
 			UserInput.instance.controls.Player.Attack.WasPressedThisFrame() &&
@@ -72,13 +78,36 @@ public class PlayerAttack : MonoBehaviour
 		attackTimeCounter += Time.deltaTime;
 	}
 
+	// ▶︎ 플레이어의 방향에 따라 공격 위치를 좌우 반전
+	private void UpdateAttackTransformDirection()
+	{
+		// ✓ 공격 중이면 고정된 방향 유지
+		if (ShouldBeDamaging)
+		{
+			Vector3 localPos = attackTransform.localPosition;
+			localPos.x = Mathf.Abs(localPos.x) * (cachedFacingLeft ? -1 : 1);
+			attackTransform.localPosition = localPos;
+			return;
+		}
+
+		// ✓ 평상시엔 현재 방향 기준으로 계속 갱신
+		bool facingLeft = GetComponent<SpriteRenderer>().flipX;
+		Vector3 pos = attackTransform.localPosition;
+		pos.x = Mathf.Abs(pos.x) * (facingLeft ? -1 : 1);
+		attackTransform.localPosition = pos;
+	}
+
+
 	// ▶︎ 슬래시 애니메이션 재생 중 공격 판정을 지속적으로 감지
 	// ● ShouldBeDamaging이 true인 동안 매 프레임 공격 판정 실행
 	// ● 애니메이션 이벤트로 On/Off 타이밍 제어 필요
 	public IEnumerator DamageWhileSlashIsActive()
 	{
 		// ★ 데미지 가능 상태로 설정
-		ShouldBeDamaging = true;
+		ShouldBeDamagingToTrue();
+
+		// ★ 방향 고정 시작
+		cachedFacingLeft = GetComponent<SpriteRenderer>().flipX;
 
 		while (ShouldBeDamaging)
 		{
