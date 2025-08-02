@@ -66,47 +66,44 @@ public class PlayerMove : MonoBehaviour
 	// ▶︎ 키 입력 처리
 	void Update()
 	{
-		// ✓ 바닥에 닿은 상태에서 점프 입력 시 위로 힘을 가하고 점프 상태 설정
-		if (Input.GetButtonDown("Jump") && isGrounded)
+		// ★ 현재 프레임의 입력 벡터 (Input System 기반)
+		Vector2 inputVec = UserInput.instance.controls.Player.Move.ReadValue<Vector2>();
+
+		// ★ 바닥 위에서 점프 키 입력 시 점프 실행
+		if (UserInput.instance.controls.Player.Jump.WasPressedThisFrame() && isGrounded)
 		{
 			rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
 			isGrounded = false;
-			// ★ 점프 사운드 재생
 			PlaySound("JUMP");
 		}
 
-		// ✓ 수평 이동 키에서 손을 뗐을 때 속도 감속
-		if (Input.GetButtonUp("Horizontal"))
+		// ★ 수평 입력이 0일 때 감속 처리
+		if (inputVec.x == 0f)
 		{
 			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * 0.5f;
 		}
 
-		// ✓ 이동 방향에 따라 스프라이트 좌우 반전
-		if (Input.GetButton("Horizontal"))
+		// ★ 입력 방향에 따라 스프라이트 좌우 반전
+		if (inputVec.x != 0f)
 		{
-			spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
+			spriteRenderer.flipX = inputVec.x < 0;
 		}
 
-		// ✓ 이동 속도에 따라 걷기 애니메이션 설정
-		if (Mathf.Abs(rigid.linearVelocity.x) < 0.3f)
-		{
-			anim.SetBool("isWalking", false);
-		}
-		else
-		{
-			anim.SetBool("isWalking", true);
-		}
+		// ★ 이동 속도 기준 걷기 애니메이션 설정
+		anim.SetBool("isWalking", Mathf.Abs(rigid.linearVelocity.x) >= 0.3f);
 	}
 
 	// ▶︎ 물리 기반 이동 처리
 	void FixedUpdate()
 	{
-		// ✓ 수평 입력을 이용한 이동 힘 적용
-		float h = Input.GetAxisRaw("Horizontal");
-		rigid.AddForceX(h, ForceMode2D.Impulse);
+		// ★ 현재 프레임의 수평 입력값 (Input System 기반)
+		float xInput = UserInput.instance.controls.Player.Move.ReadValue<Vector2>().x;
 
-		// ✓ 최고 속도를 넘지 않도록 제한
+		// ★ 입력 방향으로 힘을 가함
+		rigid.AddForceX(xInput, ForceMode2D.Impulse);
+
+		// ★ 최고 속도를 넘지 않도록 제한
 		if (rigid.linearVelocity.x > maxSpeed)
 		{
 			rigid.linearVelocityX = maxSpeed;
