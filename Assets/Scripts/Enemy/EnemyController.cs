@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
 	// ● 이동 제어용 리지드바디
 	Rigidbody2D rigid;
@@ -50,21 +50,17 @@ public class EnemyMove : MonoBehaviour
 		Debug.DrawRay(rightFoot, Vector2.down * 1f, Color.green);
 
 		// ● 양발 기준 바닥 확인용 레이캐스트 실행
-		RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
-		RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+		RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 0.5f, LayerMask.GetMask("Platform"));
+		RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 0.5f, LayerMask.GetMask("Platform"));
+
 
 		// ● 한쪽 발이라도 공중이면 방향 전환 (한 번만)
-		if (!isTurning && (
-			leftRay.collider == null || leftRay.distance > 0.5f ||
-			rightRay.collider == null || rightRay.distance > 0.5f))
+		if (!isTurning && (leftRay.collider == null || rightRay.collider == null))
 		{
 			Turn();
 			isTurning = true;
 		}
-		// ● 양쪽 발 모두 바닥에 닿으면 방향 전환 가능 상태로 복귀
-		else if (
-			leftRay.collider != null && leftRay.distance < 0.5f &&
-			rightRay.collider != null && rightRay.distance < 0.5f)
+		else if (leftRay.collider != null && rightRay.collider != null)
 		{
 			isTurning = false;
 		}

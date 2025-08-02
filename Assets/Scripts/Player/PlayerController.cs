@@ -110,19 +110,20 @@ public class PlayerController : MonoBehaviour
 			Debug.DrawRay(rightFoot, Vector2.down, new Color(0, 1, 0));
 
 			// ● 양발 기준 바닥 확인용 레이캐스트 실행
-			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
-			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 1f, LayerMask.GetMask("Platform"));
+			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 0.5f, LayerMask.GetMask("Platform"));
+			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 0.5f, LayerMask.GetMask("Platform"));
 
 			// ● 둘 중 하나라도 바닥에 닿았을 경우 착지 상태로 전환
-			if ((leftRay.collider != null && leftRay.distance < 0.5f) || (rightRay.collider != null && rightRay.distance < 0.5f))
+			if (leftRay.collider != null || rightRay.collider != null)
 			{
-				anim.SetBool("isJumping", false);
 				isGrounded = true;
+				anim.SetBool("isJumping", false);
 			}
 			else
 			{
 				isGrounded = false;
 			}
+
 		}
 	}
 
