@@ -39,7 +39,7 @@ public class EnemyMove : MonoBehaviour
 	void FixedUpdate()
 	{
 		// ✓ 이동 방향 적용
-		rigid.linearVelocity = new Vector2(nextMove, rigid.linearVelocity.y);
+		rigid.linearVelocityX = nextMove;
 
 		// ✓ 양발 위치 기준으로 바닥 존재 여부를 확인
 
