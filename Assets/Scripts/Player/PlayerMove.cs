@@ -69,7 +69,7 @@ public class PlayerMove : MonoBehaviour
 		// ✓ 바닥에 닿은 상태에서 점프 입력 시 위로 힘을 가하고 점프 상태 설정
 		if (Input.GetButtonDown("Jump") && isGrounded)
 		{
-			rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+			rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
 			isGrounded = false;
 			// ★ 점프 사운드 재생
@@ -79,7 +79,7 @@ public class PlayerMove : MonoBehaviour
 		// ✓ 수평 이동 키에서 손을 뗐을 때 속도 감속
 		if (Input.GetButtonUp("Horizontal"))
 		{
-			rigid.linearVelocity = new Vector2(rigid.linearVelocity.normalized.x * 0.5f, rigid.linearVelocity.y);
+			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * 0.5f;
 		}
 
 		// ✓ 이동 방향에 따라 스프라이트 좌우 반전
@@ -104,16 +104,16 @@ public class PlayerMove : MonoBehaviour
 	{
 		// ✓ 수평 입력을 이용한 이동 힘 적용
 		float h = Input.GetAxisRaw("Horizontal");
-		rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
+		rigid.AddForceX(h, ForceMode2D.Impulse);
 
 		// ✓ 최고 속도를 넘지 않도록 제한
 		if (rigid.linearVelocity.x > maxSpeed)
 		{
-			rigid.linearVelocity = new Vector2(maxSpeed, rigid.linearVelocity.y);
+			rigid.linearVelocityX = maxSpeed;
 		}
 		else if (rigid.linearVelocity.x < -maxSpeed)
 		{
-			rigid.linearVelocity = new Vector2(-maxSpeed, rigid.linearVelocity.y);
+			rigid.linearVelocityX = -maxSpeed;
 		}
 
 		// ★ 하강 중일 때 양발 기준으로 바닥 존재 여부를 확인
@@ -206,22 +206,27 @@ public class PlayerMove : MonoBehaviour
 		}
 	}
 
-	// ▶︎ 적 공격 처리
+	// ● 적 공격 처리
 	void OnAttack(Transform enemy)
 	{
 		// ✓ 점수 증가
 		gameManager.stagePoint += 100;
 
 		// ● 반동 점프 효과
-		rigid.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+		rigid.AddForceY(10, ForceMode2D.Impulse);
 
-		// ● 적에 데미지를 가함
-		EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
-		enemyMove.OnDamaged();
+		// ★ 적에게 데미지를 가함
+		IDamageable damageable = enemy.GetComponent<IDamageable>();
+		if (damageable != null)
+		{
+			damageable.Damage(1f);
+		}
 
 		// ★ 공격 사운드 재생
 		PlaySound("ATTACK");
 	}
+
+
 
 	// ▶︎ 피격 시 반응 처리
 	void OnDamaged(Vector2 targetPos)
@@ -269,7 +274,7 @@ public class PlayerMove : MonoBehaviour
 		capsuleCollider.enabled = false;
 
 		// ★ 위로 튀는 연출
-		rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+		rigid.AddForceY(5, ForceMode2D.Impulse);
 
 		// ★ 사망 사운드 재생
 		PlaySound("DIE");
