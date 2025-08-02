@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,6 +19,9 @@ public class PlayerAttack : MonoBehaviour
 
 	// ★ 공격 간격 시간 (초)
 	[SerializeField] private float timeBtwAttacks = 0.15f;
+
+	// ● 이번 공격 중 데미지를 받은 객체 목록
+	private List<IDamageable> iDamageables = new List<IDamageable>();
 
 	// ● 공격 판정 결과 저장용 배열
 	private RaycastHit2D[] hits;
@@ -73,10 +77,12 @@ public class PlayerAttack : MonoBehaviour
 	// ● 애니메이션 이벤트로 On/Off 타이밍 제어 필요
 	public IEnumerator DamageWhileSlashIsActive()
 	{
+		// ★ 데미지 가능 상태로 설정
 		ShouldBeDamaging = true;
 
 		while (ShouldBeDamaging)
 		{
+			// ★ 공격 범위 내 모든 충돌 대상 탐지
 			hits = Physics2D.CircleCastAll(
 				attackTransform.position,
 				attackRange,
@@ -87,16 +93,40 @@ public class PlayerAttack : MonoBehaviour
 
 			for (int i = 0; i < hits.Length; i++)
 			{
+				// ★ 인터페이스 구현체 가져오기
 				IDamageable iDamageable = hits[i].collider.gameObject.GetComponent<IDamageable>();
 
-				if (iDamageable != null)
+				// ✓ 아직 데미지를 받지 않은 대상일 경우
+				if (iDamageable != null && !iDamageable.HasTakenDamage)
 				{
+					// ★ 데미지 적용
 					iDamageable.Damage(damageAmount);
+
+					// ★ 목록에 추가
+					iDamageables.Add(iDamageable);
 				}
 			}
 
+			// ★ 다음 프레임까지 대기
 			yield return null;
 		}
+
+		// ★ 피격 상태 초기화
+		ReturnAttackablesToDamageable();
+	}
+
+	// ▶︎ 데미지를 받은 IDamageable 목록을 초기화하는 함수
+	private void ReturnAttackablesToDamageable()
+	{
+		// ★ 데미지 받은 객체 목록 반복
+		foreach (IDamageable thingThatWasDamaged in iDamageables)
+		{
+			// ★ 중복 방지를 위해 피격 상태 초기화
+			thingThatWasDamaged.HasTakenDamage = false;
+		}
+
+		// ★ 다음 공격을 위해 리스트 초기화
+		iDamageables.Clear();
 	}
 
 	// ▶︎ 공격 범위 디버그용 기즈모 표시
