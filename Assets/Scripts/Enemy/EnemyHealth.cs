@@ -50,7 +50,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		GetComponent<CapsuleCollider2D>().enabled = false;
 
 		// ✓ 튀어오르는 연출
-		GetComponent<Rigidbody2D>().AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+		GetComponent<Rigidbody2D>().AddForceY(5, ForceMode2D.Impulse);
 
 		// ✓ 애니메이션 트리거 실행
 		GetComponent<Animator>()?.SetTrigger("doHit");
