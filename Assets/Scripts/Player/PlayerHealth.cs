@@ -32,8 +32,8 @@ public class PlayerHealth : MonoBehaviour
 
 	private void Start()
 	{
-		currentHealth = maxHealth;
-		UIManager.instance.UpdateHealth(currentHealth);
+		PlayerData.instance.ResetHealth();
+		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
 	}
 
 	// ▶︎ 데미지 입기 처리
@@ -41,14 +41,15 @@ public class PlayerHealth : MonoBehaviour
 	{
 		if (isInvincible || currentHealth <= 0) return;
 
-		currentHealth--;
-		UIManager.instance.UpdateHealth(currentHealth);
+		PlayerData.instance.SetHealth(PlayerData.instance.currentHealth - 1);
+		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
 
-		if (currentHealth <= 0)
+		if (PlayerData.instance.currentHealth <= 0)
 		{
 			Die();
 			return;
 		}
+
 
 		isInvincible = true;
 		gameObject.layer = 11;

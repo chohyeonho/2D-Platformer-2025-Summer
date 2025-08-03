@@ -3,12 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-	// ★ 전체 점수 누적용 변수
-	public int totalPoint;
-
-	// ★ 현재 스테이지에서 획득한 점수
-	public int stagePoint;
-
 	// ★ 현재 스테이지 인덱스 (예: 0, 1, 2…)
 	public int stageIndex;
 
@@ -35,12 +29,6 @@ public class GameManager : MonoBehaviour
 		instance = this;
 	}
 
-	void Update()
-	{
-		// ★ 점수 UI 실시간 갱신
-		UIManager.instance.UpdateScore(totalPoint + stagePoint);
-	}
-
 	// ▶︎ 다음 스테이지로 전환 처리
 	public void NextStage()
 	{
@@ -59,8 +47,8 @@ public class GameManager : MonoBehaviour
 			UIManager.instance.ShowRestartButton("Clear!");
 		}
 
-		totalPoint += stagePoint;
-		stagePoint = 0;
+		PlayerData.instance.CommitStageScore();
+
 	}
 
 	// ▶︎ 플레이어 충돌 시 체력 조건에 따른 처리

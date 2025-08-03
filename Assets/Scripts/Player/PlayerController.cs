@@ -178,15 +178,16 @@ public class PlayerController : MonoBehaviour
 			switch (type)
 			{
 				case ItemType.Bronze:
-					gameManager.stagePoint += 50;
+					PlayerData.instance.AddStageScore(50);
 					break;
 				case ItemType.Silver:
-					gameManager.stagePoint += 100;
+					PlayerData.instance.AddStageScore(100);
 					break;
 				case ItemType.Gold:
-					gameManager.stagePoint += 300;
+					PlayerData.instance.AddStageScore(300);
 					break;
 			}
+
 
 			// ✓ 아이템 비활성화
 			collision.gameObject.SetActive(false);
@@ -208,7 +209,7 @@ public class PlayerController : MonoBehaviour
 	void OnAttack(Transform enemy)
 	{
 		// ✓ 점수 증가
-		gameManager.stagePoint += 100;
+		PlayerData.instance.AddStageScore(100);
 
 		// ● 반동 점프 효과
 		rigid.AddForceY(10, ForceMode2D.Impulse);
