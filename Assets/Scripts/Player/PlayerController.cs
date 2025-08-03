@@ -57,6 +57,15 @@ public class PlayerController : MonoBehaviour
 		health = GetComponent<PlayerHealth>();
 	}
 
+	private void Start()
+	{
+		if (GameManager.instance != null)
+		{
+			GameManager.instance.player = this;
+		}
+	}
+
+
 	// ▶︎ 키 입력 처리
 	void Update()
 	{

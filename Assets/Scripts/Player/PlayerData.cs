@@ -26,8 +26,6 @@ public class PlayerData : MonoBehaviour
 
 		instance = this;
 		DontDestroyOnLoad(gameObject);
-
-		ResetAll(); // 시작 시 전체 초기화
 	}
 
 	// ▶︎ 체력 설정

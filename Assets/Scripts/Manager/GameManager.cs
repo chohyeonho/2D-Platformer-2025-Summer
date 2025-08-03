@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
 	// ※ 스테이지별 플레이어 시작 위치 변수 (추후 구현 예정)
 	public Vector3 spawnPosition;
 
+	public static bool isRestart = false;
+
 	private void Awake()
 	{
 		if (instance != null)
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
 		}
 
 		instance = this;
+		isRestart = true;
 	}
 
 	// ▶︎ 다음 스테이지로 전환 처리
@@ -80,13 +83,8 @@ public class GameManager : MonoBehaviour
 	// ▶︎ 씬 재시작 처리
 	public void Restart()
 	{
+		isRestart = true;
 		Time.timeScale = 1;
-
-		// ★ DontDestroyOnLoad 대상도 수동 제거
-		if (player != null)
-		{
-			Destroy(player.gameObject);
-		}
 
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}

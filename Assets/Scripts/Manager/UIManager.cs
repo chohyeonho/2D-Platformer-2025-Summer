@@ -27,6 +27,19 @@ public class UIManager : MonoBehaviour
 		instance = this;
 	}
 
+	private void Start()
+	{
+		Button btn = restartButton.GetComponent<Button>();
+		btn.onClick.RemoveAllListeners();
+		btn.onClick.AddListener(() => GameManager.instance.Restart());
+
+		if (GameManager.isRestart)
+		{
+			PlayerData.instance?.ResetAll();
+			GameManager.isRestart = false;
+		}
+	}
+
 	// ▶︎ 점수 갱신
 	public void UpdateScore(int totalScore)
 	{
