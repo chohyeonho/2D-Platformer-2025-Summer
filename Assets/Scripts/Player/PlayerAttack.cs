@@ -38,11 +38,17 @@ public class PlayerAttack : MonoBehaviour
 	// ● 공격 중 방향 고정을 위한 변수
 	private bool cachedFacingLeft = false;
 
+	// ● 플레이어 이동 스크립트 참조
+	private PlayerController playerController;
+
+
 	// ▶︎ 초기화 처리
 	private void Start()
 	{
 		// ✓ 애니메이터 컴포넌트 참조
 		anim = GetComponent<Animator>();
+
+		playerController = GetComponent<PlayerController>();
 
 		// ✓ 게임 시작 직후 바로 공격 가능하도록 타이머 초기화
 		attackTimeCounter = timeBtwAttacks;
@@ -55,23 +61,16 @@ public class PlayerAttack : MonoBehaviour
 		UpdateAttackTransformDirection();
 
 		// ✓ 공격 키를 눌렀는지 확인 + 쿨타임 체크
-		if (UserInput.instance != null &&
-			UserInput.instance.controls.Player.Attack.WasPressedThisFrame() &&
+		if (InputManager.instance != null &&
+			InputManager.instance.gameInputActions.Player.Attack.WasPressedThisFrame() &&
 			attackTimeCounter >= timeBtwAttacks)
 		{
-			// ★ 타이머 초기화
 			attackTimeCounter = 0f;
 
-			// ✓ 애니메이션 트리거 실행
 			anim.SetTrigger("attack");
 
-			// ※ 제안: 공격 사운드 재생 추가 고려
-			// 
-			// audioSource.PlayOneShot(audioAttack);
-
-			// ※ 제안: 여기서 코루틴 직접 시작 가능
-			// 
-			// StartCoroutine(DamageWhileSlashIsActive());
+			// ★ 휘두를 때 사운드
+			GetComponent<PlayerSound>()?.PlaySwing();
 		}
 
 		// ★ 시간 누적
@@ -128,10 +127,11 @@ public class PlayerAttack : MonoBehaviour
 				// ✓ 아직 데미지를 받지 않은 대상일 경우
 				if (iDamageable != null && !iDamageable.HasTakenDamage)
 				{
-					// ★ 데미지 적용
 					iDamageable.Damage(damageAmount);
 
-					// ★ 목록에 추가
+					// ★ 적중 사운드 재생
+					GetComponent<PlayerSound>()?.PlayHit();
+
 					iDamageables.Add(iDamageable);
 				}
 			}
