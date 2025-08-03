@@ -2,11 +2,6 @@
 
 public class PlayerHealth : MonoBehaviour
 {
-	// ● 최대 체력
-	[SerializeField] private int maxHealth = 3;
-
-	// ● 현재 체력
-	private int currentHealth;
 
 	// ● 무적 시간
 	[SerializeField] private float invincibleTime = 3f;
@@ -39,7 +34,9 @@ public class PlayerHealth : MonoBehaviour
 	// ▶︎ 데미지 입기 처리
 	public void TakeDamage(Vector2 attackerPos)
 	{
-		if (isInvincible || currentHealth <= 0) return;
+		Debug.Log("피해 시도됨");
+
+		if (isInvincible || PlayerData.instance.currentHealth <= 0) return;
 
 		PlayerData.instance.SetHealth(PlayerData.instance.currentHealth - 1);
 		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
@@ -49,6 +46,7 @@ public class PlayerHealth : MonoBehaviour
 			Die();
 			return;
 		}
+
 
 
 		isInvincible = true;
@@ -90,8 +88,9 @@ public class PlayerHealth : MonoBehaviour
 	// ▶︎ 체력 초기화
 	public void ResetHealth()
 	{
-		currentHealth = maxHealth;
-		UIManager.instance.UpdateHealth(currentHealth);
+		PlayerData.instance.ResetHealth();
+		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
+
 		isInvincible = false;
 		spriteRenderer.color = Color.white;
 		gameObject.layer = 10;
@@ -101,6 +100,6 @@ public class PlayerHealth : MonoBehaviour
 	// ▶︎ 외부 조회용 체력 접근
 	public int GetCurrentHealth()
 	{
-		return currentHealth;
+		return PlayerData.instance.currentHealth;
 	}
 }

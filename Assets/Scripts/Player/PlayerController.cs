@@ -142,6 +142,8 @@ public class PlayerController : MonoBehaviour
 	// ▶︎ 충돌 발생 시 처리
 	void OnCollisionEnter2D(Collision2D collision)
 	{
+		Debug.Log("적과 충돌 감지");
+
 		// ✓ 적과 충돌했을 때 공격 또는 피격 판단
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
