@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-	// ★ 현재 스테이지 인덱스 (예: 0, 1, 2…)
-	private int stageIndex;
 
 	// ★ 플레이어 객체 참조용
 	public PlayerController player;
@@ -31,6 +29,7 @@ public class GameManager : MonoBehaviour
 
 		instance = this;
 	}
+
 	public void NextStage()
 	{
 		string sceneName = SceneManager.GetActiveScene().name;
@@ -88,10 +87,12 @@ public class GameManager : MonoBehaviour
 	public void Restart()
 	{
 		isRestart = true;
+		PlayerData.instance?.ResetAll(); // 수치만 초기화
 		Time.timeScale = 1;
-
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene("Stage_0");
 	}
+
+
 
 	public void SetSpawnPosition(Vector3 pos)
 	{

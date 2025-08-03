@@ -29,15 +29,14 @@ public class UIManager : MonoBehaviour
 
 	private void Start()
 	{
+		// 항상 UI 갱신 (DontDestroyOnLoad 아님이 확실하므로 Start 보장)
+		UpdateHealth(PlayerData.instance.currentHealth);
+		UpdateScore(PlayerData.instance.GetTotalDisplayScore());
+
+		// 버튼 리스너는 그대로 유지
 		Button btn = restartButton.GetComponent<Button>();
 		btn.onClick.RemoveAllListeners();
 		btn.onClick.AddListener(() => GameManager.instance.Restart());
-
-		if (GameManager.isRestart)
-		{
-			PlayerData.instance?.ResetAll();
-			GameManager.isRestart = false;
-		}
 	}
 
 	// ▶︎ 점수 갱신
