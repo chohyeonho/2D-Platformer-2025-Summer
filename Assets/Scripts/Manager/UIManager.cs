@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -29,16 +30,16 @@ public class UIManager : MonoBehaviour
 
 	private void Start()
 	{
+		UpdateStage(); // ★ 여기서 간결하게 호출
+
+		UpdateHealth(PlayerData.instance.currentHealth);
+		UpdateScore(PlayerData.instance.GetTotalDisplayScore());
+
 		Button btn = restartButton.GetComponent<Button>();
 		btn.onClick.RemoveAllListeners();
 		btn.onClick.AddListener(() => GameManager.instance.Restart());
-
-		if (GameManager.isRestart)
-		{
-			PlayerData.instance?.ResetAll();
-			GameManager.isRestart = false;
-		}
 	}
+
 
 	// ▶︎ 점수 갱신
 	public void UpdateScore(int totalScore)
@@ -47,10 +48,20 @@ public class UIManager : MonoBehaviour
 	}
 
 	// ▶︎ 스테이지 번호 갱신
-	public void UpdateStage(int stageIndex)
+	public void UpdateStage()
 	{
-		stageText.text = "STAGE " + (stageIndex + 1);
+		string sceneName = SceneManager.GetActiveScene().name;
+
+		if (sceneName.StartsWith("Stage_"))
+		{
+			string indexStr = sceneName.Substring("Stage_".Length);
+			if (int.TryParse(indexStr, out int index))
+			{
+				stageText.text = "STAGE " + (index + 1); // 사람 기준 1부터
+			}
+		}
 	}
+
 
 	// ▶︎ 체력 이미지 갱신 (삼항 연산자 제거)
 	public void UpdateHealth(int currentHealth)

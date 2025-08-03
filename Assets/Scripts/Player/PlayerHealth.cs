@@ -25,12 +25,6 @@ public class PlayerHealth : MonoBehaviour
 		sound = GetComponent<PlayerSound>();
 	}
 
-	private void Start()
-	{
-		PlayerData.instance.ResetHealth();
-		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
-	}
-
 	// ▶︎ 데미지 입기 처리
 	public void TakeDamage(Vector2 attackerPos)
 	{

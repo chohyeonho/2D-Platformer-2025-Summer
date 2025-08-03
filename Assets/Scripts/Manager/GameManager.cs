@@ -3,11 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-	// ★ 현재 스테이지 인덱스 (예: 0, 1, 2…)
-	public int stageIndex;
-
-	// ★ 스테이지 배열
-	public GameObject[] Stages;
 
 	// ★ 플레이어 객체 참조용
 	public PlayerController player;
@@ -20,6 +15,10 @@ public class GameManager : MonoBehaviour
 
 	public static bool isRestart = false;
 
+	[SerializeField]
+	private int maxStageIndex = 2;
+
+
 	private void Awake()
 	{
 		if (instance != null)
@@ -29,30 +28,34 @@ public class GameManager : MonoBehaviour
 		}
 
 		instance = this;
-		isRestart = true;
 	}
 
-	// ▶︎ 다음 스테이지로 전환 처리
 	public void NextStage()
 	{
-		if (stageIndex < Stages.Length - 1)
-		{
-			Stages[stageIndex].SetActive(false);
-			stageIndex++;
-			Stages[stageIndex].SetActive(true);
-			PlayerReposition();
-			UIManager.instance.UpdateStage(stageIndex);
-		}
-		else
-		{
-			Time.timeScale = 0;
-			Debug.Log("게임 클리어!");
-			UIManager.instance.ShowRestartButton("Clear!");
-		}
+		string sceneName = SceneManager.GetActiveScene().name;
 
-		PlayerData.instance.CommitStageScore();
+		if (sceneName.StartsWith("Stage_"))
+		{
+			string indexStr = sceneName.Substring("Stage_".Length);
+			if (int.TryParse(indexStr, out int index))
+			{
+				int nextIndex = index + 1;
 
+				if (nextIndex > maxStageIndex)
+				{
+					Time.timeScale = 0;
+					Debug.Log("게임 클리어!");
+					UIManager.instance.ShowRestartButton("Clear!");
+					return;
+				}
+
+				string nextSceneName = "Stage_" + nextIndex;
+				SceneManager.LoadScene(nextSceneName);
+			}
+		}
 	}
+
+
 
 	// ▶︎ 플레이어 충돌 시 체력 조건에 따른 처리
 	void OnTriggerEnter2D(Collider2D collision)
@@ -74,7 +77,7 @@ public class GameManager : MonoBehaviour
 	}
 
 	// ▶︎ 플레이어 위치 초기화
-	void PlayerReposition()
+	public void PlayerReposition()
 	{
 		player.transform.position = spawnPosition;
 		player.VelocityZero();
@@ -84,8 +87,15 @@ public class GameManager : MonoBehaviour
 	public void Restart()
 	{
 		isRestart = true;
+		PlayerData.instance?.ResetAll(); // 수치만 초기화
 		Time.timeScale = 1;
+		SceneManager.LoadScene("Stage_0");
+	}
 
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+
+	public void SetSpawnPosition(Vector3 pos)
+	{
+		spawnPosition = pos;
 	}
 }

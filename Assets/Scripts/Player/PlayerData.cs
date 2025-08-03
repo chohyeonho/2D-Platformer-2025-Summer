@@ -26,6 +26,8 @@ public class PlayerData : MonoBehaviour
 
 		instance = this;
 		DontDestroyOnLoad(gameObject);
+
+		ResetAll();
 	}
 
 	// ▶︎ 체력 설정
@@ -60,7 +62,6 @@ public class PlayerData : MonoBehaviour
 		ResetHealth();
 		stageScore = 0;
 		totalScore = 0;
-		UpdateUIScore();
 	}
 
 	// ▶︎ UI 표시용 총합 점수

@@ -62,6 +62,9 @@ public class PlayerController : MonoBehaviour
 		if (GameManager.instance != null)
 		{
 			GameManager.instance.player = this;
+
+			// ★ GameManager의 위치 이동 함수 사용
+			GameManager.instance.PlayerReposition();
 		}
 	}
 
@@ -208,12 +211,17 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (collision.gameObject.CompareTag("Finish"))
 		{
-			// ✓ 다음 스테이지로 이동 처리
+			// ★ 다음 씬에서 등장할 위치 지정
+			GameManager.instance.SetSpawnPosition(new Vector3(0f, 0f, -2f));
+
+			// ★ 스테이지 전환
 			gameManager.NextStage();
 
 			// ★ 클리어 사운드 재생
 			sound?.PlayFinish();
 		}
+
+
 	}
 
 	// ● 적 공격 처리
