@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: EnemyConfig_Default
   m_EditorClassIdentifier: 
   maxHealth: 3
-  moveSpeed: 3
+  moveSpeed: 1
   thinkIntervalRange: {x: 2, y: 5}
   deactivateDelay: 5
   deathBounceForce: 5
   stompClip: {fileID: 0}
   dieClip: {fileID: 0}
+  hitClip: {fileID: 0}
