@@ -36,6 +36,10 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 	// ▶︎ 데미지 처리
 	public void Damage(float damageAmount)
 	{
+		if (HasTakenDamage)
+		{
+			return;
+		}
 		HasTakenDamage = true;
 		currentHealth -= damageAmount;
 

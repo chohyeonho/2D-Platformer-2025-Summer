@@ -1517,7 +1517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ecc020010b2b342be85a9253c2fac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 0}
+  config: {fileID: 11400000, guid: aa4327dcad42c60439051fc8756dccd5, type: 2}
 --- !u!4 &907255727
 Transform:
   m_ObjectHideFlags: 0
@@ -1798,7 +1798,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.6, y: 0.9}
+  m_Size: {x: 0.8, y: 1}
   m_Direction: 0
 --- !u!95 &1205812740
 Animator:
@@ -2282,7 +2282,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.6, y: 0.9}
+  m_Size: {x: 0.8, y: 1}
   m_Direction: 0
 --- !u!114 &1621376804
 MonoBehaviour:
@@ -2433,7 +2433,7 @@ MonoBehaviour:
   attackableLayer:
     serializedVersion: 2
     m_Bits: 512
-  config: {fileID: 0}
+  config: {fileID: 11400000, guid: aa4327dcad42c60439051fc8756dccd5, type: 2}
 --- !u!114 &1621376808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2446,7 +2446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8569df2a0c7278a4e90a6624fc48e730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 0}
+  config: {fileID: 11400000, guid: aa4327dcad42c60439051fc8756dccd5, type: 2}
 --- !u!114 &1621376810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2459,7 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7d034748d7beb46807162ab1c49bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 0}
+  config: {fileID: 11400000, guid: aa4327dcad42c60439051fc8756dccd5, type: 2}
 --- !u!1 &1664245118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,7 +2939,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.6, y: 0.9}
+  m_Size: {x: 0.8, y: 1}
   m_Direction: 0
 --- !u!212 &1796506030
 SpriteRenderer:
