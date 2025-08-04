@@ -18,4 +18,10 @@ public class GameSettings : ScriptableObject
 
 	[Header("스테이지")]
 	public int maxStageIndex = 3;
+
+	[Header("아이템 점수 설정")]
+	public int bronzeItemScore = 50;
+	public int silverItemScore = 100;
+	public int goldItemScore = 300;
+
 }

@@ -2,9 +2,8 @@
 
 public class PlayerHealth : MonoBehaviour
 {
-
-	// ● 무적 시간
-	[SerializeField] private float invincibleTime = 3f;
+	// ▶︎ 플레이어 설정값 참조
+	[SerializeField] private PlayerConfig config;
 
 	// ● 무적 여부
 	private bool isInvincible = false;
@@ -41,8 +40,6 @@ public class PlayerHealth : MonoBehaviour
 			return;
 		}
 
-
-
 		isInvincible = true;
 		gameObject.layer = 11;
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
@@ -51,13 +48,15 @@ public class PlayerHealth : MonoBehaviour
 		if (attackerPos != (Vector2)transform.position)
 		{
 			int dirc = transform.position.x - attackerPos.x > 0 ? 1 : -1;
-			rigid.AddForce(new Vector2(dirc, 1) * 7f, ForceMode2D.Impulse);
+
+			// ▶︎ 피격 시 반동 적용
+			rigid.AddForce(new Vector2(dirc, 1) * config.damagedKnockbackForce, ForceMode2D.Impulse);
 		}
 
 		anim.SetTrigger("doDamaged");
 		sound?.PlayDamaged();
 
-		Invoke(nameof(EndInvincibility), invincibleTime);
+		Invoke(nameof(EndInvincibility), config.invincibleTime);
 	}
 
 	// ▶︎ 무적 해제
@@ -74,7 +73,10 @@ public class PlayerHealth : MonoBehaviour
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 		spriteRenderer.flipY = true;
 		capsuleCollider.enabled = false;
-		rigid.AddForceY(5f, ForceMode2D.Impulse);
+
+		// ▶︎ 사망 직후 위로 튕기는 연출
+		rigid.AddForceY(config.deathBounceForce, ForceMode2D.Impulse);
+
 		sound?.PlayDie();
 		UIManager.instance.ShowRestartButton("Retry");
 	}

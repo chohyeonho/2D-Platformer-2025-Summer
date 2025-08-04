@@ -3,7 +3,7 @@
 [CreateAssetMenu(fileName = "PlayerConfig", menuName = "Config/PlayerConfig")]
 public class PlayerConfig : ScriptableObject
 {
-	// ▶︎ 기본 이동 속도 및 점프력 설정
+	// ▶︎ 이동 및 점프 기본 설정
 	[Header("이동 및 점프 설정")]
 
 	// ▶︎ 기본 이동 속도
@@ -12,11 +12,11 @@ public class PlayerConfig : ScriptableObject
 	// ▶︎ 점프 시 적용할 힘
 	public float jumpPower = 12f;
 
-	// ▶︎ 이동 감속 시 적용할 속도 (버튼 뗐을 때 감속용)
+	// ▶︎ 이동 중 감속 시 적용할 속도 (버튼 뗐을 때 감속용)
 	[Header("이동 세부 설정")]
 	public float decelerationSpeed = 0.5f;
 
-	// ▶︎ 체력 수치 관련 설정
+	// ▶︎ 체력 및 무적 시간 설정
 	[Header("체력 설정")]
 
 	// ▶︎ 최대 체력
@@ -25,11 +25,11 @@ public class PlayerConfig : ScriptableObject
 	// ▶︎ 피격 후 무적 지속 시간
 	public float invincibleTime = 3f;
 
-	// ▶︎ 공격 관련 설정들
+	// ▶︎ 공격 관련 설정
 	[Header("공격 설정")]
 
 	// ▶︎ 공격 범위 반지름
-	public float attackRange = 1.5f;
+	public float attackRange = 0.5f;
 
 	// ▶︎ 공격 데미지 수치
 	public float attackDamage = 1f;
@@ -38,7 +38,16 @@ public class PlayerConfig : ScriptableObject
 	public float attackCooldown = 0.15f;
 
 	// ▶︎ 적을 밟았을 때 튕겨 오르는 반동 힘
-	public float bouncePowerOnAttack = 10f;
+	public float bounceForceOnAttack = 10f;
+
+	// ▶︎ 피격 및 사망 반동 설정
+	[Header("피격 및 사망 반동 설정")]
+
+	// ▶︎ 피격 시 넉백당하는 반동 힘
+	public float damagedKnockbackForce = 7f;
+
+	// ▶︎ 사망 직후 위로 튕겨 오르는 연출용 반동 힘
+	public float deathBounceForce = 5f;
 
 	// ▶︎ 각종 플레이어 사운드 클립들
 	[Header("사운드 클립")]

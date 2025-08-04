@@ -6,9 +6,11 @@ public class PlayerData : MonoBehaviour
 	// ● 싱글톤 인스턴스
 	public static PlayerData instance;
 
-	// ● 현재 체력 및 최대 체력
+	// ▶︎ 플레이어 설정값 참조
+	[SerializeField] private PlayerConfig config;
+
+	// ● 현재 체력
 	public int currentHealth { get; private set; }
-	public int maxHealth = 3;
 
 	// ● 현재 스테이지 점수
 	public int stageScore { get; private set; }
@@ -33,12 +35,13 @@ public class PlayerData : MonoBehaviour
 	// ▶︎ 체력 설정
 	public void SetHealth(int value)
 	{
-		currentHealth = Mathf.Clamp(value, 0, maxHealth);
+		currentHealth = Mathf.Clamp(value, 0, config.maxHealth);
 	}
 
+	// ▶︎ 체력 초기화
 	public void ResetHealth()
 	{
-		currentHealth = maxHealth;
+		currentHealth = config.maxHealth;
 	}
 
 	// ▶︎ 점수 증가

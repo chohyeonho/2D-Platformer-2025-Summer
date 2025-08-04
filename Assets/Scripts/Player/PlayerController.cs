@@ -2,6 +2,9 @@
 
 public class PlayerController : MonoBehaviour
 {
+	// ▶︎ 게임 전역 설정값 참조 (ScriptableObject)
+	[SerializeField] private GameSettings gameSettings;
+
 	// ★ 플레이어 설정값 (ScriptableObject)
 	[SerializeField] private PlayerConfig config;
 
@@ -10,9 +13,6 @@ public class PlayerController : MonoBehaviour
 
 	// ● 좌우 반전 및 피격 표현용 스프라이트 렌더러
 	private SpriteRenderer spriteRenderer;
-
-	// ● 충돌 판정용 캡슐 콜라이더
-	private CapsuleCollider2D capsuleCollider;
 
 	// ● 애니메이션 제어용 애니메이터
 	private Animator anim;
@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
 	{
 		rigid = GetComponent<Rigidbody2D>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
-		capsuleCollider = GetComponent<CapsuleCollider2D>();
 		anim = GetComponent<Animator>();
 		sound = GetComponent<PlayerSound>();
 		health = GetComponent<PlayerHealth>();
@@ -72,7 +71,7 @@ public class PlayerController : MonoBehaviour
 			Mathf.Abs(xInput) <= 0.01f &&
 			Mathf.Abs(rigid.linearVelocity.x) > 0.5f)
 		{
-			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.brakeSpeed;
+			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
 		}
 
 		if (Mathf.Abs(xInput) > 0.01f)
@@ -104,8 +103,8 @@ public class PlayerController : MonoBehaviour
 			Debug.DrawRay(leftFoot, Vector2.down * 1f, Color.green);
 			Debug.DrawRay(rightFoot, Vector2.down * 1f, Color.green);
 
-			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 0.5f, LayerMask.GetMask("Platform"));
-			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 0.5f, LayerMask.GetMask("Platform"));
+			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 0.6f, LayerMask.GetMask("Platform"));
+			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 0.6f, LayerMask.GetMask("Platform"));
 
 			isGrounded = (leftRay.collider != null || rightRay.collider != null);
 			anim.SetBool("isJumping", !isGrounded);
@@ -139,9 +138,15 @@ public class PlayerController : MonoBehaviour
 
 			switch (type)
 			{
-				case ItemType.Bronze: PlayerData.instance.AddStageScore(50); break;
-				case ItemType.Silver: PlayerData.instance.AddStageScore(100); break;
-				case ItemType.Gold: PlayerData.instance.AddStageScore(300); break;
+				case ItemType.Bronze:
+					PlayerData.instance.AddStageScore(gameSettings.bronzeItemScore);
+					break;
+				case ItemType.Silver:
+					PlayerData.instance.AddStageScore(gameSettings.silverItemScore);
+					break;
+				case ItemType.Gold:
+					PlayerData.instance.AddStageScore(gameSettings.goldItemScore);
+					break;
 			}
 
 			collision.gameObject.SetActive(false);
@@ -159,12 +164,13 @@ public class PlayerController : MonoBehaviour
 	private void OnAttack(Transform enemy)
 	{
 		PlayerData.instance.AddStageScore(100);
-		rigid.AddForceY(config.attackBounceForce, ForceMode2D.Impulse);
+		rigid.AddForceY(config.bounceForceOnAttack, ForceMode2D.Impulse);
 
 		IDamageable damageable = enemy.GetComponent<IDamageable>();
 		if (damageable != null)
 		{
 			damageable.Damage(1f);
+			damageable.HasTakenDamage = false;
 		}
 
 		enemy.GetComponent<EnemySound>()?.PlayStompSound();

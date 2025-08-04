@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1621376804}
   spawnPosition: {x: 0, y: 0, z: 0}
-  maxStageIndex: 2
+  gameSettings: {fileID: 11400000, guid: 5af8434045746df4da22fd8655f96c7e, type: 2}
 --- !u!61 &741380969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1517,7 +1517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ecc020010b2b342be85a9253c2fac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  config: {fileID: 0}
 --- !u!4 &907255727
 Transform:
   m_ObjectHideFlags: 0
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ac9003beef9114cb12105b2ce42ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  enemyConfig: {fileID: 11400000, guid: 6a550aa84a57328449ca40b9f63f89e5, type: 2}
 --- !u!114 &1205812743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1876,6 +1876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextMove: 0
   deactivateDelay: 5
+  enemyConfig: {fileID: 11400000, guid: 6a550aa84a57328449ca40b9f63f89e5, type: 2}
 --- !u!114 &1205812744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1888,8 +1889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e504c70998e679a43acb0253702e950d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieClip: {fileID: 0}
-  stompClip: {fileID: 8300000, guid: d8d04c6f80a1140db85ede568dab1f51, type: 3}
+  enemyConfig: {fileID: 11400000, guid: 6a550aa84a57328449ca40b9f63f89e5, type: 2}
 --- !u!82 &1205812745
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2296,10 +2296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c51ffc664bd1cf4bb5757ee3341a998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 741380968}
-  maxSpeed: 4.5
-  jumpPower: 20
-  invincibleTime: 3
+  gameSettings: {fileID: 11400000, guid: 5af8434045746df4da22fd8655f96c7e, type: 2}
+  config: {fileID: 11400000, guid: aa4327dcad42c60439051fc8756dccd5, type: 2}
 --- !u!95 &1621376805
 Animator:
   serializedVersion: 7
@@ -2432,12 +2430,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackTransform: {fileID: 502183735}
-  attackRange: 0.5
   attackableLayer:
     serializedVersion: 2
     m_Bits: 512
-  damageAmount: 1
-  timeBtwAttacks: 0.15
+  config: {fileID: 0}
 --- !u!114 &1621376808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2450,13 +2446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8569df2a0c7278a4e90a6624fc48e730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingClip: {fileID: 0}
-  hitClip: {fileID: 0}
-  jumpClip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
-  damagedClip: {fileID: 8300000, guid: 7e9ee6dc04a5d40d1a5dfc4beb9865e7, type: 3}
-  itemClip: {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
-  dieClip: {fileID: 8300000, guid: a0010a1a0c474473b81729eb770c485f, type: 3}
-  finishClip: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
+  config: {fileID: 0}
 --- !u!114 &1621376810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2469,7 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7d034748d7beb46807162ab1c49bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invincibleTime: 3
+  config: {fileID: 0}
 --- !u!1 &1664245118
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,7 +3008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ac9003beef9114cb12105b2ce42ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  enemyConfig: {fileID: 11400000, guid: 6a550aa84a57328449ca40b9f63f89e5, type: 2}
 --- !u!114 &1796506032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3031,8 +3021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e504c70998e679a43acb0253702e950d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieClip: {fileID: 0}
-  stompClip: {fileID: 8300000, guid: d8d04c6f80a1140db85ede568dab1f51, type: 3}
+  enemyConfig: {fileID: 11400000, guid: 6a550aa84a57328449ca40b9f63f89e5, type: 2}
 --- !u!82 &1796506033
 AudioSource:
   m_ObjectHideFlags: 0
