@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
 	// ★ 플레이어 객체 참조용
 	public PlayerController player;
 
@@ -15,9 +14,8 @@ public class GameManager : MonoBehaviour
 
 	public static bool isRestart = false;
 
-	[SerializeField]
-	private int maxStageIndex = 2;
-
+	// ▶︎ 게임 설정값 참조 (ScriptableObject)
+	[SerializeField] private GameSettings gameSettings;
 
 	private void Awake()
 	{
@@ -41,7 +39,7 @@ public class GameManager : MonoBehaviour
 			{
 				int nextIndex = index + 1;
 
-				if (nextIndex > maxStageIndex)
+				if (nextIndex > gameSettings.maxStageIndex)
 				{
 					Time.timeScale = 0;
 					Debug.Log("게임 클리어!");
@@ -54,8 +52,6 @@ public class GameManager : MonoBehaviour
 			}
 		}
 	}
-
-
 
 	// ▶︎ 플레이어 충돌 시 체력 조건에 따른 처리
 	void OnTriggerEnter2D(Collider2D collision)
@@ -91,8 +87,6 @@ public class GameManager : MonoBehaviour
 		Time.timeScale = 1;
 		SceneManager.LoadScene("Stage_0");
 	}
-
-
 
 	public void SetSpawnPosition(Vector3 pos)
 	{

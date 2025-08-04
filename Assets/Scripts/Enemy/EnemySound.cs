@@ -3,11 +3,8 @@
 // ▶︎ 적 사운드를 담당하는 스크립트
 public class EnemySound : MonoBehaviour
 {
-	// ★ 사망 시 재생할 소리
-	[SerializeField] private AudioClip dieClip;
-
-	// ★ 밟혔을 때 재생할 소리
-	[SerializeField] private AudioClip stompClip;
+	// ▶︎ 적 설정값 참조 (ScriptableObject)
+	[SerializeField] private EnemyConfig enemyConfig;
 
 	// ● 사운드 출력용 오디오 소스
 	private AudioSource audioSource;
@@ -28,8 +25,8 @@ public class EnemySound : MonoBehaviour
 	}
 
 	// ▶︎ 사망 시 사운드 재생
-	public void PlayDieSound() => Play(dieClip);
+	public void PlayDieSound() => Play(enemyConfig.dieClip);
 
 	// ▶︎ 밟혔을 때 사운드 재생
-	public void PlayStompSound() => Play(stompClip);
+	public void PlayStompSound() => Play(enemyConfig.stompClip);
 }
