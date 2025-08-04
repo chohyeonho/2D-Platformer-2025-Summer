@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 // ▶︎ 적 사운드를 담당하는 스크립트
 public class EnemySound : MonoBehaviour
@@ -29,4 +30,6 @@ public class EnemySound : MonoBehaviour
 
 	// ▶︎ 밟혔을 때 사운드 재생
 	public void PlayStompSound() => Play(enemyConfig.stompClip);
+
+	public void PlayHitSound() => Play(enemyConfig.hitClip);
 }

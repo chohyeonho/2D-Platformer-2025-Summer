@@ -1,24 +1,19 @@
 ﻿using UnityEngine;
 
-// ▶︎ 적의 체력을 관리하는 스크립트
 public class EnemyHealth : MonoBehaviour, IDamageable
 {
-	// ▶︎ 적 설정값 참조 (ScriptableObject)
 	[SerializeField] private EnemyConfig enemyConfig;
 
-	// ▶︎ 현재 체력
 	private float currentHealth;
 
-	// ▶︎ 피격 중복 방지 플래그
-	public bool HasTakenDamage { get; set; }
+	private bool hasTakenStompDamage = false;
+	private bool hasTakenHitDamage = false;
 
-	// ▶︎ 컴포넌트 캐싱
 	private SpriteRenderer spriteRenderer;
 	private Rigidbody2D rigid;
 	private CapsuleCollider2D capsuleCollider;
 	private Animator anim;
 
-	// ▶︎ 컴포넌트 초기화
 	private void Awake()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer>();
@@ -27,23 +22,27 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		anim = GetComponent<Animator>();
 	}
 
-	// ▶︎ 시작 시 체력 초기화
 	private void Start()
 	{
 		currentHealth = enemyConfig.maxHealth;
 	}
 
-	// ▶︎ 데미지 처리
-	public void Damage(float damageAmount)
+	public void Damaged(float amount, string attackType = "")
 	{
-		if (HasTakenDamage)
+		if (attackType == "stomp")
 		{
-			return;
+			if (hasTakenStompDamage) return;
+			hasTakenStompDamage = true;
 		}
-		HasTakenDamage = true;
-		currentHealth -= damageAmount;
+		else
+		{
+			if (hasTakenHitDamage) return;
+			hasTakenHitDamage = true;
+		}
 
-		anim.SetTrigger("doHit");
+		currentHealth -= amount;
+
+		OnDamaged();
 
 		if (currentHealth <= 0f)
 		{
@@ -51,7 +50,13 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		}
 	}
 
-	// ▶︎ 사망 처리
+	private void OnDamaged()
+	{
+		anim.SetTrigger("doHit");
+		GetComponent<EnemySound>()?.PlayHitSound();
+		// 추가 이펙트/파티클 등 연출 여기에 추가 가능
+	}
+
 	private void Die()
 	{
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
@@ -65,9 +70,18 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		Invoke(nameof(Deactivate), enemyConfig.deactivateDelay);
 	}
 
-	// ▶︎ 비활성화
 	private void Deactivate()
 	{
 		gameObject.SetActive(false);
+	}
+
+	public void ResetStompDamageFlag()
+	{
+		hasTakenStompDamage = false;
+	}
+
+	public void ResetHitDamageFlag()
+	{
+		hasTakenHitDamage = false;
 	}
 }

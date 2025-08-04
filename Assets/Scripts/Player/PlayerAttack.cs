@@ -92,9 +92,9 @@ public class PlayerAttack : MonoBehaviour
 			{
 				IDamageable iDamageable = hits[i].collider.gameObject.GetComponent<IDamageable>();
 
-				if (iDamageable != null && !iDamageable.HasTakenDamage)
+				if (iDamageable != null)
 				{
-					iDamageable.Damage(config.attackDamage);
+					iDamageable.Damaged(config.attackDamage);
 					GetComponent<PlayerSound>()?.PlayHit();
 					iDamageables.Add(iDamageable);
 				}
@@ -110,7 +110,7 @@ public class PlayerAttack : MonoBehaviour
 	{
 		foreach (IDamageable damaged in iDamageables)
 		{
-			damaged.HasTakenDamage = false;
+			damaged.ResetHitDamageFlag();
 		}
 
 		iDamageables.Clear();
