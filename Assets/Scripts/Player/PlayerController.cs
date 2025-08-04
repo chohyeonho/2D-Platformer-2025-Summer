@@ -52,8 +52,7 @@ public class PlayerController : MonoBehaviour
 	// ▶︎ 매 프레임 입력 처리 및 상태별 업데이트
 	private void Update()
 	{
-		// ▶︎ 이전 입력 저장
-		prevXInput = xInput;
+		
 
 		// ▶︎ 좌우 입력 갱신
 		xInput = InputManager.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
@@ -78,8 +77,6 @@ public class PlayerController : MonoBehaviour
 	// ▶︎ 물리 계산 처리, 감속 포함
 	private void FixedUpdate()
 	{
-		// ▶︎ 좌우 이동력 적용
-		rigid.AddForceX(xInput, ForceMode2D.Impulse);
 
 		// ▶︎ 최대 속도 제한
 		if (rigid.linearVelocity.x > config.moveSpeed)
@@ -96,11 +93,16 @@ public class PlayerController : MonoBehaviour
 		// ▶︎ 감속 처리: 좌우 키 뗐을 때 감속 (지상 및 공중 모두 적용)
 		if (Mathf.Abs(prevXInput) > 0.01f &&
 			Mathf.Abs(xInput) <= 0.01f &&
-			Mathf.Abs(rigid.linearVelocity.x) > 0.5f)
+			Mathf.Abs(rigid.linearVelocity.x) > config.decelerationSpeed)
 		{
 			// ▶︎ 현재 속도 방향 유지하며 감속 속도 적용
 			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
 			Debug.Log("감속 적용됨");
+		}
+		else
+		{
+			// ▶︎ 좌우 이동력 적용
+			rigid.AddForceX(prevXInput, ForceMode2D.Impulse);
 		}
 
 		// ▶︎ 바닥 체크
@@ -129,6 +131,9 @@ public class PlayerController : MonoBehaviour
 				ChangeState(PlayerState.Fall);
 			}
 		}
+
+		// ▶︎ 이전 입력 저장
+		prevXInput = xInput;
 	}
 
 	// ▶︎ 상태 전환 처리
