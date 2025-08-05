@@ -91,17 +91,15 @@ public class PlayerController : MonoBehaviour
 			return;
 		}
 
-		if (Mathf.Abs(xInput) <= 0.01f &&
-			Mathf.Abs(rigid.linearVelocity.x) > config.decelerationSpeed)
-		{
-			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
-		}
-
 		if (Mathf.Abs(xInput) > 0.01f)
 		{
 			spriteRenderer.flipX = xInput < 0;
 			ChangeState(PlayerState.Move);
 			return;
+		}
+		else
+		{
+			ApplyDeceleration();
 		}
 
 		anim.SetBool("isWalking", false);
@@ -121,12 +119,6 @@ public class PlayerController : MonoBehaviour
 			return;
 		}
 
-		if (Mathf.Abs(xInput) <= 0.01f &&
-			Mathf.Abs(rigid.linearVelocity.x) > config.decelerationSpeed)
-		{
-			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
-		}
-
 		if (Mathf.Abs(xInput) > 0.01f)
 		{
 			spriteRenderer.flipX = xInput < 0;
@@ -134,6 +126,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
+			ApplyDeceleration();
 			ChangeState(PlayerState.Idle);
 		}
 
@@ -150,7 +143,6 @@ public class PlayerController : MonoBehaviour
 		{
 			spriteRenderer.flipX = xInput < 0;
 		}
-
 
 		if (rigid.linearVelocity.y <= 0 || jumpTimer > maxJumpTime)
 		{
@@ -170,7 +162,7 @@ public class PlayerController : MonoBehaviour
 
 	private void ApplyHorizontalMovement()
 	{
-		rigid.AddForceX(xInput*2f, ForceMode2D.Impulse);
+		rigid.AddForceX(xInput * 2f, ForceMode2D.Impulse);
 
 		if (rigid.linearVelocity.x > config.moveSpeed)
 		{
@@ -268,5 +260,14 @@ public class PlayerController : MonoBehaviour
 	public void VelocityZero()
 	{
 		rigid.linearVelocity = Vector2.zero;
+	}
+
+	// ▶︎ 감속 처리 함수 (속도 기준만 검사)
+	private void ApplyDeceleration()
+	{
+		if (Mathf.Abs(rigid.linearVelocity.x) > config.decelerationSpeed)
+		{
+			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
+		}
 	}
 }
