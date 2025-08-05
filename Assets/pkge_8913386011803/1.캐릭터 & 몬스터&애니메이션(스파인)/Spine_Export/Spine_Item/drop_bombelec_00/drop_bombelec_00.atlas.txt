@@ -1,0 +1,118 @@
+
+drop_bombelec_00.png
+size: 630,247
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40203_s2_05
+  rotate: false
+  xy: 450, 67
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+bombelec_01
+  rotate: false
+  xy: 380, 32
+  size: 16, 21
+  orig: 32, 32
+  offset: 8, 5
+  index: -1
+bombelec_01_w
+  rotate: false
+  xy: 514, 21
+  size: 16, 21
+  orig: 32, 32
+  offset: 8, 5
+  index: -1
+bombelec_02
+  rotate: false
+  xy: 514, 44
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+bombelec_02_w
+  rotate: false
+  xy: 273, 8
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+bombelec_03
+  rotate: false
+  xy: 247, 7
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+bombelec_03_w
+  rotate: false
+  xy: 354, 31
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+effect_01_01
+  rotate: false
+  xy: 450, 3
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+el_hit_00
+  rotate: false
+  xy: 247, 122
+  size: 105, 123
+  orig: 128, 128
+  offset: 8, 2
+  index: -1
+el_hit_01
+  rotate: false
+  xy: 450, 158
+  size: 98, 87
+  orig: 128, 128
+  offset: 14, 24
+  index: -1
+el_hit_02
+  rotate: false
+  xy: 354, 55
+  size: 94, 93
+  orig: 128, 128
+  offset: 18, 20
+  index: -1
+el_hit_03
+  rotate: false
+  xy: 354, 150
+  size: 94, 95
+  orig: 128, 128
+  offset: 17, 14
+  index: -1
+el_hit_04
+  rotate: false
+  xy: 541, 69
+  size: 87, 87
+  orig: 128, 128
+  offset: 17, 19
+  index: -1
+el_hit_05
+  rotate: false
+  xy: 550, 167
+  size: 77, 78
+  orig: 128, 128
+  offset: 33, 30
+  index: -1
+manapotion_00_fx00
+  rotate: false
+  xy: 247, 31
+  size: 105, 89
+  orig: 107, 107
+  offset: 0, 17
+  index: -1
+shine3
+  rotate: false
+  xy: 2, 2
+  size: 243, 243
+  orig: 256, 256
+  offset: 7, 6
+  index: -1

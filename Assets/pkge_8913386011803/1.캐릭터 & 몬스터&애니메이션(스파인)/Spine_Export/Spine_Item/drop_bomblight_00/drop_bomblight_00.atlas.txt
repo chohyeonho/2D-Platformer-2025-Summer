@@ -1,0 +1,111 @@
+
+drop_bomblight_00.png
+size: 427,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40201_s2_02
+  rotate: false
+  xy: 247, 2
+  size: 54, 54
+  orig: 56, 56
+  offset: 1, 1
+  index: -1
+40203_s2_05
+  rotate: false
+  xy: 247, 58
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+bomblight_01
+  rotate: true
+  xy: 404, 190
+  size: 16, 21
+  orig: 32, 32
+  offset: 8, 5
+  index: -1
+bomblight_01_w
+  rotate: false
+  xy: 402, 115
+  size: 16, 21
+  orig: 32, 32
+  offset: 8, 5
+  index: -1
+bomblight_02
+  rotate: true
+  xy: 404, 232
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+bomblight_02_w
+  rotate: true
+  xy: 404, 208
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+bomblight_03
+  rotate: true
+  xy: 402, 164
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+bomblight_03_w
+  rotate: true
+  xy: 402, 138
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+effect_01_01
+  rotate: false
+  xy: 338, 60
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+light_hit_00
+  rotate: true
+  xy: 247, 149
+  size: 105, 89
+  orig: 107, 107
+  offset: 0, 17
+  index: -1
+light_hit_01
+  rotate: false
+  xy: 303, 8
+  size: 48, 48
+  orig: 66, 65
+  offset: 10, 9
+  index: -1
+light_hit_02
+  rotate: false
+  xy: 353, 2
+  size: 64, 56
+  orig: 66, 65
+  offset: 2, 5
+  index: -1
+light_hit_03
+  rotate: false
+  xy: 338, 124
+  size: 62, 64
+  orig: 66, 65
+  offset: 2, 1
+  index: -1
+light_hit_04
+  rotate: false
+  xy: 338, 190
+  size: 64, 64
+  orig: 66, 65
+  offset: 2, 1
+  index: -1
+shine2
+  rotate: false
+  xy: 2, 11
+  size: 243, 243
+  orig: 256, 256
+  offset: 7, 6
+  index: -1

@@ -1,0 +1,111 @@
+
+drop_bombice_00.png
+size: 522,257
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40041_t_01
+  rotate: false
+  xy: 348, 2
+  size: 48, 48
+  orig: 66, 65
+  offset: 10, 9
+  index: -1
+40203_s2_05
+  rotate: false
+  xy: 352, 166
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+bombice_01
+  rotate: true
+  xy: 295, 2
+  size: 16, 21
+  orig: 32, 32
+  offset: 8, 5
+  index: -1
+bombice_01_w
+  rotate: true
+  xy: 318, 2
+  size: 16, 21
+  orig: 32, 32
+  offset: 8, 5
+  index: -1
+bombice_02
+  rotate: true
+  xy: 295, 20
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+bombice_02_w
+  rotate: true
+  xy: 318, 20
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+bombice_03
+  rotate: true
+  xy: 247, 18
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+bombice_03_w
+  rotate: true
+  xy: 271, 18
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+effect_01_01
+  rotate: false
+  xy: 443, 193
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ice_hit_01
+  rotate: true
+  xy: 440, 8
+  size: 68, 80
+  orig: 128, 128
+  offset: 33, 19
+  index: -1
+ice_hit_02
+  rotate: false
+  xy: 440, 78
+  size: 79, 86
+  orig: 128, 128
+  offset: 30, 17
+  index: -1
+ice_hit_03
+  rotate: true
+  xy: 348, 52
+  size: 91, 90
+  orig: 128, 128
+  offset: 28, 21
+  index: -1
+ice_hit_04
+  rotate: false
+  xy: 247, 44
+  size: 99, 99
+  orig: 128, 128
+  offset: 28, 20
+  index: -1
+ice_hit_05
+  rotate: true
+  xy: 247, 145
+  size: 110, 103
+  orig: 128, 128
+  offset: 13, 25
+  index: -1
+shine3
+  rotate: false
+  xy: 2, 12
+  size: 243, 243
+  orig: 256, 256
+  offset: 7, 6
+  index: -1
