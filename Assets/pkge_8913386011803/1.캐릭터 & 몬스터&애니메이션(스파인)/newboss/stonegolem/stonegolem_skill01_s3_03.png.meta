@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: fe0a87cc4084d9b478b51dadf9468fc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5589501965442735658
+    second: stonegolem_skill01_s3_03_0
+  - first:
+      213: -7150662194953740237
+    second: stonegolem_skill01_s3_03_1
+  - first:
+      213: 8462031484588295365
+    second: stonegolem_skill01_s3_03_2
+  - first:
+      213: -1869370400298423307
+    second: stonegolem_skill01_s3_03_3
+  - first:
+      213: -4544592626220077922
+    second: stonegolem_skill01_s3_03_4
+  - first:
+      213: 304172122901736343
+    second: stonegolem_skill01_s3_03_5
+  - first:
+      213: 3194749677292200233
+    second: stonegolem_skill01_s3_03_6
+  - first:
+      213: -8121382785379554039
+    second: stonegolem_skill01_s3_03_7
+  - first:
+      213: 1212085035498687284
+    second: stonegolem_skill01_s3_03_8
+  - first:
+      213: -990747883861268802
+    second: stonegolem_skill01_s3_03_9
+  - first:
+      213: -678368742537165858
+    second: stonegolem_skill01_s3_03_10
+  - first:
+      213: 3868530158378559116
+    second: stonegolem_skill01_s3_03_11
+  - first:
+      213: -342361090718353839
+    second: stonegolem_skill01_s3_03_12
+  - first:
+      213: 7537278403550541308
+    second: stonegolem_skill01_s3_03_13
+  - first:
+      213: -1539223483836779066
+    second: stonegolem_skill01_s3_03_14
+  - first:
+      213: 4406729166505644008
+    second: stonegolem_skill01_s3_03_15
+  - first:
+      213: 842787921847316309
+    second: stonegolem_skill01_s3_03_16
+  - first:
+      213: -6299837364562212125
+    second: stonegolem_skill01_s3_03_17
+  - first:
+      213: -183789813470619021
+    second: stonegolem_skill01_s3_03_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 60
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1207ea3991e62b0800000000000000
+      internalID: -5589501965442735658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330a7f89e9eb3cc90800000000000000
+      internalID: -7150662194953740237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c48e0d2dcc2f6570800000000000000
+      internalID: 8462031484588295365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb25987689ae06e0800000000000000
+      internalID: -1869370400298423307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 50
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cea41b51d5ee0c0800000000000000
+      internalID: -4544592626220077922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b62282fe2a83400800000000000000
+      internalID: 304172122901736343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921ab4da7e7065c20800000000000000
+      internalID: 3194749677292200233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 29
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90daa78b26d0b4f80800000000000000
+      internalID: -8121382785379554039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 35
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b477afae032d010800000000000000
+      internalID: 1212085035498687284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6aa708c082042f0800000000000000
+      internalID: -990747883861268802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 23
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3085a0933f596f0800000000000000
+      internalID: -678368742537165858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c862a05cea7cfa530800000000000000
+      internalID: 3868530158378559116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15631d2e660bf3bf0800000000000000
+      internalID: -342361090718353839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 9
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf57ad816cac99860800000000000000
+      internalID: 7537278403550541308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 17
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c538f7856493aae0800000000000000
+      internalID: -1539223483836779066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 6
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef0cee34d8d72d30800000000000000
+      internalID: 4406729166505644008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fe2be462f22bb00800000000000000
+      internalID: 842787921847316309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea498e7b4b7298a0800000000000000
+      internalID: -6299837364562212125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonegolem_skill01_s3_03_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a9fbe632c037df0800000000000000
+      internalID: -183789813470619021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stonegolem_skill01_s3_03_0: -5589501965442735658
+      stonegolem_skill01_s3_03_1: -7150662194953740237
+      stonegolem_skill01_s3_03_10: -678368742537165858
+      stonegolem_skill01_s3_03_11: 3868530158378559116
+      stonegolem_skill01_s3_03_12: -342361090718353839
+      stonegolem_skill01_s3_03_13: 7537278403550541308
+      stonegolem_skill01_s3_03_14: -1539223483836779066
+      stonegolem_skill01_s3_03_15: 4406729166505644008
+      stonegolem_skill01_s3_03_16: 842787921847316309
+      stonegolem_skill01_s3_03_17: -6299837364562212125
+      stonegolem_skill01_s3_03_18: -183789813470619021
+      stonegolem_skill01_s3_03_2: 8462031484588295365
+      stonegolem_skill01_s3_03_3: -1869370400298423307
+      stonegolem_skill01_s3_03_4: -4544592626220077922
+      stonegolem_skill01_s3_03_5: 304172122901736343
+      stonegolem_skill01_s3_03_6: 3194749677292200233
+      stonegolem_skill01_s3_03_7: -8121382785379554039
+      stonegolem_skill01_s3_03_8: 1212085035498687284
+      stonegolem_skill01_s3_03_9: -990747883861268802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

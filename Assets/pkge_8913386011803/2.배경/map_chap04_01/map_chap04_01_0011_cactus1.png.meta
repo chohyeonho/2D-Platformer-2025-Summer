@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: a98ba4540b3a700448b35dadbd643bc2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4787478851459513113
+    second: map_chap04_01_0011_cactus1_0
+  - first:
+      213: 5683422262709399391
+    second: map_chap04_01_0011_cactus1_1
+  - first:
+      213: -6513183109240393251
+    second: map_chap04_01_0011_cactus1_2
+  - first:
+      213: -3057497501719711929
+    second: map_chap04_01_0011_cactus1_3
+  - first:
+      213: -7655195432452268578
+    second: map_chap04_01_0011_cactus1_4
+  - first:
+      213: 6398962999324104875
+    second: map_chap04_01_0011_cactus1_5
+  - first:
+      213: 7183815867833221743
+    second: map_chap04_01_0011_cactus1_6
+  - first:
+      213: -4313843168331691421
+    second: map_chap04_01_0011_cactus1_7
+  - first:
+      213: -2653999446424494985
+    second: map_chap04_01_0011_cactus1_8
+  - first:
+      213: 7735233556460168654
+    second: map_chap04_01_0011_cactus1_9
+  - first:
+      213: 4667960450211680137
+    second: map_chap04_01_0011_cactus1_10
+  - first:
+      213: 3208957068005088964
+    second: map_chap04_01_0011_cactus1_11
+  - first:
+      213: -3915232410655332635
+    second: map_chap04_01_0011_cactus1_12
+  - first:
+      213: -5416163838100673905
+    second: map_chap04_01_0011_cactus1_13
+  - first:
+      213: -3950522581561951429
+    second: map_chap04_01_0011_cactus1_14
+  - first:
+      213: -531766168201735252
+    second: map_chap04_01_0011_cactus1_15
+  - first:
+      213: 1304157415797360470
+    second: map_chap04_01_0011_cactus1_16
+  - first:
+      213: -5825775153054832146
+    second: map_chap04_01_0011_cactus1_17
+  - first:
+      213: -6967361409732466066
+    second: map_chap04_01_0011_cactus1_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 280
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e48f0989557f8db0800000000000000
+      internalID: -4787478851459513113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 263
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f27559f629fde40800000000000000
+      internalID: 5683422262709399391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 275
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f6a078768c95a0800000000000000
+      internalID: -6513183109240393251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 280
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f2a54b8369195d0800000000000000
+      internalID: -3057497501719711929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 263
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd5d7a205843c590800000000000000
+      internalID: -7655195432452268578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8d499d1feadc850800000000000000
+      internalID: 6398962999324104875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 220
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f628306687a02b360800000000000000
+      internalID: 7183815867833221743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 215
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a08de7e762224c0800000000000000
+      internalID: -4313843168331691421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 217
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cd8c1a0991b2bd0800000000000000
+      internalID: -2653999446424494985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 217
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec56d73cfe1195b60800000000000000
+      internalID: 7735233556460168654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 194
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f807c2c4de7c040800000000000000
+      internalID: 4667960450211680137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 193
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce1ce99371888c20800000000000000
+      internalID: 3208957068005088964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 195
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6eac5cddc4aa9c0800000000000000
+      internalID: -3915232410655332635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 199
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a61b07fabe5d4b0800000000000000
+      internalID: -5416163838100673905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 201
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b37d094acec29c0800000000000000
+      internalID: -3950522581561951429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 188
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3d3c8cc79ce98f0800000000000000
+      internalID: -531766168201735252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 187
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6570bcb824c491210800000000000000
+      internalID: 1304157415797360470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 93
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9aed45d50b62fa0800000000000000
+      internalID: -5825775153054832146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_chap04_01_0011_cactus1_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 167
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6aa12766b5fe4f90800000000000000
+      internalID: -6967361409732466066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      map_chap04_01_0011_cactus1_0: -4787478851459513113
+      map_chap04_01_0011_cactus1_1: 5683422262709399391
+      map_chap04_01_0011_cactus1_10: 4667960450211680137
+      map_chap04_01_0011_cactus1_11: 3208957068005088964
+      map_chap04_01_0011_cactus1_12: -3915232410655332635
+      map_chap04_01_0011_cactus1_13: -5416163838100673905
+      map_chap04_01_0011_cactus1_14: -3950522581561951429
+      map_chap04_01_0011_cactus1_15: -531766168201735252
+      map_chap04_01_0011_cactus1_16: 1304157415797360470
+      map_chap04_01_0011_cactus1_17: -5825775153054832146
+      map_chap04_01_0011_cactus1_18: -6967361409732466066
+      map_chap04_01_0011_cactus1_2: -6513183109240393251
+      map_chap04_01_0011_cactus1_3: -3057497501719711929
+      map_chap04_01_0011_cactus1_4: -7655195432452268578
+      map_chap04_01_0011_cactus1_5: 6398962999324104875
+      map_chap04_01_0011_cactus1_6: 7183815867833221743
+      map_chap04_01_0011_cactus1_7: -4313843168331691421
+      map_chap04_01_0011_cactus1_8: -2653999446424494985
+      map_chap04_01_0011_cactus1_9: 7735233556460168654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

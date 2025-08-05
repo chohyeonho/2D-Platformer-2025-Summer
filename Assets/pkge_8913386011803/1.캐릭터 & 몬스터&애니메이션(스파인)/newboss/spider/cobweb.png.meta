@@ -1,0 +1,3107 @@
+fileFormatVersion: 2
+guid: 69e5cbd086b9af44aa341e7b13415fd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1555021302112945042
+    second: cobweb_0
+  - first:
+      213: 4873894853696088797
+    second: cobweb_1
+  - first:
+      213: -3406541117833543648
+    second: cobweb_2
+  - first:
+      213: 1981097310910094131
+    second: cobweb_3
+  - first:
+      213: -5453468590199884243
+    second: cobweb_4
+  - first:
+      213: 2821477864477823093
+    second: cobweb_5
+  - first:
+      213: 485198369021747852
+    second: cobweb_6
+  - first:
+      213: 6851860592631189058
+    second: cobweb_7
+  - first:
+      213: -6720529250611678448
+    second: cobweb_8
+  - first:
+      213: 6987701876042943859
+    second: cobweb_9
+  - first:
+      213: 8655852781711061288
+    second: cobweb_10
+  - first:
+      213: -4088242621850147837
+    second: cobweb_11
+  - first:
+      213: -2597781666661747022
+    second: cobweb_12
+  - first:
+      213: -49814070588868976
+    second: cobweb_13
+  - first:
+      213: -6034323839291611426
+    second: cobweb_14
+  - first:
+      213: 3398566467547610581
+    second: cobweb_15
+  - first:
+      213: 5609139083328468878
+    second: cobweb_16
+  - first:
+      213: 9055714738768173741
+    second: cobweb_17
+  - first:
+      213: -917313937408032764
+    second: cobweb_18
+  - first:
+      213: -4688327677631540022
+    second: cobweb_19
+  - first:
+      213: 4096331478732495910
+    second: cobweb_20
+  - first:
+      213: 4175059045440800539
+    second: cobweb_21
+  - first:
+      213: 8825763551093744574
+    second: cobweb_22
+  - first:
+      213: 7840114738064955489
+    second: cobweb_23
+  - first:
+      213: 3381001442136027117
+    second: cobweb_24
+  - first:
+      213: -6557494070778785533
+    second: cobweb_25
+  - first:
+      213: 7946086865023856924
+    second: cobweb_26
+  - first:
+      213: 6737287025242087729
+    second: cobweb_27
+  - first:
+      213: -2396021901353816332
+    second: cobweb_28
+  - first:
+      213: 3664770675606839990
+    second: cobweb_29
+  - first:
+      213: -8663973621447464569
+    second: cobweb_30
+  - first:
+      213: 6879215691377299532
+    second: cobweb_31
+  - first:
+      213: 755268529624172450
+    second: cobweb_32
+  - first:
+      213: -6158338026186669020
+    second: cobweb_33
+  - first:
+      213: -733167592266371299
+    second: cobweb_34
+  - first:
+      213: 522219403160013992
+    second: cobweb_35
+  - first:
+      213: -764462442051361677
+    second: cobweb_36
+  - first:
+      213: 8190161706934412290
+    second: cobweb_37
+  - first:
+      213: -9021819804575305671
+    second: cobweb_38
+  - first:
+      213: 3833787880478799714
+    second: cobweb_39
+  - first:
+      213: -7511596835893848393
+    second: cobweb_40
+  - first:
+      213: -963975059686482925
+    second: cobweb_41
+  - first:
+      213: 2202953721058669805
+    second: cobweb_42
+  - first:
+      213: -1948672690786270467
+    second: cobweb_43
+  - first:
+      213: 1386785481365919371
+    second: cobweb_44
+  - first:
+      213: 840196737467933027
+    second: cobweb_45
+  - first:
+      213: -7640452266281408856
+    second: cobweb_46
+  - first:
+      213: 5901386014377819152
+    second: cobweb_47
+  - first:
+      213: -8338227212828041177
+    second: cobweb_48
+  - first:
+      213: 7587696290870305205
+    second: cobweb_49
+  - first:
+      213: -452328935225108356
+    second: cobweb_50
+  - first:
+      213: -1907469966862448251
+    second: cobweb_51
+  - first:
+      213: -1585441921118828446
+    second: cobweb_52
+  - first:
+      213: 3977171295481819766
+    second: cobweb_53
+  - first:
+      213: 6595095845788403445
+    second: cobweb_54
+  - first:
+      213: -4846882445084537628
+    second: cobweb_55
+  - first:
+      213: -5524214123680825539
+    second: cobweb_56
+  - first:
+      213: -1843781867285374524
+    second: cobweb_57
+  - first:
+      213: 8248543234401081770
+    second: cobweb_58
+  - first:
+      213: -854196280280950537
+    second: cobweb_59
+  - first:
+      213: 2356031706959187081
+    second: cobweb_60
+  - first:
+      213: -6881641973967816282
+    second: cobweb_61
+  - first:
+      213: -1403135594624409527
+    second: cobweb_62
+  - first:
+      213: 6385420461505218920
+    second: cobweb_63
+  - first:
+      213: 6121473936959206170
+    second: cobweb_64
+  - first:
+      213: 576991563730423661
+    second: cobweb_65
+  - first:
+      213: -931828505418343322
+    second: cobweb_66
+  - first:
+      213: 8662950183497204635
+    second: cobweb_67
+  - first:
+      213: -2661128585640620840
+    second: cobweb_68
+  - first:
+      213: 1704438330977136345
+    second: cobweb_69
+  - first:
+      213: -7624857705598849423
+    second: cobweb_70
+  - first:
+      213: 811627188909303433
+    second: cobweb_71
+  - first:
+      213: 1281793206003279785
+    second: cobweb_72
+  - first:
+      213: -2906123910331584780
+    second: cobweb_73
+  - first:
+      213: -1599682141287828352
+    second: cobweb_74
+  - first:
+      213: -8426816218904612740
+    second: cobweb_75
+  - first:
+      213: -5832942697777740909
+    second: cobweb_76
+  - first:
+      213: 3486378194702153714
+    second: cobweb_77
+  - first:
+      213: -4560980142590372615
+    second: cobweb_78
+  - first:
+      213: -112539153918441513
+    second: cobweb_79
+  - first:
+      213: 1787862439186777133
+    second: cobweb_80
+  - first:
+      213: -1841829683806216696
+    second: cobweb_81
+  - first:
+      213: 5521200710724847285
+    second: cobweb_82
+  - first:
+      213: -8800975575741201710
+    second: cobweb_83
+  - first:
+      213: 6042135522540474892
+    second: cobweb_84
+  - first:
+      213: 5941736939278731358
+    second: cobweb_85
+  - first:
+      213: 8966093357751212812
+    second: cobweb_86
+  - first:
+      213: -5184834332424007054
+    second: cobweb_87
+  - first:
+      213: 4685374440542509222
+    second: cobweb_88
+  - first:
+      213: -8191478831385279182
+    second: cobweb_89
+  - first:
+      213: 4029246230624833988
+    second: cobweb_90
+  - first:
+      213: 4240339206190765856
+    second: cobweb_91
+  - first:
+      213: -5896574957129172695
+    second: cobweb_92
+  - first:
+      213: 8685319470867801471
+    second: cobweb_93
+  - first:
+      213: -7075149124792150303
+    second: cobweb_94
+  - first:
+      213: 3688838942478628608
+    second: cobweb_95
+  - first:
+      213: 7082344325652144440
+    second: cobweb_96
+  - first:
+      213: -9127963249786344527
+    second: cobweb_97
+  - first:
+      213: 2363402183314833386
+    second: cobweb_98
+  - first:
+      213: -8178287270701364161
+    second: cobweb_99
+  - first:
+      213: 812237226863608620
+    second: cobweb_100
+  - first:
+      213: -4142277000617694799
+    second: cobweb_101
+  - first:
+      213: -730116038520751628
+    second: cobweb_102
+  - first:
+      213: -2529834311176194788
+    second: cobweb_103
+  - first:
+      213: -5193182145793248680
+    second: cobweb_104
+  - first:
+      213: -265500637353983194
+    second: cobweb_105
+  - first:
+      213: 7348107793888337468
+    second: cobweb_106
+  - first:
+      213: -3434726972255567052
+    second: cobweb_107
+  - first:
+      213: -5556844709483539665
+    second: cobweb_108
+  - first:
+      213: -3348992733101118379
+    second: cobweb_109
+  - first:
+      213: -8493121927619254106
+    second: cobweb_110
+  - first:
+      213: 5150711723953439868
+    second: cobweb_111
+  - first:
+      213: -8394825402063782838
+    second: cobweb_112
+  - first:
+      213: -6568141297063808448
+    second: cobweb_113
+  - first:
+      213: 4796246442685764095
+    second: cobweb_114
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cobweb_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 409
+        width: 140
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2938b9aa2ab849510800000000000000
+      internalID: 1555021302112945042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 577
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddae823eb8d83a340800000000000000
+      internalID: 4873894853696088797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 575
+        width: 178
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02005c6e6e889b0d0800000000000000
+      internalID: -3406541117833543648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 499
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b174a02854e7b10800000000000000
+      internalID: 1981097310910094131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 503
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26b26ff5336154b0800000000000000
+      internalID: -5453468590199884243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 499
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57014dd3b27e72720800000000000000
+      internalID: 2821477864477823093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 493
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82e32f8855cbb600800000000000000
+      internalID: 485198369021747852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_7
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 497
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e874208e2b61f50800000000000000
+      internalID: 6851860592631189058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 507
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0133ba2e042ebb2a0800000000000000
+      internalID: -6720529250611678448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 497
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dced575dd49f060800000000000000
+      internalID: 6987701876042943859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 479
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821f6f98e34cf1870800000000000000
+      internalID: 8655852781711061288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 437
+        width: 148
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304a201fef4a347c0800000000000000
+      internalID: -4088242621850147837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 481
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6ba9a7653d2fbd0800000000000000
+      internalID: -2597781666661747022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 483
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096fbb1ed560f4ff0800000000000000
+      internalID: -49814070588868976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 465
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed62a5b7076c14ca0800000000000000
+      internalID: -6034323839291611426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 471
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddbab322322a2f20800000000000000
+      internalID: 3398566467547610581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 459
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87bd8d174aa7dd40800000000000000
+      internalID: 5609139083328468878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 449
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daadb8f539c5cad70800000000000000
+      internalID: 9055714738768173741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_18
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 445
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400874585db0543f0800000000000000
+      internalID: -917313937408032764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 455
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4d32821d6bfeeb0800000000000000
+      internalID: -4688327677631540022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 451
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cd910d6c719d830800000000000000
+      internalID: 4096331478732495910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 148
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17c7c7d41ac0f930800000000000000
+      internalID: 4175059045440800539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 373
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3688650396b7a70800000000000000
+      internalID: 8825763551093744574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_23
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 425
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1689aa8c0deadcc60800000000000000
+      internalID: 7840114738064955489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 437
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defe997f5eabbee20800000000000000
+      internalID: 3381001442136027117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 431
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301108eb2e91ff4a0800000000000000
+      internalID: -6557494070778785533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 433
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11f42057eb264e60800000000000000
+      internalID: 7946086865023856924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_27
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 421
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13127619ad6af7d50800000000000000
+      internalID: 6737287025242087729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 363
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feefbf76ce9fbed0800000000000000
+      internalID: -2396021901353816332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 413
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b260de3381ebd230800000000000000
+      internalID: 3664770675606839990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_30
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 407
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789e44e15e163c780800000000000000
+      internalID: -8663973621447464569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_31
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 421
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4056d14932e77f50800000000000000
+      internalID: 6879215691377299532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 407
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7c742e9b04b7a00800000000000000
+      internalID: 755268529624172450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 369
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4240d568130398aa0800000000000000
+      internalID: -6158338026186669020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f622695f343d5f0800000000000000
+      internalID: -733167592266371299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_35
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 395
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac4b24c7cb4f3700800000000000000
+      internalID: 522219403160013992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 371
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374a66195751465f0800000000000000
+      internalID: -764462442051361677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 399
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20425daddac49a170800000000000000
+      internalID: 8190161706934412290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 387
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93074b8ffae0cc280800000000000000
+      internalID: -9021819804575305671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_39
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 393
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267f228d3c9543530800000000000000
+      internalID: 3833787880478799714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_40
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 303
+        width: 148
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b65994d97271c790800000000000000
+      internalID: -7511596835893848393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_41
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 403
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c1d036ac54f92f0800000000000000
+      internalID: -963975059686482925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 339
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4b350dcb6729e10800000000000000
+      internalID: 2202953721058669805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 347
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df20e22238ce4f4e0800000000000000
+      internalID: -1948672690786270467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 343
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b861c7c3c0ade3310800000000000000
+      internalID: 1386785481365919371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_45
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 361
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361e73e2b7af8ab00800000000000000
+      internalID: 840196737467933027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_46
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 361
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6e7f80529a7f590800000000000000
+      internalID: -7640452266281408856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 361
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cb27d205fe5e150800000000000000
+      internalID: 5901386014377819152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 357
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720a3ea178aa84c80800000000000000
+      internalID: -8338227212828041177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 365
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1afd04399ec4960800000000000000
+      internalID: 7587696290870305205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 353
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78d64eda3109b9f0800000000000000
+      internalID: -452328935225108356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_51
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 337
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589007ddb2e4785e0800000000000000
+      internalID: -1907469966862448251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 333
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26803b709f06ff9e0800000000000000
+      internalID: -1585441921118828446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_53
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 343
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672f216a830c13730800000000000000
+      internalID: 3977171295481819766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_54
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 339
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f64fdbbabc768b50800000000000000
+      internalID: 6595095845788403445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 317
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecc8a8981a6cbcb0800000000000000
+      internalID: -4846882445084537628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_56
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 345
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ffec6e58c0653b0800000000000000
+      internalID: -5524214123680825539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_57
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 337
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9162519229966e0800000000000000
+      internalID: -1843781867285374524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_58
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 349
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa99de87e56b87270800000000000000
+      internalID: 8248543234401081770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_59
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 341
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8d46142094524f0800000000000000
+      internalID: -854196280280950537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_60
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 323
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c0cdcca5e42b020800000000000000
+      internalID: 2356031706959187081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_61
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 315
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9fa3ec51f7f70a0800000000000000
+      internalID: -6881641973967816282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_62
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 325
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940a4be5c9f078ce0800000000000000
+      internalID: -1403135594624409527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_63
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 315
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869878d04129d9850800000000000000
+      internalID: 6385420461505218920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_64
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 327
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13f34adc18d3f450800000000000000
+      internalID: 6121473936959206170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 289
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f8c8a25c2e10800800000000000000
+      internalID: 576991563730423661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 289
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cd4fe49ea7113f0800000000000000
+      internalID: -931828505418343322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_67
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 305
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93814a2b4bf83870800000000000000
+      internalID: 8662950183497204635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_68
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 299
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcc04f86a5c11bd0800000000000000
+      internalID: -2661128585640620840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_69
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 297
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dea37ba1a167a710800000000000000
+      internalID: 1704438330977136345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_70
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e61e2a0501f2690800000000000000
+      internalID: -7624857705598849423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_71
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 301
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986ecfcc0aa734b00800000000000000
+      internalID: 811627188909303433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 209
+        width: 154
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a55f2128d9c110800000000000000
+      internalID: 1281793206003279785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_73
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 285
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feaa6b63bf5ba7d0800000000000000
+      internalID: -2906123910331584780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_74
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 233
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084b0076199ccc9e0800000000000000
+      internalID: -1599682141287828352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_75
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 289
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70b0bccb4fed0b80800000000000000
+      internalID: -8426816218904612740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_76
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 291
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393cfb745893d0fa0800000000000000
+      internalID: -5832942697777740909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 259
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b3e71f7a126030800000000000000
+      internalID: 3486378194702153714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_78
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 267
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f45a45b9b424b0c0800000000000000
+      internalID: -4560980142590372615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_79
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 281
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d74e5b5c3e207ef0800000000000000
+      internalID: -112539153918441513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 275
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24cdfa7a63cfc810800000000000000
+      internalID: 1787862439186777133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_81
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 265
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ed5f739a18076e0800000000000000
+      internalID: -1841829683806216696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_82
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 259
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b683683bce3f9c40800000000000000
+      internalID: 5521200710724847285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_83
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d28e0be757acd580800000000000000
+      internalID: -8800975575741201710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_84
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 255
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c025bc1ce3af9d350800000000000000
+      internalID: 6042135522540474892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_85
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 243
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58868ef34a457250800000000000000
+      internalID: 5941736939278731358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_86
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 221
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b10cb8766fd6c70800000000000000
+      internalID: 8966093357751212812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_87
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 255
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2721e9425a4cb08b0800000000000000
+      internalID: -5184834332424007054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81b30ca3bc50140800000000000000
+      internalID: 4685374440542509222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_89
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 251
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23506263765025e80800000000000000
+      internalID: -8191478831385279182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_90
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 253
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c199f05912cae730800000000000000
+      internalID: 4029246230624833988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_91
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 229
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0279920ba06b8da30800000000000000
+      internalID: 4240339206190765856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_92
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 219
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929f9d061582b2ea0800000000000000
+      internalID: -5896574957129172695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 203
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ebddba04788870800000000000000
+      internalID: 8685319470867801471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_94
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 223
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e619d35b5500dd90800000000000000
+      internalID: -7075149124792150303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_95
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 243
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007f0105973613330800000000000000
+      internalID: 3688838942478628608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_96
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 177
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831ef7be3aa894260800000000000000
+      internalID: 7082344325652144440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_97
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 219
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb2aad49c5f25180800000000000000
+      internalID: -9127963249786344527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_98
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 231
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeffcdd83cd7cc020800000000000000
+      internalID: 2363402183314833386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_99
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 225
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c0fb6ce03e08e80800000000000000
+      internalID: -8178287270701364161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_100
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 191
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23cd845475a54b00800000000000000
+      internalID: 812237226863608620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_101
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 207
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b969e0c30da386c0800000000000000
+      internalID: -4142277000617694799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_102
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 207
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9b72fc45b1ed5f0800000000000000
+      internalID: -730116038520751628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_103
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 201
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c157fbdf81934ecd0800000000000000
+      internalID: -2529834311176194788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_104
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 215
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852b7126a5c1ee7b0800000000000000
+      internalID: -5193182145793248680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_105
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 177
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62340e6b390c05cf0800000000000000
+      internalID: -265500637353983194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_106
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 189
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e5ef94b19b9f560800000000000000
+      internalID: 7348107793888337468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_107
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 201
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433014644066550d0800000000000000
+      internalID: -3434726972255567052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_108
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 177
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23993b9d2f12e2b0800000000000000
+      internalID: -5556844709483539665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_109
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 177
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ca42c5adcf581d0800000000000000
+      internalID: -3348992733101118379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_110
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 193
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a86c26fa9e522a80800000000000000
+      internalID: -8493121927619254106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_111
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 177
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c744fa6f5010b7740800000000000000
+      internalID: 5150711723953439868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_112
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 201
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cff8646c69f7b80800000000000000
+      internalID: -8394825402063782838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_113
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 201
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04230f13a4649d4a0800000000000000
+      internalID: -6568141297063808448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobweb_114
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 177
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1148f5ab0bf8240800000000000000
+      internalID: 4796246442685764095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cobweb_0: 1555021302112945042
+      cobweb_1: 4873894853696088797
+      cobweb_10: 8655852781711061288
+      cobweb_100: 812237226863608620
+      cobweb_101: -4142277000617694799
+      cobweb_102: -730116038520751628
+      cobweb_103: -2529834311176194788
+      cobweb_104: -5193182145793248680
+      cobweb_105: -265500637353983194
+      cobweb_106: 7348107793888337468
+      cobweb_107: -3434726972255567052
+      cobweb_108: -5556844709483539665
+      cobweb_109: -3348992733101118379
+      cobweb_11: -4088242621850147837
+      cobweb_110: -8493121927619254106
+      cobweb_111: 5150711723953439868
+      cobweb_112: -8394825402063782838
+      cobweb_113: -6568141297063808448
+      cobweb_114: 4796246442685764095
+      cobweb_12: -2597781666661747022
+      cobweb_13: -49814070588868976
+      cobweb_14: -6034323839291611426
+      cobweb_15: 3398566467547610581
+      cobweb_16: 5609139083328468878
+      cobweb_17: 9055714738768173741
+      cobweb_18: -917313937408032764
+      cobweb_19: -4688327677631540022
+      cobweb_2: -3406541117833543648
+      cobweb_20: 4096331478732495910
+      cobweb_21: 4175059045440800539
+      cobweb_22: 8825763551093744574
+      cobweb_23: 7840114738064955489
+      cobweb_24: 3381001442136027117
+      cobweb_25: -6557494070778785533
+      cobweb_26: 7946086865023856924
+      cobweb_27: 6737287025242087729
+      cobweb_28: -2396021901353816332
+      cobweb_29: 3664770675606839990
+      cobweb_3: 1981097310910094131
+      cobweb_30: -8663973621447464569
+      cobweb_31: 6879215691377299532
+      cobweb_32: 755268529624172450
+      cobweb_33: -6158338026186669020
+      cobweb_34: -733167592266371299
+      cobweb_35: 522219403160013992
+      cobweb_36: -764462442051361677
+      cobweb_37: 8190161706934412290
+      cobweb_38: -9021819804575305671
+      cobweb_39: 3833787880478799714
+      cobweb_4: -5453468590199884243
+      cobweb_40: -7511596835893848393
+      cobweb_41: -963975059686482925
+      cobweb_42: 2202953721058669805
+      cobweb_43: -1948672690786270467
+      cobweb_44: 1386785481365919371
+      cobweb_45: 840196737467933027
+      cobweb_46: -7640452266281408856
+      cobweb_47: 5901386014377819152
+      cobweb_48: -8338227212828041177
+      cobweb_49: 7587696290870305205
+      cobweb_5: 2821477864477823093
+      cobweb_50: -452328935225108356
+      cobweb_51: -1907469966862448251
+      cobweb_52: -1585441921118828446
+      cobweb_53: 3977171295481819766
+      cobweb_54: 6595095845788403445
+      cobweb_55: -4846882445084537628
+      cobweb_56: -5524214123680825539
+      cobweb_57: -1843781867285374524
+      cobweb_58: 8248543234401081770
+      cobweb_59: -854196280280950537
+      cobweb_6: 485198369021747852
+      cobweb_60: 2356031706959187081
+      cobweb_61: -6881641973967816282
+      cobweb_62: -1403135594624409527
+      cobweb_63: 6385420461505218920
+      cobweb_64: 6121473936959206170
+      cobweb_65: 576991563730423661
+      cobweb_66: -931828505418343322
+      cobweb_67: 8662950183497204635
+      cobweb_68: -2661128585640620840
+      cobweb_69: 1704438330977136345
+      cobweb_7: 6851860592631189058
+      cobweb_70: -7624857705598849423
+      cobweb_71: 811627188909303433
+      cobweb_72: 1281793206003279785
+      cobweb_73: -2906123910331584780
+      cobweb_74: -1599682141287828352
+      cobweb_75: -8426816218904612740
+      cobweb_76: -5832942697777740909
+      cobweb_77: 3486378194702153714
+      cobweb_78: -4560980142590372615
+      cobweb_79: -112539153918441513
+      cobweb_8: -6720529250611678448
+      cobweb_80: 1787862439186777133
+      cobweb_81: -1841829683806216696
+      cobweb_82: 5521200710724847285
+      cobweb_83: -8800975575741201710
+      cobweb_84: 6042135522540474892
+      cobweb_85: 5941736939278731358
+      cobweb_86: 8966093357751212812
+      cobweb_87: -5184834332424007054
+      cobweb_88: 4685374440542509222
+      cobweb_89: -8191478831385279182
+      cobweb_9: 6987701876042943859
+      cobweb_90: 4029246230624833988
+      cobweb_91: 4240339206190765856
+      cobweb_92: -5896574957129172695
+      cobweb_93: 8685319470867801471
+      cobweb_94: -7075149124792150303
+      cobweb_95: 3688838942478628608
+      cobweb_96: 7082344325652144440
+      cobweb_97: -9127963249786344527
+      cobweb_98: 2363402183314833386
+      cobweb_99: -8178287270701364161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

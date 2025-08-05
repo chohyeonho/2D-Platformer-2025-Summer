@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 88f8174529293fb4b9b46f02f45f336e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4650705702201331775
+    second: hero_illust_15_Myau_0
+  - first:
+      213: -4070342886189978258
+    second: hero_illust_15_Myau_1
+  - first:
+      213: 5017036296014233302
+    second: hero_illust_15_Myau_2
+  - first:
+      213: 6518656916425329521
+    second: hero_illust_15_Myau_3
+  - first:
+      213: 7796706601034897618
+    second: hero_illust_15_Myau_4
+  - first:
+      213: 1106074173258520749
+    second: hero_illust_15_Myau_5
+  - first:
+      213: -1284061010625949315
+    second: hero_illust_15_Myau_6
+  - first:
+      213: 5722572583755933010
+    second: hero_illust_15_Myau_7
+  - first:
+      213: -4106249479388890080
+    second: hero_illust_15_Myau_8
+  - first:
+      213: -6546838023337228918
+    second: hero_illust_15_Myau_9
+  - first:
+      213: 298999632281947626
+    second: hero_illust_15_Myau_10
+  - first:
+      213: -2264951810909061660
+    second: hero_illust_15_Myau_11
+  - first:
+      213: -3619519049959893565
+    second: hero_illust_15_Myau_12
+  - first:
+      213: 8740195793313694339
+    second: hero_illust_15_Myau_13
+  - first:
+      213: -1623272072589906000
+    second: hero_illust_15_Myau_14
+  - first:
+      213: 4158678154509384648
+    second: hero_illust_15_Myau_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1916
+        width: 139
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3018961230aa8040800000000000000
+      internalID: 4650705702201331775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_1
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1915
+        width: 158
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dab9ae5bc3387c0800000000000000
+      internalID: -4070342886189978258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 56
+        width: 997
+        height: 1775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de7b290ee710a540800000000000000
+      internalID: 5017036296014233302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_3
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1780
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bcc2c9debe67a50800000000000000
+      internalID: 6518656916425329521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_4
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1794
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8d0ac4857733c60800000000000000
+      internalID: 7796706601034897618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 855
+        width: 45
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8de40b990995f00800000000000000
+      internalID: 1106074173258520749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 775
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7116b760591e2ee0800000000000000
+      internalID: -1284061010625949315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 660
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25569280279aa6f40800000000000000
+      internalID: 5722572583755933010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_8
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 475
+        width: 398
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c74e5badba307c0800000000000000
+      internalID: -4106249479388890080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_9
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 413
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85c6f02185f425a0800000000000000
+      internalID: -6546838023337228918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 151
+        width: 139
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed4326d492462400800000000000000
+      internalID: 298999632281947626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_11
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 237
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed336504564190e0800000000000000
+      internalID: -2264951810909061660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_12
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 253
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c59161e992e4cdc0800000000000000
+      internalID: -3619519049959893565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_13
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 215
+        width: 67
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38283d734c96b4970800000000000000
+      internalID: 8740195793313694339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_14
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 151
+        width: 128
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf677386aaf879e0800000000000000
+      internalID: -1623272072589906000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_15_Myau_15
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 138
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb75b67fb796b930800000000000000
+      internalID: 4158678154509384648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hero_illust_15_Myau_0: 4650705702201331775
+      hero_illust_15_Myau_1: -4070342886189978258
+      hero_illust_15_Myau_10: 298999632281947626
+      hero_illust_15_Myau_11: -2264951810909061660
+      hero_illust_15_Myau_12: -3619519049959893565
+      hero_illust_15_Myau_13: 8740195793313694339
+      hero_illust_15_Myau_14: -1623272072589906000
+      hero_illust_15_Myau_15: 4158678154509384648
+      hero_illust_15_Myau_2: 5017036296014233302
+      hero_illust_15_Myau_3: 6518656916425329521
+      hero_illust_15_Myau_4: 7796706601034897618
+      hero_illust_15_Myau_5: 1106074173258520749
+      hero_illust_15_Myau_6: -1284061010625949315
+      hero_illust_15_Myau_7: 5722572583755933010
+      hero_illust_15_Myau_8: -4106249479388890080
+      hero_illust_15_Myau_9: -6546838023337228918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

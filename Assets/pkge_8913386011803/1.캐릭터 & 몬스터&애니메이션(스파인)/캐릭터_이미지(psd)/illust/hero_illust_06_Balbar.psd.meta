@@ -1,0 +1,2899 @@
+fileFormatVersion: 2
+guid: d8791f1be88b48e46925e59a6464fb4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4211364020925848204
+    second: hero_illust_06_Balbar_0
+  - first:
+      213: 6801790357070160847
+    second: hero_illust_06_Balbar_1
+  - first:
+      213: -3000860923230732372
+    second: hero_illust_06_Balbar_2
+  - first:
+      213: 7746295452269825821
+    second: hero_illust_06_Balbar_3
+  - first:
+      213: 8210946092108512424
+    second: hero_illust_06_Balbar_4
+  - first:
+      213: -9036027363993958023
+    second: hero_illust_06_Balbar_5
+  - first:
+      213: 7181249139173464094
+    second: hero_illust_06_Balbar_6
+  - first:
+      213: 8654090768169228067
+    second: hero_illust_06_Balbar_7
+  - first:
+      213: 6387797079447150601
+    second: hero_illust_06_Balbar_8
+  - first:
+      213: 1623022871533666325
+    second: hero_illust_06_Balbar_9
+  - first:
+      213: -2597284375971528928
+    second: hero_illust_06_Balbar_10
+  - first:
+      213: 8735217316800603414
+    second: hero_illust_06_Balbar_11
+  - first:
+      213: -7482973149256433121
+    second: hero_illust_06_Balbar_12
+  - first:
+      213: -1042593597759329020
+    second: hero_illust_06_Balbar_13
+  - first:
+      213: -1048527964025308949
+    second: hero_illust_06_Balbar_14
+  - first:
+      213: 54208210637965626
+    second: hero_illust_06_Balbar_15
+  - first:
+      213: 3695745431302948907
+    second: hero_illust_06_Balbar_16
+  - first:
+      213: 3789261361755968775
+    second: hero_illust_06_Balbar_17
+  - first:
+      213: 230120599342651846
+    second: hero_illust_06_Balbar_18
+  - first:
+      213: 8196568471764931769
+    second: hero_illust_06_Balbar_19
+  - first:
+      213: -3871970033972218569
+    second: hero_illust_06_Balbar_20
+  - first:
+      213: -226067694735455484
+    second: hero_illust_06_Balbar_21
+  - first:
+      213: -4472608238622428273
+    second: hero_illust_06_Balbar_22
+  - first:
+      213: -4332643761442795661
+    second: hero_illust_06_Balbar_23
+  - first:
+      213: 5959631273047620172
+    second: hero_illust_06_Balbar_24
+  - first:
+      213: 4700949490641228759
+    second: hero_illust_06_Balbar_25
+  - first:
+      213: -7595040459374003578
+    second: hero_illust_06_Balbar_26
+  - first:
+      213: 4036774412714063034
+    second: hero_illust_06_Balbar_27
+  - first:
+      213: 4420292965207596203
+    second: hero_illust_06_Balbar_28
+  - first:
+      213: -8151053341289087819
+    second: hero_illust_06_Balbar_29
+  - first:
+      213: 7818467784157327087
+    second: hero_illust_06_Balbar_30
+  - first:
+      213: -198538532061258491
+    second: hero_illust_06_Balbar_31
+  - first:
+      213: -8481192081954322158
+    second: hero_illust_06_Balbar_32
+  - first:
+      213: 4818769912393872371
+    second: hero_illust_06_Balbar_33
+  - first:
+      213: -5533583738837309231
+    second: hero_illust_06_Balbar_34
+  - first:
+      213: 2680985521111429405
+    second: hero_illust_06_Balbar_35
+  - first:
+      213: 2602262192968915646
+    second: hero_illust_06_Balbar_36
+  - first:
+      213: 1557826066537396745
+    second: hero_illust_06_Balbar_37
+  - first:
+      213: -8789895155197372058
+    second: hero_illust_06_Balbar_38
+  - first:
+      213: 7184191152594910799
+    second: hero_illust_06_Balbar_39
+  - first:
+      213: -480839886484273388
+    second: hero_illust_06_Balbar_40
+  - first:
+      213: 2013835496121124490
+    second: hero_illust_06_Balbar_41
+  - first:
+      213: 2397545314758750707
+    second: hero_illust_06_Balbar_42
+  - first:
+      213: 690960815754882441
+    second: hero_illust_06_Balbar_43
+  - first:
+      213: 6544382077814681540
+    second: hero_illust_06_Balbar_44
+  - first:
+      213: 7112076803149584263
+    second: hero_illust_06_Balbar_45
+  - first:
+      213: 5307676792023648601
+    second: hero_illust_06_Balbar_46
+  - first:
+      213: 7659386821711304474
+    second: hero_illust_06_Balbar_47
+  - first:
+      213: 1383667905426497472
+    second: hero_illust_06_Balbar_48
+  - first:
+      213: 5455654790034328780
+    second: hero_illust_06_Balbar_49
+  - first:
+      213: -5953910134420319857
+    second: hero_illust_06_Balbar_50
+  - first:
+      213: -4272252028001826819
+    second: hero_illust_06_Balbar_51
+  - first:
+      213: 6643268847168093852
+    second: hero_illust_06_Balbar_52
+  - first:
+      213: 6720229132783904051
+    second: hero_illust_06_Balbar_53
+  - first:
+      213: 4296452669948705837
+    second: hero_illust_06_Balbar_54
+  - first:
+      213: 2013358386784238330
+    second: hero_illust_06_Balbar_55
+  - first:
+      213: 8958992359771359712
+    second: hero_illust_06_Balbar_56
+  - first:
+      213: -2179073178549343330
+    second: hero_illust_06_Balbar_57
+  - first:
+      213: 4745707107743924236
+    second: hero_illust_06_Balbar_58
+  - first:
+      213: 3908279058153978285
+    second: hero_illust_06_Balbar_59
+  - first:
+      213: -3415177345239618633
+    second: hero_illust_06_Balbar_60
+  - first:
+      213: 5076167504414123912
+    second: hero_illust_06_Balbar_61
+  - first:
+      213: -1581463864317043167
+    second: hero_illust_06_Balbar_62
+  - first:
+      213: 2622393394750689113
+    second: hero_illust_06_Balbar_63
+  - first:
+      213: -158973314554990626
+    second: hero_illust_06_Balbar_64
+  - first:
+      213: 5050494324082029318
+    second: hero_illust_06_Balbar_65
+  - first:
+      213: -738933038450019505
+    second: hero_illust_06_Balbar_66
+  - first:
+      213: 4077410414597280907
+    second: hero_illust_06_Balbar_67
+  - first:
+      213: 6939112216205179723
+    second: hero_illust_06_Balbar_68
+  - first:
+      213: -3854218766321149576
+    second: hero_illust_06_Balbar_69
+  - first:
+      213: -8617448025220060420
+    second: hero_illust_06_Balbar_70
+  - first:
+      213: 2570662395391621436
+    second: hero_illust_06_Balbar_71
+  - first:
+      213: 8071555232987681086
+    second: hero_illust_06_Balbar_72
+  - first:
+      213: 8583546287452223314
+    second: hero_illust_06_Balbar_73
+  - first:
+      213: 528077608522550200
+    second: hero_illust_06_Balbar_74
+  - first:
+      213: 2040254090253692297
+    second: hero_illust_06_Balbar_75
+  - first:
+      213: -2633506045324469278
+    second: hero_illust_06_Balbar_76
+  - first:
+      213: 2491045147050510795
+    second: hero_illust_06_Balbar_77
+  - first:
+      213: 3673579682175974227
+    second: hero_illust_06_Balbar_78
+  - first:
+      213: 6140022775073195643
+    second: hero_illust_06_Balbar_79
+  - first:
+      213: 5564279648759066969
+    second: hero_illust_06_Balbar_80
+  - first:
+      213: 8712901596990262305
+    second: hero_illust_06_Balbar_81
+  - first:
+      213: -8230818088107644601
+    second: hero_illust_06_Balbar_82
+  - first:
+      213: 9169422970159881580
+    second: hero_illust_06_Balbar_83
+  - first:
+      213: 2322980800338960885
+    second: hero_illust_06_Balbar_84
+  - first:
+      213: 7781488947097581122
+    second: hero_illust_06_Balbar_85
+  - first:
+      213: -272441311845773714
+    second: hero_illust_06_Balbar_86
+  - first:
+      213: 5237849548379206483
+    second: hero_illust_06_Balbar_87
+  - first:
+      213: -2807494051920610818
+    second: hero_illust_06_Balbar_88
+  - first:
+      213: 6226995116135608095
+    second: hero_illust_06_Balbar_89
+  - first:
+      213: -4209793462203778014
+    second: hero_illust_06_Balbar_90
+  - first:
+      213: 4905931688078331389
+    second: hero_illust_06_Balbar_91
+  - first:
+      213: 5011407254884466586
+    second: hero_illust_06_Balbar_92
+  - first:
+      213: 4053555480549236959
+    second: hero_illust_06_Balbar_93
+  - first:
+      213: 1337513827203253619
+    second: hero_illust_06_Balbar_94
+  - first:
+      213: 4594536033572859329
+    second: hero_illust_06_Balbar_95
+  - first:
+      213: 1807989408708724029
+    second: hero_illust_06_Balbar_96
+  - first:
+      213: 3086567298927545779
+    second: hero_illust_06_Balbar_97
+  - first:
+      213: 1876911813623091748
+    second: hero_illust_06_Balbar_98
+  - first:
+      213: -4392264831852805961
+    second: hero_illust_06_Balbar_99
+  - first:
+      213: 9144821861939434502
+    second: hero_illust_06_Balbar_100
+  - first:
+      213: -2523908719847773716
+    second: hero_illust_06_Balbar_101
+  - first:
+      213: 6164123470805592677
+    second: hero_illust_06_Balbar_102
+  - first:
+      213: -6070279494987101792
+    second: hero_illust_06_Balbar_103
+  - first:
+      213: -7699634993928503725
+    second: hero_illust_06_Balbar_104
+  - first:
+      213: 8904477257054214272
+    second: hero_illust_06_Balbar_105
+  - first:
+      213: -5612323938713249564
+    second: hero_illust_06_Balbar_106
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3337
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475aad85cba3e85c0800000000000000
+      internalID: -4211364020925848204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3322
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc328d5da40d46e50800000000000000
+      internalID: 6801790357070160847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3337
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf3b7ab3ecca56d0800000000000000
+      internalID: -3000860923230732372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 3319
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f44c51cae508b60800000000000000
+      internalID: 7746295452269825821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3340
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac7202a7f323f170800000000000000
+      internalID: 8210946092108512424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3326
+        width: 47
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9794e64ccf4999280800000000000000
+      internalID: -9036027363993958023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3289
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1893005b0ce8a360800000000000000
+      internalID: 7181249139173464094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3149
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327d6bac3b1891870800000000000000
+      internalID: 8654090768169228067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3181
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900a9b9899306a850800000000000000
+      internalID: 6387797079447150601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3171
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5104918d3b2268610800000000000000
+      internalID: 1623022871533666325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3181
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f7b8dfe9794fbd0800000000000000
+      internalID: -2597284375971528928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 84
+        width: 2216
+        height: 3134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615adb35ed9b93970800000000000000
+      internalID: 8735217316800603414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3171
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12c8c63193272890800000000000000
+      internalID: -7482973149256433121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3171
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d657095a6f781f0800000000000000
+      internalID: -1042593597759329020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3181
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8353f3f51e271f0800000000000000
+      internalID: -1048527964025308949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 3169
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a394cf2941690c000800000000000000
+      internalID: 54208210637965626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 3173
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28c51d83ece94330800000000000000
+      internalID: 3695745431302948907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_17
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 3182
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705d394d129269430800000000000000
+      internalID: 3789261361755968775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3181
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c99153477d813300800000000000000
+      internalID: 230120599342651846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 3171
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b417b8099f00c170800000000000000
+      internalID: 8196568471764931769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_20
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 3181
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735f028c4cff34ac0800000000000000
+      internalID: -3871970033972218569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_21
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 3171
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b0a1021a8dcdcf0800000000000000
+      internalID: -226067694735455484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_22
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 3181
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83bc6df08a1ee1c0800000000000000
+      internalID: -4472608238622428273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3169
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fc3ec447b5fd3c0800000000000000
+      internalID: -4332643761442795661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_24
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 3173
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4aff4e311dd4b250800000000000000
+      internalID: 5959631273047620172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_25
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3181
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d359b0b7a02d3140800000000000000
+      internalID: 4700949490641228759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_26
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3169
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68afa4441fef89690800000000000000
+      internalID: -7595040459374003578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_27
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 3180
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4353cc0f0850830800000000000000
+      internalID: 4036774412714063034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_28
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 3181
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac5b5a3809085d30800000000000000
+      internalID: 4420292965207596203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_29
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3171
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcf3371c24a1ee80800000000000000
+      internalID: -8151053341289087819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_30
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3169
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee68829607c08c60800000000000000
+      internalID: 7818467784157327087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_31
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 3181
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dd24ac146ae3df0800000000000000
+      internalID: -198538532061258491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_32
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 3171
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219c14b9cb0cc4a80800000000000000
+      internalID: -8481192081954322158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3181
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3b39254b5bfd240800000000000000
+      internalID: 4818769912393872371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_34
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3152
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d869bf58e2c433b0800000000000000
+      internalID: -5533583738837309231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_35
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3181
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11ffc18026c43520800000000000000
+      internalID: 2680985521111429405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_36
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 3171
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba57585da71d1420800000000000000
+      internalID: 2602262192968915646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_37
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 3181
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a3ec5cd828e9510800000000000000
+      internalID: 1557826066537396745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_38
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3168
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669988d5de4040680800000000000000
+      internalID: -8789895155197372058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_39
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 3169
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e7ce03acf53b360800000000000000
+      internalID: 7184191152594910799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3167
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417044cbba6b359f0800000000000000
+      internalID: -480839886484273388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_41
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 3174
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a864f56c6b492fb10800000000000000
+      internalID: 2013835496121124490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_42
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 3152
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1f813d2cac54120800000000000000
+      internalID: 2397545314758750707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98da8c87339c69900800000000000000
+      internalID: 690960815754882441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_44
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfa39e73d052da50800000000000000
+      internalID: 6544382077814681540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_45
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787d60bcb2c23b260800000000000000
+      internalID: 7112076803149584263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_46
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 3149
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959872bcbe7a8a940800000000000000
+      internalID: 5307676792023648601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_47
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 3152
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a171961bbbb9b4a60800000000000000
+      internalID: 7659386821711304474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_48
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf1e0601a6c33310800000000000000
+      internalID: 1383667905426497472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_49
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc8721502166bb40800000000000000
+      internalID: 5455654790034328780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_50
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 3152
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81574527467f5da0800000000000000
+      internalID: -5953910134420319857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_51
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df742087a69e5b4c0800000000000000
+      internalID: -4272252028001826819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_52
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e7fd6a1d1a13c50800000000000000
+      internalID: 6643268847168093852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_53
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 3151
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335e0dc7acc034d50800000000000000
+      internalID: 6720229132783904051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_54
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3156
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c329290f010ab30800000000000000
+      internalID: 4296452669948705837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_55
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3111
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afaf3d919c2e0fb10800000000000000
+      internalID: 2013358386784238330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_56
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3097
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e94c9d951cb45c70800000000000000
+      internalID: 8958992359771359712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_57
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3097
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b2cf44d7062c1e0800000000000000
+      internalID: -2179073178549343330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3111
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c008f1d78732cd140800000000000000
+      internalID: 4745707107743924236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_59
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3111
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9bd50b81ffc3630800000000000000
+      internalID: 3908279058153978285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_60
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3098
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbe7048c4ada90d0800000000000000
+      internalID: -3415177345239618633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_61
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3103
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8872cf8537b227640800000000000000
+      internalID: 5076167504414123912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_62
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3041
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e144e8ef28d0ae0800000000000000
+      internalID: -1581463864317043167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_63
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3034
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f027306ec946420800000000000000
+      internalID: 2622393394750689113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_64
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3041
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfee29dc963bcdf0800000000000000
+      internalID: -158973314554990626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_65
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3034
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603390f34d5f61640800000000000000
+      internalID: 5050494324082029318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_66
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3033
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43f26a0158ceb5f0800000000000000
+      internalID: -738933038450019505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_67
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 3011
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b849c854b2fd59830800000000000000
+      internalID: 4077410414597280907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2901
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bbb7fabcdac4060800000000000000
+      internalID: 6939112216205179723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_69
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2888
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87998cad370138ac0800000000000000
+      internalID: -3854218766321149576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_70
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2902
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaed52adaca86880800000000000000
+      internalID: -8617448025220060420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_71
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2889
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39b5c224d3dca320800000000000000
+      internalID: 2570662395391621436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_72
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2901
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e311d2f28bce30070800000000000000
+      internalID: 8071555232987681086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_73
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2876
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25776b0fed1ee1770800000000000000
+      internalID: 8583546287452223314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_74
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2831
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb03dd79cb145700800000000000000
+      internalID: 528077608522550200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_75
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2821
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98deb1d0940705c10800000000000000
+      internalID: 2040254090253692297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_76
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2831
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb57966438e37bd0800000000000000
+      internalID: -2633506045324469278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_77
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2821
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc90865fc58f19220800000000000000
+      internalID: 2491045147050510795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2831
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf03ae14d2bf230800000000000000
+      internalID: 3673579682175974227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_79
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2801
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76cb05ce2eb53550800000000000000
+      internalID: 6140022775073195643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_80
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2801
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95138371cda483d40800000000000000
+      internalID: 5564279648759066969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_81
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2806
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cc98be6d17ae870800000000000000
+      internalID: 8712901596990262305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_82
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2747
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749eb7fbe8246cd80800000000000000
+      internalID: -8230818088107644601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_83
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2761
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ddfa31c95504f70800000000000000
+      internalID: 9169422970159881580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_84
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2732
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1a140fab2ec3020800000000000000
+      internalID: 2322980800338960885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_85
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2761
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246316328f66dfb60800000000000000
+      internalID: 7781488947097581122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_86
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2736
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e8a410218183cf0800000000000000
+      internalID: -272441311845773714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_87
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2690
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3533516b96490b840800000000000000
+      internalID: 5237849548379206483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_88
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2659
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9ff36d807c909d0800000000000000
+      internalID: -2807494051920610818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_89
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2683
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fea5be01bba6650800000000000000
+      internalID: 6226995116135608095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_90
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2691
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cf49b862fc395c0800000000000000
+      internalID: -4209793462203778014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_91
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2691
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdcd38a0ee551440800000000000000
+      internalID: 4905931688078331389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_92
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2666
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f3434c8581c8540800000000000000
+      internalID: 5011407254884466586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2622
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0a97f9b3f114830800000000000000
+      internalID: 4053555480549236959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_94
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2621
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3758f984dbdcf8210800000000000000
+      internalID: 1337513827203253619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_95
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2611
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cda7dcfd2213cf30800000000000000
+      internalID: 4594536033572859329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_96
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2621
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3580cfb9c4471910800000000000000
+      internalID: 1807989408708724029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_97
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2592
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdc9e3ea90b5da20800000000000000
+      internalID: 3086567298927545779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_98
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2614
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4221db5a9512c0a10800000000000000
+      internalID: 1876911813623091748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_99
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2592
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b009f9186a8b03c0800000000000000
+      internalID: -4392264831852805961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_100
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2591
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6045027380fe8ee70800000000000000
+      internalID: 9144821861939434502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_101
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2551
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce966fb346649fcd0800000000000000
+      internalID: -2523908719847773716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_102
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2538
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ae30543ad5b8550800000000000000
+      internalID: 6164123470805592677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_103
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2551
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9c4f506f802cba0800000000000000
+      internalID: -6070279494987101792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_104
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2541
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e79b674c6652590800000000000000
+      internalID: -7699634993928503725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_105
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2551
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088d24923ee039b70800000000000000
+      internalID: 8904477257054214272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_06_Balbar_106
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2520
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e85394fc150d12b0800000000000000
+      internalID: -5612323938713249564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hero_illust_06_Balbar_0: -4211364020925848204
+      hero_illust_06_Balbar_1: 6801790357070160847
+      hero_illust_06_Balbar_10: -2597284375971528928
+      hero_illust_06_Balbar_100: 9144821861939434502
+      hero_illust_06_Balbar_101: -2523908719847773716
+      hero_illust_06_Balbar_102: 6164123470805592677
+      hero_illust_06_Balbar_103: -6070279494987101792
+      hero_illust_06_Balbar_104: -7699634993928503725
+      hero_illust_06_Balbar_105: 8904477257054214272
+      hero_illust_06_Balbar_106: -5612323938713249564
+      hero_illust_06_Balbar_11: 8735217316800603414
+      hero_illust_06_Balbar_12: -7482973149256433121
+      hero_illust_06_Balbar_13: -1042593597759329020
+      hero_illust_06_Balbar_14: -1048527964025308949
+      hero_illust_06_Balbar_15: 54208210637965626
+      hero_illust_06_Balbar_16: 3695745431302948907
+      hero_illust_06_Balbar_17: 3789261361755968775
+      hero_illust_06_Balbar_18: 230120599342651846
+      hero_illust_06_Balbar_19: 8196568471764931769
+      hero_illust_06_Balbar_2: -3000860923230732372
+      hero_illust_06_Balbar_20: -3871970033972218569
+      hero_illust_06_Balbar_21: -226067694735455484
+      hero_illust_06_Balbar_22: -4472608238622428273
+      hero_illust_06_Balbar_23: -4332643761442795661
+      hero_illust_06_Balbar_24: 5959631273047620172
+      hero_illust_06_Balbar_25: 4700949490641228759
+      hero_illust_06_Balbar_26: -7595040459374003578
+      hero_illust_06_Balbar_27: 4036774412714063034
+      hero_illust_06_Balbar_28: 4420292965207596203
+      hero_illust_06_Balbar_29: -8151053341289087819
+      hero_illust_06_Balbar_3: 7746295452269825821
+      hero_illust_06_Balbar_30: 7818467784157327087
+      hero_illust_06_Balbar_31: -198538532061258491
+      hero_illust_06_Balbar_32: -8481192081954322158
+      hero_illust_06_Balbar_33: 4818769912393872371
+      hero_illust_06_Balbar_34: -5533583738837309231
+      hero_illust_06_Balbar_35: 2680985521111429405
+      hero_illust_06_Balbar_36: 2602262192968915646
+      hero_illust_06_Balbar_37: 1557826066537396745
+      hero_illust_06_Balbar_38: -8789895155197372058
+      hero_illust_06_Balbar_39: 7184191152594910799
+      hero_illust_06_Balbar_4: 8210946092108512424
+      hero_illust_06_Balbar_40: -480839886484273388
+      hero_illust_06_Balbar_41: 2013835496121124490
+      hero_illust_06_Balbar_42: 2397545314758750707
+      hero_illust_06_Balbar_43: 690960815754882441
+      hero_illust_06_Balbar_44: 6544382077814681540
+      hero_illust_06_Balbar_45: 7112076803149584263
+      hero_illust_06_Balbar_46: 5307676792023648601
+      hero_illust_06_Balbar_47: 7659386821711304474
+      hero_illust_06_Balbar_48: 1383667905426497472
+      hero_illust_06_Balbar_49: 5455654790034328780
+      hero_illust_06_Balbar_5: -9036027363993958023
+      hero_illust_06_Balbar_50: -5953910134420319857
+      hero_illust_06_Balbar_51: -4272252028001826819
+      hero_illust_06_Balbar_52: 6643268847168093852
+      hero_illust_06_Balbar_53: 6720229132783904051
+      hero_illust_06_Balbar_54: 4296452669948705837
+      hero_illust_06_Balbar_55: 2013358386784238330
+      hero_illust_06_Balbar_56: 8958992359771359712
+      hero_illust_06_Balbar_57: -2179073178549343330
+      hero_illust_06_Balbar_58: 4745707107743924236
+      hero_illust_06_Balbar_59: 3908279058153978285
+      hero_illust_06_Balbar_6: 7181249139173464094
+      hero_illust_06_Balbar_60: -3415177345239618633
+      hero_illust_06_Balbar_61: 5076167504414123912
+      hero_illust_06_Balbar_62: -1581463864317043167
+      hero_illust_06_Balbar_63: 2622393394750689113
+      hero_illust_06_Balbar_64: -158973314554990626
+      hero_illust_06_Balbar_65: 5050494324082029318
+      hero_illust_06_Balbar_66: -738933038450019505
+      hero_illust_06_Balbar_67: 4077410414597280907
+      hero_illust_06_Balbar_68: 6939112216205179723
+      hero_illust_06_Balbar_69: -3854218766321149576
+      hero_illust_06_Balbar_7: 8654090768169228067
+      hero_illust_06_Balbar_70: -8617448025220060420
+      hero_illust_06_Balbar_71: 2570662395391621436
+      hero_illust_06_Balbar_72: 8071555232987681086
+      hero_illust_06_Balbar_73: 8583546287452223314
+      hero_illust_06_Balbar_74: 528077608522550200
+      hero_illust_06_Balbar_75: 2040254090253692297
+      hero_illust_06_Balbar_76: -2633506045324469278
+      hero_illust_06_Balbar_77: 2491045147050510795
+      hero_illust_06_Balbar_78: 3673579682175974227
+      hero_illust_06_Balbar_79: 6140022775073195643
+      hero_illust_06_Balbar_8: 6387797079447150601
+      hero_illust_06_Balbar_80: 5564279648759066969
+      hero_illust_06_Balbar_81: 8712901596990262305
+      hero_illust_06_Balbar_82: -8230818088107644601
+      hero_illust_06_Balbar_83: 9169422970159881580
+      hero_illust_06_Balbar_84: 2322980800338960885
+      hero_illust_06_Balbar_85: 7781488947097581122
+      hero_illust_06_Balbar_86: -272441311845773714
+      hero_illust_06_Balbar_87: 5237849548379206483
+      hero_illust_06_Balbar_88: -2807494051920610818
+      hero_illust_06_Balbar_89: 6226995116135608095
+      hero_illust_06_Balbar_9: 1623022871533666325
+      hero_illust_06_Balbar_90: -4209793462203778014
+      hero_illust_06_Balbar_91: 4905931688078331389
+      hero_illust_06_Balbar_92: 5011407254884466586
+      hero_illust_06_Balbar_93: 4053555480549236959
+      hero_illust_06_Balbar_94: 1337513827203253619
+      hero_illust_06_Balbar_95: 4594536033572859329
+      hero_illust_06_Balbar_96: 1807989408708724029
+      hero_illust_06_Balbar_97: 3086567298927545779
+      hero_illust_06_Balbar_98: 1876911813623091748
+      hero_illust_06_Balbar_99: -4392264831852805961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
