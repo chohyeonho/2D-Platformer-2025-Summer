@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: 45e8b743ced56544f88c57976198d3d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5150683141005396236
+    second: hero_illust_26_Kaoru_0
+  - first:
+      213: 9177985104017073229
+    second: hero_illust_26_Kaoru_1
+  - first:
+      213: -2008278948142038444
+    second: hero_illust_26_Kaoru_2
+  - first:
+      213: -814866346260240759
+    second: hero_illust_26_Kaoru_3
+  - first:
+      213: 8634461231237790996
+    second: hero_illust_26_Kaoru_4
+  - first:
+      213: -3468580005846754147
+    second: hero_illust_26_Kaoru_5
+  - first:
+      213: 3680689029614757789
+    second: hero_illust_26_Kaoru_6
+  - first:
+      213: 4331707379482502111
+    second: hero_illust_26_Kaoru_7
+  - first:
+      213: 1306914157819648326
+    second: hero_illust_26_Kaoru_8
+  - first:
+      213: -7058453925277935681
+    second: hero_illust_26_Kaoru_9
+  - first:
+      213: 3080666081741491258
+    second: hero_illust_26_Kaoru_10
+  - first:
+      213: -997184193627205949
+    second: hero_illust_26_Kaoru_11
+  - first:
+      213: 7129204205585337153
+    second: hero_illust_26_Kaoru_12
+  - first:
+      213: 3269136054304158907
+    second: hero_illust_26_Kaoru_13
+  - first:
+      213: 5563197199801100297
+    second: hero_illust_26_Kaoru_14
+  - first:
+      213: -6181753115502209239
+    second: hero_illust_26_Kaoru_15
+  - first:
+      213: 4442159612553949649
+    second: hero_illust_26_Kaoru_16
+  - first:
+      213: 8977143609092961770
+    second: hero_illust_26_Kaoru_17
+  - first:
+      213: -9000329578557632202
+    second: hero_illust_26_Kaoru_18
+  - first:
+      213: 164272876324462144
+    second: hero_illust_26_Kaoru_19
+  - first:
+      213: 4136776340466052129
+    second: hero_illust_26_Kaoru_20
+  - first:
+      213: -4679733439573025230
+    second: hero_illust_26_Kaoru_21
+  - first:
+      213: -5207482804179381518
+    second: hero_illust_26_Kaoru_22
+  - first:
+      213: -3484318673029710471
+    second: hero_illust_26_Kaoru_23
+  - first:
+      213: 1237739605643442800
+    second: hero_illust_26_Kaoru_24
+  - first:
+      213: -803065963025603407
+    second: hero_illust_26_Kaoru_25
+  - first:
+      213: 2647346827309103684
+    second: hero_illust_26_Kaoru_26
+  - first:
+      213: -4471222900827324243
+    second: hero_illust_26_Kaoru_27
+  - first:
+      213: -5848820625390394598
+    second: hero_illust_26_Kaoru_28
+  - first:
+      213: -4585221272392440025
+    second: hero_illust_26_Kaoru_29
+  - first:
+      213: -7020423068636250683
+    second: hero_illust_26_Kaoru_30
+  - first:
+      213: 1907092565216034600
+    second: hero_illust_26_Kaoru_31
+  - first:
+      213: -8866062531285537263
+    second: hero_illust_26_Kaoru_32
+  - first:
+      213: -2118631193326911689
+    second: hero_illust_26_Kaoru_33
+  - first:
+      213: 7287748147243904714
+    second: hero_illust_26_Kaoru_34
+  - first:
+      213: 514718755798916537
+    second: hero_illust_26_Kaoru_35
+  - first:
+      213: -999464800041859897
+    second: hero_illust_26_Kaoru_36
+  - first:
+      213: 6388721559623246268
+    second: hero_illust_26_Kaoru_37
+  - first:
+      213: -9066392203456869609
+    second: hero_illust_26_Kaoru_38
+  - first:
+      213: 738724900204095868
+    second: hero_illust_26_Kaoru_39
+  - first:
+      213: -1449230026319188664
+    second: hero_illust_26_Kaoru_40
+  - first:
+      213: -7962912035110822101
+    second: hero_illust_26_Kaoru_41
+  - first:
+      213: -8557003744982890797
+    second: hero_illust_26_Kaoru_42
+  - first:
+      213: 3295363913731199466
+    second: hero_illust_26_Kaoru_43
+  - first:
+      213: -8261478023865702482
+    second: hero_illust_26_Kaoru_44
+  - first:
+      213: -6933282519915466432
+    second: hero_illust_26_Kaoru_45
+  - first:
+      213: 6861779385218064589
+    second: hero_illust_26_Kaoru_46
+  - first:
+      213: 6073569239541529161
+    second: hero_illust_26_Kaoru_47
+  - first:
+      213: 3084845165769709770
+    second: hero_illust_26_Kaoru_48
+  - first:
+      213: -6490586599968005107
+    second: hero_illust_26_Kaoru_49
+  - first:
+      213: -2695642244199591693
+    second: hero_illust_26_Kaoru_50
+  - first:
+      213: -244088314700543950
+    second: hero_illust_26_Kaoru_51
+  - first:
+      213: -2440602217380572899
+    second: hero_illust_26_Kaoru_52
+  - first:
+      213: 7175449522650259694
+    second: hero_illust_26_Kaoru_53
+  - first:
+      213: -6714867387914562944
+    second: hero_illust_26_Kaoru_54
+  - first:
+      213: 7843033548340881629
+    second: hero_illust_26_Kaoru_55
+  - first:
+      213: 148317134751294007
+    second: hero_illust_26_Kaoru_56
+  - first:
+      213: -4975376630118146220
+    second: hero_illust_26_Kaoru_57
+  - first:
+      213: 5640394326192517930
+    second: hero_illust_26_Kaoru_58
+  - first:
+      213: 8858216435941706108
+    second: hero_illust_26_Kaoru_59
+  - first:
+      213: 3194553985929608799
+    second: hero_illust_26_Kaoru_60
+  - first:
+      213: -2654660601722236993
+    second: hero_illust_26_Kaoru_61
+  - first:
+      213: 8506133119894400308
+    second: hero_illust_26_Kaoru_62
+  - first:
+      213: 7899814435230721937
+    second: hero_illust_26_Kaoru_63
+  - first:
+      213: -7954876473387406726
+    second: hero_illust_26_Kaoru_64
+  - first:
+      213: 2438817368461420380
+    second: hero_illust_26_Kaoru_65
+  - first:
+      213: 3827985813922511842
+    second: hero_illust_26_Kaoru_66
+  - first:
+      213: 3787825207424272272
+    second: hero_illust_26_Kaoru_67
+  - first:
+      213: -8656533211981588053
+    second: hero_illust_26_Kaoru_68
+  - first:
+      213: 1825301845593376310
+    second: hero_illust_26_Kaoru_69
+  - first:
+      213: 6490241296613063659
+    second: hero_illust_26_Kaoru_70
+  - first:
+      213: -1389641855409713737
+    second: hero_illust_26_Kaoru_71
+  - first:
+      213: 6372603522715771959
+    second: hero_illust_26_Kaoru_72
+  - first:
+      213: 5575566198110585525
+    second: hero_illust_26_Kaoru_73
+  - first:
+      213: 6277035353081113949
+    second: hero_illust_26_Kaoru_74
+  - first:
+      213: -2086789859164657237
+    second: hero_illust_26_Kaoru_75
+  - first:
+      213: -454861494665755506
+    second: hero_illust_26_Kaoru_76
+  - first:
+      213: -3187295540867951161
+    second: hero_illust_26_Kaoru_77
+  - first:
+      213: 4771030600456320801
+    second: hero_illust_26_Kaoru_78
+  - first:
+      213: 7350867812876897811
+    second: hero_illust_26_Kaoru_79
+  - first:
+      213: -1942038979026117049
+    second: hero_illust_26_Kaoru_80
+  - first:
+      213: -1890846774873234100
+    second: hero_illust_26_Kaoru_81
+  - first:
+      213: 6974449280908775785
+    second: hero_illust_26_Kaoru_82
+  - first:
+      213: -7117717931157284140
+    second: hero_illust_26_Kaoru_83
+  - first:
+      213: -6476666080544694074
+    second: hero_illust_26_Kaoru_84
+  - first:
+      213: 3246738272287325004
+    second: hero_illust_26_Kaoru_85
+  - first:
+      213: -4863092419890459157
+    second: hero_illust_26_Kaoru_86
+  - first:
+      213: -1611099921957732553
+    second: hero_illust_26_Kaoru_87
+  - first:
+      213: -2655303778688364496
+    second: hero_illust_26_Kaoru_88
+  - first:
+      213: -993831435281609556
+    second: hero_illust_26_Kaoru_89
+  - first:
+      213: -9101927710569834171
+    second: hero_illust_26_Kaoru_90
+  - first:
+      213: 3386940631935066326
+    second: hero_illust_26_Kaoru_91
+  - first:
+      213: -6326848119457570461
+    second: hero_illust_26_Kaoru_92
+  - first:
+      213: -8406496935294501469
+    second: hero_illust_26_Kaoru_93
+  - first:
+      213: -8425697028998757837
+    second: hero_illust_26_Kaoru_94
+  - first:
+      213: 2061395744462349353
+    second: hero_illust_26_Kaoru_95
+  - first:
+      213: 7481981101352254301
+    second: hero_illust_26_Kaoru_96
+  - first:
+      213: -4895232476231556325
+    second: hero_illust_26_Kaoru_97
+  - first:
+      213: 3557108827744936180
+    second: hero_illust_26_Kaoru_98
+  - first:
+      213: -5517154403987274790
+    second: hero_illust_26_Kaoru_99
+  - first:
+      213: 3216810440571831183
+    second: hero_illust_26_Kaoru_100
+  - first:
+      213: 2670667780171951384
+    second: hero_illust_26_Kaoru_101
+  - first:
+      213: -3968148156825803199
+    second: hero_illust_26_Kaoru_102
+  - first:
+      213: -3917153515966762806
+    second: hero_illust_26_Kaoru_103
+  - first:
+      213: -7739488552007607267
+    second: hero_illust_26_Kaoru_104
+  - first:
+      213: 5908241699319710184
+    second: hero_illust_26_Kaoru_105
+  - first:
+      213: 2590298551521591186
+    second: hero_illust_26_Kaoru_106
+  - first:
+      213: 7031571021913514832
+    second: hero_illust_26_Kaoru_107
+  - first:
+      213: -7740550439728891109
+    second: hero_illust_26_Kaoru_108
+  - first:
+      213: -5337515096936135666
+    second: hero_illust_26_Kaoru_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3352
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6b7c509f81588b0800000000000000
+      internalID: -5150683141005396236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3333
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44a3c633d0ce5f70800000000000000
+      internalID: 9177985104017073229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 3340
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452491edfe82124e0800000000000000
+      internalID: -2008278948142038444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 3354
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986ecbb106301b4f0800000000000000
+      internalID: -814866346260240759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3331
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d7fc21eb4c3d770800000000000000
+      internalID: 8634461231237790996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3196
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c5b7cacd02ddfc0800000000000000
+      internalID: -3468580005846754147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3185
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d976ddadb2f641330800000000000000
+      internalID: 3680689029614757789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3195
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd32ef849e05d1c30800000000000000
+      internalID: 4331707379482502111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3185
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649d4c09087132210800000000000000
+      internalID: 1306914157819648326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3187
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7d8506d855b0e90800000000000000
+      internalID: -7058453925277935681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3195
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ccbc1ba79b0ca20800000000000000
+      internalID: 3080666081741491258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_11
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3196
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce473b524a4922f0800000000000000
+      internalID: -997184193627205949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3195
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b822de37500f260800000000000000
+      internalID: 7129204205585337153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 3182
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4b837bbed4e5d20800000000000000
+      internalID: 3269136054304158907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3187
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908a79dc062743d40800000000000000
+      internalID: 5563197199801100297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3195
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92793553b40063aa0800000000000000
+      internalID: -6181753115502209239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_16
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 3196
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d17dddc1a8b5ad30800000000000000
+      internalID: 4442159612553949649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 3164
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae577adac88359c70800000000000000
+      internalID: 8977143609092961770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 3195
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63191a02fe7681380800000000000000
+      internalID: -9000329578557632202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3183
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e1d878f4d974200800000000000000
+      internalID: 164272876324462144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 3195
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c28b00a28c86930800000000000000
+      internalID: 4136776340466052129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_21
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3183
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e9bb22b3f3e0fb0800000000000000
+      internalID: -4679733439573025230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3187
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2dee2eafd4bb7b0800000000000000
+      internalID: -5207482804179381518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_23
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 3196
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dbdc9a0a635afc0800000000000000
+      internalID: -3484318673029710471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_24
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 3183
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a3fce0d955d2110800000000000000
+      internalID: 1237739605643442800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_25
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3195
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4e6aee2cfead4f0800000000000000
+      internalID: -803065963025603407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_26
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3183
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a3407c9e34db420800000000000000
+      internalID: 2647346827309103684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_27
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 3196
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da08894167603f1c0800000000000000
+      internalID: -4471222900827324243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_28
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 3185
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13a0ac21a0d4dea0800000000000000
+      internalID: -5848820625390394598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_29
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 3196
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727eb7adb850e50c0800000000000000
+      internalID: -4585221272392440025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_30
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3185
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd7af43a62729e90800000000000000
+      internalID: -7020423068636250683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_31
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 3187
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f7d77759a577a10800000000000000
+      internalID: 1907092565216034600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_32
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 3193
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e235a2a1b65f480800000000000000
+      internalID: -8866062531285537263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_33
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 3182
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fffa7972c1992e0800000000000000
+      internalID: -2118631193326911689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_34
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 3195
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceebf8e358432560800000000000000
+      internalID: 7287748147243904714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3195
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd10a63bf5a42700800000000000000
+      internalID: 514718755798916537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_36
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3182
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c48ffb4f003122f0800000000000000
+      internalID: -999464800041859897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3163
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1293ad86c49a850800000000000000
+      internalID: 6388721559623246268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_38
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3188
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b0596a354bd2280800000000000000
+      internalID: -9066392203456869609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_39
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 3188
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79a66ff16a704a00800000000000000
+      internalID: 738724900204095868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_40
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 3182
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d2a6b28fc43ebe0800000000000000
+      internalID: -1449230026319188664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_41
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3188
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f598181bd0e7190800000000000000
+      internalID: -7962912035110822101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_42
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3165
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d68b9e4e6a6f3980800000000000000
+      internalID: -8557003744982890797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_43
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 3188
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1d69b150c7bbd20800000000000000
+      internalID: 3295363913731199466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3165
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7e9cb2285595d80800000000000000
+      internalID: -8261478023865702482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_45
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3165
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0417301484808cf90800000000000000
+      internalID: -6933282519915466432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_46
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3166
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0650fdeffe93f50800000000000000
+      internalID: 6861779385218064589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_47
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 3165
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94abc915b07a94450800000000000000
+      internalID: 6073569239541529161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_48
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3170
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8d8c485529fca20800000000000000
+      internalID: 3084845165769709770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_49
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 3165
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d042ffc30edcce5a0800000000000000
+      internalID: -6490586599968005107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_50
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3165
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f052f839a7279ad0800000000000000
+      internalID: -2695642244199591693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_51
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3166
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238437498f2dc9cf0800000000000000
+      internalID: -244088314700543950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_52
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3170
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d111003d63d312ed0800000000000000
+      internalID: -2440602217380572899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_53
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3055
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a05dd251549360800000000000000
+      internalID: 7175449522650259694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_54
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3042
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825f7500bfffc2a0800000000000000
+      internalID: -6714867387914562944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3056
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd86452457d08dc60800000000000000
+      internalID: 7843033548340881629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_56
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 3043
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73264f2f5adee0200800000000000000
+      internalID: 148317134751294007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_57
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3055
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f170ac059e3fab0800000000000000
+      internalID: -4975376630118146220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_58
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3038
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2375dd61c4b64e40800000000000000
+      internalID: 5640394326192517930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_59
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3038
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7905d76ae4beea70800000000000000
+      internalID: 8858216435941706108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3038
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e742bbce5555c20800000000000000
+      internalID: 3194553985929608799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_61
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3043
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf0f1b6f30c82bd0800000000000000
+      internalID: -2654660601722236993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_62
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 3028
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dad7f410bdb0670800000000000000
+      internalID: 8506133119894400308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_63
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3043
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1972e63bf57c1ad60800000000000000
+      internalID: 7899814435230721937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_64
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3045
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7aa1a38ef99a9190800000000000000
+      internalID: -7954876473387406726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_65
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3030
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c572237a97b68d120800000000000000
+      internalID: 2438817368461420380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_66
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3030
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebf514f0dcbf1530800000000000000
+      internalID: 3827985813922511842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_67
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 3043
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0974bc715fe019430800000000000000
+      internalID: 3787825207424272272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_68
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3028
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9577178e0ddd780800000000000000
+      internalID: -8656533211981588053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_69
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 129
+        width: 1624
+        height: 2943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63645729b56c45910800000000000000
+      internalID: 1825301845593376310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_70
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3030
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb313f8218f11a50800000000000000
+      internalID: 6490241296613063659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_71
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3030
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd0a4b581007bce0800000000000000
+      internalID: -1389641855409713737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3030
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73460e1f329007850800000000000000
+      internalID: 6372603522715771959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_73
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3030
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b28e04aae3606d40800000000000000
+      internalID: 5575566198110585525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_74
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3025
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5de7fe75628c1750800000000000000
+      internalID: 6277035353081113949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2985
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba96a9bedab3a03e0800000000000000
+      internalID: -2086789859164657237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_76
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2975
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84c17c61e100b9f0800000000000000
+      internalID: -454861494665755506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_77
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2985
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c51164b79374c3d0800000000000000
+      internalID: -3187295540867951161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_78
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2975
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127b7b89d0b163240800000000000000
+      internalID: 4771030600456320801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_79
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2985
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e41694457830660800000000000000
+      internalID: 7350867812876897811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_80
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2960
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e9f2386dd7c05e0800000000000000
+      internalID: -1942038979026117049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_81
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2960
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45ecfa50ec52c5e0800000000000000
+      internalID: -1890846774873234100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_82
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2960
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961db843ba83ac060800000000000000
+      internalID: 6974449280908775785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_83
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2959
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da11fdb049c83d90800000000000000
+      internalID: -7117717931157284140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_84
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2958
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0ef4cb3824e16a0800000000000000
+      internalID: -6476666080544694074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_85
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2985
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bf956b14bbe0d20800000000000000
+      internalID: 3246738272287325004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_86
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2977
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedc88ab533d28cb0800000000000000
+      internalID: -4863092419890459157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_87
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2975
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fbc0e282934a9e0800000000000000
+      internalID: -1611099921957732553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_88
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2958
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030178c1847762bd0800000000000000
+      internalID: -2655303778688364496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_89
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2955
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4c6d33933532f0800000000000000
+      internalID: -993831435281609556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_90
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2955
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5495338a8f47fa180800000000000000
+      internalID: -9101927710569834171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_91
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2960
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0a3d95f84d00f20800000000000000
+      internalID: 3386940631935066326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_92
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2960
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36122eb08258238a0800000000000000
+      internalID: -6326848119457570461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_93
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2955
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad7c5ea39f165b80800000000000000
+      internalID: -8406496935294501469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_94
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2913
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33207718139e11b80800000000000000
+      internalID: -8425697028998757837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_95
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2915
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9242e22028c8b9c10800000000000000
+      internalID: 2061395744462349353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_96
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2903
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b7942ab2655d760800000000000000
+      internalID: 7481981101352254301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_97
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2915
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b132349bff3a01cb0800000000000000
+      internalID: -4895232476231556325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_98
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2916
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0a429e1a36d5130800000000000000
+      internalID: 3557108827744936180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_99
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2886
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad34b5bfc412f63b0800000000000000
+      internalID: -5517154403987274790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_100
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2907
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f834d046d0864ac20800000000000000
+      internalID: 3216810440571831183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_101
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2901
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dea3e323e101520800000000000000
+      internalID: 2670667780171951384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2885
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146e648864e4ee8c0800000000000000
+      internalID: -3968148156825803199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_103
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2890
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0f02691a973a9c0800000000000000
+      internalID: -3917153515966762806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_104
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2844
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c5262ea20d79490800000000000000
+      internalID: -7739488552007607267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_105
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2813
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e10a17b58a4ef150800000000000000
+      internalID: 5908241699319710184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_106
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2837
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f37a10fc692f320800000000000000
+      internalID: 2590298551521591186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_107
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2845
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053e51ee698259160800000000000000
+      internalID: 7031571021913514832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_108
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2845
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b37f1e26a049490800000000000000
+      internalID: -7740550439728891109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_illust_26_Kaoru_109
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2820
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0446d77c465de5b0800000000000000
+      internalID: -5337515096936135666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hero_illust_26_Kaoru_0: -5150683141005396236
+      hero_illust_26_Kaoru_1: 9177985104017073229
+      hero_illust_26_Kaoru_10: 3080666081741491258
+      hero_illust_26_Kaoru_100: 3216810440571831183
+      hero_illust_26_Kaoru_101: 2670667780171951384
+      hero_illust_26_Kaoru_102: -3968148156825803199
+      hero_illust_26_Kaoru_103: -3917153515966762806
+      hero_illust_26_Kaoru_104: -7739488552007607267
+      hero_illust_26_Kaoru_105: 5908241699319710184
+      hero_illust_26_Kaoru_106: 2590298551521591186
+      hero_illust_26_Kaoru_107: 7031571021913514832
+      hero_illust_26_Kaoru_108: -7740550439728891109
+      hero_illust_26_Kaoru_109: -5337515096936135666
+      hero_illust_26_Kaoru_11: -997184193627205949
+      hero_illust_26_Kaoru_12: 7129204205585337153
+      hero_illust_26_Kaoru_13: 3269136054304158907
+      hero_illust_26_Kaoru_14: 5563197199801100297
+      hero_illust_26_Kaoru_15: -6181753115502209239
+      hero_illust_26_Kaoru_16: 4442159612553949649
+      hero_illust_26_Kaoru_17: 8977143609092961770
+      hero_illust_26_Kaoru_18: -9000329578557632202
+      hero_illust_26_Kaoru_19: 164272876324462144
+      hero_illust_26_Kaoru_2: -2008278948142038444
+      hero_illust_26_Kaoru_20: 4136776340466052129
+      hero_illust_26_Kaoru_21: -4679733439573025230
+      hero_illust_26_Kaoru_22: -5207482804179381518
+      hero_illust_26_Kaoru_23: -3484318673029710471
+      hero_illust_26_Kaoru_24: 1237739605643442800
+      hero_illust_26_Kaoru_25: -803065963025603407
+      hero_illust_26_Kaoru_26: 2647346827309103684
+      hero_illust_26_Kaoru_27: -4471222900827324243
+      hero_illust_26_Kaoru_28: -5848820625390394598
+      hero_illust_26_Kaoru_29: -4585221272392440025
+      hero_illust_26_Kaoru_3: -814866346260240759
+      hero_illust_26_Kaoru_30: -7020423068636250683
+      hero_illust_26_Kaoru_31: 1907092565216034600
+      hero_illust_26_Kaoru_32: -8866062531285537263
+      hero_illust_26_Kaoru_33: -2118631193326911689
+      hero_illust_26_Kaoru_34: 7287748147243904714
+      hero_illust_26_Kaoru_35: 514718755798916537
+      hero_illust_26_Kaoru_36: -999464800041859897
+      hero_illust_26_Kaoru_37: 6388721559623246268
+      hero_illust_26_Kaoru_38: -9066392203456869609
+      hero_illust_26_Kaoru_39: 738724900204095868
+      hero_illust_26_Kaoru_4: 8634461231237790996
+      hero_illust_26_Kaoru_40: -1449230026319188664
+      hero_illust_26_Kaoru_41: -7962912035110822101
+      hero_illust_26_Kaoru_42: -8557003744982890797
+      hero_illust_26_Kaoru_43: 3295363913731199466
+      hero_illust_26_Kaoru_44: -8261478023865702482
+      hero_illust_26_Kaoru_45: -6933282519915466432
+      hero_illust_26_Kaoru_46: 6861779385218064589
+      hero_illust_26_Kaoru_47: 6073569239541529161
+      hero_illust_26_Kaoru_48: 3084845165769709770
+      hero_illust_26_Kaoru_49: -6490586599968005107
+      hero_illust_26_Kaoru_5: -3468580005846754147
+      hero_illust_26_Kaoru_50: -2695642244199591693
+      hero_illust_26_Kaoru_51: -244088314700543950
+      hero_illust_26_Kaoru_52: -2440602217380572899
+      hero_illust_26_Kaoru_53: 7175449522650259694
+      hero_illust_26_Kaoru_54: -6714867387914562944
+      hero_illust_26_Kaoru_55: 7843033548340881629
+      hero_illust_26_Kaoru_56: 148317134751294007
+      hero_illust_26_Kaoru_57: -4975376630118146220
+      hero_illust_26_Kaoru_58: 5640394326192517930
+      hero_illust_26_Kaoru_59: 8858216435941706108
+      hero_illust_26_Kaoru_6: 3680689029614757789
+      hero_illust_26_Kaoru_60: 3194553985929608799
+      hero_illust_26_Kaoru_61: -2654660601722236993
+      hero_illust_26_Kaoru_62: 8506133119894400308
+      hero_illust_26_Kaoru_63: 7899814435230721937
+      hero_illust_26_Kaoru_64: -7954876473387406726
+      hero_illust_26_Kaoru_65: 2438817368461420380
+      hero_illust_26_Kaoru_66: 3827985813922511842
+      hero_illust_26_Kaoru_67: 3787825207424272272
+      hero_illust_26_Kaoru_68: -8656533211981588053
+      hero_illust_26_Kaoru_69: 1825301845593376310
+      hero_illust_26_Kaoru_7: 4331707379482502111
+      hero_illust_26_Kaoru_70: 6490241296613063659
+      hero_illust_26_Kaoru_71: -1389641855409713737
+      hero_illust_26_Kaoru_72: 6372603522715771959
+      hero_illust_26_Kaoru_73: 5575566198110585525
+      hero_illust_26_Kaoru_74: 6277035353081113949
+      hero_illust_26_Kaoru_75: -2086789859164657237
+      hero_illust_26_Kaoru_76: -454861494665755506
+      hero_illust_26_Kaoru_77: -3187295540867951161
+      hero_illust_26_Kaoru_78: 4771030600456320801
+      hero_illust_26_Kaoru_79: 7350867812876897811
+      hero_illust_26_Kaoru_8: 1306914157819648326
+      hero_illust_26_Kaoru_80: -1942038979026117049
+      hero_illust_26_Kaoru_81: -1890846774873234100
+      hero_illust_26_Kaoru_82: 6974449280908775785
+      hero_illust_26_Kaoru_83: -7117717931157284140
+      hero_illust_26_Kaoru_84: -6476666080544694074
+      hero_illust_26_Kaoru_85: 3246738272287325004
+      hero_illust_26_Kaoru_86: -4863092419890459157
+      hero_illust_26_Kaoru_87: -1611099921957732553
+      hero_illust_26_Kaoru_88: -2655303778688364496
+      hero_illust_26_Kaoru_89: -993831435281609556
+      hero_illust_26_Kaoru_9: -7058453925277935681
+      hero_illust_26_Kaoru_90: -9101927710569834171
+      hero_illust_26_Kaoru_91: 3386940631935066326
+      hero_illust_26_Kaoru_92: -6326848119457570461
+      hero_illust_26_Kaoru_93: -8406496935294501469
+      hero_illust_26_Kaoru_94: -8425697028998757837
+      hero_illust_26_Kaoru_95: 2061395744462349353
+      hero_illust_26_Kaoru_96: 7481981101352254301
+      hero_illust_26_Kaoru_97: -4895232476231556325
+      hero_illust_26_Kaoru_98: 3557108827744936180
+      hero_illust_26_Kaoru_99: -5517154403987274790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 2dad5a0b0dc23e14eaea4ca1833ed186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7725363510884073752
+    second: skill_04_b2_0
+  - first:
+      213: 371960656766941712
+    second: skill_04_b2_1
+  - first:
+      213: -3313900459711985513
+    second: skill_04_b2_2
+  - first:
+      213: 8844452584221597497
+    second: skill_04_b2_3
+  - first:
+      213: -1161187083165438060
+    second: skill_04_b2_4
+  - first:
+      213: 2431440952477040343
+    second: skill_04_b2_5
+  - first:
+      213: 7133450108887916561
+    second: skill_04_b2_6
+  - first:
+      213: -546264588990389417
+    second: skill_04_b2_7
+  - first:
+      213: 6052221934500634129
+    second: skill_04_b2_8
+  - first:
+      213: 7617110556754815624
+    second: skill_04_b2_9
+  - first:
+      213: 7683919362781625605
+    second: skill_04_b2_10
+  - first:
+      213: -5867366667712587309
+    second: skill_04_b2_11
+  - first:
+      213: 5763135323396858200
+    second: skill_04_b2_12
+  - first:
+      213: 5335122318068659072
+    second: skill_04_b2_13
+  - first:
+      213: -8757047539225840415
+    second: skill_04_b2_14
+  - first:
+      213: -8641908949126089689
+    second: skill_04_b2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skill_04_b2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 137
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8118203be21063b60800000000000000
+      internalID: 7725363510884073752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 145
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ab3012f38792500800000000000000
+      internalID: 371960656766941712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 140
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7980dd5f619a202d0800000000000000
+      internalID: -3313900459711985513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 160
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f5053f3cecdba70800000000000000
+      internalID: 8844452584221597497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 140
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fe6260082a2efe0800000000000000
+      internalID: -1161187083165438060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 145
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de3bb8f9a63eb120800000000000000
+      internalID: 2431440952477040343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 122
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1106c33541b1ff260800000000000000
+      internalID: 7133450108887916561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 107
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7536ad320474b68f0800000000000000
+      internalID: -546264588990389417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 107
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11edcbb88cfcdf350800000000000000
+      internalID: 6052221934500634129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 80
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aaf36b1b965b960800000000000000
+      internalID: 7617110556754815624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 55
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d385503f3c2aa60800000000000000
+      internalID: 7683919362781625605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 53
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d916043a1de29ea0800000000000000
+      internalID: -5867366667712587309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 68
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851639fca05caff40800000000000000
+      internalID: 5763135323396858200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 69
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083bdb94b792a0a40800000000000000
+      internalID: 5335122318068659072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 40
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e43c3fe8a7b87680800000000000000
+      internalID: -8757047539225840415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill_04_b2_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 9
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724f11af895c11880800000000000000
+      internalID: -8641908949126089689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skill_04_b2_0: 7725363510884073752
+      skill_04_b2_1: 371960656766941712
+      skill_04_b2_10: 7683919362781625605
+      skill_04_b2_11: -5867366667712587309
+      skill_04_b2_12: 5763135323396858200
+      skill_04_b2_13: 5335122318068659072
+      skill_04_b2_14: -8757047539225840415
+      skill_04_b2_15: -8641908949126089689
+      skill_04_b2_2: -3313900459711985513
+      skill_04_b2_3: 8844452584221597497
+      skill_04_b2_4: -1161187083165438060
+      skill_04_b2_5: 2431440952477040343
+      skill_04_b2_6: 7133450108887916561
+      skill_04_b2_7: -546264588990389417
+      skill_04_b2_8: 6052221934500634129
+      skill_04_b2_9: 7617110556754815624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
