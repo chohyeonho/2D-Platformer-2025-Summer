@@ -3175,6 +3175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishFlag
       objectReference: {fileID: 0}
+    - target: {fileID: 3002583570885757818, guid: ee29368cf2bd8054e9487dc54a7d7996, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7558859073655282259, guid: ee29368cf2bd8054e9487dc54a7d7996, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.5

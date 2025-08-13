@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32407cbb2cd99643a4dd11f1c205ec4, type: 3}
   m_Name: PlayerConfig_Default
   m_EditorClassIdentifier: 
-  moveSpeed: 4.5
+  moveSpeed: 10
   jumpPower: 20
   decelerationSpeed: 0.5
   maxHealth: 3
