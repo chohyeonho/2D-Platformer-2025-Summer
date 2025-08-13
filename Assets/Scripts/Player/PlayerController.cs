@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
 	private Rigidbody2D rigid;
 	private SpriteRenderer spriteRenderer;
 	private Animator anim;
-	private PlayerSound sound;
 	private PlayerHealth health;
 
 	private float xInput;
@@ -33,7 +32,6 @@ public class PlayerController : MonoBehaviour
 		rigid = GetComponent<Rigidbody2D>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
 		anim = GetComponent<Animator>();
-		sound = GetComponent<PlayerSound>();
 		health = GetComponent<PlayerHealth>();
 	}
 
@@ -86,7 +84,9 @@ public class PlayerController : MonoBehaviour
 			rigid.AddForceY(config.jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
 			isGrounded = false;
-			sound?.PlayJump();
+
+			PlayerEvents.OnJumped?.Invoke(this);
+
 			ChangeState(PlayerState.Jump);
 			return;
 		}
@@ -114,7 +114,9 @@ public class PlayerController : MonoBehaviour
 			rigid.AddForceY(config.jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
 			isGrounded = false;
-			sound?.PlayJump();
+
+			PlayerEvents.OnJumped?.Invoke(this);
+
 			ChangeState(PlayerState.Jump);
 			return;
 		}
@@ -232,13 +234,15 @@ public class PlayerController : MonoBehaviour
 			}
 
 			collision.gameObject.SetActive(false);
-			sound?.PlayItem();
+
+			PlayerEvents.OnItemCollected?.Invoke(this);
 		}
 		else if (collision.gameObject.CompareTag("Finish"))
 		{
 			GameManager.instance.SetSpawnPosition(new Vector3(0f, 0f, -2f));
 			GameManager.instance.NextStage();
-			sound?.PlayFinish();
+
+			PlayerEvents.OnFinished?.Invoke(this);
 		}
 	}
 
@@ -267,7 +271,8 @@ public class PlayerController : MonoBehaviour
 	{
 		if (Mathf.Abs(rigid.linearVelocity.x) > config.decelerationSpeed)
 		{
-			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
+			int dir = spriteRenderer.flipX ? -1 : 1;
+			rigid.linearVelocityX = dir * config.decelerationSpeed;
 		}
 	}
 }

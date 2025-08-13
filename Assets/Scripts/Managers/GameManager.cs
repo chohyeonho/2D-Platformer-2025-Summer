@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
 		instance = this;
 	}
 
+	// ▶︎ 다음 스테이지로 이동
 	public void NextStage()
 	{
 		string sceneName = SceneManager.GetActiveScene().name;
@@ -43,7 +44,10 @@ public class GameManager : MonoBehaviour
 				{
 					Time.timeScale = 0;
 					Debug.Log("게임 클리어!");
-					UIManager.instance.ShowRestartButton("Clear!");
+
+					// ● 델리게이트 이벤트로 UI 처리
+					PlayerEvents.OnPlayerDied?.Invoke(this);
+
 					return;
 				}
 
@@ -54,7 +58,7 @@ public class GameManager : MonoBehaviour
 	}
 
 	// ▶︎ 플레이어 충돌 시 체력 조건에 따른 처리
-	void OnTriggerEnter2D(Collider2D collision)
+	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.CompareTag("Player"))
 		{
@@ -88,6 +92,7 @@ public class GameManager : MonoBehaviour
 		SceneManager.LoadScene("Stage_0");
 	}
 
+	// ▶︎ 플레이어 스폰 위치 설정
 	public void SetSpawnPosition(Vector3 pos)
 	{
 		spawnPosition = pos;

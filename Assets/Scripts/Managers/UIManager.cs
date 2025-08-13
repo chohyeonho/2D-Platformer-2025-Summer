@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class UIManager : MonoBehaviour
 {
@@ -28,20 +29,48 @@ public class UIManager : MonoBehaviour
 		instance = this;
 	}
 
+	private void OnEnable()
+	{
+		PlayerEvents.OnHealthChanged += HandleHealthChanged;
+		PlayerEvents.OnPlayerDied += HandlePlayerDied;
+		PlayerEvents.OnScoreChanged += HandleScoreChanged;
+	}
+
+	private void OnDisable()
+	{
+		PlayerEvents.OnHealthChanged -= HandleHealthChanged;
+		PlayerEvents.OnPlayerDied -= HandlePlayerDied;
+		PlayerEvents.OnScoreChanged -= HandleScoreChanged;
+	}
+
 	private void Start()
 	{
 		UpdateStage(); // ★ 여기서 간결하게 호출
-
-		UpdateHealth(PlayerData.instance.currentHealth);
-		UpdateScore(PlayerData.instance.GetTotalDisplayScore());
 
 		Button btn = restartButton.GetComponent<Button>();
 		btn.onClick.RemoveAllListeners();
 		btn.onClick.AddListener(() => GameManager.instance.Restart());
 	}
 
+	// ▶︎ 이벤트 수신: 체력 변경 시
+	private void HandleHealthChanged(object sender, int currentHealth)
+	{
+		UpdateHealth(currentHealth);
+	}
 
-	// ▶︎ 점수 갱신
+	// ▶︎ 이벤트 수신: 플레이어 사망 시
+	private void HandlePlayerDied(object sender)
+	{
+		ShowRestartButton("Retry");
+	}
+
+	// ▶︎ 이벤트 수신: 점수 변경 시
+	private void HandleScoreChanged(object sender, int totalScore)
+	{
+		UpdateScore(totalScore);
+	}
+
+	// ▶︎ 점수 텍스트 갱신
 	public void UpdateScore(int totalScore)
 	{
 		scoreText.text = totalScore.ToString();
@@ -62,8 +91,7 @@ public class UIManager : MonoBehaviour
 		}
 	}
 
-
-	// ▶︎ 체력 이미지 갱신 (삼항 연산자 제거)
+	// ▶︎ 체력 이미지 갱신
 	public void UpdateHealth(int currentHealth)
 	{
 		for (int i = 0; i < heartImages.Length; i++)

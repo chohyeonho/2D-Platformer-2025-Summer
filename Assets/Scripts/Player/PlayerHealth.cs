@@ -13,7 +13,6 @@ public class PlayerHealth : MonoBehaviour
 	private CapsuleCollider2D capsuleCollider;
 	private Rigidbody2D rigid;
 	private Animator anim;
-	private PlayerSound sound;
 
 	private void Awake()
 	{
@@ -21,7 +20,6 @@ public class PlayerHealth : MonoBehaviour
 		capsuleCollider = GetComponent<CapsuleCollider2D>();
 		rigid = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
-		sound = GetComponent<PlayerSound>();
 	}
 
 	// ▶︎ 데미지 입기 처리
@@ -32,11 +30,14 @@ public class PlayerHealth : MonoBehaviour
 		if (isInvincible || PlayerData.instance.currentHealth <= 0) return;
 
 		PlayerData.instance.SetHealth(PlayerData.instance.currentHealth - 1);
-		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
+
+		// ● 체력 변경 이벤트 발생
+		PlayerEvents.OnHealthChanged?.Invoke(this, PlayerData.instance.currentHealth);
 
 		if (PlayerData.instance.currentHealth <= 0)
 		{
-			Die();
+			// ● 사망 이벤트 발생
+			PlayerEvents.OnPlayerDied?.Invoke(this);
 			return;
 		}
 
@@ -48,13 +49,13 @@ public class PlayerHealth : MonoBehaviour
 		if (attackerPos != (Vector2)transform.position)
 		{
 			int dirc = transform.position.x - attackerPos.x > 0 ? 1 : -1;
-
-			// ▶︎ 피격 시 반동 적용
 			rigid.AddForce(new Vector2(dirc, 1) * config.damagedKnockbackForce, ForceMode2D.Impulse);
 		}
 
 		anim.SetTrigger("doDamaged");
-		sound?.PlayDamaged();
+
+		// ● 사운드 이벤트 호출
+		PlayerEvents.OnPlayerDamaged?.Invoke(this);
 
 		Invoke(nameof(EndInvincibility), config.invincibleTime);
 	}
@@ -77,15 +78,17 @@ public class PlayerHealth : MonoBehaviour
 		// ▶︎ 사망 직후 위로 튕기는 연출
 		rigid.AddForceY(config.deathBounceForce, ForceMode2D.Impulse);
 
-		sound?.PlayDie();
-		UIManager.instance.ShowRestartButton("Retry");
+		// ● 사운드 이벤트 호출
+		PlayerEvents.OnPlayerDied?.Invoke(this);
 	}
 
 	// ▶︎ 체력 초기화
 	public void ResetHealth()
 	{
 		PlayerData.instance.ResetHealth();
-		UIManager.instance.UpdateHealth(PlayerData.instance.currentHealth);
+
+		// ● 체력 초기화 시에도 체력 변경 이벤트 호출
+		PlayerEvents.OnHealthChanged?.Invoke(this, PlayerData.instance.currentHealth);
 
 		isInvincible = false;
 		spriteRenderer.color = Color.white;

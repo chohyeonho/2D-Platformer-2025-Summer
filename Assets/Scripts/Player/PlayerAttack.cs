@@ -51,7 +51,9 @@ public class PlayerAttack : MonoBehaviour
 		{
 			attackTimeCounter = 0f;
 			anim.SetTrigger("attack");
-			GetComponent<PlayerSound>()?.PlaySwing();
+
+			// ● 공격 시작 알림 이벤트
+			PlayerEvents.OnSwingStarted?.Invoke(this);
 		}
 
 		attackTimeCounter += Time.deltaTime;
@@ -95,7 +97,10 @@ public class PlayerAttack : MonoBehaviour
 				if (iDamageable != null)
 				{
 					iDamageable.Damaged(config.attackDamage);
-					GetComponent<PlayerSound>()?.PlayHit();
+
+					// ● 이벤트 호출: 타격 성공 시 대상 전달
+					PlayerEvents.OnHitEnemy?.Invoke(this, hits[i].collider.gameObject);
+
 					iDamageables.Add(iDamageable);
 				}
 			}
