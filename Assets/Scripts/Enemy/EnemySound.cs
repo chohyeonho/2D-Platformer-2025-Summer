@@ -16,7 +16,45 @@ public class EnemySound : MonoBehaviour
 		audioSource = GetComponent<AudioSource>();
 	}
 
-	// ▶︎ 공통 사운드 재생 함수
+	private void OnEnable()
+	{
+		EnemyEvents.OnEnemyDamaged += HandleDamaged;
+		EnemyEvents.OnEnemyDied += HandleDied;
+		EnemyEvents.OnEnemyStomped += HandleStomped;
+	}
+
+	private void OnDisable()
+	{
+		EnemyEvents.OnEnemyDamaged -= HandleDamaged;
+		EnemyEvents.OnEnemyDied -= HandleDied;
+		EnemyEvents.OnEnemyStomped -= HandleStomped;
+	}
+
+	private void HandleDamaged(GameObject enemyObject)
+	{
+		if (enemyObject == gameObject)
+		{
+			Play(enemyConfig.hitClip);
+		}
+	}
+
+	private void HandleDied(GameObject enemyObject)
+	{
+		if (enemyObject == gameObject)
+		{
+			Play(enemyConfig.dieClip);
+		}
+	}
+
+	private void HandleStomped(GameObject enemyObject)
+	{
+		if (enemyObject == gameObject)
+		{
+			Play(enemyConfig.stompClip);
+		}
+	}
+
+	// ▶︎ 사운드 재생 함수
 	private void Play(AudioClip clip)
 	{
 		if (clip != null)
@@ -24,12 +62,4 @@ public class EnemySound : MonoBehaviour
 			audioSource.PlayOneShot(clip);
 		}
 	}
-
-	// ▶︎ 사망 시 사운드 재생
-	public void PlayDieSound() => Play(enemyConfig.dieClip);
-
-	// ▶︎ 밟혔을 때 사운드 재생
-	public void PlayStompSound() => Play(enemyConfig.stompClip);
-
-	public void PlayHitSound() => Play(enemyConfig.hitClip);
 }

@@ -254,11 +254,12 @@ public class PlayerController : MonoBehaviour
 		IDamageable damageable = enemy.GetComponent<IDamageable>();
 		if (damageable != null)
 		{
-			damageable.Damaged(1f);
+			damageable.Damaged(1f, "stomp");
 			damageable.ResetStompDamageFlag();
 		}
 
-		enemy.GetComponent<EnemySound>()?.PlayStompSound();
+		// enemy.GetComponent<EnemySound>()?.PlayStompSound(); // 이벤트 시스템으로 대체
+		EnemyEvents.OnEnemyStomped?.Invoke(enemy.gameObject);
 	}
 
 	public void VelocityZero()

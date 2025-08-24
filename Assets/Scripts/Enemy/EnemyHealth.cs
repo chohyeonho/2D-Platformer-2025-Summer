@@ -41,8 +41,10 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		}
 
 		currentHealth -= amount;
+		anim.SetTrigger("doHit");
 
-		OnDamaged();
+		// ● 이벤트 호출: 데미지 발생 시 자신의 게임 오브젝트 전달
+		EnemyEvents.OnEnemyDamaged?.Invoke(gameObject);
 
 		if (currentHealth <= 0f)
 		{
@@ -50,22 +52,18 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		}
 	}
 
-	private void OnDamaged()
-	{
-		anim.SetTrigger("doHit");
-		GetComponent<EnemySound>()?.PlayHitSound();
-		// 추가 이펙트/파티클 등 연출 여기에 추가 가능
-	}
-
 	private void Die()
 	{
+		// ● 이벤트 호출: 사망 시 자신의 게임 오브젝트 전달
+		EnemyEvents.OnEnemyDied?.Invoke(gameObject);
+
 		spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 		spriteRenderer.flipY = true;
 		capsuleCollider.enabled = false;
 
 		rigid.AddForceY(enemyConfig.deathBounceForce, ForceMode2D.Impulse);
 
-		GetComponent<EnemySound>()?.PlayDieSound();
+		// GetComponent<EnemySound>()?.PlayDieSound(); // 이벤트 시스템으로 대체
 
 		Invoke(nameof(Deactivate), enemyConfig.deactivateDelay);
 	}
