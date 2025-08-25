@@ -8,9 +8,13 @@ public class PlayerSound : MonoBehaviour
 	// ● 사운드 출력용 오디오 소스
 	private AudioSource audioSource;
 
+	// ● 무기 정보 획득용
+	private WeaponManager weaponManager;
+
 	private void Awake()
 	{
 		audioSource = GetComponent<AudioSource>();
+		weaponManager = GetComponent<WeaponManager>();
 	}
 
 	private void OnEnable()
@@ -45,8 +49,16 @@ public class PlayerSound : MonoBehaviour
 	}
 
 	// ▶︎ 이벤트 수신 핸들러들
-	private void HandleSwing(object sender) => Play(config.swingClip);
-	private void HandleHit(object sender, GameObject _) => Play(config.hitClip);
+	private void HandleSwing(object sender)
+	{
+		WeaponData currentWeapon = weaponManager.GetCurrentWeapon();
+		if (currentWeapon != null) Play(currentWeapon.attackSound);
+	}
+	private void HandleHit(object sender, GameObject _)
+	{
+		WeaponData currentWeapon = weaponManager.GetCurrentWeapon();
+		if (currentWeapon != null) Play(currentWeapon.hitSound);
+	}
 	private void HandleDamaged(object sender, int hp) { if (hp > 0) Play(config.damagedClip); }
 	private void HandleDie(object sender) => Play(config.dieClip);
 	private void HandleItem(object sender) => Play(config.itemClip);
