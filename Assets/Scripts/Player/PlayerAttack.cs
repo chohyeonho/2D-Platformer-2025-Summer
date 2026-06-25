@@ -11,7 +11,7 @@ public class PlayerAttack : MonoBehaviour
 	[SerializeField] private LayerMask attackableLayer;
 
 	// ▶︎ 무기 매니저 참조
-	private WeaponManager weaponManager;
+	private WeaponController weaponController;
 
 	// ● 현재 무기의 데이터 캐싱
 	private WeaponData currentWeapon;
@@ -37,12 +37,25 @@ public class PlayerAttack : MonoBehaviour
 	private void Awake()
 	{
 		anim = GetComponent<Animator>();
-		weaponManager = GetComponent<WeaponManager>();
+		weaponController = GetComponent<WeaponController>();
 	}
 
 	private void Start()
 	{
-		UpdateWeapon(weaponManager.GetCurrentWeapon());
+		WeaponData weapon = weaponController.GetCurrentWeapon();
+		
+		// 현재 무기가 없으면 기본 칼 사용
+		if (weapon == null)
+		{
+			weapon = Resources.Load<WeaponData>("Configs/Weapons/Unarmed");
+			if (weapon == null)
+			{
+				Debug.LogError("기본 무기(Unarmed)를 Resources/Configs/Weapons 폴더에서 찾을 수 없습니다!");
+				return;
+			}
+		}
+		
+		UpdateWeapon(weapon);
 	}
 
 	private void Update()
@@ -61,12 +74,18 @@ public class PlayerAttack : MonoBehaviour
 	{
 		lastAttackTime = Time.time;
 
-		anim.SetTrigger("Attack");
+		anim.SetTrigger("attack");
 
 		PlayerEvents.OnSwingStarted?.Invoke(this);
 	}
 	public void UpdateWeapon(WeaponData newWeapon)
 	{
+		if (newWeapon == null)
+		{
+			Debug.LogWarning("UpdateWeapon: newWeapon이 null입니다!");
+			return;
+		}
+		
 		currentWeapon = newWeapon;
 		lastAttackTime = -currentWeapon.attackDelay; // 즉시 공격 가능하도록 설정
 	}

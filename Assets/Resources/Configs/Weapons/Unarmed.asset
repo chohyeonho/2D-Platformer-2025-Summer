@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0edbadf0aebdaec4a8e5e8283a2e08e3, type: 3}
   m_Name: Unarmed
   m_EditorClassIdentifier: 
-  weaponName: 
-  damage: 0
-  range: 0
-  attackDelay: 0
+  weaponName: Unarmed
+  damage: 1
+  range: 0.5
+  attackDelay: 0.15
   numberOfAttacks: 0
   comboResetTime: 0
   knockbackForce: 0

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponManager : MonoBehaviour
+public class WeaponController : MonoBehaviour
 {
     [Header("Weapons")]
     [SerializeField] private WeaponData startingWeapon;
