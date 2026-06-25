@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 48cd1c7a26cec264aadc056c69cca052
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6149872159519375278
+    second: drop_bombstockice_00_0
+  - first:
+      213: 6542754515760664868
+    second: drop_bombstockice_00_1
+  - first:
+      213: 7048916880519209800
+    second: drop_bombstockice_00_2
+  - first:
+      213: 5705355314115284589
+    second: drop_bombstockice_00_3
+  - first:
+      213: -6696808690715251563
+    second: drop_bombstockice_00_4
+  - first:
+      213: 6830079497502320959
+    second: drop_bombstockice_00_5
+  - first:
+      213: -5765803232660485399
+    second: drop_bombstockice_00_6
+  - first:
+      213: 3370482610512354331
+    second: drop_bombstockice_00_7
+  - first:
+      213: -3495019242497877746
+    second: drop_bombstockice_00_8
+  - first:
+      213: 8229923658383741786
+    second: drop_bombstockice_00_9
+  - first:
+      213: -418328870873357722
+    second: drop_bombstockice_00_10
+  - first:
+      213: 2817878102406022022
+    second: drop_bombstockice_00_11
+  - first:
+      213: 2693085878859680767
+    second: drop_bombstockice_00_12
+  - first:
+      213: -1657273479370874468
+    second: drop_bombstockice_00_13
+  - first:
+      213: -8178348784479213510
+    second: drop_bombstockice_00_14
+  - first:
+      213: 4274465487166041179
+    second: drop_bombstockice_00_15
+  - first:
+      213: -4235655070387898919
+    second: drop_bombstockice_00_16
+  - first:
+      213: -2713085746686410931
+    second: drop_bombstockice_00_17
+  - first:
+      213: 6739143037245991036
+    second: drop_bombstockice_00_18
+  - first:
+      213: -2027141564969066026
+    second: drop_bombstockice_00_19
+  - first:
+      213: -6905775041727679174
+    second: drop_bombstockice_00_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: drop_bombstockice_00_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 245
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25088c5bad347aaa0800000000000000
+      internalID: -6149872159519375278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 238
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4215f7c21988cca50800000000000000
+      internalID: 6542754515760664868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 214
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8432a9a5e88c2d160800000000000000
+      internalID: 7048916880519209800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 214
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e8a3f0e6e7d2f40800000000000000
+      internalID: 5705355314115284589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 238
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c2b2d1af72013a0800000000000000
+      internalID: -6696808690715251563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 234
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39ed4c9d1159ce50800000000000000
+      internalID: 6830079497502320959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_6
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 206
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea09782280cbffa0800000000000000
+      internalID: -5765803232660485399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 180
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c5831a31c56ce20800000000000000
+      internalID: 3370482610512354331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 117
+        width: 86
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0952cf24823f7fc0800000000000000
+      internalID: -3495019242497877746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 214
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53db8a96ff863270800000000000000
+      internalID: 8229923658383741786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 113
+        width: 92
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662ad4cbb1cc13af0800000000000000
+      internalID: -418328870873357722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_11
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 192
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6834342543d1b1720800000000000000
+      internalID: 2817878102406022022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 168
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb4d079653cf5520800000000000000
+      internalID: 2693085878859680767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 92
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c916c661d8e2009e0800000000000000
+      internalID: -1657273479370874468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a386edb7c1ba08e80800000000000000
+      internalID: -8178348784479213510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 86
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ce237a6b3f15b30800000000000000
+      internalID: 4274465487166041179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 113
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5727aa72ee735c0800000000000000
+      internalID: -4235655070387898919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_17
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 44
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fb49f43ee295ad0800000000000000
+      internalID: -2713085746686410931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78289903ee368d50800000000000000
+      internalID: 6739143037245991036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_19
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1e696ac752ed3e0800000000000000
+      internalID: -2027141564969066026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_bombstockice_00_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 21
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35301b1032c920a0800000000000000
+      internalID: -6905775041727679174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      drop_bombstockice_00_0: -6149872159519375278
+      drop_bombstockice_00_1: 6542754515760664868
+      drop_bombstockice_00_10: -418328870873357722
+      drop_bombstockice_00_11: 2817878102406022022
+      drop_bombstockice_00_12: 2693085878859680767
+      drop_bombstockice_00_13: -1657273479370874468
+      drop_bombstockice_00_14: -8178348784479213510
+      drop_bombstockice_00_15: 4274465487166041179
+      drop_bombstockice_00_16: -4235655070387898919
+      drop_bombstockice_00_17: -2713085746686410931
+      drop_bombstockice_00_18: 6739143037245991036
+      drop_bombstockice_00_19: -2027141564969066026
+      drop_bombstockice_00_2: 7048916880519209800
+      drop_bombstockice_00_20: -6905775041727679174
+      drop_bombstockice_00_3: 5705355314115284589
+      drop_bombstockice_00_4: -6696808690715251563
+      drop_bombstockice_00_5: 6830079497502320959
+      drop_bombstockice_00_6: -5765803232660485399
+      drop_bombstockice_00_7: 3370482610512354331
+      drop_bombstockice_00_8: -3495019242497877746
+      drop_bombstockice_00_9: 8229923658383741786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

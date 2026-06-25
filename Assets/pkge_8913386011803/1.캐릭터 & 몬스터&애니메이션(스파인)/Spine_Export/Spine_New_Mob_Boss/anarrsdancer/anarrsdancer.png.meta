@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 6fba8edcb42cffa42a0e88ff0f6e34b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1728750030468207185
+    second: anarrsdancer_0
+  - first:
+      213: 2227780255668400945
+    second: anarrsdancer_1
+  - first:
+      213: 1850678109843241877
+    second: anarrsdancer_2
+  - first:
+      213: 2791380039061064760
+    second: anarrsdancer_3
+  - first:
+      213: -2447625523385832949
+    second: anarrsdancer_4
+  - first:
+      213: 3080882100481701962
+    second: anarrsdancer_5
+  - first:
+      213: -3917878322198006942
+    second: anarrsdancer_6
+  - first:
+      213: 8755326467748804718
+    second: anarrsdancer_7
+  - first:
+      213: -6795065988061739947
+    second: anarrsdancer_8
+  - first:
+      213: -4718056070245868518
+    second: anarrsdancer_9
+  - first:
+      213: 4542549098471596643
+    second: anarrsdancer_10
+  - first:
+      213: 26192644738234782
+    second: anarrsdancer_11
+  - first:
+      213: -588814140211415027
+    second: anarrsdancer_12
+  - first:
+      213: -469087788632503015
+    second: anarrsdancer_13
+  - first:
+      213: -8045781693628302968
+    second: anarrsdancer_14
+  - first:
+      213: -1393275058224672001
+    second: anarrsdancer_15
+  - first:
+      213: -8072874268073998838
+    second: anarrsdancer_16
+  - first:
+      213: -858001299926039057
+    second: anarrsdancer_17
+  - first:
+      213: -8556260091308921943
+    second: anarrsdancer_18
+  - first:
+      213: 6717778877245762045
+    second: anarrsdancer_19
+  - first:
+      213: -7103111978054813361
+    second: anarrsdancer_20
+  - first:
+      213: -5233797994029067052
+    second: anarrsdancer_21
+  - first:
+      213: 7349388618036199900
+    second: anarrsdancer_22
+  - first:
+      213: 2188115455659219893
+    second: anarrsdancer_23
+  - first:
+      213: 8031019181036378403
+    second: anarrsdancer_24
+  - first:
+      213: -2263443143611325906
+    second: anarrsdancer_25
+  - first:
+      213: 2094739985943938212
+    second: anarrsdancer_26
+  - first:
+      213: 1413727483342413590
+    second: anarrsdancer_27
+  - first:
+      213: -4494903524852310153
+    second: anarrsdancer_28
+  - first:
+      213: -38636162782456230
+    second: anarrsdancer_29
+  - first:
+      213: -4060568586121840924
+    second: anarrsdancer_30
+  - first:
+      213: 4476110926421864856
+    second: anarrsdancer_31
+  - first:
+      213: 349668413789179848
+    second: anarrsdancer_32
+  - first:
+      213: 2998564766516337088
+    second: anarrsdancer_33
+  - first:
+      213: 3322494922420523471
+    second: anarrsdancer_34
+  - first:
+      213: -5409576309009626282
+    second: anarrsdancer_35
+  - first:
+      213: 4148044327691874359
+    second: anarrsdancer_36
+  - first:
+      213: -4882793153874038712
+    second: anarrsdancer_37
+  - first:
+      213: -3001287759713568420
+    second: anarrsdancer_38
+  - first:
+      213: -6768471543103496398
+    second: anarrsdancer_39
+  - first:
+      213: 2280538951391553109
+    second: anarrsdancer_40
+  - first:
+      213: -3653991799833862360
+    second: anarrsdancer_41
+  - first:
+      213: 4691922598286711291
+    second: anarrsdancer_42
+  - first:
+      213: -8182816052575912312
+    second: anarrsdancer_43
+  - first:
+      213: -8034836370729050621
+    second: anarrsdancer_44
+  - first:
+      213: 878133770876170214
+    second: anarrsdancer_45
+  - first:
+      213: -2613388631275409939
+    second: anarrsdancer_46
+  - first:
+      213: 2168858574326638146
+    second: anarrsdancer_47
+  - first:
+      213: -5631032640786160033
+    second: anarrsdancer_48
+  - first:
+      213: 2194330264279634825
+    second: anarrsdancer_49
+  - first:
+      213: 4196450026186695951
+    second: anarrsdancer_50
+  - first:
+      213: -5097110965442275841
+    second: anarrsdancer_51
+  - first:
+      213: 2177826588231612286
+    second: anarrsdancer_52
+  - first:
+      213: -156343675688645058
+    second: anarrsdancer_53
+  - first:
+      213: -6265373510398961780
+    second: anarrsdancer_54
+  - first:
+      213: -6800318808668267931
+    second: anarrsdancer_55
+  - first:
+      213: 5417727404414208083
+    second: anarrsdancer_56
+  - first:
+      213: 7256623762875234602
+    second: anarrsdancer_57
+  - first:
+      213: 1540430831303141653
+    second: anarrsdancer_58
+  - first:
+      213: -1700111140209653642
+    second: anarrsdancer_59
+  - first:
+      213: 7573880266440171659
+    second: anarrsdancer_60
+  - first:
+      213: -8480820012363442937
+    second: anarrsdancer_61
+  - first:
+      213: -742156329248260569
+    second: anarrsdancer_62
+  - first:
+      213: -3794469240600058412
+    second: anarrsdancer_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anarrsdancer_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 249
+        width: 155
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152d08f4ef0cdf710800000000000000
+      internalID: 1728750030468207185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 205
+        width: 214
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1337eb8d65aaaee10800000000000000
+      internalID: 2227780255668400945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 215
+        width: 118
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b3cc28fedeea910800000000000000
+      internalID: 1850678109843241877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 219
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cc95d2b59fcb620800000000000000
+      internalID: 2791380039061064760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 217
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6867fd89480ed0800000000000000
+      internalID: -2447625523385832949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 235
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48321a72fd71ca20800000000000000
+      internalID: 3080882100481701962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 248
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2633f2c7c66e0a9c0800000000000000
+      internalID: -3917878322198006942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_7
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 218
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e683eb2e80b218970800000000000000
+      internalID: 8755326467748804718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_8
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 218
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554cd345c7313b1a0800000000000000
+      internalID: -6795065988061739947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_9
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 203
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c9e9e5009168eb0800000000000000
+      internalID: -4718056070245868518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_10
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 165
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362ab2d66506a0f30800000000000000
+      internalID: 4542549098471596643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_11
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 253
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99b955521e0d5000800000000000000
+      internalID: 26192644738234782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_12
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 169
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08b8fdb8ac14d7f0800000000000000
+      internalID: -588814140211415027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_13
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 169
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d061e34277d79f0800000000000000
+      internalID: -469087788632503015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_14
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 195
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889b1f29d24a75090800000000000000
+      internalID: -8045781693628302968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_15
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 256
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff25b1867b71aace0800000000000000
+      internalID: -1393275058224672001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 229
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06ce0700a367ff80800000000000000
+      internalID: -8072874268073998838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_17
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 237
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5c5151d54c714f0800000000000000
+      internalID: -858001299926039057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_18
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 233
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab2eaba7ce024980800000000000000
+      internalID: -8556260091308921943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_19
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 193
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92bd9eb485a3d50800000000000000
+      internalID: 6717778877245762045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_20
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 165
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4978343a4dac6d90800000000000000
+      internalID: -7103111978054813361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_21
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 217
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4debb4470dd57b0800000000000000
+      internalID: -5233797994029067052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_22
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 217
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1c85662064ef560800000000000000
+      internalID: 7349388618036199900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_23
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 217
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb1c1ee96fbd5e10800000000000000
+      internalID: 2188115455659219893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_24
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 194
+        width: 82
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329950e1569e37f60800000000000000
+      internalID: 8031019181036378403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 219
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22e0cff372a690e0800000000000000
+      internalID: -2263443143611325906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_26
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 220
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4cef63be2021d10800000000000000
+      internalID: 2094739985943938212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 226
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fd4d5e7a19e9310800000000000000
+      internalID: 1413727483342413590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 90
+        width: 165
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd6852f05ee91c0800000000000000
+      internalID: -4494903524852310153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_29
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 216
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a561ed95d9cb67ff0800000000000000
+      internalID: -38636162782456230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_30
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 212
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6f81e7266f5a7c0800000000000000
+      internalID: -4060568586121840924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_31
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 200
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891be901c275e1e30800000000000000
+      internalID: 4476110926421864856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_32
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 128
+        width: 118
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf0419d1954ad400800000000000000
+      internalID: 349668413789179848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_33
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 110
+        width: 62
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c95530a4ca0d9920800000000000000
+      internalID: 2998564766516337088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 287
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc11ae2578fdb1e20800000000000000
+      internalID: 3322494922420523471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 205
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bcc1412035de4b0800000000000000
+      internalID: -5409576309009626282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_36
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 196
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730f5a8b650d09930800000000000000
+      internalID: 4148044327691874359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_37
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 198
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840f0a72f75dc3cb0800000000000000
+      internalID: -4882793153874038712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_38
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 138
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c597b8d1fa84956d0800000000000000
+      internalID: -3001287759713568420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_39
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 91
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fd9f01efe8112a0800000000000000
+      internalID: -6768471543103496398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_40
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 173
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556a22ee71a16af10800000000000000
+      internalID: 2280538951391553109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_41
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 184
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f56b651d96a4dc0800000000000000
+      internalID: -3653991799833862360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_42
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 123
+        width: 92
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9d1888ebe0d1140800000000000000
+      internalID: 4691922598286711291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_43
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 182
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e39d3972cc07e80800000000000000
+      internalID: -8182816052575912312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_44
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 128
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e5e4624e68e7090800000000000000
+      internalID: -8034836370729050621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_45
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1
+        width: 165
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef29561302cf2c00800000000000000
+      internalID: 878133770876170214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_46
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 121
+        width: 141
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dede8ccd2e06bbbd0800000000000000
+      internalID: -2613388631275409939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_47
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 148
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246accad165591e10800000000000000
+      internalID: 2168858574326638146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_48
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 164
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56af4fc5ad8ad1b0800000000000000
+      internalID: -5631032640786160033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_49
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 138
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983d642dfb3d37e10800000000000000
+      internalID: 2194330264279634825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_50
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 125
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f056988a019cc3a30800000000000000
+      internalID: 4196450026186695951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_51
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 110
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff59014259c6349b0800000000000000
+      internalID: -5097110965442275841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_52
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 131
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7732fd4eb1393e10800000000000000
+      internalID: 2177826588231612286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_53
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 77
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e03bb514e84ddf0800000000000000
+      internalID: -156343675688645058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 287
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c871787dcfbec09a0800000000000000
+      internalID: -6265373510398961780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_55
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 165
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a9be9b21a60a1a0800000000000000
+      internalID: -6800318808668267931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_56
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1
+        width: 159
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3580206be52af2b40800000000000000
+      internalID: 5417727404414208083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_57
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 78
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2936d67dd4b4b460800000000000000
+      internalID: 7256623762875234602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_58
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 110
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51922e4fda5b06510800000000000000
+      internalID: 1540430831303141653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_59
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6788e11fcedf768e0800000000000000
+      internalID: -1700111140209653642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 46
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80e18469f3db1960800000000000000
+      internalID: 7573880266440171659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_61
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1
+        width: 220
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7059d0fc1231e4a80800000000000000
+      internalID: -8480820012363442937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_62
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1
+        width: 125
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e795b20c453b5f0800000000000000
+      internalID: -742156329248260569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anarrsdancer_63
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 7
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d523e26456575bc0800000000000000
+      internalID: -3794469240600058412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      anarrsdancer_0: 1728750030468207185
+      anarrsdancer_1: 2227780255668400945
+      anarrsdancer_10: 4542549098471596643
+      anarrsdancer_11: 26192644738234782
+      anarrsdancer_12: -588814140211415027
+      anarrsdancer_13: -469087788632503015
+      anarrsdancer_14: -8045781693628302968
+      anarrsdancer_15: -1393275058224672001
+      anarrsdancer_16: -8072874268073998838
+      anarrsdancer_17: -858001299926039057
+      anarrsdancer_18: -8556260091308921943
+      anarrsdancer_19: 6717778877245762045
+      anarrsdancer_2: 1850678109843241877
+      anarrsdancer_20: -7103111978054813361
+      anarrsdancer_21: -5233797994029067052
+      anarrsdancer_22: 7349388618036199900
+      anarrsdancer_23: 2188115455659219893
+      anarrsdancer_24: 8031019181036378403
+      anarrsdancer_25: -2263443143611325906
+      anarrsdancer_26: 2094739985943938212
+      anarrsdancer_27: 1413727483342413590
+      anarrsdancer_28: -4494903524852310153
+      anarrsdancer_29: -38636162782456230
+      anarrsdancer_3: 2791380039061064760
+      anarrsdancer_30: -4060568586121840924
+      anarrsdancer_31: 4476110926421864856
+      anarrsdancer_32: 349668413789179848
+      anarrsdancer_33: 2998564766516337088
+      anarrsdancer_34: 3322494922420523471
+      anarrsdancer_35: -5409576309009626282
+      anarrsdancer_36: 4148044327691874359
+      anarrsdancer_37: -4882793153874038712
+      anarrsdancer_38: -3001287759713568420
+      anarrsdancer_39: -6768471543103496398
+      anarrsdancer_4: -2447625523385832949
+      anarrsdancer_40: 2280538951391553109
+      anarrsdancer_41: -3653991799833862360
+      anarrsdancer_42: 4691922598286711291
+      anarrsdancer_43: -8182816052575912312
+      anarrsdancer_44: -8034836370729050621
+      anarrsdancer_45: 878133770876170214
+      anarrsdancer_46: -2613388631275409939
+      anarrsdancer_47: 2168858574326638146
+      anarrsdancer_48: -5631032640786160033
+      anarrsdancer_49: 2194330264279634825
+      anarrsdancer_5: 3080882100481701962
+      anarrsdancer_50: 4196450026186695951
+      anarrsdancer_51: -5097110965442275841
+      anarrsdancer_52: 2177826588231612286
+      anarrsdancer_53: -156343675688645058
+      anarrsdancer_54: -6265373510398961780
+      anarrsdancer_55: -6800318808668267931
+      anarrsdancer_56: 5417727404414208083
+      anarrsdancer_57: 7256623762875234602
+      anarrsdancer_58: 1540430831303141653
+      anarrsdancer_59: -1700111140209653642
+      anarrsdancer_6: -3917878322198006942
+      anarrsdancer_60: 7573880266440171659
+      anarrsdancer_61: -8480820012363442937
+      anarrsdancer_62: -742156329248260569
+      anarrsdancer_63: -3794469240600058412
+      anarrsdancer_7: 8755326467748804718
+      anarrsdancer_8: -6795065988061739947
+      anarrsdancer_9: -4718056070245868518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

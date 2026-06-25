@@ -1,25 +1,25 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 [CreateAssetMenu(fileName = "GameSettings", menuName = "Config/GameSettings")]
 public class GameSettings : ScriptableObject
 {
-	[Header("½Ã°£ ¼³Á¤")]
+	[Header("ì‹œê°„ ì„¤ì •")]
 	public float defaultTimeScale = 1f;
 
-	[Header("Á¡¼ö ¹èÀ²")]
+	[Header("ì ìˆ˜ ë°°ìœ¨")]
 	public float stageScoreMultiplier = 1.0f;
 
-	[Header("UI ÀüÈ¯ ¼Óµµ")]
+	[Header("UI ì „í™˜ ì†ë„")]
 	public float uiFadeDuration = 0.3f;
 
-	[Header("½Ã½ºÅÛ ¼³Á¤")]
+	[Header("ì‹œìŠ¤í…œ ì„¤ì •")]
 	public bool debugMode = false;
 	public bool godMode = false;
 
-	[Header("½ºÅ×ÀÌÁö")]
+	[Header("ìŠ¤í…Œì´ì§€")]
 	public int maxStageIndex = 3;
 
-	[Header("¾ÆÀÌÅÛ Á¡¼ö ¼³Á¤")]
+	[Header("ì•„ì´í…œ ì ìˆ˜ ì„¤ì •")]
 	public int bronzeItemScore = 50;
 	public int silverItemScore = 100;
 	public int goldItemScore = 300;

@@ -1,49 +1,40 @@
 ﻿using UnityEngine;
 
+public enum PlayerState
+{
+	Idle,
+	Move,
+	Jump,
+	Fall
+}
+
 public class PlayerController : MonoBehaviour
 {
-	// ▶︎ 게임 전역 설정값 참조 (ScriptableObject)
 	[SerializeField] private GameSettings gameSettings;
-
-	// ★ 플레이어 설정값 (ScriptableObject)
 	[SerializeField] private PlayerConfig config;
 
-	// ● 물리 계산용 리지드바디
 	private Rigidbody2D rigid;
-
-	// ● 좌우 반전 및 피격 표현용 스프라이트 렌더러
 	private SpriteRenderer spriteRenderer;
-
-	// ● 애니메이션 제어용 애니메이터
 	private Animator anim;
-
-	// ● 바닥 체크용 플래그
-	private bool isGrounded = false;
-
-	// ● 이동 입력값 캐싱
-	private float xInput;
-	private float prevXInput;
-
-	// ● 사운드 제어용
-	private PlayerSound sound;
-
-	// ● 체력 처리용
 	private PlayerHealth health;
 
-	// ● 아이템 타입 분류용 enum
+	private float xInput;
+	private bool isGrounded = false;
+
+	private PlayerState currentState = PlayerState.Idle;
+	private float jumpTimer;
+	private float maxJumpTime = 0.2f;
+
 	private enum ItemType { Bronze, Silver, Gold }
 
-	// ▶︎ 필수 컴포넌트 초기화
 	private void Awake()
 	{
 		rigid = GetComponent<Rigidbody2D>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
 		anim = GetComponent<Animator>();
-		sound = GetComponent<PlayerSound>();
 		health = GetComponent<PlayerHealth>();
 	}
 
-	// ▶︎ 시작 시 초기 설정
 	private void Start()
 	{
 		if (GameManager.instance != null)
@@ -53,10 +44,39 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	// ▶︎ 매 프레임 입력 처리
 	private void Update()
 	{
-		prevXInput = xInput;
+		switch (currentState)
+		{
+			case PlayerState.Idle:
+				UpdateIdle(); break;
+			case PlayerState.Move:
+				UpdateMove(); break;
+			case PlayerState.Jump:
+				UpdateJump(); break;
+			case PlayerState.Fall:
+				UpdateFall(); break;
+		}
+	}
+
+	private void FixedUpdate()
+	{
+		ApplyHorizontalMovement();
+		CheckGrounded();
+	}
+
+	private void ChangeState(PlayerState newState)
+	{
+		if (currentState == newState) return;
+		currentState = newState;
+		if (newState == PlayerState.Jump)
+		{
+			jumpTimer = 0f;
+		}
+	}
+
+	private void UpdateIdle()
+	{
 		xInput = InputManager.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
 
 		if (InputManager.instance.gameInputActions.Player.Jump.WasPressedThisFrame() && isGrounded)
@@ -64,28 +84,87 @@ public class PlayerController : MonoBehaviour
 			rigid.AddForceY(config.jumpPower, ForceMode2D.Impulse);
 			anim.SetBool("isJumping", true);
 			isGrounded = false;
-			sound?.PlayJump();
+
+			PlayerEvents.OnJumped?.Invoke(this);
+
+			ChangeState(PlayerState.Jump);
+			return;
 		}
 
-		if (Mathf.Abs(prevXInput) > 0.01f &&
-			Mathf.Abs(xInput) <= 0.01f &&
-			Mathf.Abs(rigid.linearVelocity.x) > 0.5f)
+		if (Mathf.Abs(xInput) > 0.01f)
 		{
-			rigid.linearVelocityX = rigid.linearVelocity.normalized.x * config.decelerationSpeed;
+			spriteRenderer.flipX = xInput < 0;
+			ChangeState(PlayerState.Move);
+			return;
 		}
+		else
+		{
+			ApplyDeceleration();
+		}
+
+		anim.SetBool("isWalking", false);
+	}
+
+	private void UpdateMove()
+	{
+		xInput = InputManager.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
+
+		if (InputManager.instance.gameInputActions.Player.Jump.WasPressedThisFrame() && isGrounded)
+		{
+			rigid.AddForceY(config.jumpPower, ForceMode2D.Impulse);
+			anim.SetBool("isJumping", true);
+			isGrounded = false;
+
+			PlayerEvents.OnJumped?.Invoke(this);
+
+			ChangeState(PlayerState.Jump);
+			return;
+		}
+
+		if (Mathf.Abs(xInput) > 0.01f)
+		{
+			spriteRenderer.flipX = xInput < 0;
+			ChangeState(PlayerState.Move);
+		}
+		else
+		{
+			ApplyDeceleration();
+			ChangeState(PlayerState.Idle);
+		}
+
+		anim.SetBool("isWalking", Mathf.Abs(rigid.linearVelocity.x) >= 0.3f);
+	}
+
+	private void UpdateJump()
+	{
+		jumpTimer += Time.deltaTime;
+
+		xInput = InputManager.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
 
 		if (Mathf.Abs(xInput) > 0.01f)
 		{
 			spriteRenderer.flipX = xInput < 0;
 		}
 
-		anim.SetBool("isWalking", Mathf.Abs(rigid.linearVelocity.x) >= 0.3f);
+		if (rigid.linearVelocity.y <= 0 || jumpTimer > maxJumpTime)
+		{
+			ChangeState(PlayerState.Fall);
+		}
 	}
 
-	// ▶︎ 물리 기반 이동 처리
-	private void FixedUpdate()
+	private void UpdateFall()
 	{
-		rigid.AddForceX(xInput, ForceMode2D.Impulse);
+		xInput = InputManager.instance.gameInputActions.Player.Move.ReadValue<Vector2>().x;
+
+		if (Mathf.Abs(xInput) > 0.01f)
+		{
+			spriteRenderer.flipX = xInput < 0;
+		}
+	}
+
+	private void ApplyHorizontalMovement()
+	{
+		rigid.AddForceX(xInput * 2f, ForceMode2D.Impulse);
 
 		if (rigid.linearVelocity.x > config.moveSpeed)
 		{
@@ -95,30 +174,36 @@ public class PlayerController : MonoBehaviour
 		{
 			rigid.linearVelocityX = -config.moveSpeed;
 		}
+	}
 
+	private void CheckGrounded()
+	{
 		if (rigid.linearVelocity.y < 0)
 		{
 			Vector2 leftFoot = rigid.position + Vector2.left * 0.3f;
 			Vector2 rightFoot = rigid.position + Vector2.right * 0.3f;
-			Debug.DrawRay(leftFoot, Vector2.down * 1f, Color.green);
-			Debug.DrawRay(rightFoot, Vector2.down * 1f, Color.green);
-
 			RaycastHit2D leftRay = Physics2D.Raycast(leftFoot, Vector2.down, 0.6f, LayerMask.GetMask("Platform"));
 			RaycastHit2D rightRay = Physics2D.Raycast(rightFoot, Vector2.down, 0.6f, LayerMask.GetMask("Platform"));
-
 			isGrounded = (leftRay.collider != null || rightRay.collider != null);
 			anim.SetBool("isJumping", !isGrounded);
+			if (isGrounded && currentState == PlayerState.Fall)
+			{
+				ChangeState(PlayerState.Idle);
+			}
+			else if (!isGrounded && currentState != PlayerState.Jump)
+			{
+				ChangeState(PlayerState.Fall);
+			}
 		}
 	}
 
-	// ▶︎ 충돌 감지 처리
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
 			if (rigid.linearVelocity.y < 0 && transform.position.y > collision.transform.position.y + 0.3f)
 			{
-				OnAttack(collision.transform);
+				PerformStompAttack(collision.transform);
 			}
 			else
 			{
@@ -127,7 +212,6 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	// ▶︎ 아이템 및 피니시 충돌 처리
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.gameObject.CompareTag("Item"))
@@ -150,18 +234,19 @@ public class PlayerController : MonoBehaviour
 			}
 
 			collision.gameObject.SetActive(false);
-			sound?.PlayItem();
+
+			PlayerEvents.OnItemCollected?.Invoke(this);
 		}
 		else if (collision.gameObject.CompareTag("Finish"))
 		{
 			GameManager.instance.SetSpawnPosition(new Vector3(0f, 0f, -2f));
 			GameManager.instance.NextStage();
-			sound?.PlayFinish();
+
+			PlayerEvents.OnFinished?.Invoke(this);
 		}
 	}
 
-	// ▶︎ 적 공격 처리
-	private void OnAttack(Transform enemy)
+	private void PerformStompAttack(Transform enemy)
 	{
 		PlayerData.instance.AddStageScore(100);
 		rigid.AddForceY(config.bounceForceOnAttack, ForceMode2D.Impulse);
@@ -169,16 +254,26 @@ public class PlayerController : MonoBehaviour
 		IDamageable damageable = enemy.GetComponent<IDamageable>();
 		if (damageable != null)
 		{
-			damageable.Damage(1f);
-			damageable.HasTakenDamage = false;
+			damageable.Damaged(1f, "stomp");
+			damageable.ResetStompDamageFlag();
 		}
 
-		enemy.GetComponent<EnemySound>()?.PlayStompSound();
+		// enemy.GetComponent<EnemySound>()?.PlayStompSound(); // 이벤트 시스템으로 대체
+		EnemyEvents.OnEnemyStomped?.Invoke(enemy.gameObject);
 	}
 
-	// ▶︎ 속도 초기화
 	public void VelocityZero()
 	{
 		rigid.linearVelocity = Vector2.zero;
+	}
+
+	// ▶︎ 감속 처리 함수 (속도 기준만 검사)
+	private void ApplyDeceleration()
+	{
+		if (Mathf.Abs(rigid.linearVelocity.x) > config.decelerationSpeed)
+		{
+			int dir = spriteRenderer.flipX ? -1 : 1;
+			rigid.linearVelocityX = dir * config.decelerationSpeed;
+		}
 	}
 }

@@ -1,0 +1,279 @@
+
+anarrsdancer.png
+size: 1381,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11703_01
+  rotate: true
+  xy: 858, 7
+  size: 94, 95
+  orig: 101, 102
+  offset: 3, 4
+  index: -1
+11703_02
+  rotate: false
+  xy: 289, 57
+  size: 163, 123
+  orig: 169, 129
+  offset: 3, 3
+  index: -1
+11703_03
+  rotate: false
+  xy: 1021, 162
+  size: 154, 107
+  orig: 162, 113
+  offset: 4, 2
+  index: -1
+11703_04
+  rotate: true
+  xy: 1027, 2
+  size: 73, 75
+  orig: 82, 83
+  offset: 6, 4
+  index: -1
+11703_06
+  rotate: true
+  xy: 795, 20
+  size: 85, 61
+  orig: 93, 68
+  offset: 4, 3
+  index: -1
+11703_07
+  rotate: false
+  xy: 532, 144
+  size: 163, 125
+  orig: 169, 131
+  offset: 3, 3
+  index: -1
+11703_08
+  rotate: false
+  xy: 862, 151
+  size: 157, 118
+  orig: 164, 124
+  offset: 4, 3
+  index: -1
+11703_09
+  rotate: false
+  xy: 521, 12
+  size: 81, 40
+  orig: 89, 47
+  offset: 5, 4
+  index: -1
+11703_11
+  rotate: true
+  xy: 1112, 56
+  size: 104, 60
+  orig: 112, 67
+  offset: 3, 3
+  index: -1
+40094_s1_01
+  rotate: false
+  xy: 1266, 58
+  size: 74, 74
+  orig: 129, 130
+  offset: 27, 28
+  index: -1
+40351_s2_02
+  rotate: false
+  xy: 230, 2
+  size: 116, 53
+  orig: 128, 73
+  offset: 0, 8
+  index: -1
+40351_s2_03
+  rotate: false
+  xy: 348, 10
+  size: 113, 45
+  orig: 128, 73
+  offset: 0, 19
+  index: -1
+40351_s2_04
+  rotate: true
+  xy: 646, 34
+  size: 108, 45
+  orig: 128, 73
+  offset: 3, 21
+  index: -1
+agile_master_skill_02_01
+  rotate: false
+  xy: 2, 3
+  size: 226, 62
+  orig: 298, 130
+  offset: 19, 40
+  index: -1
+agile_master_skill_02_02
+  rotate: false
+  xy: 2, 67
+  size: 285, 90
+  orig: 298, 130
+  offset: 8, 38
+  index: -1
+agile_master_skill_02_03
+  rotate: false
+  xy: 289, 182
+  size: 241, 87
+  orig: 298, 130
+  offset: 13, 40
+  index: -1
+agile_master_skill_02_04
+  rotate: false
+  xy: 2, 159
+  size: 285, 110
+  orig: 298, 130
+  offset: 8, 1
+  index: -1
+armL
+  rotate: false
+  xy: 1149, 22
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 795, 2
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1342, 90
+  size: 26, 42
+  orig: 28, 44
+  offset: 1, 1
+  index: -1
+cloth
+  rotate: true
+  xy: 454, 76
+  size: 104, 72
+  orig: 104, 72
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 604, 14
+  size: 32, 38
+  orig: 34, 40
+  offset: 1, 1
+  index: -1
+hair
+  rotate: true
+  xy: 1174, 21
+  size: 56, 82
+  orig: 56, 82
+  offset: 0, 0
+  index: -1
+hit_01_02
+  rotate: true
+  xy: 1299, 134
+  size: 59, 80
+  orig: 80, 80
+  offset: 10, 0
+  index: -1
+hit_01_03
+  rotate: false
+  xy: 463, 13
+  size: 56, 61
+  orig: 80, 80
+  offset: 12, 10
+  index: -1
+kar_eff01
+  rotate: true
+  xy: 955, 11
+  size: 90, 70
+  orig: 100, 100
+  offset: 6, 14
+  index: -1
+kar_eff02
+  rotate: false
+  xy: 1174, 79
+  size: 90, 68
+  orig: 100, 100
+  offset: 8, 22
+  index: -1
+legL
+  rotate: false
+  xy: 1129, 18
+  size: 18, 36
+  orig: 18, 36
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 1104, 16
+  size: 23, 38
+  orig: 26, 38
+  offset: 3, 0
+  index: -1
+skill_01
+  rotate: false
+  xy: 693, 5
+  size: 100, 100
+  orig: 110, 112
+  offset: 5, 5
+  index: -1
+skill_02_01
+  rotate: false
+  xy: 1027, 77
+  size: 83, 83
+  orig: 89, 89
+  offset: 2, 4
+  index: -1
+skill_02_02
+  rotate: false
+  xy: 697, 107
+  size: 163, 162
+  orig: 163, 162
+  offset: 0, 0
+  index: -1
+skill_02_A1
+  rotate: false
+  xy: 528, 54
+  size: 116, 88
+  orig: 120, 93
+  offset: 1, 2
+  index: -1
+skill_02_A2
+  rotate: true
+  xy: 1299, 195
+  size: 74, 80
+  orig: 120, 93
+  offset: 31, 13
+  index: -1
+skill_02_A3
+  rotate: true
+  xy: 230, 57
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+skill_02_A4
+  rotate: true
+  xy: 1104, 2
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+skill_03_01
+  rotate: false
+  xy: 1177, 149
+  size: 120, 120
+  orig: 122, 124
+  offset: 1, 2
+  index: -1
+skill_05_01
+  rotate: false
+  xy: 862, 103
+  size: 139, 46
+  orig: 139, 46
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 1342, 68
+  size: 24, 20
+  orig: 26, 22
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,3939 @@
+fileFormatVersion: 2
+guid: 62a23abc363f373408209304e1646446
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6515646040097603997
+    second: effect_buff_all_0
+  - first:
+      213: -6371813700247876572
+    second: effect_buff_all_1
+  - first:
+      213: -57168459744501716
+    second: effect_buff_all_2
+  - first:
+      213: -7834235921084875705
+    second: effect_buff_all_3
+  - first:
+      213: 2536908322930841364
+    second: effect_buff_all_4
+  - first:
+      213: 450140305603983457
+    second: effect_buff_all_5
+  - first:
+      213: 124745489745950712
+    second: effect_buff_all_6
+  - first:
+      213: -1395243589186109032
+    second: effect_buff_all_7
+  - first:
+      213: -9078155361282911816
+    second: effect_buff_all_8
+  - first:
+      213: 5639357791078320543
+    second: effect_buff_all_9
+  - first:
+      213: -3755881944669762669
+    second: effect_buff_all_10
+  - first:
+      213: -5284678183839671637
+    second: effect_buff_all_11
+  - first:
+      213: 7099642545468320659
+    second: effect_buff_all_12
+  - first:
+      213: -322161688993910537
+    second: effect_buff_all_13
+  - first:
+      213: 3585054758604037666
+    second: effect_buff_all_14
+  - first:
+      213: -8912998286833789450
+    second: effect_buff_all_15
+  - first:
+      213: -6125760041682806783
+    second: effect_buff_all_16
+  - first:
+      213: -4218738527146512357
+    second: effect_buff_all_17
+  - first:
+      213: -1444560161740474832
+    second: effect_buff_all_18
+  - first:
+      213: -5287812883645115932
+    second: effect_buff_all_19
+  - first:
+      213: -3201335187389016406
+    second: effect_buff_all_20
+  - first:
+      213: 5285026957770912492
+    second: effect_buff_all_21
+  - first:
+      213: -2177663817262883766
+    second: effect_buff_all_22
+  - first:
+      213: 2361060572034894756
+    second: effect_buff_all_23
+  - first:
+      213: -1365514241177679623
+    second: effect_buff_all_24
+  - first:
+      213: 5426770798409177806
+    second: effect_buff_all_25
+  - first:
+      213: 5863850869194013156
+    second: effect_buff_all_26
+  - first:
+      213: -6149235624739631486
+    second: effect_buff_all_27
+  - first:
+      213: -8190171623877456962
+    second: effect_buff_all_28
+  - first:
+      213: -2320621985533496735
+    second: effect_buff_all_29
+  - first:
+      213: 9032309100897770171
+    second: effect_buff_all_30
+  - first:
+      213: -4710878420602222267
+    second: effect_buff_all_31
+  - first:
+      213: 2514335275950561644
+    second: effect_buff_all_32
+  - first:
+      213: -2103797661611548490
+    second: effect_buff_all_33
+  - first:
+      213: -2044596093769164498
+    second: effect_buff_all_34
+  - first:
+      213: -7746650179543129572
+    second: effect_buff_all_35
+  - first:
+      213: 2865325747211146084
+    second: effect_buff_all_36
+  - first:
+      213: 7527747773649464766
+    second: effect_buff_all_37
+  - first:
+      213: -5327550541896130209
+    second: effect_buff_all_38
+  - first:
+      213: 2310383736968648907
+    second: effect_buff_all_39
+  - first:
+      213: -5579302923654852498
+    second: effect_buff_all_40
+  - first:
+      213: 3335147033323604590
+    second: effect_buff_all_41
+  - first:
+      213: 8870281522710796019
+    second: effect_buff_all_42
+  - first:
+      213: -8700554125996708300
+    second: effect_buff_all_43
+  - first:
+      213: -8741844742952649424
+    second: effect_buff_all_44
+  - first:
+      213: 8916824579699745026
+    second: effect_buff_all_45
+  - first:
+      213: 2166037926552794721
+    second: effect_buff_all_46
+  - first:
+      213: -1278892599906151839
+    second: effect_buff_all_47
+  - first:
+      213: -3695122072133472365
+    second: effect_buff_all_48
+  - first:
+      213: -3916951765221757146
+    second: effect_buff_all_49
+  - first:
+      213: 2366805790875198825
+    second: effect_buff_all_50
+  - first:
+      213: 4614002836235697886
+    second: effect_buff_all_51
+  - first:
+      213: -5877018935093846445
+    second: effect_buff_all_52
+  - first:
+      213: 2635403856152125144
+    second: effect_buff_all_53
+  - first:
+      213: -5755531548657562823
+    second: effect_buff_all_54
+  - first:
+      213: -6420676607531256964
+    second: effect_buff_all_55
+  - first:
+      213: -629301236641670487
+    second: effect_buff_all_56
+  - first:
+      213: 8207268609565806290
+    second: effect_buff_all_57
+  - first:
+      213: 6320767660185940362
+    second: effect_buff_all_58
+  - first:
+      213: -7245429974836628973
+    second: effect_buff_all_59
+  - first:
+      213: 1364518535301669388
+    second: effect_buff_all_60
+  - first:
+      213: 99661796960607457
+    second: effect_buff_all_61
+  - first:
+      213: 2253565863991575863
+    second: effect_buff_all_62
+  - first:
+      213: 8977661306031615060
+    second: effect_buff_all_63
+  - first:
+      213: 824625608388222206
+    second: effect_buff_all_64
+  - first:
+      213: 3061679214851793552
+    second: effect_buff_all_65
+  - first:
+      213: 3280741431939149131
+    second: effect_buff_all_66
+  - first:
+      213: -449821111181132088
+    second: effect_buff_all_67
+  - first:
+      213: 8931476162614548786
+    second: effect_buff_all_68
+  - first:
+      213: -3995452599452726680
+    second: effect_buff_all_69
+  - first:
+      213: 612144529031230531
+    second: effect_buff_all_70
+  - first:
+      213: 3812770555598516987
+    second: effect_buff_all_71
+  - first:
+      213: -2465693538158217951
+    second: effect_buff_all_72
+  - first:
+      213: -5047529244099244208
+    second: effect_buff_all_73
+  - first:
+      213: 8333691998460134750
+    second: effect_buff_all_74
+  - first:
+      213: -4404106556057733339
+    second: effect_buff_all_75
+  - first:
+      213: 8625290973955435860
+    second: effect_buff_all_76
+  - first:
+      213: 8677060125421514530
+    second: effect_buff_all_77
+  - first:
+      213: 5215374463503100450
+    second: effect_buff_all_78
+  - first:
+      213: 7129426400839273644
+    second: effect_buff_all_79
+  - first:
+      213: 4644021745469973795
+    second: effect_buff_all_80
+  - first:
+      213: 7502487095031615148
+    second: effect_buff_all_81
+  - first:
+      213: -8374574101574268509
+    second: effect_buff_all_82
+  - first:
+      213: 6452641013394868704
+    second: effect_buff_all_83
+  - first:
+      213: -4627981383479999131
+    second: effect_buff_all_84
+  - first:
+      213: 145428994344890749
+    second: effect_buff_all_85
+  - first:
+      213: 2049916966965634112
+    second: effect_buff_all_86
+  - first:
+      213: 519895467446369320
+    second: effect_buff_all_87
+  - first:
+      213: -2686327768362500228
+    second: effect_buff_all_88
+  - first:
+      213: -903412435436686834
+    second: effect_buff_all_89
+  - first:
+      213: 4399979776896239207
+    second: effect_buff_all_90
+  - first:
+      213: 1872946051413563575
+    second: effect_buff_all_91
+  - first:
+      213: -6030642389880467379
+    second: effect_buff_all_92
+  - first:
+      213: -7713747675685041234
+    second: effect_buff_all_93
+  - first:
+      213: 5255986581486699059
+    second: effect_buff_all_94
+  - first:
+      213: 4194907006657553483
+    second: effect_buff_all_95
+  - first:
+      213: -2253540856608082469
+    second: effect_buff_all_96
+  - first:
+      213: -8655492747375384234
+    second: effect_buff_all_97
+  - first:
+      213: 7946891428555269410
+    second: effect_buff_all_98
+  - first:
+      213: -7367106794014435596
+    second: effect_buff_all_99
+  - first:
+      213: 7036010407292791226
+    second: effect_buff_all_100
+  - first:
+      213: 6080012182366729634
+    second: effect_buff_all_101
+  - first:
+      213: -2474049143389095232
+    second: effect_buff_all_102
+  - first:
+      213: 6966614698213362198
+    second: effect_buff_all_103
+  - first:
+      213: 953500118208432327
+    second: effect_buff_all_104
+  - first:
+      213: 3770372357219915986
+    second: effect_buff_all_105
+  - first:
+      213: 461684925332403539
+    second: effect_buff_all_106
+  - first:
+      213: -4178256717527358513
+    second: effect_buff_all_107
+  - first:
+      213: 1255077489718443698
+    second: effect_buff_all_108
+  - first:
+      213: -7183857783812626840
+    second: effect_buff_all_109
+  - first:
+      213: 4827780158206670153
+    second: effect_buff_all_110
+  - first:
+      213: 4519579189066403759
+    second: effect_buff_all_111
+  - first:
+      213: -1828558094483907794
+    second: effect_buff_all_112
+  - first:
+      213: -1020335830568093618
+    second: effect_buff_all_113
+  - first:
+      213: 7358347861896990827
+    second: effect_buff_all_114
+  - first:
+      213: -8448709332266263803
+    second: effect_buff_all_115
+  - first:
+      213: 468435254114983543
+    second: effect_buff_all_116
+  - first:
+      213: 4234195476002660330
+    second: effect_buff_all_117
+  - first:
+      213: -2157058533181763109
+    second: effect_buff_all_118
+  - first:
+      213: 1763666125621144958
+    second: effect_buff_all_119
+  - first:
+      213: -3966182597900223484
+    second: effect_buff_all_120
+  - first:
+      213: -3741525667257552494
+    second: effect_buff_all_121
+  - first:
+      213: 1053130723329074431
+    second: effect_buff_all_122
+  - first:
+      213: 5261195276962213404
+    second: effect_buff_all_123
+  - first:
+      213: -389457794979007101
+    second: effect_buff_all_124
+  - first:
+      213: 7845412756790433164
+    second: effect_buff_all_125
+  - first:
+      213: 2806231177765177908
+    second: effect_buff_all_126
+  - first:
+      213: -5215008103769812299
+    second: effect_buff_all_127
+  - first:
+      213: -4648413608113059708
+    second: effect_buff_all_128
+  - first:
+      213: -3478717045139145828
+    second: effect_buff_all_129
+  - first:
+      213: 4973258329063720632
+    second: effect_buff_all_130
+  - first:
+      213: 4753609799803796311
+    second: effect_buff_all_131
+  - first:
+      213: -1125361925369382609
+    second: effect_buff_all_132
+  - first:
+      213: -4083080369988459314
+    second: effect_buff_all_133
+  - first:
+      213: -1741596951457427661
+    second: effect_buff_all_134
+  - first:
+      213: -265028661076180301
+    second: effect_buff_all_135
+  - first:
+      213: 3604989708059825955
+    second: effect_buff_all_136
+  - first:
+      213: -2145852309526149149
+    second: effect_buff_all_137
+  - first:
+      213: -4596888650460246605
+    second: effect_buff_all_138
+  - first:
+      213: -4803904768614224154
+    second: effect_buff_all_139
+  - first:
+      213: 7746890359508252035
+    second: effect_buff_all_140
+  - first:
+      213: -4393805681690614809
+    second: effect_buff_all_141
+  - first:
+      213: 782163602092946066
+    second: effect_buff_all_142
+  - first:
+      213: 4743753691155725930
+    second: effect_buff_all_143
+  - first:
+      213: 8451687214612301402
+    second: effect_buff_all_144
+  - first:
+      213: 510834019302126749
+    second: effect_buff_all_145
+  - first:
+      213: 4461899030627011756
+    second: effect_buff_all_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: effect_buff_all_0
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e3dc9a276c395a0800000000000000
+      internalID: -6515646040097603997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 467
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c02cde235c297a0800000000000000
+      internalID: -6371813700247876572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 241
+        width: 220
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20a298b695e43ff0800000000000000
+      internalID: -57168459744501716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 423
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c7125ffe3374390800000000000000
+      internalID: -7834235921084875705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 417
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4175608bda8e43320800000000000000
+      internalID: 2536908322930841364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_5
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 423
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1687c9619383f3600800000000000000
+      internalID: 450140305603983457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 420
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7b3abac5f2bb100800000000000000
+      internalID: 124745489745950712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_7
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 417
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891cb63195913ace0800000000000000
+      internalID: -1395243589186109032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_8
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 416
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b19cea0cc9e30280800000000000000
+      internalID: -9078155361282911816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_9
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 419
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f990e8a4806034e40800000000000000
+      internalID: 5639357791078320543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_10
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 445
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bc7a5554d60ebc0800000000000000
+      internalID: -3755881944669762669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_11
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 443
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baadaf3f03d09a6b0800000000000000
+      internalID: -5284678183839671637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_12
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 388
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ba3e2974ff68260800000000000000
+      internalID: 7099642545468320659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_13
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 354
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0374796a3778bf0800000000000000
+      internalID: -322161688993910537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_14
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 438
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22edaeafe4ca0c130800000000000000
+      internalID: 3585054758604037666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_15
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 438
+        width: 97
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f55b9df74bae4480800000000000000
+      internalID: -8912998286833789450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_16
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 413
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108d630a2bdecfaa0800000000000000
+      internalID: -6125760041682806783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 200
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b107d2159a70475c0800000000000000
+      internalID: -4218738527146512357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 296
+        width: 172
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03637cebf24e3fbe0800000000000000
+      internalID: -1444560161740474832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_19
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 413
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e15997c23aed96b0800000000000000
+      internalID: -5287812883645115932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_20
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 412
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa618b4cb929293d0800000000000000
+      internalID: -3201335187389016406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_21
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 439
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce27c4e4400385940800000000000000
+      internalID: 5285026957770912492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_22
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 337
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c13d3cb4267c1e0800000000000000
+      internalID: -2177663817262883766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_23
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 420
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab0251b41c24c020800000000000000
+      internalID: 2361060572034894756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_24
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 416
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f80ede4808bc0de0800000000000000
+      internalID: -1365514241177679623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_25
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 324
+        width: 110
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca54a4f943cf4b40800000000000000
+      internalID: 5426770798409177806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 382
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9bc2a2c45906150800000000000000
+      internalID: 5863850869194013156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 393
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e873387c689aaa0800000000000000
+      internalID: -6149235624739631486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_28
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 382
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbcc4d2d4aa65e80800000000000000
+      internalID: -8190171623877456962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_29
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 224
+        width: 71
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162705e699e7bcfd0800000000000000
+      internalID: -2320621985533496735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_30
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 223
+        width: 71
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba1a84a545395d70800000000000000
+      internalID: 9032309100897770171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_31
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 217
+        width: 101
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54983f729099f9eb0800000000000000
+      internalID: -4710878420602222267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_32
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 388
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c695449ac96b4e220800000000000000
+      internalID: 2514335275950561644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_33
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 389
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0a8545c2fcdc2e0800000000000000
+      internalID: -2103797661611548490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_34
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 396
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29dcb97fa220a3e0800000000000000
+      internalID: -2044596093769164498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_35
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 388
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12ad1984be5e7490800000000000000
+      internalID: -7746650179543129572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_36
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 310
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4631d40069ea3c720800000000000000
+      internalID: 2865325747211146084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_37
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 337
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd2d1767bee77860800000000000000
+      internalID: 7527747773649464766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_38
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 362
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51675b320db016b0800000000000000
+      internalID: -5327550541896130209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_39
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 362
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc81bd094c1201020800000000000000
+      internalID: 2310383736968648907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_40
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 337
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6011452d855292b0800000000000000
+      internalID: -5579302923654852498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_41
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 216
+        width: 142
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a83f27e82d84e20800000000000000
+      internalID: 3335147033323604590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_42
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 334
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f653e25c02991b70800000000000000
+      internalID: 8870281522710796019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_43
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 354
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e28e2be1c614780800000000000000
+      internalID: -8700554125996708300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_44
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 302
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03df0b6c58abea680800000000000000
+      internalID: -8741844742952649424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_45
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 309
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201a97d36bceebb70800000000000000
+      internalID: 8916824579699745026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_46
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 309
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166f33e94005f0e10800000000000000
+      internalID: 2166037926552794721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_47
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 211
+        width: 49
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162d7bcc4f5704ee0800000000000000
+      internalID: -1278892599906151839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_48
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 211
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f67c09d0a48bcc0800000000000000
+      internalID: -3695122072133472365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_49
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 206
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f2e975f1134a9c0800000000000000
+      internalID: -3916951765221757146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_50
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 204
+        width: 39
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9652471b35598d020800000000000000
+      internalID: 2366805790875198825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_51
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 204
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede397e222b380040800000000000000
+      internalID: 4614002836235697886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_52
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 257
+        width: 94
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e9c739a62a07ea0800000000000000
+      internalID: -5877018935093846445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_53
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 276
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de54ad18d5d29420800000000000000
+      internalID: 2635403856152125144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_54
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 276
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b46b4fc8e3020b0800000000000000
+      internalID: -5755531548657562823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_55
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 204
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c737076c4ac25e6a0800000000000000
+      internalID: -6420676607531256964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa52450cd54447f0800000000000000
+      internalID: -629301236641670487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_57
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 254
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de4261015316e170800000000000000
+      internalID: 8207268609565806290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_58
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 249
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81f825b2b0e7b750800000000000000
+      internalID: 6320767660185940362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_59
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 224
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31235e863df037b90800000000000000
+      internalID: -7245429974836628973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_60
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 224
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02a71ad06ebfe210800000000000000
+      internalID: 1364518535301669388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_61
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 249
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec938550e1126100800000000000000
+      internalID: 99661796960607457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_62
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7350a21a636464f10800000000000000
+      internalID: 2253565863991575863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_63
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 218
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ca8c3646f079c70800000000000000
+      internalID: 8977661306031615060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_64
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 194
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc9bac2f98a17b00800000000000000
+      internalID: 824625608388222206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_65
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 194
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092207146054d7a20800000000000000
+      internalID: 3061679214851793552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_66
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 194
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4da3a243f8878d20800000000000000
+      internalID: 3280741431939149131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_67
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 194
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb397251ae1c9f0800000000000000
+      internalID: -449821111181132088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_68
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 211
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2395288bf3af2fb70800000000000000
+      internalID: 8931476162614548786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_69
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 193
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a85b4970d4d88c0800000000000000
+      internalID: -3995452599452726680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_70
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 198
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344fa14b436ce7800800000000000000
+      internalID: 612144529031230531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_71
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 194
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2b4809e9ea9e430800000000000000
+      internalID: 3812770555598516987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_72
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 199
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1257a157ac818cdd0800000000000000
+      internalID: -2465693538158217951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_73
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 205
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f811c35e293f9b0800000000000000
+      internalID: -5047529244099244208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_74
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 204
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e554bb308b837a370800000000000000
+      internalID: 8333691998460134750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_75
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 197
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527b535db6871e2c0800000000000000
+      internalID: -4404106556057733339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_76
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 179
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d2ffa217033b770800000000000000
+      internalID: 8625290973955435860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_77
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 173
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa476063c1b6870800000000000000
+      internalID: 8677060125421514530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_78
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 180
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aeebb317bb06840800000000000000
+      internalID: 5215374463503100450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_79
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 179
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac015ac98fc0f260800000000000000
+      internalID: 7129426400839273644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_80
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 173
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3256de32c21e27040800000000000000
+      internalID: 4644021745469973795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_81
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 180
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caecf4753403e1860800000000000000
+      internalID: 7502487095031615148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_82
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 169
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9ca7a993987cb80800000000000000
+      internalID: -8374574101574268509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_83
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 173
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9848a60d26c8950800000000000000
+      internalID: 6452641013394868704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_84
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 169
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565cd8aa37b16cfb0800000000000000
+      internalID: -4627981383479999131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_85
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 173
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7138fb56eaa40200800000000000000
+      internalID: 145428994344890749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_86
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 125
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044680bde94c27c10800000000000000
+      internalID: 2049916966965634112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_87
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 165
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf9715c2a073700800000000000000
+      internalID: 519895467446369320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_88
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 165
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f3c70a02f38bad0800000000000000
+      internalID: -2686327768362500228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_89
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1
+        width: 178
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02302c2d2f6673f0800000000000000
+      internalID: -903412435436686834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_90
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1
+        width: 71
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7668dc48b4edf0d30800000000000000
+      internalID: 4399979776896239207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_91
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1
+        width: 71
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8d9fda28a0ef910800000000000000
+      internalID: 1872946051413563575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_92
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1
+        width: 71
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4013c7b2bade4ca0800000000000000
+      internalID: -6030642389880467379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_93
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 194
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab4ccfab5343f490800000000000000
+      internalID: -7713747675685041234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_94
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 150
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3320cbdc2f301f840800000000000000
+      internalID: 5255986581486699059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_95
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 100
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44ee9d62bd473a30800000000000000
+      internalID: 4194907006657553483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_96
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 141
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5bb0bd780d9b0e0800000000000000
+      internalID: -2253540856608082469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_97
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 105
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65968bc743381e780800000000000000
+      internalID: -8655492747375384234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_98
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 170
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22522ab56a7094e60800000000000000
+      internalID: 7946891428555269410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_99
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1
+        width: 142
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f617684767c2c990800000000000000
+      internalID: -7367106794014435596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_100
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 153
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab963a2ef2ee4a160800000000000000
+      internalID: 7036010407292791226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_101
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 72
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a53408ddda806450800000000000000
+      internalID: 6080012182366729634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_102
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 103
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cafe6389696aadd0800000000000000
+      internalID: -2474049143389095232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_103
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 130
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac50648236ea060800000000000000
+      internalID: 6966614698213362198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_104
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 125
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c84b1f3e438b3d00800000000000000
+      internalID: 953500118208432327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_105
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 125
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d89b0fbead035430800000000000000
+      internalID: 3770372357219915986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_106
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 124
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35537945efb386600800000000000000
+      internalID: 461684925332403539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_107
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 124
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3646b17a9d306c0800000000000000
+      internalID: -4178256717527358513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_108
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 124
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2beb144c35eea6110800000000000000
+      internalID: 1255077489718443698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_109
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 122
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8666ce6486fcd4c90800000000000000
+      internalID: -7183857783812626840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_110
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 50
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9457697a978bff240800000000000000
+      internalID: 4827780158206670153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_111
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf0d82a355c8be30800000000000000
+      internalID: 4519579189066403759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_112
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1
+        width: 129
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b1f17e918af96e0800000000000000
+      internalID: -1828558094483907794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_113
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 97
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48b263d7f907d1f0800000000000000
+      internalID: -1020335830568093618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_114
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 115
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60102ae46a1e1660800000000000000
+      internalID: 7358347861896990827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_115
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 111
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bddbf10a720ca80800000000000000
+      internalID: -8448709332266263803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_116
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 114
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e1bc9b167308600800000000000000
+      internalID: 468435254114983543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_117
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 111
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef54b80a52e2ca30800000000000000
+      internalID: 4234195476002660330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_118
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 77
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1d9f151b69012e0800000000000000
+      internalID: -2157058533181763109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_119
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 71
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7da9083ffcc97810800000000000000
+      internalID: 1763666125621144958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_120
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 77
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c32d1e0f945f8c0800000000000000
+      internalID: -3966182597900223484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_121
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 78
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2917b15aa3e631cc0800000000000000
+      internalID: -3741525667257552494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_122
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 104
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4641a20d87d9e00800000000000000
+      internalID: 1053130723329074431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_123
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 104
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1eab49ba35830940800000000000000
+      internalID: 5261195276962213404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_124
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385f44be23e589af0800000000000000
+      internalID: -389457794979007101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_125
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 69
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85dfc4e55180ec60800000000000000
+      internalID: 7845412756790433164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_126
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 7
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ac15c536cb1f620800000000000000
+      internalID: 2806231177765177908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_127
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 24
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2540a82c190a7b0800000000000000
+      internalID: -5215008103769812299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_128
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 65
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4884457a3748d7fb0800000000000000
+      internalID: -4648413608113059708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_129
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 53
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b726a474d19bfc0800000000000000
+      internalID: -3478717045139145828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_130
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 54
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b68810d910940540800000000000000
+      internalID: 4973258329063720632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_131
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 59
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bfe1e5de638f140800000000000000
+      internalID: 4753609799803796311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_132
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 56
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29bb929a49e160f0800000000000000
+      internalID: -1125361925369382609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_133
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 25
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4a77d590cf557c0800000000000000
+      internalID: -4083080369988459314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_134
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 52
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f0a7eccca94d7e0800000000000000
+      internalID: -1741596951457427661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_135
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 44
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2c14146dd625cf0800000000000000
+      internalID: -265028661076180301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_136
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32758d71a0f770230800000000000000
+      internalID: 3604989708059825955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_137
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 6
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e70e3691b66832e0800000000000000
+      internalID: -2145852309526149149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_138
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 25
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdca45b0229430c0800000000000000
+      internalID: -4596888650460246605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_139
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 15
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eea1fba01a155db0800000000000000
+      internalID: -4803904768614224154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_140
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3853368bcbb728b60800000000000000
+      internalID: 7746890359508252035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_141
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 35
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3ecba03011603c0800000000000000
+      internalID: -4393805681690614809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_142
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 4
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2927dfae6adcada00800000000000000
+      internalID: 782163602092946066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_143
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ef84f39d235d140800000000000000
+      internalID: 4743753691155725930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_144
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a564da32ebc6a4570800000000000000
+      internalID: 8451687214612301402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_145
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9430b385d8d61700800000000000000
+      internalID: 510834019302126749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_buff_all_146
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacce283789dbed30800000000000000
+      internalID: 4461899030627011756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      effect_buff_all_0: -6515646040097603997
+      effect_buff_all_1: -6371813700247876572
+      effect_buff_all_10: -3755881944669762669
+      effect_buff_all_100: 7036010407292791226
+      effect_buff_all_101: 6080012182366729634
+      effect_buff_all_102: -2474049143389095232
+      effect_buff_all_103: 6966614698213362198
+      effect_buff_all_104: 953500118208432327
+      effect_buff_all_105: 3770372357219915986
+      effect_buff_all_106: 461684925332403539
+      effect_buff_all_107: -4178256717527358513
+      effect_buff_all_108: 1255077489718443698
+      effect_buff_all_109: -7183857783812626840
+      effect_buff_all_11: -5284678183839671637
+      effect_buff_all_110: 4827780158206670153
+      effect_buff_all_111: 4519579189066403759
+      effect_buff_all_112: -1828558094483907794
+      effect_buff_all_113: -1020335830568093618
+      effect_buff_all_114: 7358347861896990827
+      effect_buff_all_115: -8448709332266263803
+      effect_buff_all_116: 468435254114983543
+      effect_buff_all_117: 4234195476002660330
+      effect_buff_all_118: -2157058533181763109
+      effect_buff_all_119: 1763666125621144958
+      effect_buff_all_12: 7099642545468320659
+      effect_buff_all_120: -3966182597900223484
+      effect_buff_all_121: -3741525667257552494
+      effect_buff_all_122: 1053130723329074431
+      effect_buff_all_123: 5261195276962213404
+      effect_buff_all_124: -389457794979007101
+      effect_buff_all_125: 7845412756790433164
+      effect_buff_all_126: 2806231177765177908
+      effect_buff_all_127: -5215008103769812299
+      effect_buff_all_128: -4648413608113059708
+      effect_buff_all_129: -3478717045139145828
+      effect_buff_all_13: -322161688993910537
+      effect_buff_all_130: 4973258329063720632
+      effect_buff_all_131: 4753609799803796311
+      effect_buff_all_132: -1125361925369382609
+      effect_buff_all_133: -4083080369988459314
+      effect_buff_all_134: -1741596951457427661
+      effect_buff_all_135: -265028661076180301
+      effect_buff_all_136: 3604989708059825955
+      effect_buff_all_137: -2145852309526149149
+      effect_buff_all_138: -4596888650460246605
+      effect_buff_all_139: -4803904768614224154
+      effect_buff_all_14: 3585054758604037666
+      effect_buff_all_140: 7746890359508252035
+      effect_buff_all_141: -4393805681690614809
+      effect_buff_all_142: 782163602092946066
+      effect_buff_all_143: 4743753691155725930
+      effect_buff_all_144: 8451687214612301402
+      effect_buff_all_145: 510834019302126749
+      effect_buff_all_146: 4461899030627011756
+      effect_buff_all_15: -8912998286833789450
+      effect_buff_all_16: -6125760041682806783
+      effect_buff_all_17: -4218738527146512357
+      effect_buff_all_18: -1444560161740474832
+      effect_buff_all_19: -5287812883645115932
+      effect_buff_all_2: -57168459744501716
+      effect_buff_all_20: -3201335187389016406
+      effect_buff_all_21: 5285026957770912492
+      effect_buff_all_22: -2177663817262883766
+      effect_buff_all_23: 2361060572034894756
+      effect_buff_all_24: -1365514241177679623
+      effect_buff_all_25: 5426770798409177806
+      effect_buff_all_26: 5863850869194013156
+      effect_buff_all_27: -6149235624739631486
+      effect_buff_all_28: -8190171623877456962
+      effect_buff_all_29: -2320621985533496735
+      effect_buff_all_3: -7834235921084875705
+      effect_buff_all_30: 9032309100897770171
+      effect_buff_all_31: -4710878420602222267
+      effect_buff_all_32: 2514335275950561644
+      effect_buff_all_33: -2103797661611548490
+      effect_buff_all_34: -2044596093769164498
+      effect_buff_all_35: -7746650179543129572
+      effect_buff_all_36: 2865325747211146084
+      effect_buff_all_37: 7527747773649464766
+      effect_buff_all_38: -5327550541896130209
+      effect_buff_all_39: 2310383736968648907
+      effect_buff_all_4: 2536908322930841364
+      effect_buff_all_40: -5579302923654852498
+      effect_buff_all_41: 3335147033323604590
+      effect_buff_all_42: 8870281522710796019
+      effect_buff_all_43: -8700554125996708300
+      effect_buff_all_44: -8741844742952649424
+      effect_buff_all_45: 8916824579699745026
+      effect_buff_all_46: 2166037926552794721
+      effect_buff_all_47: -1278892599906151839
+      effect_buff_all_48: -3695122072133472365
+      effect_buff_all_49: -3916951765221757146
+      effect_buff_all_5: 450140305603983457
+      effect_buff_all_50: 2366805790875198825
+      effect_buff_all_51: 4614002836235697886
+      effect_buff_all_52: -5877018935093846445
+      effect_buff_all_53: 2635403856152125144
+      effect_buff_all_54: -5755531548657562823
+      effect_buff_all_55: -6420676607531256964
+      effect_buff_all_56: -629301236641670487
+      effect_buff_all_57: 8207268609565806290
+      effect_buff_all_58: 6320767660185940362
+      effect_buff_all_59: -7245429974836628973
+      effect_buff_all_6: 124745489745950712
+      effect_buff_all_60: 1364518535301669388
+      effect_buff_all_61: 99661796960607457
+      effect_buff_all_62: 2253565863991575863
+      effect_buff_all_63: 8977661306031615060
+      effect_buff_all_64: 824625608388222206
+      effect_buff_all_65: 3061679214851793552
+      effect_buff_all_66: 3280741431939149131
+      effect_buff_all_67: -449821111181132088
+      effect_buff_all_68: 8931476162614548786
+      effect_buff_all_69: -3995452599452726680
+      effect_buff_all_7: -1395243589186109032
+      effect_buff_all_70: 612144529031230531
+      effect_buff_all_71: 3812770555598516987
+      effect_buff_all_72: -2465693538158217951
+      effect_buff_all_73: -5047529244099244208
+      effect_buff_all_74: 8333691998460134750
+      effect_buff_all_75: -4404106556057733339
+      effect_buff_all_76: 8625290973955435860
+      effect_buff_all_77: 8677060125421514530
+      effect_buff_all_78: 5215374463503100450
+      effect_buff_all_79: 7129426400839273644
+      effect_buff_all_8: -9078155361282911816
+      effect_buff_all_80: 4644021745469973795
+      effect_buff_all_81: 7502487095031615148
+      effect_buff_all_82: -8374574101574268509
+      effect_buff_all_83: 6452641013394868704
+      effect_buff_all_84: -4627981383479999131
+      effect_buff_all_85: 145428994344890749
+      effect_buff_all_86: 2049916966965634112
+      effect_buff_all_87: 519895467446369320
+      effect_buff_all_88: -2686327768362500228
+      effect_buff_all_89: -903412435436686834
+      effect_buff_all_9: 5639357791078320543
+      effect_buff_all_90: 4399979776896239207
+      effect_buff_all_91: 1872946051413563575
+      effect_buff_all_92: -6030642389880467379
+      effect_buff_all_93: -7713747675685041234
+      effect_buff_all_94: 5255986581486699059
+      effect_buff_all_95: 4194907006657553483
+      effect_buff_all_96: -2253540856608082469
+      effect_buff_all_97: -8655492747375384234
+      effect_buff_all_98: 7946891428555269410
+      effect_buff_all_99: -7367106794014435596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

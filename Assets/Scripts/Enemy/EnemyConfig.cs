@@ -22,4 +22,5 @@ public class EnemyConfig : ScriptableObject
 	[Header("사운드 클립")]
 	public AudioClip stompClip;  // 밟혔을 때
 	public AudioClip dieClip;    // 사망 시
+	public AudioClip hitClip;
 }

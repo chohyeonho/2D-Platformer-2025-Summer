@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-// ▶︎ 플레이어 데이터를 관리하는 클래스
 public class PlayerData : MonoBehaviour
 {
 	// ● 싱글톤 인스턴스
@@ -48,7 +47,9 @@ public class PlayerData : MonoBehaviour
 	public void AddStageScore(int amount)
 	{
 		stageScore += amount;
-		UpdateUIScore();
+
+		// ● 점수 변경 이벤트 발생
+		PlayerEvents.OnScoreChanged?.Invoke(this, GetTotalDisplayScore());
 	}
 
 	// ▶︎ 스테이지 클리어 시 누적 처리
@@ -56,7 +57,9 @@ public class PlayerData : MonoBehaviour
 	{
 		totalScore += stageScore;
 		stageScore = 0;
-		UpdateUIScore();
+
+		// ● 점수 변경 이벤트 발생
+		PlayerEvents.OnScoreChanged?.Invoke(this, GetTotalDisplayScore());
 	}
 
 	// ▶︎ 전체 초기화
@@ -65,17 +68,14 @@ public class PlayerData : MonoBehaviour
 		ResetHealth();
 		stageScore = 0;
 		totalScore = 0;
+
+		// ● 점수 변경 이벤트 발생
+		PlayerEvents.OnScoreChanged?.Invoke(this, GetTotalDisplayScore());
 	}
 
 	// ▶︎ UI 표시용 총합 점수
 	public int GetTotalDisplayScore()
 	{
 		return totalScore + stageScore;
-	}
-
-	// ▶︎ UI 갱신
-	private void UpdateUIScore()
-	{
-		UIManager.instance?.UpdateScore(GetTotalDisplayScore());
 	}
 }

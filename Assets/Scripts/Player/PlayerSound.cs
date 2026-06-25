@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-// ▶︎ 플레이어 사운드를 담당하는 스크립트
 public class PlayerSound : MonoBehaviour
 {
 	// ▶︎ 플레이어 설정값 참조
@@ -9,9 +8,35 @@ public class PlayerSound : MonoBehaviour
 	// ● 사운드 출력용 오디오 소스
 	private AudioSource audioSource;
 
+	// ● 무기 정보 획득용
+	private WeaponController weaponController;
+
 	private void Awake()
 	{
 		audioSource = GetComponent<AudioSource>();
+		weaponController = GetComponent<WeaponController>();
+	}
+
+	private void OnEnable()
+	{
+		PlayerEvents.OnSwingStarted += HandleSwing;
+		PlayerEvents.OnHitEnemy += HandleHit;
+		PlayerEvents.OnHealthChanged += HandleDamaged;
+		PlayerEvents.OnPlayerDied += HandleDie;
+		PlayerEvents.OnItemCollected += HandleItem;
+		PlayerEvents.OnJumped += HandleJump;
+		PlayerEvents.OnFinished += HandleFinish;
+	}
+
+	private void OnDisable()
+	{
+		PlayerEvents.OnSwingStarted -= HandleSwing;
+		PlayerEvents.OnHitEnemy -= HandleHit;
+		PlayerEvents.OnHealthChanged -= HandleDamaged;
+		PlayerEvents.OnPlayerDied -= HandleDie;
+		PlayerEvents.OnItemCollected -= HandleItem;
+		PlayerEvents.OnJumped -= HandleJump;
+		PlayerEvents.OnFinished -= HandleFinish;
 	}
 
 	// ▶︎ 공통 재생 함수
@@ -23,12 +48,20 @@ public class PlayerSound : MonoBehaviour
 		}
 	}
 
-	// ▶︎ 사운드 종류별 재생
-	public void PlaySwing() => Play(config.swingClip);
-	public void PlayHit() => Play(config.hitClip);
-	public void PlayJump() => Play(config.jumpClip);
-	public void PlayDamaged() => Play(config.damagedClip);
-	public void PlayItem() => Play(config.itemClip);
-	public void PlayDie() => Play(config.dieClip);
-	public void PlayFinish() => Play(config.finishClip);
+	// ▶︎ 이벤트 수신 핸들러들
+	private void HandleSwing(object sender)
+	{
+		WeaponData currentWeapon = weaponController.GetCurrentWeapon();
+		if (currentWeapon != null) Play(currentWeapon.attackSound);
+	}
+	private void HandleHit(object sender, GameObject _)
+	{
+		WeaponData currentWeapon = weaponController.GetCurrentWeapon();
+		if (currentWeapon != null) Play(currentWeapon.hitSound);
+	}
+	private void HandleDamaged(object sender, int hp) { if (hp > 0) Play(config.damagedClip); }
+	private void HandleDie(object sender) => Play(config.dieClip);
+	private void HandleItem(object sender) => Play(config.itemClip);
+	private void HandleJump(object sender) => Play(config.jumpClip);
+	private void HandleFinish(object sender) => Play(config.finishClip);
 }

@@ -1,0 +1,118 @@
+
+drop_bombstockelec_00.png
+size: 249,619
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40203_s2_05
+  rotate: false
+  xy: 2, 81
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+bombstockelec_01
+  rotate: false
+  xy: 234, 351
+  size: 10, 21
+  orig: 32, 32
+  offset: 12, 5
+  index: -1
+bombstockelec_01_w
+  rotate: false
+  xy: 234, 328
+  size: 10, 21
+  orig: 32, 32
+  offset: 12, 5
+  index: -1
+bombstockelec_02
+  rotate: true
+  xy: 224, 219
+  size: 18, 23
+  orig: 32, 32
+  offset: 8, 4
+  index: -1
+bombstockelec_02_w
+  rotate: true
+  xy: 224, 199
+  size: 18, 23
+  orig: 32, 32
+  offset: 8, 4
+  index: -1
+bombstockelec_03
+  rotate: true
+  xy: 224, 261
+  size: 20, 22
+  orig: 32, 32
+  offset: 6, 5
+  index: -1
+bombstockelec_03_w
+  rotate: true
+  xy: 224, 239
+  size: 20, 22
+  orig: 32, 32
+  offset: 6, 5
+  index: -1
+effect_01_01
+  rotate: false
+  xy: 182, 34
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+el_hit_00
+  rotate: true
+  xy: 2, 267
+  size: 105, 123
+  orig: 128, 128
+  offset: 8, 2
+  index: -1
+el_hit_01
+  rotate: false
+  xy: 98, 98
+  size: 98, 87
+  orig: 128, 128
+  offset: 14, 24
+  index: -1
+el_hit_02
+  rotate: false
+  xy: 2, 172
+  size: 94, 93
+  orig: 128, 128
+  offset: 18, 20
+  index: -1
+el_hit_03
+  rotate: true
+  xy: 127, 187
+  size: 94, 95
+  orig: 128, 128
+  offset: 17, 14
+  index: -1
+el_hit_04
+  rotate: false
+  xy: 93, 9
+  size: 87, 87
+  orig: 128, 128
+  offset: 17, 19
+  index: -1
+el_hit_05
+  rotate: true
+  xy: 2, 2
+  size: 77, 78
+  orig: 128, 128
+  offset: 33, 30
+  index: -1
+manapotion_00_fx00
+  rotate: false
+  xy: 127, 283
+  size: 105, 89
+  orig: 107, 107
+  offset: 0, 17
+  index: -1
+shine3
+  rotate: false
+  xy: 2, 374
+  size: 243, 243
+  orig: 256, 256
+  offset: 7, 6
+  index: -1

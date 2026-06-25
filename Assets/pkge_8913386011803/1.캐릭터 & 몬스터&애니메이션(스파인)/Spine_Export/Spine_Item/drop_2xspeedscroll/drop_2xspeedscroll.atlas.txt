@@ -1,0 +1,104 @@
+
+drop_2xspeedscroll.png
+size: 570,262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2xspeedscroll_01
+  rotate: false
+  xy: 440, 23
+  size: 22, 20
+  orig: 32, 32
+  offset: 5, 6
+  index: -1
+2xspeedscroll_01_w
+  rotate: true
+  xy: 417, 18
+  size: 22, 20
+  orig: 32, 32
+  offset: 5, 6
+  index: -1
+2xspeedscroll_02
+  rotate: true
+  xy: 367, 18
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+2xspeedscroll_02_w
+  rotate: true
+  xy: 417, 42
+  size: 22, 21
+  orig: 32, 32
+  offset: 5, 5
+  index: -1
+2xspeedscroll_03
+  rotate: false
+  xy: 367, 42
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+2xspeedscroll_03_w
+  rotate: true
+  xy: 393, 40
+  size: 24, 22
+  orig: 32, 32
+  offset: 4, 5
+  index: -1
+2xspeedtimer_fx_02
+  rotate: false
+  xy: 444, 136
+  size: 124, 124
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+2xspeedtimer_fx_03
+  rotate: true
+  xy: 535, 22
+  size: 47, 29
+  orig: 128, 128
+  offset: 54, 43
+  index: -1
+2xspeedtimer_fx_04
+  rotate: false
+  xy: 535, 71
+  size: 29, 63
+  orig: 128, 128
+  offset: 56, 54
+  index: -1
+2xspeedtimer_fx_05
+  rotate: false
+  xy: 247, 66
+  size: 195, 194
+  orig: 195, 194
+  offset: 0, 0
+  index: -1
+40201_s2_02
+  rotate: false
+  xy: 311, 10
+  size: 54, 54
+  orig: 56, 56
+  offset: 1, 1
+  index: -1
+40203_s2_05
+  rotate: false
+  xy: 444, 45
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+effect_01_01
+  rotate: false
+  xy: 247, 2
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+shine2
+  rotate: false
+  xy: 2, 17
+  size: 243, 243
+  orig: 256, 256
+  offset: 7, 6
+  index: -1

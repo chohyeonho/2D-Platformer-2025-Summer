@@ -10,20 +10,23 @@ public class PlayerAttack : MonoBehaviour
 	// ▶︎ 공격 대상 설정용 레이어
 	[SerializeField] private LayerMask attackableLayer;
 
-	// ▶︎ 플레이어 설정값 참조
-	[SerializeField] private PlayerConfig config;
+	// ▶︎ 무기 매니저 참조
+	private WeaponController weaponController;
+
+	// ● 현재 무기의 데이터 캐싱
+	private WeaponData currentWeapon;
 
 	// ● 데미지를 받은 객체 추적 리스트
-	private List<IDamageable> iDamageables = new List<IDamageable>();
+	private readonly List<IDamageable> iDamageables = new List<IDamageable>();
 
 	// ● 충돌 판정 결과
 	private RaycastHit2D[] hits;
 
-	// ● 애니메이션 제어
+	// ● 컴포넌트 캐싱
 	private Animator anim;
 
 	// ● 공격 쿨타임 타이머
-	private float attackTimeCounter;
+	private float lastAttackTime;
 
 	// ● 공격 유효 구간 여부 (애니메이션 연동)
 	public bool ShouldBeDamaging { get; private set; } = false;
@@ -31,30 +34,60 @@ public class PlayerAttack : MonoBehaviour
 	// ● 공격 시 방향 고정용 변수
 	private bool cachedFacingLeft = false;
 
-	// ● 플레이어 방향 정보 획득용
-	private PlayerController playerController;
+	private void Awake()
+	{
+		anim = GetComponent<Animator>();
+		weaponController = GetComponent<WeaponController>();
+	}
 
 	private void Start()
 	{
-		anim = GetComponent<Animator>();
-		playerController = GetComponent<PlayerController>();
-		attackTimeCounter = config.attackCooldown;
+		WeaponData weapon = weaponController.GetCurrentWeapon();
+		
+		// 현재 무기가 없으면 기본 칼 사용
+		if (weapon == null)
+		{
+			weapon = Resources.Load<WeaponData>("Configs/Weapons/Unarmed");
+			if (weapon == null)
+			{
+				Debug.LogError("기본 무기(Unarmed)를 Resources/Configs/Weapons 폴더에서 찾을 수 없습니다!");
+				return;
+			}
+		}
+		
+		UpdateWeapon(weapon);
 	}
 
 	private void Update()
 	{
 		UpdateAttackTransformDirection();
 
-		if (InputManager.instance != null &&
+		if (InputManager.instance != null && currentWeapon != null &&
 			InputManager.instance.gameInputActions.Player.Attack.WasPressedThisFrame() &&
-			attackTimeCounter >= config.attackCooldown)
+			Time.time >= lastAttackTime + currentWeapon.attackDelay)
 		{
-			attackTimeCounter = 0f;
-			anim.SetTrigger("attack");
-			GetComponent<PlayerSound>()?.PlaySwing();
+			Attack();
 		}
+	}
 
-		attackTimeCounter += Time.deltaTime;
+	private void Attack()
+	{
+		lastAttackTime = Time.time;
+
+		anim.SetTrigger("attack");
+
+		PlayerEvents.OnSwingStarted?.Invoke(this);
+	}
+	public void UpdateWeapon(WeaponData newWeapon)
+	{
+		if (newWeapon == null)
+		{
+			Debug.LogWarning("UpdateWeapon: newWeapon이 null입니다!");
+			return;
+		}
+		
+		currentWeapon = newWeapon;
+		lastAttackTime = -currentWeapon.attackDelay; // 즉시 공격 가능하도록 설정
 	}
 
 	private void UpdateAttackTransformDirection()
@@ -78,48 +111,43 @@ public class PlayerAttack : MonoBehaviour
 		ShouldBeDamagingToTrue();
 		cachedFacingLeft = GetComponent<SpriteRenderer>().flipX;
 
+		iDamageables.Clear();
+
 		while (ShouldBeDamaging)
 		{
 			hits = Physics2D.CircleCastAll(
 				attackTransform.position,
-				config.attackRange,
+				currentWeapon.range,
 				transform.right,
 				0f,
 				attackableLayer
 			);
 
-			for (int i = 0; i < hits.Length; i++)
+			foreach (var hit in hits)
 			{
-				IDamageable iDamageable = hits[i].collider.gameObject.GetComponent<IDamageable>();
-
-				if (iDamageable != null && !iDamageable.HasTakenDamage)
+				if (hit.collider.TryGetComponent(out IDamageable iDamageable) && !iDamageables.Contains(iDamageable))
 				{
-					iDamageable.Damage(config.attackDamage);
-					GetComponent<PlayerSound>()?.PlayHit();
+					iDamageable.Damaged(currentWeapon.damage);
 					iDamageables.Add(iDamageable);
+
+					if (currentWeapon.hitEffect != null)
+					{
+						Instantiate(currentWeapon.hitEffect, hit.point, Quaternion.identity);
+					}
+
+					PlayerEvents.OnHitEnemy?.Invoke(this, hit.collider.gameObject);
 				}
 			}
 
 			yield return null;
 		}
-
-		ReturnAttackablesToDamageable();
-	}
-
-	private void ReturnAttackablesToDamageable()
-	{
-		foreach (IDamageable damaged in iDamageables)
-		{
-			damaged.HasTakenDamage = false;
-		}
-
-		iDamageables.Clear();
 	}
 
 	private void OnDrawGizmosSelected()
 	{
-		if (config == null) return;
-		Gizmos.DrawWireSphere(attackTransform.position, config.attackRange);
+		if (currentWeapon == null) return;
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(attackTransform.position, currentWeapon.range);
 	}
 
 	public void ShouldBeDamagingToTrue()

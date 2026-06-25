@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 6da0765ed50b4174fad9aa3920154a21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6743460755148955558
+    second: drop_crushbomb_t_0
+  - first:
+      213: 9140659069845404731
+    second: drop_crushbomb_t_1
+  - first:
+      213: -2879655489290301170
+    second: drop_crushbomb_t_2
+  - first:
+      213: 7670287555275913191
+    second: drop_crushbomb_t_3
+  - first:
+      213: 5605201562230494182
+    second: drop_crushbomb_t_4
+  - first:
+      213: 4730571174667350301
+    second: drop_crushbomb_t_5
+  - first:
+      213: 8104043961807485979
+    second: drop_crushbomb_t_6
+  - first:
+      213: -5966865232255945624
+    second: drop_crushbomb_t_7
+  - first:
+      213: 877818657815413065
+    second: drop_crushbomb_t_8
+  - first:
+      213: 3051797571686583431
+    second: drop_crushbomb_t_9
+  - first:
+      213: -3051890173041585595
+    second: drop_crushbomb_t_10
+  - first:
+      213: -3057961240902815993
+    second: drop_crushbomb_t_11
+  - first:
+      213: 7075881879390423797
+    second: drop_crushbomb_t_12
+  - first:
+      213: 1745958354486460406
+    second: drop_crushbomb_t_13
+  - first:
+      213: -6841812754635923258
+    second: drop_crushbomb_t_14
+  - first:
+      213: 8107417838337454838
+    second: drop_crushbomb_t_15
+  - first:
+      213: 4674296082238947147
+    second: drop_crushbomb_t_16
+  - first:
+      213: 1253528867427720007
+    second: drop_crushbomb_t_17
+  - first:
+      213: -4496876019490702688
+    second: drop_crushbomb_t_18
+  - first:
+      213: 8638228660095627207
+    second: drop_crushbomb_t_19
+  - first:
+      213: 5443363523629239221
+    second: drop_crushbomb_t_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: drop_crushbomb_t_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 245
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a502f8ceb2a6a62a0800000000000000
+      internalID: -6743460755148955558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 153
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c7617aef42ade70800000000000000
+      internalID: 9140659069845404731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 156
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01195de6986908d0800000000000000
+      internalID: -2879655489290301170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 123
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7f15184e5527a60800000000000000
+      internalID: 7670287555275913191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 191
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3963b8f1da9cd40800000000000000
+      internalID: 5605201562230494182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 158
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11ffb27b6d56a140800000000000000
+      internalID: 4730571174667350301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 136
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c3fa3db09577070800000000000000
+      internalID: 8104043961807485979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 144
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86471c06faf613da0800000000000000
+      internalID: -5966865232255945624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 109
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9414c4c1b63ae2c00800000000000000
+      internalID: 877818657815413065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 122
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c47cae8b92a5a20800000000000000
+      internalID: 3051797571686583431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 119
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542d956ae0285a5d0800000000000000
+      internalID: -3051890173041585595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 65
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f23130470ff85d0800000000000000
+      internalID: -3057961240902815993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 100
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa80b56415923260800000000000000
+      internalID: 7075881879390423797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 98
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff7ac77fd3ea3810800000000000000
+      internalID: 1745958354486460406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c060349c8ffc01a0800000000000000
+      internalID: -6841812754635923258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2f4cba195538070800000000000000
+      internalID: 8107417838337454838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f3ad4758f6ed040800000000000000
+      internalID: 4674296082238947147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 66
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b1aba0ddd656110800000000000000
+      internalID: 1253528867427720007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aab843f513e791c0800000000000000
+      internalID: -4496876019490702688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_19
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 18
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf2995f23721e770800000000000000
+      internalID: 8638228660095627207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_crushbomb_t_20
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb4d39d846ba8b40800000000000000
+      internalID: 5443363523629239221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      drop_crushbomb_t_0: -6743460755148955558
+      drop_crushbomb_t_1: 9140659069845404731
+      drop_crushbomb_t_10: -3051890173041585595
+      drop_crushbomb_t_11: -3057961240902815993
+      drop_crushbomb_t_12: 7075881879390423797
+      drop_crushbomb_t_13: 1745958354486460406
+      drop_crushbomb_t_14: -6841812754635923258
+      drop_crushbomb_t_15: 8107417838337454838
+      drop_crushbomb_t_16: 4674296082238947147
+      drop_crushbomb_t_17: 1253528867427720007
+      drop_crushbomb_t_18: -4496876019490702688
+      drop_crushbomb_t_19: 8638228660095627207
+      drop_crushbomb_t_2: -2879655489290301170
+      drop_crushbomb_t_20: 5443363523629239221
+      drop_crushbomb_t_3: 7670287555275913191
+      drop_crushbomb_t_4: 5605201562230494182
+      drop_crushbomb_t_5: 4730571174667350301
+      drop_crushbomb_t_6: 8104043961807485979
+      drop_crushbomb_t_7: -5966865232255945624
+      drop_crushbomb_t_8: 877818657815413065
+      drop_crushbomb_t_9: 3051797571686583431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
