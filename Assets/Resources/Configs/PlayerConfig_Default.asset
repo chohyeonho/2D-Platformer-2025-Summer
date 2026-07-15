@@ -17,16 +17,11 @@ MonoBehaviour:
   decelerationSpeed: 0.5
   maxHealth: 3
   invincibleTime: 3
-  attackRange: 0.5
-  attackDamage: 1
-  attackCooldown: 0.15
   bounceForceOnAttack: 10
   damagedKnockbackForce: 7
   deathBounceForce: 5
-  swingClip: {fileID: 0}
-  hitClip: {fileID: 0}
-  jumpClip: {fileID: 0}
-  damagedClip: {fileID: 0}
-  dieClip: {fileID: 0}
-  itemClip: {fileID: 0}
-  finishClip: {fileID: 0}
+  jumpClip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  damagedClip: {fileID: 8300000, guid: b6428d4edb06344ba829da4edd9967c1, type: 3}
+  dieClip: {fileID: 8300000, guid: b9eff218e132a4e76be78840eca96fb2, type: 3}
+  itemClip: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+  finishClip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
