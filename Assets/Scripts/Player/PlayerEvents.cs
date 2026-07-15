@@ -9,11 +9,12 @@ public static class PlayerEvents
 
 	public static Action<object> OnPlayerDied;
 	public static Action<object, int> OnHealthChanged;
-	public static Action<object, GameObject> OnHitEnemy;
-	public static Action<object> OnSwingStarted;
+	public static Action<object, AttackSkillData, GameObject> OnHitEnemy;
+	public static Action<object, AttackSkillData> OnSwingStarted;
 	public static Action<object> OnItemCollected;
 	public static Action<object> OnJumped;
 	public static Action<object> OnFinished;
 	public static Action<object> OnPlayerDamaged;
+	public static Action<object> OnSkillsReset;
 
 }
