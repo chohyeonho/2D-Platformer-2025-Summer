@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeleeAttackExecutor : MonoBehaviour
+public class MeleeAttackExecutor : MonoBehaviour, IAttackSkillExecutor
 {
 	[SerializeField] private Transform attackTransform;
 	[SerializeField] private LayerMask attackableLayer;
@@ -27,10 +27,29 @@ public class MeleeAttackExecutor : MonoBehaviour
 		UpdateAttackTransformDirection();
 	}
 
-	public void BeginAttack(MeleeAttackSkillData skill)
+	public bool CanExecute(AttackSkillData skill)
 	{
-		if (skill == null) return;
+		return skill is MeleeAttackSkillData;
+	}
 
+	public bool TryExecute(AttackSkillData skill)
+	{
+		if (skill is not MeleeAttackSkillData meleeSkill)
+		{
+			return false;
+		}
+
+		if (attackTransform == null || anim == null || spriteRenderer == null)
+		{
+			return false;
+		}
+
+		BeginAttack(meleeSkill);
+		return true;
+	}
+
+	private void BeginAttack(MeleeAttackSkillData skill)
+	{
 		activeSkill = skill;
 		string trigger = string.IsNullOrEmpty(skill.animationTrigger) ? "attack" : skill.animationTrigger;
 		anim.SetTrigger(trigger);

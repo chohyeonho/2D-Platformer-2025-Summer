@@ -3,15 +3,14 @@ using UnityEngine;
 
 public class PlayerSkillController : MonoBehaviour
 {
-	[SerializeField] private List<AttackSkillData> skillSlots = new List<AttackSkillData>();
-	[SerializeField] private List<AttackSkillData> skillCatalog = new List<AttackSkillData>();
+	[SerializeField] private MeleeAttackSkillData basicAttackSkill;
 
-	private MeleeAttackExecutor meleeAttackExecutor;
+	private IAttackSkillExecutor[] executors;
 	private readonly Dictionary<string, float> lastUseTimes = new Dictionary<string, float>();
 
 	private void Awake()
 	{
-		meleeAttackExecutor = GetComponent<MeleeAttackExecutor>();
+		executors = GetComponents<IAttackSkillExecutor>();
 	}
 
 	private void OnEnable()
@@ -34,20 +33,37 @@ public class PlayerSkillController : MonoBehaviour
 		if (InputManager.instance != null &&
 			InputManager.instance.gameInputActions.Player.Attack.WasPressedThisFrame())
 		{
-			TryUseSlot(0);
+			TryUseSkill(basicAttackSkill);
 		}
 	}
 
-	public bool TryUseSlot(int slotIndex)
+	public bool TryUseSkill(AttackSkillData skill)
 	{
-		AttackSkillData skill = GetSkillInSlot(slotIndex);
 		if (!CanUseSkill(skill))
 		{
 			return false;
 		}
 
-		ExecuteSkill(skill);
-		return true;
+		if (executors == null || executors.Length == 0)
+		{
+			return false;
+		}
+
+		foreach (IAttackSkillExecutor executor in executors)
+		{
+			if (executor == null || !executor.CanExecute(skill))
+			{
+				continue;
+			}
+
+			if (executor.TryExecute(skill))
+			{
+				lastUseTimes[skill.skillId] = Time.time;
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	public void LearnSkill(string skillId)
@@ -82,47 +98,6 @@ public class PlayerSkillController : MonoBehaviour
 		return true;
 	}
 
-	public void SetSkillSlot(int slotIndex, AttackSkillData skill)
-	{
-		if (slotIndex < 0) return;
-
-		while (skillSlots.Count <= slotIndex)
-		{
-			skillSlots.Add(null);
-		}
-
-		skillSlots[slotIndex] = skill;
-	}
-
-	private AttackSkillData GetSkillInSlot(int slotIndex)
-	{
-		if (slotIndex < 0 || slotIndex >= skillSlots.Count)
-		{
-			return null;
-		}
-
-		return skillSlots[slotIndex];
-	}
-
-	private void ExecuteSkill(AttackSkillData skill)
-	{
-		lastUseTimes[skill.skillId] = Time.time;
-
-		if (skill is MeleeAttackSkillData meleeSkill)
-		{
-			if (meleeAttackExecutor == null)
-			{
-				Debug.LogWarning("MeleeAttackExecutor가 없어 근거리 스킬을 실행할 수 없습니다.");
-				return;
-			}
-
-			meleeAttackExecutor.BeginAttack(meleeSkill);
-			return;
-		}
-
-		Debug.LogWarning($"지원하지 않는 공격 스킬 타입입니다: {skill.GetType().Name}");
-	}
-
 	private void HandleSkillsReset(object sender)
 	{
 		lastUseTimes.Clear();
@@ -133,33 +108,11 @@ public class PlayerSkillController : MonoBehaviour
 	{
 		if (PlayerData.instance == null) return;
 
-		foreach (AttackSkillData skill in EnumerateKnownSkills())
+		if (basicAttackSkill != null &&
+			basicAttackSkill.learnedByDefault &&
+			!string.IsNullOrEmpty(basicAttackSkill.skillId))
 		{
-			if (skill != null && skill.learnedByDefault && !string.IsNullOrEmpty(skill.skillId))
-			{
-				PlayerData.instance.LearnSkill(skill.skillId);
-			}
-		}
-	}
-
-	private IEnumerable<AttackSkillData> EnumerateKnownSkills()
-	{
-		var seen = new HashSet<AttackSkillData>();
-
-		foreach (AttackSkillData skill in skillSlots)
-		{
-			if (skill != null && seen.Add(skill))
-			{
-				yield return skill;
-			}
-		}
-
-		foreach (AttackSkillData skill in skillCatalog)
-		{
-			if (skill != null && seen.Add(skill))
-			{
-				yield return skill;
-			}
+			PlayerData.instance.LearnSkill(basicAttackSkill.skillId);
 		}
 	}
 }

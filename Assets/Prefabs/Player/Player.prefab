@@ -354,10 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d947bef07196af34bb3666f9f089bb1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSkillController
-  skillSlots:
-  - {fileID: 11400000, guid: c5985b508611b8b4b87d85768df655af, type: 2}
-  skillCatalog:
-  - {fileID: 11400000, guid: c5985b508611b8b4b87d85768df655af, type: 2}
+  basicAttackSkill: {fileID: 11400000, guid: c5985b508611b8b4b87d85768df655af, type: 2}
 --- !u!1 &6718688891377094394
 GameObject:
   m_ObjectHideFlags: 0

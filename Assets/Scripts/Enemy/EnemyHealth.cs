@@ -6,9 +6,6 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
 	private float currentHealth;
 
-	private bool hasTakenStompDamage = false;
-	private bool hasTakenHitDamage = false;
-
 	private SpriteRenderer spriteRenderer;
 	private Rigidbody2D rigid;
 	private CapsuleCollider2D capsuleCollider;
@@ -27,19 +24,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 		currentHealth = enemyConfig.maxHealth;
 	}
 
-	public void Damaged(float amount, string attackType = "")
+	public void Damaged(float amount)
 	{
-		if (attackType == "stomp")
-		{
-			if (hasTakenStompDamage) return;
-			hasTakenStompDamage = true;
-		}
-		else
-		{
-			if (hasTakenHitDamage) return;
-			hasTakenHitDamage = true;
-		}
-
 		currentHealth -= amount;
 		anim.SetTrigger("doHit");
 
@@ -71,15 +57,5 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 	private void Deactivate()
 	{
 		gameObject.SetActive(false);
-	}
-
-	public void ResetStompDamageFlag()
-	{
-		hasTakenStompDamage = false;
-	}
-
-	public void ResetHitDamageFlag()
-	{
-		hasTakenHitDamage = false;
 	}
 }
