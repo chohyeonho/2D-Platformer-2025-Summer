@@ -28,15 +28,6 @@ public class PlayerConfig : ScriptableObject
 	// ▶︎ 공격 관련 설정
 	[Header("공격 설정")]
 
-	// ▶︎ 공격 범위 반지름
-	public float attackRange = 0.5f;
-
-	// ▶︎ 공격 데미지 수치
-	public float attackDamage = 1f;
-
-	// ▶︎ 공격 쿨타임 (초)
-	public float attackCooldown = 0.15f;
-
 	// ▶︎ 적을 밟았을 때 튕겨 오르는 반동 힘
 	public float bounceForceOnAttack = 10f;
 
@@ -52,8 +43,6 @@ public class PlayerConfig : ScriptableObject
 	// ▶︎ 각종 플레이어 사운드 클립들
 	[Header("사운드 클립")]
 
-	public AudioClip swingClip;
-	public AudioClip hitClip;
 	public AudioClip jumpClip;
 	public AudioClip damagedClip;
 	public AudioClip dieClip;

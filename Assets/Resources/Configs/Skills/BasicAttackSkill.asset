@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448618b1e26ac05479092a812f9f1d9a, type: 3}
+  m_Name: BasicAttackSkill
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeAttackSkillData
+  skillId: basic_attack
+  displayName: Basic Attack
+  learnedByDefault: 1
+  cooldown: 0.15
+  animationTrigger: attack
+  swingClip: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
+  hitClip: {fileID: 8300000, guid: 3becec1909f194046945d85ac1077772, type: 3}
+  damage: 1
+  range: 0.5
+  hitEffect: {fileID: 0}

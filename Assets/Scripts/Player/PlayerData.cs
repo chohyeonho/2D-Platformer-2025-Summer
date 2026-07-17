@@ -17,6 +17,10 @@ public class PlayerData : MonoBehaviour
 	// ● 누적 총 점수
 	public int totalScore { get; private set; }
 
+	// ● 학습한 공격 스킬 ID
+	private readonly System.Collections.Generic.HashSet<string> learnedSkillIds =
+		new System.Collections.Generic.HashSet<string>();
+
 	private void Awake()
 	{
 		if (instance != null)
@@ -62,15 +66,33 @@ public class PlayerData : MonoBehaviour
 		PlayerEvents.OnScoreChanged?.Invoke(this, GetTotalDisplayScore());
 	}
 
+	public void LearnSkill(string skillId)
+	{
+		if (string.IsNullOrEmpty(skillId)) return;
+		learnedSkillIds.Add(skillId);
+	}
+
+	public bool IsSkillLearned(string skillId)
+	{
+		return !string.IsNullOrEmpty(skillId) && learnedSkillIds.Contains(skillId);
+	}
+
+	public void ResetLearnedSkills()
+	{
+		learnedSkillIds.Clear();
+	}
+
 	// ▶︎ 전체 초기화
 	public void ResetAll()
 	{
 		ResetHealth();
 		stageScore = 0;
 		totalScore = 0;
+		ResetLearnedSkills();
 
 		// ● 점수 변경 이벤트 발생
 		PlayerEvents.OnScoreChanged?.Invoke(this, GetTotalDisplayScore());
+		PlayerEvents.OnSkillsReset?.Invoke(this);
 	}
 
 	// ▶︎ UI 표시용 총합 점수
